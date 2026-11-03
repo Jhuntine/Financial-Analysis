@@ -1,0 +1,1201 @@
+{
+  "configuration": {
+    "ticker": "V",
+    "peers": [
+      "MA",
+      "PYPL"
+    ],
+    "as_of": "2026-11-03",
+    "price": 401.86,
+    "price_date": "2026-10-27",
+    "price_source": "LSEG Historical Pricing; V.N; TRDPRC_1; daily close; 2026-10-27; unadjusted",
+    "share_class": "us-gaap:CommonClassAMember",
+    "market_provider": "lseg",
+    "ric": "V.N"
+  },
+  "companies": {
+    "V": {
+      "ticker": "V",
+      "cik": "0001403161",
+      "name": "VISA INC."
+    },
+    "MA": {
+      "ticker": "MA",
+      "cik": "0001141391",
+      "name": "Mastercard Inc"
+    },
+    "PYPL": {
+      "ticker": "PYPL",
+      "cik": "0001633917",
+      "name": "PayPal Holdings, Inc."
+    }
+  },
+  "filings": {
+    "V": {
+      "10-K": {
+        "form": "10-K",
+        "filing_date": "2025-11-06",
+        "report_date": "2025-09-30",
+        "accession": "0001403161-25-000089",
+        "accepted_api": "2025-11-06T21:09:41.000Z",
+        "accepted_index": "2025-11-06 16:09:41",
+        "index_url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/0001403161-25-000089-index.html",
+        "primary_url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+        "items": ""
+      },
+      "10-Q": {
+        "form": "10-Q",
+        "filing_date": "2026-07-29",
+        "report_date": "2026-06-30",
+        "accession": "0001403161-26-000104",
+        "accepted_api": "2026-07-28T22:08:12.000Z",
+        "accepted_index": "2026-07-28 18:08:12",
+        "index_url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/0001403161-26-000104-index.html",
+        "primary_url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/v-20260630.htm",
+        "items": ""
+      },
+      "earnings": {
+        "form": "8-K",
+        "filing_date": "2026-10-27",
+        "report_date": "2026-10-27",
+        "accession": "0001403161-26-000126",
+        "accepted_api": "2026-10-27T20:05:22.000Z",
+        "accepted_index": "2026-10-27 16:05:22",
+        "index_url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/0001403161-26-000126-index.html",
+        "primary_url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/v-20261027.htm",
+        "items": "2.02,8.01,9.01",
+        "release_url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm"
+      }
+    },
+    "MA": {
+      "10-K": {
+        "form": "10-K",
+        "filing_date": "2026-02-11",
+        "report_date": "2025-12-31",
+        "accession": "0001141391-26-000013",
+        "accepted_api": "2026-02-11T16:04:08.000Z",
+        "accepted_index": "2026-02-11 11:04:08",
+        "index_url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/0001141391-26-000013-index.html",
+        "primary_url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+        "items": ""
+      }
+    },
+    "PYPL": {
+      "10-K": {
+        "form": "10-K",
+        "filing_date": "2026-02-03",
+        "report_date": "2025-12-31",
+        "accession": "0001633917-26-000024",
+        "accepted_api": "2026-02-03T22:04:40.000Z",
+        "accepted_index": "2026-02-03 17:04:40",
+        "index_url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/0001633917-26-000024-index.html",
+        "primary_url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
+        "items": ""
+      }
+    }
+  },
+  "facts": {
+    "V": {
+      "revenue": {
+        "value": 40000000000,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "start": "2024-10-01",
+        "end": "2025-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "revenue",
+        "unit": "USD",
+        "accession": "0001403161-25-000089",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+        "file": "V/10-K.txt",
+        "line": 1556,
+        "source_text": "Net revenue | $ | 40,000 | | | $ | 35,926 | | | $ | 32,653 |",
+        "definition": "Consolidated reported revenue; the source row names any net/gross convention."
+      },
+      "operating_income": {
+        "value": 23994000000,
+        "tag": "us-gaap:OperatingIncomeLoss",
+        "start": "2024-10-01",
+        "end": "2025-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "operating_income",
+        "unit": "USD",
+        "accession": "0001403161-25-000089",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+        "file": "V/10-K.txt",
+        "line": 1567,
+        "source_text": "Operating income | 23,994 | | | 23,595 | | | 21,000 |",
+        "definition": "GAAP consolidated operating income, including litigation and other reported operating costs."
+      },
+      "net_income": {
+        "value": 20058000000,
+        "tag": "us-gaap:NetIncomeLoss",
+        "start": "2024-10-01",
+        "end": "2025-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "net_income",
+        "unit": "USD",
+        "accession": "0001403161-25-000089",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+        "file": "V/10-K.txt",
+        "line": 2877,
+        "source_text": "Net income | $ | 20,058 | | | | | | | | | | |",
+        "definition": "GAAP consolidated net income; use the equity scope identified in the source tag."
+      },
+      "diluted_eps": {
+        "value": 10.2,
+        "tag": "us-gaap:EarningsPerShareDiluted",
+        "start": "2024-10-01",
+        "end": "2025-09-30",
+        "dimensions": {
+          "us-gaap:StatementClassOfStockAxis": "us-gaap:CommonClassAMember"
+        },
+        "context": "c-2",
+        "method": "10-K inline XBRL (dimensional fallback)",
+        "metric": "diluted_eps",
+        "unit": "USD/shares",
+        "accession": "0001403161-25-000089",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+        "file": "V/10-K.txt",
+        "line": 1590,
+        "source_text": "Class A common stock | $ | 10.20 | | | $ | 9.73 | | | $ | 8.28 |",
+        "definition": "GAAP diluted EPS for the listed common share class; consolidated fact if unambiguous."
+      },
+      "equity": {
+        "value": 37909000000,
+        "tag": "us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+        "start": null,
+        "end": "2025-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-18",
+        "metric": "equity",
+        "unit": "USD",
+        "accession": "0001403161-25-000089",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+        "file": "V/10-K.txt",
+        "line": 1539,
+        "source_text": "Total equity | 37,909 | | | 39,137 |",
+        "definition": "Reported consolidated stockholders' equity; scope is identified by the selected tag."
+      },
+      "long_term_debt": {
+        "value": 19602000000,
+        "tag": "us-gaap:LongTermDebtNoncurrent",
+        "start": null,
+        "end": "2025-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-18",
+        "metric": "long_term_debt",
+        "unit": "USD",
+        "accession": "0001403161-25-000089",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+        "file": "V/10-K.txt",
+        "line": 1516,
+        "source_text": "Long-term debt | 19,602 | | | 20,836 |",
+        "definition": "Carrying amount of long-term debt excluding its current portion; excludes operating leases."
+      },
+      "current_debt": {
+        "value": 5569000000,
+        "tag": "us-gaap:LongTermDebtCurrent",
+        "start": null,
+        "end": "2025-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-18",
+        "metric": "current_debt",
+        "unit": "USD",
+        "accession": "0001403161-25-000089",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+        "file": "V/10-K.txt",
+        "line": 1513,
+        "source_text": "Current maturities of debt | 5,569 | | | — |",
+        "definition": "Current portion of long-term debt; excludes unrelated short-term borrowings."
+      },
+      "operating_cash_flow": {
+        "value": 23059000000,
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "start": "2024-10-01",
+        "end": "2025-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "operating_cash_flow",
+        "unit": "USD",
+        "accession": "0001403161-25-000089",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+        "file": "V/10-K.txt",
+        "line": 1775,
+        "source_text": "Net cash provided by (used in) operating activities | 23,059 | | | 19,950 | | | 20,755 |",
+        "definition": "Reported net cash provided by operating activities."
+      },
+      "capex": {
+        "value": 1482000000,
+        "tag": "us-gaap:PaymentsToAcquireProductiveAssets",
+        "start": "2024-10-01",
+        "end": "2025-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "capex",
+        "unit": "USD",
+        "accession": "0001403161-25-000089",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+        "file": "V/10-K.txt",
+        "line": 1777,
+        "source_text": "Purchases of property, equipment and technology | ( 1,482 ) | | | ( 1,257 ) | | | ( 1,059 ) |",
+        "definition": "Cash purchases of property/equipment (and technology if the reported row includes it); positive outflow."
+      },
+      "prior_revenue": {
+        "value": 35926000000,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "start": "2023-10-01",
+        "end": "2024-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-28",
+        "metric": "revenue",
+        "unit": "USD",
+        "accession": "0001403161-25-000089",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+        "file": "V/10-K.txt",
+        "line": 1556,
+        "source_text": "Net revenue | $ | 40,000 | | | $ | 35,926 | | | $ | 32,653 |",
+        "definition": "Consolidated reported revenue; the source row names any net/gross convention."
+      },
+      "prior_equity": {
+        "value": 39137000000,
+        "tag": "us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+        "start": null,
+        "end": "2024-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-19",
+        "metric": "equity",
+        "unit": "USD",
+        "accession": "0001403161-25-000089",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+        "file": "V/10-K.txt",
+        "line": 1539,
+        "source_text": "Total equity | 37,909 | | | 39,137 |",
+        "definition": "Reported consolidated stockholders' equity; scope is identified by the selected tag."
+      }
+    },
+    "MA": {
+      "revenue": {
+        "value": 32791000000,
+        "tag": "us-gaap:Revenues",
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "revenue",
+        "unit": "USD",
+        "accession": "0001141391-26-000013",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+        "file": "MA/10-K.txt",
+        "line": 1779,
+        "source_text": "Net Revenue | | $ | 32,791 | | | $ | 28,167 | | | $ | 25,098 |",
+        "definition": "Consolidated reported revenue; the source row names any net/gross convention."
+      },
+      "operating_income": {
+        "value": 18897000000,
+        "tag": "us-gaap:OperatingIncomeLoss",
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "operating_income",
+        "unit": "USD",
+        "accession": "0001141391-26-000013",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+        "file": "MA/10-K.txt",
+        "line": 1786,
+        "source_text": "Operating income | | 18,897 | | | 15,582 | | | 14,008 |",
+        "definition": "GAAP consolidated operating income, including litigation and other reported operating costs."
+      },
+      "net_income": {
+        "value": 14968000000,
+        "tag": "us-gaap:ProfitLoss",
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "net_income",
+        "unit": "USD",
+        "accession": "0001141391-26-000013",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+        "file": "MA/10-K.txt",
+        "line": 1795,
+        "source_text": "Net Income | | $ | 14,968 | | | $ | 12,874 | | | $ | 11,195 |",
+        "definition": "GAAP consolidated net income; use the equity scope identified in the source tag."
+      },
+      "diluted_eps": {
+        "value": 16.52,
+        "tag": "us-gaap:EarningsPerShareDiluted",
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "diluted_eps",
+        "unit": "USD/shares",
+        "accession": "0001141391-26-000013",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+        "file": "MA/10-K.txt",
+        "line": 1799,
+        "source_text": "Diluted Earnings per Share | | $ | 16.52 | | | $ | 13.89 | | | $ | 11.83 |",
+        "definition": "GAAP diluted EPS for the listed common share class; consolidated fact if unambiguous."
+      },
+      "equity": {
+        "value": 7737000000,
+        "tag": "us-gaap:StockholdersEquity",
+        "start": null,
+        "end": "2025-12-31",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-11",
+        "metric": "equity",
+        "unit": "USD",
+        "accession": "0001141391-26-000013",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+        "file": "MA/10-K.txt",
+        "line": 1900,
+        "source_text": "Mastercard Incorporated Stockholders' Equity | | 7,737 | | | 6,485 |",
+        "definition": "Reported consolidated stockholders' equity; scope is identified by the selected tag."
+      },
+      "long_term_debt": {
+        "value": 18251000000,
+        "tag": "us-gaap:LongTermDebtNoncurrent",
+        "start": null,
+        "end": "2025-12-31",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-11",
+        "metric": "long_term_debt",
+        "unit": "USD",
+        "accession": "0001141391-26-000013",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+        "file": "MA/10-K.txt",
+        "line": 1886,
+        "source_text": "Long-term debt | | 18,251 | | | 17,476 |",
+        "definition": "Carrying amount of long-term debt excluding its current portion; excludes operating leases."
+      },
+      "current_debt": {
+        "value": 749000000,
+        "tag": "us-gaap:LongTermDebtCurrent",
+        "start": null,
+        "end": "2025-12-31",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-11",
+        "metric": "current_debt",
+        "unit": "USD",
+        "accession": "0001141391-26-000013",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+        "file": "MA/10-K.txt",
+        "line": 1883,
+        "source_text": "Short-term debt | | 749 | | | 750 |",
+        "definition": "Current portion of long-term debt; excludes unrelated short-term borrowings."
+      },
+      "operating_cash_flow": {
+        "value": 17648000000,
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "operating_cash_flow",
+        "unit": "USD",
+        "accession": "0001141391-26-000013",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+        "file": "MA/10-K.txt",
+        "line": 1991,
+        "source_text": "Net cash provided by operating activities | | 17,648 | | | 14,780 | | | 11,980 |",
+        "definition": "Reported net cash provided by operating activities."
+      },
+      "capex": {
+        "value": 489000000,
+        "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "capex",
+        "unit": "USD",
+        "accession": "0001141391-26-000013",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+        "file": "MA/10-K.txt",
+        "line": 1998,
+        "source_text": "Purchases of property and equipment | | ( 489 ) | | | ( 474 ) | | | ( 371 ) |",
+        "definition": "Cash purchases of property/equipment (and technology if the reported row includes it); positive outflow."
+      },
+      "prior_revenue": {
+        "value": 28167000000,
+        "tag": "us-gaap:Revenues",
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-9",
+        "metric": "revenue",
+        "unit": "USD",
+        "accession": "0001141391-26-000013",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+        "file": "MA/10-K.txt",
+        "line": 1779,
+        "source_text": "Net Revenue | | $ | 32,791 | | | $ | 28,167 | | | $ | 25,098 |",
+        "definition": "Consolidated reported revenue; the source row names any net/gross convention."
+      },
+      "prior_equity": {
+        "value": 6485000000,
+        "tag": "us-gaap:StockholdersEquity",
+        "start": null,
+        "end": "2024-12-31",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-12",
+        "metric": "equity",
+        "unit": "USD",
+        "accession": "0001141391-26-000013",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+        "file": "MA/10-K.txt",
+        "line": 1900,
+        "source_text": "Mastercard Incorporated Stockholders' Equity | | 7,737 | | | 6,485 |",
+        "definition": "Reported consolidated stockholders' equity; scope is identified by the selected tag."
+      }
+    },
+    "PYPL": {
+      "revenue": {
+        "value": 33172000000,
+        "tag": "us-gaap:Revenues",
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "revenue",
+        "unit": "USD",
+        "accession": "0001633917-26-000024",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
+        "file": "PYPL/10-K.txt",
+        "line": 1212,
+        "source_text": "Net revenues | $ | 33,172 | | | $ | 31,797 | | | $ | 29,771 |",
+        "definition": "Consolidated reported revenue; the source row names any net/gross convention."
+      },
+      "operating_income": {
+        "value": 6065000000,
+        "tag": "us-gaap:OperatingIncomeLoss",
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "operating_income",
+        "unit": "USD",
+        "accession": "0001633917-26-000024",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
+        "file": "PYPL/10-K.txt",
+        "line": 1222,
+        "source_text": "Operating income | 6,065 | | | 5,325 | | | 5,028 |",
+        "definition": "GAAP consolidated operating income, including litigation and other reported operating costs."
+      },
+      "net_income": {
+        "value": 5233000000,
+        "tag": "us-gaap:NetIncomeLoss",
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "net_income",
+        "unit": "USD",
+        "accession": "0001633917-26-000024",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
+        "file": "PYPL/10-K.txt",
+        "line": 1226,
+        "source_text": "Net income (loss) | $ | 5,233 | | | $ | 4,147 | | | $ | 4,246 |",
+        "definition": "GAAP consolidated net income; use the equity scope identified in the source tag."
+      },
+      "diluted_eps": {
+        "value": 5.41,
+        "tag": "us-gaap:EarningsPerShareDiluted",
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "diluted_eps",
+        "unit": "USD/shares",
+        "accession": "0001633917-26-000024",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
+        "file": "PYPL/10-K.txt",
+        "line": 1230,
+        "source_text": "Diluted | $ | 5.41 | | | $ | 3.99 | | | $ | 3.84 |",
+        "definition": "GAAP diluted EPS for the listed common share class; consolidated fact if unambiguous."
+      },
+      "equity": {
+        "value": 20256000000,
+        "tag": "us-gaap:StockholdersEquity",
+        "start": null,
+        "end": "2025-12-31",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-12",
+        "metric": "equity",
+        "unit": "USD",
+        "accession": "0001633917-26-000024",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
+        "file": "PYPL/10-K.txt",
+        "line": 1200,
+        "source_text": "Total equity | 20,256 | | | 20,417 |",
+        "definition": "Reported consolidated stockholders' equity; scope is identified by the selected tag."
+      },
+      "long_term_debt": {
+        "value": 9987000000,
+        "tag": "us-gaap:LongTermDebtNoncurrent",
+        "start": null,
+        "end": "2025-12-31",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-12",
+        "metric": "long_term_debt",
+        "unit": "USD",
+        "accession": "0001633917-26-000024",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
+        "file": "PYPL/10-K.txt",
+        "line": 1190,
+        "source_text": "Long-term debt | 9,987 | | | 9,879 |",
+        "definition": "Carrying amount of long-term debt excluding its current portion; excludes operating leases."
+      },
+      "operating_cash_flow": {
+        "value": 6416000000,
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "operating_cash_flow",
+        "unit": "USD",
+        "accession": "0001633917-26-000024",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
+        "file": "PYPL/10-K.txt",
+        "line": 1347,
+        "source_text": "Net cash provided by operating activities | 6,416 | | | 7,450 | | | 4,843 |",
+        "definition": "Reported net cash provided by operating activities."
+      },
+      "capex": {
+        "value": 852000000,
+        "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "capex",
+        "unit": "USD",
+        "accession": "0001633917-26-000024",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
+        "file": "PYPL/10-K.txt",
+        "line": 1352,
+        "source_text": "Purchases of property and equipment | ( 852 ) | | | ( 683 ) | | | ( 623 ) |",
+        "definition": "Cash purchases of property/equipment (and technology if the reported row includes it); positive outflow."
+      },
+      "prior_revenue": {
+        "value": 31797000000,
+        "tag": "us-gaap:Revenues",
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-14",
+        "metric": "revenue",
+        "unit": "USD",
+        "accession": "0001633917-26-000024",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
+        "file": "PYPL/10-K.txt",
+        "line": 1212,
+        "source_text": "Net revenues | $ | 33,172 | | | $ | 31,797 | | | $ | 29,771 |",
+        "definition": "Consolidated reported revenue; the source row names any net/gross convention."
+      },
+      "prior_equity": {
+        "value": 20417000000,
+        "tag": "us-gaap:StockholdersEquity",
+        "start": null,
+        "end": "2024-12-31",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-13",
+        "metric": "equity",
+        "unit": "USD",
+        "accession": "0001633917-26-000024",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
+        "file": "PYPL/10-K.txt",
+        "line": 1200,
+        "source_text": "Total equity | 20,256 | | | 20,417 |",
+        "definition": "Reported consolidated stockholders' equity; scope is identified by the selected tag."
+      }
+    }
+  },
+  "ratios": {
+    "V": {
+      "revenue_growth": {
+        "value": 11.339976618604908,
+        "arithmetic": "(40,000,000,000 / 35,926,000,000 - 1) * 100",
+        "inputs": [
+          "revenue",
+          "prior_revenue"
+        ],
+        "unit": "%",
+        "fiscal_start": "2024-10-01",
+        "fiscal_end": "2025-09-30"
+      },
+      "operating_margin": {
+        "value": 59.985,
+        "arithmetic": "23,994,000,000 / 40,000,000,000 * 100",
+        "inputs": [
+          "operating_income",
+          "revenue"
+        ],
+        "unit": "%",
+        "fiscal_start": "2024-10-01",
+        "fiscal_end": "2025-09-30"
+      },
+      "return_on_average_equity": {
+        "value": 52.06759598162137,
+        "arithmetic": "20,058,000,000 / ((39,137,000,000 + 37,909,000,000) / 2) * 100",
+        "inputs": [
+          "net_income",
+          "prior_equity",
+          "equity"
+        ],
+        "unit": "%",
+        "fiscal_start": "2024-10-01",
+        "fiscal_end": "2025-09-30"
+      },
+      "debt_to_equity": {
+        "value": 0.6639848057189586,
+        "arithmetic": "(19,602,000,000 + 5,569,000,000) / 37,909,000,000",
+        "inputs": [
+          "long_term_debt",
+          "current_debt",
+          "equity"
+        ],
+        "unit": "x",
+        "fiscal_start": "2024-10-01",
+        "fiscal_end": "2025-09-30"
+      },
+      "free_cash_flow": {
+        "value": 21577000000,
+        "arithmetic": "23,059,000,000 - 1,482,000,000",
+        "inputs": [
+          "operating_cash_flow",
+          "capex"
+        ],
+        "unit": "USD",
+        "fiscal_start": "2024-10-01",
+        "fiscal_end": "2025-09-30"
+      },
+      "price_earnings": {
+        "value": 39.39803921568628,
+        "arithmetic": "401.86 / 10.20",
+        "inputs": [
+          "supplied_price",
+          "diluted_eps"
+        ],
+        "unit": "x",
+        "fiscal_start": "2024-10-01",
+        "fiscal_end": "2025-09-30"
+      }
+    },
+    "MA": {
+      "revenue_growth": {
+        "value": 16.4163737707246,
+        "arithmetic": "(32,791,000,000 / 28,167,000,000 - 1) * 100",
+        "inputs": [
+          "revenue",
+          "prior_revenue"
+        ],
+        "unit": "%",
+        "fiscal_start": "2025-01-01",
+        "fiscal_end": "2025-12-31"
+      },
+      "operating_margin": {
+        "value": 57.62861760849013,
+        "arithmetic": "18,897,000,000 / 32,791,000,000 * 100",
+        "inputs": [
+          "operating_income",
+          "revenue"
+        ],
+        "unit": "%",
+        "fiscal_start": "2025-01-01",
+        "fiscal_end": "2025-12-31"
+      },
+      "return_on_average_equity": {
+        "value": 210.49078891857684,
+        "arithmetic": "14,968,000,000 / ((6,485,000,000 + 7,737,000,000) / 2) * 100",
+        "inputs": [
+          "net_income",
+          "prior_equity",
+          "equity"
+        ],
+        "unit": "%",
+        "fiscal_start": "2025-01-01",
+        "fiscal_end": "2025-12-31"
+      },
+      "debt_to_equity": {
+        "value": 2.455732195941579,
+        "arithmetic": "(18,251,000,000 + 749,000,000) / 7,737,000,000",
+        "inputs": [
+          "long_term_debt",
+          "current_debt",
+          "equity"
+        ],
+        "unit": "x",
+        "fiscal_start": "2025-01-01",
+        "fiscal_end": "2025-12-31"
+      },
+      "free_cash_flow": {
+        "value": 17159000000,
+        "arithmetic": "17,648,000,000 - 489,000,000",
+        "inputs": [
+          "operating_cash_flow",
+          "capex"
+        ],
+        "unit": "USD",
+        "fiscal_start": "2025-01-01",
+        "fiscal_end": "2025-12-31"
+      }
+    },
+    "PYPL": {
+      "revenue_growth": {
+        "value": 4.324307324590371,
+        "arithmetic": "(33,172,000,000 / 31,797,000,000 - 1) * 100",
+        "inputs": [
+          "revenue",
+          "prior_revenue"
+        ],
+        "unit": "%",
+        "fiscal_start": "2025-01-01",
+        "fiscal_end": "2025-12-31"
+      },
+      "operating_margin": {
+        "value": 18.28349210177258,
+        "arithmetic": "6,065,000,000 / 33,172,000,000 * 100",
+        "inputs": [
+          "operating_income",
+          "revenue"
+        ],
+        "unit": "%",
+        "fiscal_start": "2025-01-01",
+        "fiscal_end": "2025-12-31"
+      },
+      "return_on_average_equity": {
+        "value": 25.73205812209574,
+        "arithmetic": "5,233,000,000 / ((20,417,000,000 + 20,256,000,000) / 2) * 100",
+        "inputs": [
+          "net_income",
+          "prior_equity",
+          "equity"
+        ],
+        "unit": "%",
+        "fiscal_start": "2025-01-01",
+        "fiscal_end": "2025-12-31"
+      },
+      "free_cash_flow": {
+        "value": 5564000000,
+        "arithmetic": "6,416,000,000 - 852,000,000",
+        "inputs": [
+          "operating_cash_flow",
+          "capex"
+        ],
+        "unit": "USD",
+        "fiscal_start": "2025-01-01",
+        "fiscal_end": "2025-12-31"
+      }
+    }
+  },
+  "quarter": {
+    "period_end": "2026-09-30",
+    "release_date": "2026-10-27",
+    "accession": "0001403161-26-000126",
+    "file": "V/earnings_release.txt",
+    "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm",
+    "revenue_candidates": [
+      {
+        "line": 10,
+        "text": "• Net revenue of $12.1B, an increase of 13% on a nominal and constant-dollar basis"
+      },
+      {
+        "line": 13,
+        "text": "• Net revenue of $45.9B, an increase of 15%, or 14% on a constant-dollar basis"
+      },
+      {
+        "line": 22,
+        "text": "Net Revenue | $12.1 | 13% | $45.9 | 15% | \"Visa delivered a milestone year. We achieved record net revenue of $46 billion, up 15%, the strongest growth in over 15 years excluding the post-pandemic recovery and acquisitions. In 2026, we also demonstrated that whenever technology changes commerce, we move with it, we anticipate what’s next, and we enable its growth as the leading hyperscaler of payments globally. The foundation of all of this is trust, which Visa brings with our scale, our network and our products. As we look to 2027 and beyond, trust is the next growth vector for Visa.”"
+      },
+      {
+        "line": 39,
+        "text": "Net revenue in the fiscal fourth quarter was $12.1 billion, an increase of 13%, driven by the year-over-year growth in payments volume, cross-border volume and processed transactions. Net revenue increased 13% on a constant-dollar basis."
+      },
+      {
+        "line": 55,
+        "text": "Net revenue in the fiscal full-year 2026 was $45.9 billion, an increase of 15%, driven by the year-over-year growth in payments volume, cross-border volume and processed transactions. Net revenue increased 14% on a constant-dollar basis."
+      },
+      {
+        "line": 102,
+        "text": "Net revenue | $ | 12,139 | | | 13 | % | | $ | 45,903 | | | 15 | %"
+      },
+      {
+        "line": 212,
+        "text": "Net revenue | $ | 12,139 | | | $ | 10,724 | | | $ | 45,903 | | | $ | 40,000 |"
+      },
+      {
+        "line": 341,
+        "text": "Net revenue | $ | 12,139 | | | $ | 11,633 | | | $ | 11,230 | | | $ | 10,901 | | | $ | 10,724 |"
+      }
+    ],
+    "eps_candidates": [
+      {
+        "line": 9,
+        "text": "• GAAP net income of $6.0B or $3.19 per share and non-GAAP net income of $6.6B or $3.48 per share"
+      },
+      {
+        "line": 12,
+        "text": "• GAAP net income of $23.5B or $12.32 per share and non-GAAP net income of $25.3B or $13.27 per share"
+      },
+      {
+        "line": 23,
+        "text": "GAAP Net Income | $6.0 | 18% | $23.5 | 17%"
+      },
+      {
+        "line": 24,
+        "text": "GAAP Earnings Per Share | $3.19 | 22% | $12.32 | 21%"
+      },
+      {
+        "line": 38,
+        "text": "GAAP net income in the fiscal fourth quarter was $6.0 billion or $3.19 per share, an increase of 18% and 22%, respectively, over prior year’s results. Current year's results included special items of $469 million for a litigation provision associated with the interchange multidistrict litigation (\"MDL\") case, $282 million related to the donation of investments to the Visa Foundation, and $37 million for a deferred tax expense recognized due to a change in the U.S. taxation of certain foreign earnings. Current year's results also included $155 million of net gains from equity investments and $75 million from the amortization of acquired intangible assets and acquisition-related costs. Prior year's results included a special item of $899 million for a litigation provision associated with the MDL case and other legal matters, $46 million of net gains from equity investments and $66 million from the amortization of acquired intangible assets and acquisition-related costs. Excluding these items and related tax impacts, non-GAAP net income for the quarter was $6.6 billion or $3.48 per share, an increase of 13% and 17%, respectively, over prior year’s results (refer to Non-GAAP Financial Measures for further details). GAAP earnings per share growth was approximately 22% on a constant-dollar basis, which excludes the impact of foreign currency fluctuations against the U.S. dollar. Non-GAAP earnings per share growth was approxima tely 17% on a constant-dollar basis. All references to earnings per share assume fully diluted class A share count."
+      },
+      {
+        "line": 49,
+        "text": "The weighted-average number of diluted shares of class A common stock outstanding was 1.88 billion for the quarter ended September 30, 2026."
+      },
+      {
+        "line": 54,
+        "text": "GAAP net income in the fiscal full-year 2026 was $23.5 billion or $12.32 per share, an increase of 17% and 21%, respectively, over prior year’s results. Current year’s results included special items of $1.7 billion for a litigation provision associated with the MDL case and other legal matters, $563 million for severance costs, $314 million for a deferred tax benefit recognized due to a change in the U.S. taxation of certain foreign earnings, and $282 million related to the donation of investments to the Visa Foundation. Current year's results also included $124 million of net gains from equity investments and $305 million from the amortization of acquired intangible assets and acquisition-related costs. Prior year’s results included special items of $2.5 billion for a litigation provision associated with the MDL case and other legal matters, $213 million for severance costs, and $39 million for lease consolidation costs. Prior year's results also included $87 million of net losses from equity investments and $315 million from the amortization of acquired intangible assets and acquisition-related costs. Excluding these items and related tax impacts, non-GAAP net income for the year was $25.3 billion or $13.27 per share, an increase of 12% and 16%, respectively, over prior year’s results (refer to Non-GAAP Financial Measures for further details). GAAP earnings per share growth was approximately 20% on a constant-dollar basis, which excludes the impact of foreign currency fluctuations against the U.S. dollar. Non-GAAP earnings per share growth was approximately 15% on a constant-dollar basis. All references to earnings per share assume fully diluted class A share count."
+      },
+      {
+        "line": 63,
+        "text": "The weighted-average number of diluted shares of class A common stock outstanding was 1.91 billion for the fiscal full-year ended September 30, 2026."
+      },
+      {
+        "line": 387,
+        "text": "| Operating Expenses | | Non- operating Income (Expense) | | Income Tax Provision (1) | | Effective Income Tax Rate (2) | | Net Income | | Diluted Earnings Per Share (2)"
+      },
+      {
+        "line": 402,
+        "text": "| Operating Expenses | | Non- operating Income (Expense) | | Income Tax Provision (1) | | Effective Income Tax Rate (2) | | Net Income | | Diluted Earnings Per Share (2)"
+      },
+      {
+        "line": 417,
+        "text": "| Operating Expenses | | Non- operating Income (Expense) | | Income Tax Provision (1) | | Effective Income Tax Rate (2) | | Net Income | | Diluted Earnings Per Share (2)"
+      },
+      {
+        "line": 435,
+        "text": "| Operating Expenses | | Non- operating Income (Expense) | | Income Tax Provision (1) | | Effective Income Tax Rate (2) | | Net Income | | Diluted Earnings Per Share (2) | | | |"
+      }
+    ],
+    "header_lines": [
+      {
+        "line": 3,
+        "text": "q42026earningsrelease.htm"
+      },
+      {
+        "line": 6,
+        "text": "Visa Reports Fiscal Fourth Quarter and Full-Year 2026 Results"
+      },
+      {
+        "line": 7,
+        "text": "San Francisco, October 27, 2026 – Visa (NYSE: V)"
+      },
+      {
+        "line": 8,
+        "text": "Fiscal Fourth Quarter Results:"
+      },
+      {
+        "line": 20,
+        "text": "In billions, except percentages and per share data. % change is calculated over the comparable prior-year period. | Q4 2026 | Full-Year 2026 | Ryan McInerney , Chief Executive Officer, Visa, commented on the results:"
+      },
+      {
+        "line": 22,
+        "text": "Net Revenue | $12.1 | 13% | $45.9 | 15% | \"Visa delivered a milestone year. We achieved record net revenue of $46 billion, up 15%, the strongest growth in over 15 years excluding the post-pandemic recovery and acquisitions. In 2026, we also demonstrated that whenever technology changes commerce, we move with it, we anticipate what’s next, and we enable its growth as the leading hyperscaler of payments globally. The foundation of all of this is trust, which Visa brings with our scale, our network and our products. As we look to 2027 and beyond, trust is the next growth vector for Visa.”"
+      },
+      {
+        "line": 24,
+        "text": "GAAP Earnings Per Share | $3.19 | 22% | $12.32 | 21%"
+      },
+      {
+        "line": 26,
+        "text": "Non-GAAP Earnings Per Share (1) | $3.48 | 17% | $13.27 | 16%"
+      },
+      {
+        "line": 30,
+        "text": "YoY increase / (decrease), volume in constant dollars | Q4 2026 | Full-Year 2026"
+      },
+      {
+        "line": 36,
+        "text": "Fiscal Fourth Quarter 2026 — Financial Highlights"
+      },
+      {
+        "line": 40,
+        "text": "Payments volume for the three months ended June 30, 2026, on which fiscal fourth quarter service revenue is recognized, increased 10% over the prior year on a constant-dollar basis."
+      },
+      {
+        "line": 41,
+        "text": "Payments volume for the three months ended September 30, 2026 increased 9% over the prior year on a constant-dollar basis."
+      },
+      {
+        "line": 42,
+        "text": "Cross-border volume excluding transactions within Europe, which drives our international transaction revenue, for the three months ended September 30, 2026, increased 14% on a constant-dollar basis over the prior year. Total cross-border volume on a constant-dollar basis increased 14% over the prior year."
+      },
+      {
+        "line": 43,
+        "text": "Total processed transactions, which represent transactions processed by Visa, for the three months ended September 30, 2026, were 74.2 billion, a 10% increase over the prior year."
+      },
+      {
+        "line": 47,
+        "text": "GAAP effective income tax rate was 18.5% for the quarter ended September 30, 2026. Excluding the special item related to the deferred tax expense and the related tax impacts from the non-GAAP items, the non-GAAP effective income tax rate was 18.4% for the quarter ended September 30, 2026."
+      },
+      {
+        "line": 48,
+        "text": "Cash, cash equivalents and investment securities were $14.2 billion at September 30, 2026."
+      },
+      {
+        "line": 49,
+        "text": "The weighted-average number of diluted shares of class A common stock outstanding was 1.88 billion for the quarter ended September 30, 2026."
+      },
+      {
+        "line": 52,
+        "text": "Fiscal Full-Year 2026 — Financial Highlights"
+      },
+      {
+        "line": 54,
+        "text": "GAAP net income in the fiscal full-year 2026 was $23.5 billion or $12.32 per share, an increase of 17% and 21%, respectively, over prior year’s results. Current year’s results included special items of $1.7 billion for a litigation provision associated with the MDL case and other legal matters, $563 million for severance costs, $314 million for a deferred tax benefit recognized due to a change in the U.S. taxation of certain foreign earnings, and $282 million related to the donation of investments to the Visa Foundation. Current year's results also included $124 million of net gains from equity investments and $305 million from the amortization of acquired intangible assets and acquisition-related costs. Prior year’s results included special items of $2.5 billion for a litigation provision associated with the MDL case and other legal matters, $213 million for severance costs, and $39 million for lease consolidation costs. Prior year's results also included $87 million of net losses from equity investments and $315 million from the amortization of acquired intangible assets and acquisition-related costs. Excluding these items and related tax impacts, non-GAAP net income for the year was $25.3 billion or $13.27 per share, an increase of 12% and 16%, respectively, over prior year’s results (refer to Non-GAAP Financial Measures for further details). GAAP earnings per share growth was approximately 20% on a constant-dollar basis, which excludes the impact of foreign currency fluctuations against the U.S. dollar. Non-GAAP earnings per share growth was approximately 15% on a constant-dollar basis. All references to earnings per share assume fully diluted class A share count."
+      },
+      {
+        "line": 55,
+        "text": "Net revenue in the fiscal full-year 2026 was $45.9 billion, an increase of 15%, driven by the year-over-year growth in payments volume, cross-border volume and processed transactions. Net revenue increased 14% on a constant-dollar basis."
+      },
+      {
+        "line": 56,
+        "text": "Payments volume for the twelve months ended September 30, 2026 increased 9% over the prior year on a constant-dollar basis."
+      },
+      {
+        "line": 57,
+        "text": "Cross-border volume excluding transactions within Europe, which drives our international transaction revenue, for the twelve months ended September 30, 2026, increased 12% on a constant-dollar basis over the prior year. Total cross-border volume on a constant-dollar basis increased 13% over the prior year."
+      },
+      {
+        "line": 58,
+        "text": "Total processed transactions, which represent transactions processed by Visa, for the twelve months ended September 30, 2026, were 281.3 billion, a 9% increase over the prior year."
+      },
+      {
+        "line": 59,
+        "text": "Fiscal full-year 2026 service revenue was $19.9 billion, an increase of 14% over the prior year. Data processing revenue rose 17% over the prior year to $23.4 billion. International transaction revenue grew 8% over the prior year to $15.3 billion. Other revenue of $5.7 billion rose 40% over the prior year. Client incentives were $18.3 billion, up 16% over the prior year."
+      },
+      {
+        "line": 60,
+        "text": "GAAP operating expenses were $17.8 billion for the fiscal full-year 2026, an 11% increase over the prior year's results, primarily driven by increases in personnel and marketing expenses. GAAP operating expenses included the special items as well as the amortization of acquired intangible assets and acquisition-related costs in the current and prior year. Excluding these items, non-GAAP operating expenses increased 16% over the prior year, primarily driven by increases in personnel and marketing expenses."
+      }
+    ],
+    "observations": {
+      "quarter_net_revenue": {
+        "value": 12139000000.0,
+        "unit": "USD",
+        "line": 212,
+        "column": "First quarter column; three months ended 2026-09-30; source in millions"
+      },
+      "prior_quarter_net_revenue": {
+        "value": 10724000000.0,
+        "unit": "USD",
+        "line": 212,
+        "column": "Second quarter column; same quarter of prior year; source in millions"
+      },
+      "quarter_gaap_diluted_eps": {
+        "value": 3.19,
+        "unit": "USD/shares",
+        "line": 250,
+        "column": "First quarter column, GAAP diluted EPS; us-gaap:CommonClassAMember"
+      },
+      "annual_release_gaap_diluted_eps": {
+        "value": 12.32,
+        "unit": "USD/shares",
+        "line": 250,
+        "column": "Third numeric column; twelve months ended 2026-09-30; us-gaap:CommonClassAMember"
+      }
+    },
+    "revenue_growth": {
+      "value": 13.194703468854897,
+      "unit": "%",
+      "arithmetic": "(12,139,000,000 / 10,724,000,000 - 1) * 100",
+      "line": 212,
+      "note": "Calculated from the GAAP statement's current and prior-year quarter columns."
+    }
+  },
+  "peers": {
+    "MA": {
+      "company": {
+        "ticker": "MA",
+        "cik": "0001141391",
+        "name": "Mastercard Inc"
+      },
+      "fiscal_end": "2025-12-31",
+      "revenue": {
+        "value": 32791000000,
+        "tag": "us-gaap:Revenues",
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "revenue",
+        "unit": "USD",
+        "accession": "0001141391-26-000013",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+        "file": "MA/10-K.txt",
+        "line": 1779,
+        "source_text": "Net Revenue | | $ | 32,791 | | | $ | 28,167 | | | $ | 25,098 |",
+        "definition": "Consolidated reported revenue; the source row names any net/gross convention."
+      },
+      "operating_income": {
+        "value": 18897000000,
+        "tag": "us-gaap:OperatingIncomeLoss",
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "operating_income",
+        "unit": "USD",
+        "accession": "0001141391-26-000013",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+        "file": "MA/10-K.txt",
+        "line": 1786,
+        "source_text": "Operating income | | 18,897 | | | 15,582 | | | 14,008 |",
+        "definition": "GAAP consolidated operating income, including litigation and other reported operating costs."
+      },
+      "operating_margin": {
+        "value": 57.62861760849013,
+        "arithmetic": "18,897,000,000 / 32,791,000,000 * 100",
+        "inputs": [
+          "operating_income",
+          "revenue"
+        ],
+        "unit": "%",
+        "fiscal_start": "2025-01-01",
+        "fiscal_end": "2025-12-31"
+      },
+      "definition": "Reported GAAP operating income / consolidated reported revenue * 100; no adjusted earnings."
+    },
+    "PYPL": {
+      "company": {
+        "ticker": "PYPL",
+        "cik": "0001633917",
+        "name": "PayPal Holdings, Inc."
+      },
+      "fiscal_end": "2025-12-31",
+      "revenue": {
+        "value": 33172000000,
+        "tag": "us-gaap:Revenues",
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "revenue",
+        "unit": "USD",
+        "accession": "0001633917-26-000024",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
+        "file": "PYPL/10-K.txt",
+        "line": 1212,
+        "source_text": "Net revenues | $ | 33,172 | | | $ | 31,797 | | | $ | 29,771 |",
+        "definition": "Consolidated reported revenue; the source row names any net/gross convention."
+      },
+      "operating_income": {
+        "value": 6065000000,
+        "tag": "us-gaap:OperatingIncomeLoss",
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "operating_income",
+        "unit": "USD",
+        "accession": "0001633917-26-000024",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
+        "file": "PYPL/10-K.txt",
+        "line": 1222,
+        "source_text": "Operating income | 6,065 | | | 5,325 | | | 5,028 |",
+        "definition": "GAAP consolidated operating income, including litigation and other reported operating costs."
+      },
+      "operating_margin": {
+        "value": 18.28349210177258,
+        "arithmetic": "6,065,000,000 / 33,172,000,000 * 100",
+        "inputs": [
+          "operating_income",
+          "revenue"
+        ],
+        "unit": "%",
+        "fiscal_start": "2025-01-01",
+        "fiscal_end": "2025-12-31"
+      },
+      "definition": "Reported GAAP operating income / consolidated reported revenue * 100; no adjusted earnings."
+    }
+  }
+}

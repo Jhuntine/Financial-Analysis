@@ -1,0 +1,47 @@
+{
+  "revenue_growth": {
+    "value": 4.324307324590371,
+    "arithmetic": "(33,172,000,000 / 31,797,000,000 - 1) * 100",
+    "inputs": [
+      "revenue",
+      "prior_revenue"
+    ],
+    "unit": "%",
+    "fiscal_start": "2025-01-01",
+    "fiscal_end": "2025-12-31"
+  },
+  "operating_margin": {
+    "value": 18.28349210177258,
+    "arithmetic": "6,065,000,000 / 33,172,000,000 * 100",
+    "inputs": [
+      "operating_income",
+      "revenue"
+    ],
+    "unit": "%",
+    "fiscal_start": "2025-01-01",
+    "fiscal_end": "2025-12-31"
+  },
+  "return_on_average_equity": {
+    "value": 25.73205812209574,
+    "arithmetic": "5,233,000,000 / ((20,417,000,000 + 20,256,000,000) / 2) * 100",
+    "inputs": [
+      "net_income",
+      "prior_equity",
+      "equity"
+    ],
+    "unit": "%",
+    "fiscal_start": "2025-01-01",
+    "fiscal_end": "2025-12-31"
+  },
+  "free_cash_flow": {
+    "value": 5564000000,
+    "arithmetic": "6,416,000,000 - 852,000,000",
+    "inputs": [
+      "operating_cash_flow",
+      "capex"
+    ],
+    "unit": "USD",
+    "fiscal_start": "2025-01-01",
+    "fiscal_end": "2025-12-31"
+  }
+}

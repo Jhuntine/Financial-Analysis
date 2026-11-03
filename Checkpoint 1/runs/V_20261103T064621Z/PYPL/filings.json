@@ -1,0 +1,13 @@
+{
+  "10-K": {
+    "form": "10-K",
+    "filing_date": "2026-02-03",
+    "report_date": "2025-12-31",
+    "accession": "0001633917-26-000024",
+    "accepted_api": "2026-02-03T22:04:40.000Z",
+    "accepted_index": "2026-02-03 17:04:40",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/0001633917-26-000024-index.html",
+    "primary_url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
+    "items": ""
+  }
+}

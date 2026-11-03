@@ -1,0 +1,46 @@
+{
+  "period_end": "2026-09-30",
+  "release_date": "2026-10-27",
+  "accession": "0001403161-26-000126",
+  "file": "V/earnings_release.txt",
+  "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm",
+  "column_headers_lines": [
+    203,
+    204,
+    205
+  ],
+  "observations": {
+    "quarter_net_revenue": {
+      "value": 12139000000.0,
+      "unit": "USD",
+      "line": 212,
+      "column": "First quarter column; three months ended 2026-09-30; source in millions"
+    },
+    "prior_quarter_net_revenue": {
+      "value": 10724000000.0,
+      "unit": "USD",
+      "line": 212,
+      "column": "Second quarter column; same quarter of prior year; source in millions"
+    },
+    "quarter_gaap_diluted_eps": {
+      "value": 3.19,
+      "unit": "USD/shares",
+      "line": 250,
+      "column": "First quarter column, GAAP diluted EPS; us-gaap:CommonClassAMember"
+    },
+    "annual_release_gaap_diluted_eps": {
+      "value": 12.32,
+      "unit": "USD/shares",
+      "line": 250,
+      "column": "Third numeric column; twelve months ended 2026-09-30; us-gaap:CommonClassAMember"
+    }
+  },
+  "calculated_quarter_revenue_growth": {
+    "value": 13.194703468854897,
+    "unit": "%",
+    "arithmetic": "(12,139,000,000 / 10,724,000,000 - 1) * 100",
+    "line": 212,
+    "note": "Calculated from the GAAP statement's current and prior-year quarter columns."
+  },
+  "extraction_note": "Extracted in code from the GAAP statement, not rounded headlines. Verify units, columns and share class during human audit."
+}

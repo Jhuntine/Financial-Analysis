@@ -1,0 +1,27 @@
+{
+  "provider": "LSEG",
+  "dataset": "Historical Pricing, daily",
+  "instrument": "V.N",
+  "field": "TRDPRC_1",
+  "adjustments": "unadjusted",
+  "request": {
+    "universe": "V.N",
+    "fields": [
+      "TRDPRC_1"
+    ],
+    "interval": "1D",
+    "start": "2026-10-27",
+    "end": "2026-10-27",
+    "adjustments": "unadjusted"
+  },
+  "source": "LSEG Historical Pricing; V.N; TRDPRC_1; daily close; 2026-10-27; unadjusted",
+  "documentation": "https://developers.lseg.com/en/api-catalog/lseg-data-platform/lseg-data-library-for-python/tutorials/access-tutorials/tutorial-4-get_history",
+  "status": "retrieved",
+  "ticker": "V",
+  "trade_date": "2026-10-27",
+  "close_usd": 401.86,
+  "currency": "USD",
+  "retrieved_at_utc": "2026-11-03T07:29:18.573577+00:00",
+  "data_file": "market_data/lseg_close.csv",
+  "sha256": "50e2eecfbf44c0b5cb8c5b8659f68a6951f97321ff6b1c5eb3be50b3d7b5d5a7"
+}

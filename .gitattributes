@@ -1,0 +1,2 @@
+# Market observations are hashed byte-for-byte for offline replay.
+*.csv text eol=lf
