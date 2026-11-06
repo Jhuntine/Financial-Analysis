@@ -1,0 +1,15 @@
+{
+  "sections": [
+    {
+      "title": "Investment Recommendation",
+      "text": "Investment Recommendation"
+    }
+  ],
+  "insight": {
+    "text": "Visa’s leverage remains moderate, supporting financial flexibility.",
+    "source": "V.ratio.debt_to_equity",
+    "value": 0.6639848057189586
+  },
+  "recommendation": "Buy",
+  "decision_source": "V.ratio.return_on_average_equity"
+}

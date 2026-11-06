@@ -1,0 +1,36 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Investment Recommendation",
+        "text": "Costco demonstrates durable business fundamentals through strong revenue growth, high return on equity, and a modest capital structure. However, the market assigns a premium valuation, as reflected by an elevated price‑to‑earnings multiple. Balancing the resilient operating model against the high valuation leads to a neutral stance."
+      }
+    ],
+    "insight": {
+      "text": "The company’s low leverage, reflected by its debt‑to‑equity ratio, provides flexibility to fund expansion and absorb cost pressures.",
+      "source": "COST.ratio.debt_to_equity",
+      "value": 0.17210848252939698
+    },
+    "recommendation": "Hold",
+    "decision_source": "COST.ratio.price_earnings"
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-a2707da87589beb7",
+    "usage": {
+      "completion_tokens": 665,
+      "prompt_tokens": 8392,
+      "total_tokens": 9057,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "status": "retrieved",
+  "provider": "WRDS",
+  "ticker": "V",
+  "trade_date": "2026-09-24",
+  "close_usd": 367.98,
+  "currency": "USD",
+  "dataset": "Compustat North America comp.secd",
+  "instrument": {
+    "gvkey": "179534",
+    "iid": "01"
+  },
+  "field": "prccd",
+  "source": "WRDS Compustat comp.secd.prccd; primary U.S. security; dated security ticker V; 2026-09-24",
+  "request": {
+    "sql": "SELECT d.gvkey, c.conm, d.tic, d.iid, d.datadate, d.prccd, d.curcdd\nFROM comp.secd AS d\nJOIN comp.company AS c ON c.gvkey=d.gvkey\nWHERE d.tic=%s AND d.iid=c.priusa AND d.datadate=%s\nORDER BY d.gvkey,d.iid\nLIMIT 2",
+    "parameters": [
+      "V",
+      "2026-09-24"
+    ]
+  },
+  "retrieved_at_utc": "2026-11-05T23:45:57.591357+00:00",
+  "data_file": "market_data/wrds_close.csv",
+  "sha256": "852ddbc775d0dec1e8ee8ec8309c50268c055a0fc71c9c98872c1dbba299d293"
+}

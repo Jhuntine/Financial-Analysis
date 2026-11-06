@@ -1,0 +1,114 @@
+{
+  "MA": {
+    "company": {
+      "ticker": "MA",
+      "cik": "0001141391",
+      "name": "Mastercard Inc"
+    },
+    "fiscal_end": "2025-12-31",
+    "revenue": {
+      "value": 32791000000,
+      "tag": "us-gaap:Revenues",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "method": "SEC company-facts",
+      "dimensions": {},
+      "context": "c-1",
+      "metric": "revenue",
+      "unit": "USD",
+      "accession": "0001141391-26-000013",
+      "form": "10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "file": "MA/10-K.txt",
+      "line": 1779,
+      "source_text": "Net Revenue | | $ | 32,791 | | | $ | 28,167 | | | $ | 25,098 |",
+      "definition": "Consolidated reported revenue; the source row names any net/gross convention."
+    },
+    "operating_income": {
+      "value": 18897000000,
+      "tag": "us-gaap:OperatingIncomeLoss",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "method": "SEC company-facts",
+      "dimensions": {},
+      "context": "c-1",
+      "metric": "operating_income",
+      "unit": "USD",
+      "accession": "0001141391-26-000013",
+      "form": "10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "file": "MA/10-K.txt",
+      "line": 1786,
+      "source_text": "Operating income | | 18,897 | | | 15,582 | | | 14,008 |",
+      "definition": "GAAP consolidated operating income, including litigation and other reported operating costs."
+    },
+    "operating_margin": {
+      "value": 57.62861760849013,
+      "arithmetic": "18,897,000,000 / 32,791,000,000 * 100",
+      "inputs": [
+        "operating_income",
+        "revenue"
+      ],
+      "unit": "%",
+      "fiscal_start": "2025-01-01",
+      "fiscal_end": "2025-12-31"
+    },
+    "definition": "Reported GAAP operating income / consolidated reported revenue * 100; no adjusted earnings."
+  },
+  "PYPL": {
+    "company": {
+      "ticker": "PYPL",
+      "cik": "0001633917",
+      "name": "PayPal Holdings, Inc."
+    },
+    "fiscal_end": "2025-12-31",
+    "revenue": {
+      "value": 33172000000,
+      "tag": "us-gaap:Revenues",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "method": "SEC company-facts",
+      "dimensions": {},
+      "context": "c-1",
+      "metric": "revenue",
+      "unit": "USD",
+      "accession": "0001633917-26-000024",
+      "form": "10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
+      "file": "PYPL/10-K.txt",
+      "line": 1212,
+      "source_text": "Net revenues | $ | 33,172 | | | $ | 31,797 | | | $ | 29,771 |",
+      "definition": "Consolidated reported revenue; the source row names any net/gross convention."
+    },
+    "operating_income": {
+      "value": 6065000000,
+      "tag": "us-gaap:OperatingIncomeLoss",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "method": "SEC company-facts",
+      "dimensions": {},
+      "context": "c-1",
+      "metric": "operating_income",
+      "unit": "USD",
+      "accession": "0001633917-26-000024",
+      "form": "10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
+      "file": "PYPL/10-K.txt",
+      "line": 1222,
+      "source_text": "Operating income | 6,065 | | | 5,325 | | | 5,028 |",
+      "definition": "GAAP consolidated operating income, including litigation and other reported operating costs."
+    },
+    "operating_margin": {
+      "value": 18.28349210177258,
+      "arithmetic": "6,065,000,000 / 33,172,000,000 * 100",
+      "inputs": [
+        "operating_income",
+        "revenue"
+      ],
+      "unit": "%",
+      "fiscal_start": "2025-01-01",
+      "fiscal_end": "2025-12-31"
+    },
+    "definition": "Reported GAAP operating income / consolidated reported revenue * 100; no adjusted earnings."
+  }
+}

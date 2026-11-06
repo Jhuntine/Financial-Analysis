@@ -1,0 +1,8 @@
+{
+  "kind": "ambiguous_roe",
+  "claim_id": "C003",
+  "source_unchanged": true,
+  "source_run": "COST_20261105T231700361085Z_ec30bc",
+  "source_report_sha256": "78eb399aca9edb6a1cb28ce8e0eb71734cc6124c8112ae3a3df5adb28177b705",
+  "note": "Only report altered; canonical saved filing evidence preserved."
+}

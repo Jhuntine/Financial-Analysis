@@ -1,0 +1,413 @@
+{
+  "configuration": {
+    "ticker": "V",
+    "peers": [],
+    "as_of": "2026-11-05",
+    "price": 367.98,
+    "price_date": "2026-09-24",
+    "price_source": "WRDS Compustat comp.secd.prccd; primary U.S. security; dated security ticker V; 2026-09-24",
+    "share_class": "us-gaap:CommonClassAMember",
+    "market_provider": "wrds",
+    "ric": null
+  },
+  "companies": {
+    "V": {
+      "ticker": "V",
+      "cik": "0001403161",
+      "name": "VISA INC."
+    }
+  },
+  "filings": {
+    "V": {
+      "10-K": {
+        "form": "10-K",
+        "filing_date": "2026-11-05",
+        "report_date": "2026-09-30",
+        "accession": "0001403161-26-000134",
+        "accepted_api": "2026-11-05T21:07:24.000Z",
+        "accepted_index": "2026-11-05 16:07:24",
+        "index_url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/0001403161-26-000134-index.html",
+        "primary_url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "items": ""
+      },
+      "10-Q": {
+        "form": "10-Q",
+        "filing_date": "2026-07-29",
+        "report_date": "2026-06-30",
+        "accession": "0001403161-26-000104",
+        "accepted_api": "2026-07-28T22:08:12.000Z",
+        "accepted_index": "2026-07-28 18:08:12",
+        "index_url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/0001403161-26-000104-index.html",
+        "primary_url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/v-20260630.htm",
+        "items": ""
+      },
+      "earnings": {
+        "form": "8-K",
+        "filing_date": "2026-10-27",
+        "report_date": "2026-10-27",
+        "accession": "0001403161-26-000126",
+        "accepted_api": "2026-10-27T20:05:22.000Z",
+        "accepted_index": "2026-10-27 16:05:22",
+        "index_url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/0001403161-26-000126-index.html",
+        "primary_url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/v-20261027.htm",
+        "items": "2.02,8.01,9.01",
+        "release_url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm"
+      }
+    }
+  },
+  "facts": {
+    "V": {
+      "revenue": {
+        "value": 45903000000,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "start": "2025-10-01",
+        "end": "2026-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "revenue",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1548,
+        "source_text": "Net revenue | $ | 45,903 | | | $ | 40,000 | | | $ | 35,926 |",
+        "definition": "Consolidated reported revenue; the source row names any net/gross convention."
+      },
+      "operating_income": {
+        "value": 28110000000,
+        "tag": "us-gaap:OperatingIncomeLoss",
+        "start": "2025-10-01",
+        "end": "2026-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "operating_income",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1559,
+        "source_text": "Operating income | 28,110 | | | 23,994 | | | 23,595 |",
+        "definition": "GAAP consolidated operating income, including litigation and other reported operating costs."
+      },
+      "net_income": {
+        "value": 23504000000,
+        "tag": "us-gaap:NetIncomeLoss",
+        "start": "2025-10-01",
+        "end": "2026-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "net_income",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1567,
+        "source_text": "Net income | $ | 23,504 | | | $ | 20,058 | | | $ | 19,743 |",
+        "definition": "GAAP consolidated net income; use the equity scope identified in the source tag."
+      },
+      "diluted_eps": {
+        "value": 12.32,
+        "tag": "us-gaap:EarningsPerShareDiluted",
+        "start": "2025-10-01",
+        "end": "2026-09-30",
+        "dimensions": {
+          "us-gaap:StatementClassOfStockAxis": "us-gaap:CommonClassAMember"
+        },
+        "context": "c-2",
+        "method": "10-K inline XBRL (dimensional fallback)",
+        "metric": "diluted_eps",
+        "unit": "USD/shares",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1584,
+        "source_text": "Class A common stock | $ | 12.32 | | | $ | 10.20 | | | $ | 9.73 |",
+        "definition": "GAAP diluted EPS for the listed common share class; consolidated fact if unambiguous."
+      },
+      "equity": {
+        "value": 36111000000,
+        "tag": "us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+        "start": null,
+        "end": "2026-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-19",
+        "metric": "equity",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1531,
+        "source_text": "Total equity | 36,111 | | | 37,909 |",
+        "definition": "Reported consolidated stockholders' equity; scope is identified by the selected tag."
+      },
+      "long_term_debt": {
+        "value": 19355000000,
+        "tag": "us-gaap:LongTermDebtNoncurrent",
+        "start": null,
+        "end": "2026-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-19",
+        "metric": "long_term_debt",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1508,
+        "source_text": "Long-term debt | 19,355 | | | 19,602 |",
+        "definition": "Carrying amount of long-term debt excluding its current portion; excludes operating leases."
+      },
+      "current_debt": {
+        "value": 2716000000,
+        "tag": "us-gaap:LongTermDebtCurrent",
+        "start": null,
+        "end": "2026-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-19",
+        "metric": "current_debt",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1505,
+        "source_text": "Current maturities of debt | 2,716 | | | 5,569 |",
+        "definition": "Current portion of long-term debt; excludes unrelated short-term borrowings."
+      },
+      "operating_cash_flow": {
+        "value": 23728000000,
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "start": "2025-10-01",
+        "end": "2026-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "operating_cash_flow",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1772,
+        "source_text": "Net cash provided by (used in) operating activities | 23,728 | | | 23,059 | | | 19,950 |",
+        "definition": "Reported net cash provided by operating activities."
+      },
+      "capex": {
+        "value": 1671000000,
+        "tag": "us-gaap:PaymentsToAcquireProductiveAssets",
+        "start": "2025-10-01",
+        "end": "2026-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "capex",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1774,
+        "source_text": "Purchases of property, equipment and technology | ( 1,671 ) | | | ( 1,482 ) | | | ( 1,257 ) |",
+        "definition": "Cash purchases of property/equipment (and technology if the reported row includes it); positive outflow."
+      },
+      "prior_revenue": {
+        "value": 40000000000,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "start": "2024-10-01",
+        "end": "2025-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-29",
+        "metric": "revenue",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1548,
+        "source_text": "Net revenue | $ | 45,903 | | | $ | 40,000 | | | $ | 35,926 |",
+        "definition": "Consolidated reported revenue; the source row names any net/gross convention."
+      },
+      "prior_equity": {
+        "value": 37909000000,
+        "tag": "us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+        "start": null,
+        "end": "2025-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-20",
+        "metric": "equity",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1531,
+        "source_text": "Total equity | 36,111 | | | 37,909 |",
+        "definition": "Reported consolidated stockholders' equity; scope is identified by the selected tag."
+      }
+    }
+  },
+  "ratios": {
+    "V": {
+      "revenue_growth": {
+        "value": 14.7575,
+        "arithmetic": "(45,903,000,000 / 40,000,000,000 - 1) * 100",
+        "inputs": [
+          "revenue",
+          "prior_revenue"
+        ],
+        "unit": "%",
+        "fiscal_start": "2025-10-01",
+        "fiscal_end": "2026-09-30"
+      },
+      "operating_margin": {
+        "value": 61.237827592967776,
+        "arithmetic": "28,110,000,000 / 45,903,000,000 * 100",
+        "inputs": [
+          "operating_income",
+          "revenue"
+        ],
+        "unit": "%",
+        "fiscal_start": "2025-10-01",
+        "fiscal_end": "2026-09-30"
+      },
+      "return_on_average_equity": {
+        "value": 63.50716022696569,
+        "arithmetic": "23,504,000,000 / ((37,909,000,000 + 36,111,000,000) / 2) * 100",
+        "inputs": [
+          "net_income",
+          "prior_equity",
+          "equity"
+        ],
+        "unit": "%",
+        "fiscal_start": "2025-10-01",
+        "fiscal_end": "2026-09-30"
+      },
+      "debt_to_equity": {
+        "value": 0.6111988036886268,
+        "arithmetic": "(19,355,000,000 + 2,716,000,000) / 36,111,000,000",
+        "inputs": [
+          "long_term_debt",
+          "current_debt",
+          "equity"
+        ],
+        "unit": "x",
+        "fiscal_start": "2025-10-01",
+        "fiscal_end": "2026-09-30"
+      },
+      "free_cash_flow": {
+        "value": 22057000000,
+        "arithmetic": "23,728,000,000 - 1,671,000,000",
+        "inputs": [
+          "operating_cash_flow",
+          "capex"
+        ],
+        "unit": "USD",
+        "fiscal_start": "2025-10-01",
+        "fiscal_end": "2026-09-30"
+      },
+      "price_earnings": {
+        "value": 29.868506493506494,
+        "arithmetic": "367.98 / 12.32",
+        "inputs": [
+          "supplied_price",
+          "diluted_eps"
+        ],
+        "unit": "x",
+        "fiscal_start": "2025-10-01",
+        "fiscal_end": "2026-09-30"
+      }
+    }
+  },
+  "quarter": {
+    "period_end": "2026-09-30",
+    "release_date": "2026-10-27",
+    "accession": "0001403161-26-000126",
+    "file": "V/earnings_release.txt",
+    "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm",
+    "revenue_candidates": [
+      {
+        "line": 212,
+        "text": "Net revenue | $ | 12,139 | | | $ | 10,724 | | | $ | 45,903 | | | $ | 40,000 |"
+      }
+    ],
+    "eps_candidates": [
+      {
+        "line": 250,
+        "text": "Class A common stock | $ | 3.19 | | | $ | 2.62 | | | $ | 12.32 | | | $ | 10.20 |"
+      }
+    ],
+    "header_lines": [
+      {
+        "line": 203,
+        "text": "| Three Months Ended September 30, | | Twelve Months Ended September 30,"
+      },
+      {
+        "line": 204,
+        "text": "| 2026 | | 2025 | | 2026 | | 2025"
+      },
+      {
+        "line": 205,
+        "text": "| (in millions, except per share data)"
+      }
+    ],
+    "observations": {
+      "quarter_net_revenue": {
+        "value": 12139000000.0,
+        "unit": "USD",
+        "line": 212,
+        "column": "First quarter column; three months ended 2026-09-30; Net revenue; source in millions",
+        "column_index": 0,
+        "scale": 1000000,
+        "period_end": "2026-09-30"
+      },
+      "prior_quarter_net_revenue": {
+        "value": 10724000000.0,
+        "unit": "USD",
+        "line": 212,
+        "column": "Second quarter column; corresponding quarter ended 2025-09-30; Net revenue; source in millions",
+        "column_index": 1,
+        "scale": 1000000,
+        "period_end": "2025-09-30"
+      },
+      "quarter_gaap_diluted_eps": {
+        "value": 3.19,
+        "unit": "USD/shares",
+        "line": 250,
+        "column": "First quarter column; GAAP diluted EPS; three months ended 2026-09-30; us-gaap:CommonClassAMember",
+        "column_index": 0,
+        "scale": 1,
+        "period_end": "2026-09-30"
+      },
+      "annual_release_gaap_diluted_eps": {
+        "value": 12.32,
+        "unit": "USD/shares",
+        "line": 250,
+        "column": "Third numeric column; full fiscal year ended 2026-09-30; GAAP diluted EPS; us-gaap:CommonClassAMember",
+        "column_index": 2,
+        "scale": 1,
+        "period_end": "2026-09-30"
+      }
+    },
+    "revenue_growth": {
+      "value": 13.194703468854897,
+      "unit": "%",
+      "arithmetic": "(12,139,000,000 / 10,724,000,000 - 1) * 100",
+      "line": 212,
+      "note": "Same consolidated revenue definition and corresponding fiscal-quarter columns; not headline net-sales growth."
+    }
+  },
+  "peers": {}
+}

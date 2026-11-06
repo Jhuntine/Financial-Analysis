@@ -1,0 +1,36 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Investment Recommendation",
+        "text": "Visa’s globally entrenched payments network, combined with an exceptionally high return on average equity of [[V.ratio.return_on_average_equity]], underpins a Buy recommendation. The strong ROE reflects robust earnings generation relative to shareholders’ capital and supports confidence in the company’s durable profitability. A key risk is ongoing regulatory and litigation scrutiny of interchange fees that could curb transaction volumes and pricing power [source:K:L441]. The recommendation would shift to Hold or Sell if the return on average equity were to decline sharply or if regulatory actions materially reduced transaction volumes."
+      }
+    ],
+    "insight": {
+      "text": "The debt‑to‑equity ratio of [[V.ratio.debt_to_equity]] indicates moderate leverage, providing financial flexibility for continued investment and strategic acquisitions.",
+      "source": "V.ratio.debt_to_equity",
+      "value": 0.6639848057189586
+    },
+    "recommendation": "Buy",
+    "decision_source": "V.ratio.return_on_average_equity"
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-87c4e5a028dc863c",
+    "usage": {
+      "completion_tokens": 1077,
+      "prompt_tokens": 8369,
+      "total_tokens": 9446,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

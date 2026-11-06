@@ -1,0 +1,30 @@
+{
+  "output": {
+    "approved": false,
+    "failures": [
+      {
+        "role": "Financial Analyst",
+        "issue": "Valuation Insights section contains unregistered numerical quantities and spelled‑out amounts; replace all numbers with the provided [[catalog.key]] references and remove any unsupported numeric detail or numbered lists."
+      }
+    ]
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-baacb7dc7d031346",
+    "usage": {
+      "completion_tokens": 923,
+      "prompt_tokens": 13141,
+      "total_tokens": 14064,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

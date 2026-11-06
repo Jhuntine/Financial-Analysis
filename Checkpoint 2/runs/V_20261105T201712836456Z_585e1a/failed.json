@@ -1,0 +1,5 @@
+{
+  "error_type": "APITimeoutError",
+  "stage": "Financial Analyst revision slot",
+  "status": "incomplete; no successful verified run claimed"
+}

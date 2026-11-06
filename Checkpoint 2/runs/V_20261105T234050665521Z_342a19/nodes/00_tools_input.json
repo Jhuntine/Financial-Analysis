@@ -1,0 +1,22 @@
+{
+  "task": "Run the seven inherited tools",
+  "context": {
+    "ticker": "V",
+    "peers": [
+      "MA",
+      "PYPL"
+    ],
+    "as_of": "2026-11-03",
+    "price": 401.86,
+    "price_date": "2026-10-27",
+    "price_source": "LSEG Historical Pricing; V.N; TRDPRC_1; daily close; 2026-10-27; unadjusted",
+    "share_class": "us-gaap:CommonClassAMember",
+    "market_provider": "lseg",
+    "ric": "V.N",
+    "offline": true,
+    "source_run": "C:\\Users\\josep\\orca\\Financial-Analysis\\Checkpoint 2\\runs\\V_20261105T233534537538Z_8625fd",
+    "model_provider": "purdue",
+    "model": "gpt-oss:120b"
+  },
+  "expected_output": "Saved filing texts, facts, ratios and source catalog"
+}

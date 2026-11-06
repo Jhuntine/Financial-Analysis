@@ -1,0 +1,103 @@
+{
+  "input": {
+    "task": "Apply final bounded structural check",
+    "context": {
+      "drafts": {
+        "Research Analyst": {
+          "sections": [
+            {
+              "title": "Overview",
+              "text": "Overview"
+            },
+            {
+              "title": "Market Positioning and Growth Outlook",
+              "text": "Visa operates a global payments network that connects consumers, merchants, issuers and acquirers to enable secure, reliable and efficient money movement. The company does not issue cards or extend credit, but provides authorization, clearing and settlement services through its four‑party model. [source:K:L151] The core platform, VisaNet, serves as a single connection point for a wide range of transaction types across more than two hundred countries and territories. [source:Q:L1253] The firm’s strategy focuses on expanding consumer payments, commercial and money‑movement solutions, and value‑added services while strengthening foundational capabilities. [source:K:L214] Investment priorities include token technology, cross‑border capabilities and new digital commerce tools to broaden transaction volume and scope. [source:K:L220]"
+            },
+            {
+              "title": "Future Developments and Strategic Recommendations",
+              "text": "The payments landscape is rapidly evolving, with emerging competitors leveraging new technologies such as ecommerce, generative AI, mobile payments, blockchain and digital currencies. [source:K:L382] Visa’s growth is driven by rising payments volume, cross‑border activity and processed transactions, which together lifted net revenue in the most recent period. [source:K:L839] The company also benefits from resilient consumer spending and expanding digital commerce, supporting continued volume expansion. [source:Q:L1402] While client incentives can offset some of the revenue uplift, they are managed through contractual arrangements and regulatory considerations. [source:Q:L1444] Operating efficiency remains strong, as reflected by a high operating margin. [[V.ratio.operating_margin]] The firm generates robust cash flow after capital expenditures, indicating ample liquidity for reinvestment and shareholder returns. [[V.ratio.free_cash_flow]] Its capital structure shows a moderate leverage profile, with debt levels balanced against equity. [[V.ratio.debt_to_equity]] Return on average equity is notably strong, underscoring effective use of capital. [[V.ratio.return_on_average_equity]] Competitive resilience is supported by Visa’s extensive network reach, proprietary technology and the ability to offer value‑added services that differentiate it from newer entrants that lack comparable scale or regulatory foothold."
+            }
+          ],
+          "insight": {
+            "text": "Return on average equity indicates robust profitability and effective capital deployment.",
+            "source": "V.ratio.return_on_average_equity",
+            "value": 52.06759598162137
+          },
+          "recommendation": "",
+          "decision_source": ""
+        },
+        "Financial Analyst": {
+          "sections": [
+            {
+              "title": "Valuation Insights",
+              "text": "Visa’s consolidated net revenue is reported in [[V.fact.revenue]] and reflects the full‑company scope defined in the filing. The GAAP diluted earnings per share pertains to Class A common stock as shown by [[V.fact.diluted_eps]]. Capital expenditures, recorded in [[V.fact.capex]], cover purchases of property, equipment and technology. The annual metrics follow the fiscal year as defined in the filing, while the latest quarter data are for the three‑month period ending in the most recent quarter. The price used for valuation is the close on the date of the release from [[V.price]], unadjusted for splits or dividends. Operating profitability is strong, with an operating margin of [[V.ratio.operating_margin]] percent, indicating efficient cost management. Return on average equity stands at [[V.ratio.return_on_average_equity]] percent, underscoring high returns to shareholders. Leverage is moderate, with a debt‑to‑equity ratio of [[V.ratio.debt_to_equity]] times, suggesting a balanced financing mix. Free cash flow of [[V.ratio.free_cash_flow]] dollars demonstrates ample cash generation to fund share repurchases and dividends. The annual‑filing price‑to‑earnings multiple is [[V.ratio.price_earnings]] times, reflecting market expectations of continued growth."
+            }
+          ],
+          "insight": {
+            "text": "The leverage level indicated by the debt‑to‑equity ratio is a key gauge of balance‑sheet risk.",
+            "source": "V.ratio.debt_to_equity",
+            "value": 0.6639848057189586
+          },
+          "recommendation": "",
+          "decision_source": "",
+          "table_sources": [
+            "V.fact.revenue",
+            "V.fact.operating_income",
+            "V.fact.net_income",
+            "V.fact.diluted_eps",
+            "V.fact.equity",
+            "V.fact.long_term_debt",
+            "V.fact.current_debt",
+            "V.fact.operating_cash_flow",
+            "V.fact.capex",
+            "V.fact.prior_revenue",
+            "V.fact.prior_equity",
+            "V.ratio.revenue_growth",
+            "V.ratio.operating_margin",
+            "V.ratio.return_on_average_equity",
+            "V.ratio.debt_to_equity",
+            "V.ratio.free_cash_flow",
+            "V.ratio.price_earnings",
+            "MA.fact.revenue",
+            "MA.fact.operating_income",
+            "MA.ratio.operating_margin",
+            "PYPL.fact.revenue",
+            "PYPL.fact.operating_income",
+            "PYPL.ratio.operating_margin",
+            "V.price",
+            "V.quarter.quarter_net_revenue",
+            "V.quarter.prior_quarter_net_revenue",
+            "V.quarter.quarter_gaap_diluted_eps",
+            "V.quarter.annual_release_gaap_diluted_eps",
+            "V.quarter.revenue_growth"
+          ]
+        },
+        "Investment Advisor": {
+          "sections": [
+            {
+              "title": "Investment Recommendation",
+              "text": "Hold"
+            }
+          ],
+          "insight": {
+            "text": "Operating margin of [[V.ratio.operating_margin]] percent underscores cost efficiency.",
+            "source": "V.ratio.operating_margin",
+            "value": 59.985
+          },
+          "recommendation": "Hold",
+          "decision_source": "V.ratio.price_earnings"
+        }
+      }
+    },
+    "expected_output": "Final approval or unresolved failures"
+  },
+  "output": {
+    "approved": false,
+    "failures": [
+      {
+        "role": "Investment Advisor",
+        "issue": "decision_source metric (V.ratio.price_earnings) does not match the metric referenced in the Insight (V.ratio.operating_margin). The deciding metric must be the single metric used to justify the recommendation."
+      }
+    ]
+  }
+}

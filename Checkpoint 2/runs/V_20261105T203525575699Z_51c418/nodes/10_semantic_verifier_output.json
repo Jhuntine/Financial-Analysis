@@ -1,0 +1,271 @@
+{
+  "output": {
+    "verdicts": [
+      {
+        "id": "C001",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.ratio.operating_margin.",
+        "correction_source": ""
+      },
+      {
+        "id": "C002",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.ratio.return_on_average_equity.",
+        "correction_source": ""
+      },
+      {
+        "id": "C003",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.ratio.debt_to_equity.",
+        "correction_source": ""
+      },
+      {
+        "id": "C004",
+        "mark": "wrong",
+        "reason": "Claim value 21577000000 differs from source fact value 21577000 (saved XBRL).",
+        "correction_source": "V.ratio.free_cash_flow"
+      },
+      {
+        "id": "C005",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.ratio.price_earnings.",
+        "correction_source": ""
+      },
+      {
+        "id": "C006",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.fact.revenue.",
+        "correction_source": ""
+      },
+      {
+        "id": "C007",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.fact.diluted_eps.",
+        "correction_source": ""
+      },
+      {
+        "id": "C008",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.fact.capex.",
+        "correction_source": ""
+      },
+      {
+        "id": "C009",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.fact.revenue.",
+        "correction_source": ""
+      },
+      {
+        "id": "C010",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.fact.operating_income.",
+        "correction_source": ""
+      },
+      {
+        "id": "C011",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.fact.net_income.",
+        "correction_source": ""
+      },
+      {
+        "id": "C012",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.fact.diluted_eps.",
+        "correction_source": ""
+      },
+      {
+        "id": "C013",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.fact.equity.",
+        "correction_source": ""
+      },
+      {
+        "id": "C014",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.fact.long_term_debt.",
+        "correction_source": ""
+      },
+      {
+        "id": "C015",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.fact.current_debt.",
+        "correction_source": ""
+      },
+      {
+        "id": "C016",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.fact.operating_cash_flow.",
+        "correction_source": ""
+      },
+      {
+        "id": "C017",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.fact.capex.",
+        "correction_source": ""
+      },
+      {
+        "id": "C018",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.fact.prior_revenue.",
+        "correction_source": ""
+      },
+      {
+        "id": "C019",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.fact.prior_equity.",
+        "correction_source": ""
+      },
+      {
+        "id": "C020",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.ratio.revenue_growth.",
+        "correction_source": ""
+      },
+      {
+        "id": "C021",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.ratio.operating_margin.",
+        "correction_source": ""
+      },
+      {
+        "id": "C022",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.ratio.return_on_average_equity.",
+        "correction_source": ""
+      },
+      {
+        "id": "C023",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.ratio.debt_to_equity.",
+        "correction_source": ""
+      },
+      {
+        "id": "C024",
+        "mark": "wrong",
+        "reason": "Claim value 21577000000 differs from source fact value 21577000 (saved XBRL).",
+        "correction_source": ""
+      },
+      {
+        "id": "C025",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.ratio.price_earnings.",
+        "correction_source": ""
+      },
+      {
+        "id": "C026",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match MA.fact.revenue.",
+        "correction_source": ""
+      },
+      {
+        "id": "C027",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match MA.fact.operating_income.",
+        "correction_source": ""
+      },
+      {
+        "id": "C028",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match MA.ratio.operating_margin.",
+        "correction_source": ""
+      },
+      {
+        "id": "C029",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match PYPL.fact.revenue.",
+        "correction_source": ""
+      },
+      {
+        "id": "C030",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match PYPL.fact.operating_income.",
+        "correction_source": ""
+      },
+      {
+        "id": "C031",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match PYPL.ratio.operating_margin.",
+        "correction_source": ""
+      },
+      {
+        "id": "C032",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.price.",
+        "correction_source": ""
+      },
+      {
+        "id": "C033",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.quarter.quarter_net_revenue (scaled correctly).",
+        "correction_source": ""
+      },
+      {
+        "id": "C034",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.quarter.prior_quarter_net_revenue (scaled correctly).",
+        "correction_source": ""
+      },
+      {
+        "id": "C035",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.quarter.quarter_gaap_diluted_eps.",
+        "correction_source": ""
+      },
+      {
+        "id": "C036",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.quarter.annual_release_gaap_diluted_eps.",
+        "correction_source": ""
+      },
+      {
+        "id": "C037",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.quarter.revenue_growth.",
+        "correction_source": ""
+      },
+      {
+        "id": "I038",
+        "mark": "wrong",
+        "reason": "Insight value 21577000000 differs from source fact value 21577000 (saved XBRL).",
+        "correction_source": "V.ratio.free_cash_flow"
+      },
+      {
+        "id": "I039",
+        "mark": "correct",
+        "reason": "Insight value matches V.ratio.return_on_average_equity.",
+        "correction_source": ""
+      },
+      {
+        "id": "D040",
+        "mark": "correct",
+        "reason": "Advisor metric matches V.ratio.return_on_average_equity.",
+        "correction_source": ""
+      },
+      {
+        "id": "I041",
+        "mark": "correct",
+        "reason": "Insight value matches V.ratio.operating_margin.",
+        "correction_source": ""
+      }
+    ]
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-aa98bd45387ed324",
+    "usage": {
+      "completion_tokens": 4168,
+      "prompt_tokens": 16067,
+      "total_tokens": 20235,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

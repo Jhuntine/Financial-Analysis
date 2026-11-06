@@ -1,0 +1,15 @@
+{
+  "sections": [
+    {
+      "title": "Investment Recommendation",
+      "text": "Visa’s durable global payments network combined with an operating margin of [[V.ratio.operating_margin]] supports a Buy recommendation. The high margin reflects strong pricing power and an efficient cost structure. A key risk is ongoing regulatory and litigation scrutiny of interchange fees that could pressure transaction volume and pricing power [source:K:L441]. The recommendation would shift to Hold or Sell if the operating margin were to deteriorate markedly or if regulatory actions materially reduced transaction volumes."
+    }
+  ],
+  "insight": {
+    "text": "The debt‑to‑equity ratio of [[V.ratio.debt_to_equity]] indicates moderate leverage, providing financial flexibility for continued investment and strategic acquisitions.",
+    "source": "V.ratio.debt_to_equity",
+    "value": 0.6639848057189586
+  },
+  "recommendation": "Buy",
+  "decision_source": "V.ratio.operating_margin"
+}

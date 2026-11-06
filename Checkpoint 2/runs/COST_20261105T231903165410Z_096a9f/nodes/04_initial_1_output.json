@@ -1,0 +1,36 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Investment Recommendation",
+        "text": "The business shows durable membership‑driven fundamentals and strong cash generation, while valuation appears stretched relative to peers. Combined with moderate operational and legal risks, the balance tilts toward a neutral stance."
+      }
+    ],
+    "insight": {
+      "text": "Robust free cash flow generation underpins the ability to fund growth initiatives and return capital to shareholders.",
+      "source": "COST.ratio.free_cash_flow",
+      "value": 9382000000.0
+    },
+    "recommendation": "Hold",
+    "decision_source": "COST.ratio.return_on_average_equity"
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-9a6c09e762c03a36",
+    "usage": {
+      "completion_tokens": 703,
+      "prompt_tokens": 8343,
+      "total_tokens": 9046,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

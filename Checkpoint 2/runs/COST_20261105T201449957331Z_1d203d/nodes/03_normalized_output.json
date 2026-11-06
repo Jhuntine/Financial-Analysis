@@ -1,0 +1,15 @@
+{
+  "sections": [
+    {
+      "title": "Valuation Insights",
+      "text": "Costco reports an operating margin of [[COST.ratio.operating_margin]], indicating modest profitability on sales. Its return on average equity of [[COST.ratio.return_on_average_equity]] demonstrates strong earnings generation relative to equity. The debt‑to‑equity ratio of [[COST.ratio.debt_to_equity]] reflects a conservative capital structure, while free cash flow of [[COST.ratio.free_cash_flow]] provides ample liquidity for shareholder returns. The annual price‑earnings multiple of [[COST.ratio.price_earnings]] suggests a premium valuation compared with broader retail peers."
+    }
+  ],
+  "insight": {
+    "text": "Costco's return on average equity of [[COST.ratio.return_on_average_equity]] highlights its efficiency in turning shareholders' capital into earnings, a core component of intrinsic valuation.",
+    "source": "COST.ratio.return_on_average_equity",
+    "value": 28.402111841396398
+  },
+  "recommendation": "",
+  "decision_source": ""
+}

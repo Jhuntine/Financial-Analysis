@@ -1,0 +1,44 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Overview",
+        "text": "Costco operates membership warehouses and e‑commerce sites based on the concept that offering low prices on a limited selection of nationally‑branded and private‑label products in a wide range of categories will produce high sales volumes and rapid inventory turnover. When combined with the operating efficiencies achieved by volume purchasing, efficient distribution and reduced handling of merchandise in no‑frills, self‑service warehouse facilities, these volumes and turnover enable the company to operate profitably at significantly lower gross margins than most other retailers. The firm emphasizes employee development, competitive compensation and benefits, and a target ratio of at least half of its workforce being full‑time, which it says contributes to a high retention rate. [source:K:L129] [source:K:L191]"
+      },
+      {
+        "title": "Market Positioning and Growth Outlook",
+        "text": "Costco positions itself as a value‑oriented retailer, maintaining a perception of pricing authority by consistently providing the most competitive values rather than focusing on short‑term price maximization. This strategy supports strong comparable sales across U.S., Canada and international markets, indicating resilient demand. Revenue growth remains double‑digit on a year‑over‑year basis [[COST.ratio.revenue_growth]], underscoring the effectiveness of its membership model and inventory efficiency. Operating margins are modest but stable, reflecting disciplined cost management and the ability to sell inventory before payment obligations mature [[COST.ratio.operating_margin]]. The company’s return on average equity is robust, highlighting efficient capital utilization [[COST.ratio.return_on_average_equity]]. [source:Q:L651]"
+      },
+      {
+        "title": "Future Developments and Strategic Recommendations",
+        "text": "Costco’s growth strategy includes expanding its footprint in existing and new markets and integrating acquisitions, though it acknowledges execution risk. Enhancing digital capabilities and e‑commerce integration will be critical to capture shifting consumer preferences. The firm must continue to invest in privacy and security to mitigate escalating threats that could impair operations or erode member confidence, as it notes the need to maintain privacy and security amidst multiplying threat landscapes and increasing regulatory requirements. It also highlights the risk of more sophisticated cyber misconduct and the importance of keeping security infrastructure up to date. Monitoring litigation exposure remains essential, given the company’s involvement in numerous claims and proceedings. Maintaining strong supplier relationships and leveraging volume purchasing will help manage cost pressures while preserving the low‑price value proposition. [source:K:L233] [source:K:L252] [source:K:L253] [source:Q:L493]"
+      }
+    ],
+    "insight": {
+      "text": "Costco’s return on average equity is strong, reflecting efficient capital use.",
+      "source": "COST.ratio.return_on_average_equity",
+      "value": 28.402111841396398
+    },
+    "recommendation": "",
+    "decision_source": ""
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-b0fb95b1a3d18628",
+    "usage": {
+      "completion_tokens": 1755,
+      "prompt_tokens": 18807,
+      "total_tokens": 20562,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

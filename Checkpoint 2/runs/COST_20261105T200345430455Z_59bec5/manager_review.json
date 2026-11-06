@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "failures": [
+    {
+      "role": "Research Analyst",
+      "issue": "Empty prose or numerical prose outside a sourced reference."
+    },
+    {
+      "role": "Research Analyst",
+      "issue": "Empty prose or numerical prose outside a sourced reference."
+    }
+  ]
+}

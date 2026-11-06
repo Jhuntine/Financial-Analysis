@@ -1,0 +1,30 @@
+{
+  "output": {
+    "approved": false,
+    "failures": [
+      {
+        "role": "Investment Advisor",
+        "issue": "decision_source metric (V.ratio.price_earnings) does not match the metric referenced in the Insight (V.ratio.operating_margin). The deciding metric must be the single metric used to justify the recommendation."
+      }
+    ]
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-850f156749d0ef23",
+    "usage": {
+      "completion_tokens": 857,
+      "prompt_tokens": 13106,
+      "total_tokens": 13963,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

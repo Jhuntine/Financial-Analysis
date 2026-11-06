@@ -1,0 +1,78 @@
+{
+  "period_end": "2026-08-30",
+  "release_date": "2026-09-24",
+  "accession": "0000909832-26-000084",
+  "file": "COST/earnings_release.txt",
+  "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costex9918-k92426.htm",
+  "revenue_candidates": [
+    {
+      "line": 48,
+      "text": "Total revenue | 95,723 | | | 86,156 | | | 303,154 | | | 275,235 |"
+    }
+  ],
+  "eps_candidates": [
+    {
+      "line": 64,
+      "text": "Diluted | $ | 6.75 | | | $ | 5.87 | | | $ | 20.76 | | | $ | 18.21 |"
+    }
+  ],
+  "header_lines": [
+    {
+      "line": 41,
+      "text": "(dollars in millions, except per share data) (unaudited)"
+    },
+    {
+      "line": 43,
+      "text": "| 16 Weeks Ended | | 52 Weeks Ended"
+    },
+    {
+      "line": 44,
+      "text": "| August 30, 2026 | | August 31, 2025 | | August 30, 2026 | | August 31, 2025"
+    }
+  ],
+  "observations": {
+    "quarter_net_revenue": {
+      "value": 95723000000.0,
+      "unit": "USD",
+      "line": 48,
+      "column": "First quarter column; 16 weeks ended 2026-08-30; Total revenue; source in millions",
+      "column_index": 0,
+      "scale": 1000000,
+      "period_end": "2026-08-30"
+    },
+    "prior_quarter_net_revenue": {
+      "value": 86156000000.0,
+      "unit": "USD",
+      "line": 48,
+      "column": "Second quarter column; corresponding quarter ended 2025-08-31; Total revenue; source in millions",
+      "column_index": 1,
+      "scale": 1000000,
+      "period_end": "2025-08-31"
+    },
+    "quarter_gaap_diluted_eps": {
+      "value": 6.75,
+      "unit": "USD/shares",
+      "line": 64,
+      "column": "First quarter column; GAAP diluted EPS; 16 weeks ended 2026-08-30; listed common stock; no separate class dimension",
+      "column_index": 0,
+      "scale": 1,
+      "period_end": "2026-08-30"
+    },
+    "annual_release_gaap_diluted_eps": {
+      "value": 20.76,
+      "unit": "USD/shares",
+      "line": 64,
+      "column": "Third numeric column; full fiscal year ended 2026-08-30; GAAP diluted EPS; listed common stock; no separate class dimension",
+      "column_index": 2,
+      "scale": 1,
+      "period_end": "2026-08-30"
+    }
+  },
+  "revenue_growth": {
+    "value": 11.104275964529453,
+    "unit": "%",
+    "arithmetic": "(95,723,000,000 / 86,156,000,000 - 1) * 100",
+    "line": 48,
+    "note": "Same consolidated revenue definition and corresponding fiscal-quarter columns; not headline net-sales growth."
+  }
+}

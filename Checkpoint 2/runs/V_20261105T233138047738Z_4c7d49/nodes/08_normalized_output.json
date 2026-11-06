@@ -1,0 +1,15 @@
+{
+  "sections": [
+    {
+      "title": "Investment Recommendation",
+      "text": "Hold"
+    }
+  ],
+  "insight": {
+    "text": "Operating margin of [[V.ratio.operating_margin]] percent underscores cost efficiency.",
+    "source": "V.ratio.operating_margin",
+    "value": 59.985
+  },
+  "recommendation": "Hold",
+  "decision_source": "V.ratio.price_earnings"
+}

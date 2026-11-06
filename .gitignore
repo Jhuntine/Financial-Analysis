@@ -11,3 +11,6 @@ __pycache__/
 
 # Optional notebook exports
 Checkpoint 1/*.html
+
+# Local instruction-document rendering and notebook QA previews
+/tmp/pdfs/

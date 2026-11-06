@@ -1,0 +1,36 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Investment Recommendation",
+        "text": "Hold"
+      }
+    ],
+    "insight": {
+      "text": "Operating margin of [[V.ratio.operating_margin]] percent underscores cost efficiency.",
+      "source": "V.ratio.operating_margin",
+      "value": 59.985
+    },
+    "recommendation": "Hold",
+    "decision_source": "V.ratio.price_earnings"
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-b625286a3aeb3de0",
+    "usage": {
+      "completion_tokens": 640,
+      "prompt_tokens": 8104,
+      "total_tokens": 8744,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

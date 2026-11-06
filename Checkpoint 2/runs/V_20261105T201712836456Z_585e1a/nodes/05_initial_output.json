@@ -1,0 +1,34 @@
+{
+  "output": {
+    "approved": false,
+    "failures": [
+      {
+        "role": "Research Analyst",
+        "issue": "Insight prose does not embed the sourced numeric value. The text should state the exact ROE figure from V.ratio.return_on_average_equity (e.g., \"Visa’s return on average equity is 52.07 %…\") rather than a vague “exceeds fifty percent”."
+      },
+      {
+        "role": "Financial Analyst",
+        "issue": "Valuation Insights contains unregistered numerical language (e.g., “moderate leverage profile”) and any numbers not expressed via [[catalog.key]] placeholders. All quantitative statements must rely exclusively on the provided catalog tokens; remove or re‑phrase unsupported numeric descriptors and ensure no numbered lists are present."
+      }
+    ]
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-b6f7e56aeadea9d5",
+    "usage": {
+      "completion_tokens": 1707,
+      "prompt_tokens": 13137,
+      "total_tokens": 14844,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

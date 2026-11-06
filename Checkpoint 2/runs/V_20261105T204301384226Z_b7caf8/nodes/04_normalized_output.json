@@ -1,0 +1,15 @@
+{
+  "sections": [
+    {
+      "title": "Investment Recommendation",
+      "text": "Buy"
+    }
+  ],
+  "insight": {
+    "text": "Debt‑to‑equity ratio reflects moderate leverage supporting financial stability",
+    "source": "V.ratio.debt_to_equity",
+    "value": 0.6639848057189586
+  },
+  "recommendation": "Buy",
+  "decision_source": "V.ratio.return_on_average_equity"
+}

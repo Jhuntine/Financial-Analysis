@@ -1,0 +1,34 @@
+{
+  "output": {
+    "approved": false,
+    "failures": [
+      {
+        "role": "Financial Analyst",
+        "issue": "Insight prose must put its number in the sourced claim field."
+      },
+      {
+        "role": "Investment Advisor",
+        "issue": "Recommendation does not explicitly justify Buy using decision_source V.ratio.return_on_average_equity."
+      }
+    ]
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-a7afb55c7758bc13",
+    "usage": {
+      "completion_tokens": 1751,
+      "prompt_tokens": 7173,
+      "total_tokens": 8924,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

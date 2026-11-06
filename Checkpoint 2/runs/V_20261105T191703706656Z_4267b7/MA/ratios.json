@@ -1,0 +1,59 @@
+{
+  "revenue_growth": {
+    "value": 16.4163737707246,
+    "arithmetic": "(32,791,000,000 / 28,167,000,000 - 1) * 100",
+    "inputs": [
+      "revenue",
+      "prior_revenue"
+    ],
+    "unit": "%",
+    "fiscal_start": "2025-01-01",
+    "fiscal_end": "2025-12-31"
+  },
+  "operating_margin": {
+    "value": 57.62861760849013,
+    "arithmetic": "18,897,000,000 / 32,791,000,000 * 100",
+    "inputs": [
+      "operating_income",
+      "revenue"
+    ],
+    "unit": "%",
+    "fiscal_start": "2025-01-01",
+    "fiscal_end": "2025-12-31"
+  },
+  "return_on_average_equity": {
+    "value": 210.49078891857684,
+    "arithmetic": "14,968,000,000 / ((6,485,000,000 + 7,737,000,000) / 2) * 100",
+    "inputs": [
+      "net_income",
+      "prior_equity",
+      "equity"
+    ],
+    "unit": "%",
+    "fiscal_start": "2025-01-01",
+    "fiscal_end": "2025-12-31"
+  },
+  "debt_to_equity": {
+    "value": 2.455732195941579,
+    "arithmetic": "(18,251,000,000 + 749,000,000) / 7,737,000,000",
+    "inputs": [
+      "long_term_debt",
+      "current_debt",
+      "equity"
+    ],
+    "unit": "x",
+    "fiscal_start": "2025-01-01",
+    "fiscal_end": "2025-12-31"
+  },
+  "free_cash_flow": {
+    "value": 17159000000,
+    "arithmetic": "17,648,000,000 - 489,000,000",
+    "inputs": [
+      "operating_cash_flow",
+      "capex"
+    ],
+    "unit": "USD",
+    "fiscal_start": "2025-01-01",
+    "fiscal_end": "2025-12-31"
+  }
+}

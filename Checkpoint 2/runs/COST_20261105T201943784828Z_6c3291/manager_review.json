@@ -1,0 +1,17 @@
+{
+  "approved": false,
+  "failures": [
+    {
+      "role": "Research Analyst",
+      "issue": "none"
+    },
+    {
+      "role": "Financial Analyst",
+      "issue": "none"
+    },
+    {
+      "role": "Investment Advisor",
+      "issue": "none"
+    }
+  ]
+}

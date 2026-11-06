@@ -1,0 +1,36 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Investment Recommendation",
+        "text": "Costco’s business model shows durable membership‑driven revenue and strong cash efficiency. The high return on average equity of [[COST.ratio.return_on_average_equity]] indicates efficient capital use, while the low leverage profile reduces financial risk. Although competitive pressures and litigation exposure are noted, the combination of operational resilience and robust profitability supports an investment‑positive stance."
+      }
+    ],
+    "insight": {
+      "text": "The firm maintains a low leverage profile with a debt‑to‑equity ratio of [[COST.ratio.debt_to_equity]]",
+      "source": "COST.ratio.debt_to_equity",
+      "value": 0.17210848252939698
+    },
+    "recommendation": "Buy",
+    "decision_source": "COST.ratio.return_on_average_equity"
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-88af1dd3d2c6ce2e",
+    "usage": {
+      "completion_tokens": 920,
+      "prompt_tokens": 8103,
+      "total_tokens": 9023,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

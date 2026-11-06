@@ -1,0 +1,241 @@
+{
+  "output": {
+    "verdicts": [
+      {
+        "id": "C001",
+        "mark": "correct",
+        "reason": "Value matches source COST.fact.revenue for period 2025-09-01 to 2026-08-30.",
+        "correction_source": ""
+      },
+      {
+        "id": "C002",
+        "mark": "correct",
+        "reason": "Value matches source COST.fact.operating_income for period 2025-09-01 to 2026-08-30.",
+        "correction_source": ""
+      },
+      {
+        "id": "C003",
+        "mark": "correct",
+        "reason": "Value matches source COST.fact.net_income for period 2025-09-01 to 2026-08-30.",
+        "correction_source": ""
+      },
+      {
+        "id": "C004",
+        "mark": "correct",
+        "reason": "Value matches source COST.fact.diluted_eps for period 2025-09-01 to 2026-08-30.",
+        "correction_source": ""
+      },
+      {
+        "id": "C005",
+        "mark": "correct",
+        "reason": "Value matches source COST.fact.equity for date 2026-08-30.",
+        "correction_source": ""
+      },
+      {
+        "id": "C006",
+        "mark": "correct",
+        "reason": "Value matches source COST.fact.long_term_debt for date 2026-08-30.",
+        "correction_source": ""
+      },
+      {
+        "id": "C007",
+        "mark": "correct",
+        "reason": "Value matches source COST.fact.current_debt for date 2026-08-30.",
+        "correction_source": ""
+      },
+      {
+        "id": "C008",
+        "mark": "correct",
+        "reason": "Value matches source COST.fact.operating_cash_flow for period 2025-09-01 to 2026-08-30.",
+        "correction_source": ""
+      },
+      {
+        "id": "C009",
+        "mark": "correct",
+        "reason": "Value matches source COST.fact.capex for period 2025-09-01 to 2026-08-30.",
+        "correction_source": ""
+      },
+      {
+        "id": "C010",
+        "mark": "correct",
+        "reason": "Value matches source COST.fact.prior_revenue for period 2024-09-02 to 2025-08-31.",
+        "correction_source": ""
+      },
+      {
+        "id": "C011",
+        "mark": "correct",
+        "reason": "Value matches source COST.fact.prior_equity for date 2025-08-31.",
+        "correction_source": ""
+      },
+      {
+        "id": "C012",
+        "mark": "correct",
+        "reason": "Calculated revenue growth matches source COST.ratio.revenue_growth.",
+        "correction_source": ""
+      },
+      {
+        "id": "C013",
+        "mark": "correct",
+        "reason": "Calculated operating margin matches source COST.ratio.operating_margin.",
+        "correction_source": ""
+      },
+      {
+        "id": "C014",
+        "mark": "correct",
+        "reason": "Calculated return on average equity matches source COST.ratio.return_on_average_equity.",
+        "correction_source": ""
+      },
+      {
+        "id": "C015",
+        "mark": "correct",
+        "reason": "Calculated debt‑to‑equity matches source COST.ratio.debt_to_equity.",
+        "correction_source": ""
+      },
+      {
+        "id": "C016",
+        "mark": "correct",
+        "reason": "Calculated free cash flow matches source COST.ratio.free_cash_flow.",
+        "correction_source": ""
+      },
+      {
+        "id": "C017",
+        "mark": "correct",
+        "reason": "Calculated price‑earnings ratio matches source COST.ratio.price_earnings.",
+        "correction_source": ""
+      },
+      {
+        "id": "C018",
+        "mark": "correct",
+        "reason": "Value matches source WMT.fact.revenue for period 2025-02-01 to 2026-01-31.",
+        "correction_source": ""
+      },
+      {
+        "id": "C019",
+        "mark": "correct",
+        "reason": "Value matches source WMT.fact.operating_income for period 2025-02-01 to 2026-01-31.",
+        "correction_source": ""
+      },
+      {
+        "id": "C020",
+        "mark": "correct",
+        "reason": "Calculated operating margin matches source WMT.ratio.operating_margin.",
+        "correction_source": ""
+      },
+      {
+        "id": "C021",
+        "mark": "correct",
+        "reason": "Value matches source TGT.fact.revenue for period 2025-02-02 to 2026-01-31.",
+        "correction_source": ""
+      },
+      {
+        "id": "C022",
+        "mark": "correct",
+        "reason": "Value matches source TGT.fact.operating_income for period 2025-02-02 to 2026-01-31.",
+        "correction_source": ""
+      },
+      {
+        "id": "C023",
+        "mark": "correct",
+        "reason": "Calculated operating margin matches source TGT.ratio.operating_margin.",
+        "correction_source": ""
+      },
+      {
+        "id": "C024",
+        "mark": "correct",
+        "reason": "Value matches source BJ.fact.revenue for period 2025-02-02 to 2026-01-31.",
+        "correction_source": ""
+      },
+      {
+        "id": "C025",
+        "mark": "correct",
+        "reason": "Value matches source BJ.fact.operating_income for period 2025-02-02 to 2026-01-31.",
+        "correction_source": ""
+      },
+      {
+        "id": "C026",
+        "mark": "correct",
+        "reason": "Calculated operating margin matches source BJ.ratio.operating_margin.",
+        "correction_source": ""
+      },
+      {
+        "id": "C027",
+        "mark": "correct",
+        "reason": "Value matches source COST.price for date 2026-09-24.",
+        "correction_source": ""
+      },
+      {
+        "id": "C028",
+        "mark": "correct",
+        "reason": "Value matches source COST.quarter.quarter_net_revenue for quarter ending 2026-08-30.",
+        "correction_source": ""
+      },
+      {
+        "id": "C029",
+        "mark": "correct",
+        "reason": "Value matches source COST.quarter.prior_quarter_net_revenue for corresponding quarter 2025-08-31.",
+        "correction_source": ""
+      },
+      {
+        "id": "C030",
+        "mark": "wrong",
+        "reason": "Source reports 6.75 USD/shares for the quarter, not 20.76.",
+        "correction_source": "COST.quarter.quarter_gaap_diluted_eps"
+      },
+      {
+        "id": "C031",
+        "mark": "correct",
+        "reason": "Value matches source COST.quarter.annual_release_gaap_diluted_eps for fiscal year ended 2026-08-30.",
+        "correction_source": ""
+      },
+      {
+        "id": "C032",
+        "mark": "correct",
+        "reason": "Calculated revenue growth matches source COST.quarter.revenue_growth.",
+        "correction_source": ""
+      },
+      {
+        "id": "I033",
+        "mark": "correct",
+        "reason": "Insight value matches source COST.ratio.free_cash_flow.",
+        "correction_source": ""
+      },
+      {
+        "id": "I034",
+        "mark": "correct",
+        "reason": "Insight value matches source COST.ratio.return_on_average_equity.",
+        "correction_source": ""
+      },
+      {
+        "id": "D035",
+        "mark": "correct",
+        "reason": "Advisor metric matches source COST.ratio.return_on_average_equity.",
+        "correction_source": ""
+      },
+      {
+        "id": "I036",
+        "mark": "correct",
+        "reason": "Insight value matches source COST.ratio.debt_to_equity.",
+        "correction_source": ""
+      }
+    ]
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-a5247fec4fbbd15b",
+    "usage": {
+      "completion_tokens": 3187,
+      "prompt_tokens": 14804,
+      "total_tokens": 17991,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

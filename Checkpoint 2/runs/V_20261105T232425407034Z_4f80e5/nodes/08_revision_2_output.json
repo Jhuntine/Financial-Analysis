@@ -1,0 +1,36 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Investment Recommendation",
+        "text": "Visa’s technology‑driven payments platform provides durable cash‑flow generation and pricing power. The operating margin remains high, as shown by [[V.ratio.operating_margin]], outpacing peers and supporting earnings quality. Free cash flow is sizable ([[V.ratio.free_cash_flow]]), enabling disciplined capital returns while funding growth initiatives. Leverage is modest, reflected in a low debt‑to‑equity ratio ([[V.ratio.debt_to_equity]]), adding financial flexibility. Risks include intensifying competition from emerging fintech players and regulatory scrutiny over interchange fees and client incentive programs, which could pressure margins. Balancing these factors, the durable profitability and cash generation outweigh the identified risks, leading to a Buy stance."
+      }
+    ],
+    "insight": {
+      "text": "Free cash flow highlights strong cash generation capacity.",
+      "source": "V.ratio.free_cash_flow",
+      "value": 21577000000.0
+    },
+    "recommendation": "Buy",
+    "decision_source": "V.ratio.operating_margin"
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-9590a0c897bd956a",
+    "usage": {
+      "completion_tokens": 722,
+      "prompt_tokens": 8336,
+      "total_tokens": 9058,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

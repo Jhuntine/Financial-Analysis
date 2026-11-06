@@ -1,0 +1,101 @@
+{
+  "input": {
+    "task": "Apply final bounded structural check",
+    "context": {
+      "drafts": {
+        "Research Analyst": {
+          "sections": [
+            {
+              "title": "Overview",
+              "text": "Costco operates membership warehouses and e‑commerce sites that focus on low prices for a limited selection of nationally‑branded and private‑label products, driving high sales volumes and rapid inventory turnover. This model leverages volume purchasing, efficient distribution and reduced handling in no‑frills, self‑service facilities, allowing profitability at lower gross margins than most retailers. The company emphasizes employee career development, competitive compensation and a high full‑time employee ratio, contributing to a notably high retention rate. However, the firm acknowledges risks in executing its growth strategy, including market expansion and acquisition integration, as well as the need to protect personal and business information against evolving privacy and security threats."
+            },
+            {
+              "title": "Market Positioning and Growth Outlook",
+              "text": "Costco’s low‑price, high‑volume approach creates strong member loyalty and pricing authority, supporting consistent sales growth across the United States, Canada and other international markets. The ability to sell inventory before payment, combined with early‑payment discounts, enhances cash efficiency. Employee retention and productivity further reinforce operational resilience. While the company reported revenue growth for the fiscal year, it also faces competitive pressures that may require pricing adjustments or promotional investments, potentially impacting gross margins. Ongoing litigation and regulatory exposures present additional uncertainty."
+            },
+            {
+              "title": "Future Developments and Strategic Recommendations",
+              "text": "To sustain its competitive edge, Costco should continue investing in cyber‑security infrastructure to mitigate sophisticated threats and protect member data. Maintaining strong employee development programs will preserve the high retention rate that underpins operational efficiency. Cautious expansion into new markets and careful integration of acquisitions are advised to avoid adverse financial impacts. Ongoing monitoring of legal proceedings and regulatory changes will be essential to manage potential liabilities."
+            }
+          ],
+          "insight": {
+            "text": "Costco's return on average equity was strong",
+            "source": "COST.ratio.return_on_average_equity",
+            "value": 28.402111841396398
+          },
+          "recommendation": "",
+          "decision_source": ""
+        },
+        "Financial Analyst": {
+          "sections": [
+            {
+              "title": "Valuation Insights",
+              "text": "Costco delivers a modest operating margin that, while lower than peers, is supported by a high return on average equity, indicating efficient use of capital. Its debt‑to‑equity ratio remains low, reflecting a conservative financing profile. Free cash flow after capex is sizable, underscoring strong cash generation, and the annual‑filing price‑to‑earnings multiple is elevated relative to the broader market, suggesting a premium valuation. These elements together point to a financially robust business with disciplined capital structure and cash conversion."
+            }
+          ],
+          "insight": {
+            "text": "Free cash flow comfortably exceeds capital expenditures, highlighting robust cash generation.",
+            "source": "COST.ratio.free_cash_flow",
+            "value": 9382000000.0
+          },
+          "recommendation": "",
+          "decision_source": "",
+          "table_sources": [
+            "COST.fact.revenue",
+            "COST.fact.operating_income",
+            "COST.fact.net_income",
+            "COST.fact.diluted_eps",
+            "COST.fact.equity",
+            "COST.fact.long_term_debt",
+            "COST.fact.current_debt",
+            "COST.fact.operating_cash_flow",
+            "COST.fact.capex",
+            "COST.fact.prior_revenue",
+            "COST.fact.prior_equity",
+            "COST.ratio.revenue_growth",
+            "COST.ratio.operating_margin",
+            "COST.ratio.return_on_average_equity",
+            "COST.ratio.debt_to_equity",
+            "COST.ratio.free_cash_flow",
+            "COST.ratio.price_earnings",
+            "WMT.fact.revenue",
+            "WMT.fact.operating_income",
+            "WMT.ratio.operating_margin",
+            "TGT.fact.revenue",
+            "TGT.fact.operating_income",
+            "TGT.ratio.operating_margin",
+            "BJ.fact.revenue",
+            "BJ.fact.operating_income",
+            "BJ.ratio.operating_margin",
+            "COST.price",
+            "COST.quarter.quarter_net_revenue",
+            "COST.quarter.prior_quarter_net_revenue",
+            "COST.quarter.quarter_gaap_diluted_eps",
+            "COST.quarter.annual_release_gaap_diluted_eps",
+            "COST.quarter.revenue_growth"
+          ]
+        },
+        "Investment Advisor": {
+          "sections": [
+            {
+              "title": "Investment Recommendation",
+              "text": "Costco’s business model shows durable membership‑driven revenue and strong cash efficiency. The high return on average equity of [[COST.ratio.return_on_average_equity]] indicates efficient capital use, while the low leverage profile reduces financial risk. Although competitive pressures and litigation exposure are noted, the combination of operational resilience and robust profitability supports an investment‑positive stance."
+            }
+          ],
+          "insight": {
+            "text": "The firm maintains a low leverage profile with a debt‑to‑equity ratio of [[COST.ratio.debt_to_equity]]",
+            "source": "COST.ratio.debt_to_equity",
+            "value": 0.17210848252939698
+          },
+          "recommendation": "Buy",
+          "decision_source": "COST.ratio.return_on_average_equity"
+        }
+      }
+    },
+    "expected_output": "Final approval or unresolved failures"
+  },
+  "output": {
+    "approved": true,
+    "failures": []
+  }
+}

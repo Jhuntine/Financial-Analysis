@@ -1,0 +1,70 @@
+{
+  "revenue_growth": {
+    "value": 11.339976618604908,
+    "arithmetic": "(40,000,000,000 / 35,926,000,000 - 1) * 100",
+    "inputs": [
+      "revenue",
+      "prior_revenue"
+    ],
+    "unit": "%",
+    "fiscal_start": "2024-10-01",
+    "fiscal_end": "2025-09-30"
+  },
+  "operating_margin": {
+    "value": 59.985,
+    "arithmetic": "23,994,000,000 / 40,000,000,000 * 100",
+    "inputs": [
+      "operating_income",
+      "revenue"
+    ],
+    "unit": "%",
+    "fiscal_start": "2024-10-01",
+    "fiscal_end": "2025-09-30"
+  },
+  "return_on_average_equity": {
+    "value": 52.06759598162137,
+    "arithmetic": "20,058,000,000 / ((39,137,000,000 + 37,909,000,000) / 2) * 100",
+    "inputs": [
+      "net_income",
+      "prior_equity",
+      "equity"
+    ],
+    "unit": "%",
+    "fiscal_start": "2024-10-01",
+    "fiscal_end": "2025-09-30"
+  },
+  "debt_to_equity": {
+    "value": 0.6639848057189586,
+    "arithmetic": "(19,602,000,000 + 5,569,000,000) / 37,909,000,000",
+    "inputs": [
+      "long_term_debt",
+      "current_debt",
+      "equity"
+    ],
+    "unit": "x",
+    "fiscal_start": "2024-10-01",
+    "fiscal_end": "2025-09-30"
+  },
+  "free_cash_flow": {
+    "value": 21577000000,
+    "arithmetic": "23,059,000,000 - 1,482,000,000",
+    "inputs": [
+      "operating_cash_flow",
+      "capex"
+    ],
+    "unit": "USD",
+    "fiscal_start": "2024-10-01",
+    "fiscal_end": "2025-09-30"
+  },
+  "price_earnings": {
+    "value": 39.39803921568628,
+    "arithmetic": "401.86 / 10.20",
+    "inputs": [
+      "supplied_price",
+      "diluted_eps"
+    ],
+    "unit": "x",
+    "fiscal_start": "2024-10-01",
+    "fiscal_end": "2025-09-30"
+  }
+}

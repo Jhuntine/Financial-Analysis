@@ -1,0 +1,32 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	tools(tools)
+	research(research)
+	financial(financial)
+	advisor(advisor)
+	manager(manager)
+	research_revision(research_revision)
+	financial_revision(financial_revision)
+	advisor_revision(advisor_revision)
+	manager_final(manager_final)
+	verifier(verifier)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> tools;
+	advisor --> manager;
+	advisor_revision --> manager_final;
+	financial --> advisor;
+	financial_revision --> advisor_revision;
+	manager --> research_revision;
+	manager_final --> verifier;
+	research --> financial;
+	research_revision --> financial_revision;
+	tools --> research;
+	verifier --> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc

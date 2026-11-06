@@ -1,0 +1,36 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Valuation Insights",
+        "text": "Revenue reflects consolidated net revenue as reported in [[V.fact.revenue]]. Operating margin stands at [[V.ratio.operating_margin]] percent, indicating strong profitability. Return on average equity is [[V.ratio.return_on_average_equity]] percent, highlighting robust earnings relative to equity. Debt‑to‑equity, including the current portion, is [[V.ratio.debt_to_equity]] times, showing moderate leverage. Free cash flow amounts to [[V.ratio.free_cash_flow]] dollars, demonstrating healthy cash generation after capital spending. The price‑earnings multiple uses the close price from the dated price source [[V.price]] and diluted EPS for Class A common stock from [[V.fact.diluted_eps]]. Capex represents cash purchases of property, equipment and technology per [[V.fact.capex]]. All metrics are based on the fiscal year defined by the reporting periods in the source facts."
+      }
+    ],
+    "insight": {
+      "text": "Return on average equity remains exceptionally high, underscoring strong profitability relative to equity.",
+      "source": "V.ratio.return_on_average_equity",
+      "value": 52.06759598162137
+    },
+    "recommendation": "",
+    "decision_source": ""
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-95c62a3980d716ec",
+    "usage": {
+      "completion_tokens": 1069,
+      "prompt_tokens": 12936,
+      "total_tokens": 14005,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

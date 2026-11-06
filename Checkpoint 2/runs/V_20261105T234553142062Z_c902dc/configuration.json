@@ -1,0 +1,11 @@
+{
+  "ticker": "V",
+  "peers": [],
+  "as_of": "2026-11-05",
+  "price": 367.98,
+  "price_date": "2026-09-24",
+  "price_source": "WRDS Compustat comp.secd.prccd; primary U.S. security; dated security ticker V; 2026-09-24",
+  "share_class": "us-gaap:CommonClassAMember",
+  "market_provider": "wrds",
+  "ric": null
+}

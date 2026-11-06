@@ -1,0 +1,36 @@
+{
+  "1 Total annual revenue": [
+    "COST.fact.revenue"
+  ],
+  "2 Annual revenue growth": [
+    "COST.ratio.revenue_growth"
+  ],
+  "3 Operating income and margin": [
+    "COST.fact.operating_income",
+    "COST.ratio.operating_margin"
+  ],
+  "4 Net income attributable to company": [
+    "COST.fact.net_income"
+  ],
+  "5 Annual GAAP diluted EPS": [
+    "COST.fact.diluted_eps"
+  ],
+  "6 Return on average equity": [
+    "COST.ratio.return_on_average_equity"
+  ],
+  "7 Debt/equity including current portion": [
+    "COST.ratio.debt_to_equity"
+  ],
+  "8 Free cash flow": [
+    "COST.ratio.free_cash_flow"
+  ],
+  "9 Latest quarter revenue": [
+    "COST.quarter.quarter_net_revenue"
+  ],
+  "10 Latest quarter nominal growth": [
+    "COST.quarter.revenue_growth"
+  ],
+  "11 Latest quarter GAAP diluted EPS": [
+    "COST.quarter.quarter_gaap_diluted_eps"
+  ]
+}

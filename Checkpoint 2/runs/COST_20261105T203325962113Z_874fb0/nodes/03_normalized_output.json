@@ -1,0 +1,15 @@
+{
+  "sections": [
+    {
+      "title": "Valuation Insights",
+      "text": "Costco delivers a modest operating margin that, while lower than peers, is supported by a high return on average equity, indicating efficient use of capital. Its debt‑to‑equity ratio remains low, reflecting a conservative financing profile. Free cash flow after capex is sizable, underscoring strong cash generation, and the annual‑filing price‑to‑earnings multiple is elevated relative to the broader market, suggesting a premium valuation. These elements together point to a financially robust business with disciplined capital structure and cash conversion."
+    }
+  ],
+  "insight": {
+    "text": "Free cash flow comfortably exceeds capital expenditures, highlighting robust cash generation.",
+    "source": "COST.ratio.free_cash_flow",
+    "value": 9382000000.0
+  },
+  "recommendation": "",
+  "decision_source": ""
+}

@@ -1,0 +1,15 @@
+{
+  "sections": [
+    {
+      "title": "Investment Recommendation",
+      "text": "Costco’s durable membership model, strong return on equity, ample operating cash flow and low debt‑to‑equity support a positive outlook. While growth initiatives, cybersecurity and litigation pose risks, the overall profile justifies a Buy stance."
+    }
+  ],
+  "insight": {
+    "text": "The modest debt‑to‑equity ratio reflects a conservative capital structure.",
+    "source": "COST.ratio.debt_to_equity",
+    "value": 0.17210848252939698
+  },
+  "recommendation": "Buy",
+  "decision_source": "COST.ratio.return_on_average_equity"
+}

@@ -1,0 +1,15 @@
+{
+  "sections": [
+    {
+      "title": "Investment Recommendation",
+      "text": "Visa’s durable network position and strong cash generation support a positive stance, but regulatory scrutiny and emerging competitive threats warrant vigilance. The high return on equity underscores efficient capital use, while moderate leverage and robust free cash flow provide financial flexibility. Continued investment in digital and tokenized services is essential to sustain growth amid evolving market dynamics."
+    }
+  ],
+  "insight": {
+    "text": "Operating margin is high, reflecting strong profitability relative to revenue.",
+    "source": "V.ratio.operating_margin",
+    "value": 59.985
+  },
+  "recommendation": "Buy",
+  "decision_source": "V.ratio.return_on_average_equity"
+}

@@ -1,0 +1,226 @@
+{
+  "period_end": "2026-09-30",
+  "release_date": "2026-10-27",
+  "accession": "0001403161-26-000126",
+  "file": "V/earnings_release.txt",
+  "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm",
+  "revenue_candidates": [
+    {
+      "line": 10,
+      "text": "• Net revenue of $12.1B, an increase of 13% on a nominal and constant-dollar basis"
+    },
+    {
+      "line": 13,
+      "text": "• Net revenue of $45.9B, an increase of 15%, or 14% on a constant-dollar basis"
+    },
+    {
+      "line": 22,
+      "text": "Net Revenue | $12.1 | 13% | $45.9 | 15% | \"Visa delivered a milestone year. We achieved record net revenue of $46 billion, up 15%, the strongest growth in over 15 years excluding the post-pandemic recovery and acquisitions. In 2026, we also demonstrated that whenever technology changes commerce, we move with it, we anticipate what’s next, and we enable its growth as the leading hyperscaler of payments globally. The foundation of all of this is trust, which Visa brings with our scale, our network and our products. As we look to 2027 and beyond, trust is the next growth vector for Visa.”"
+    },
+    {
+      "line": 39,
+      "text": "Net revenue in the fiscal fourth quarter was $12.1 billion, an increase of 13%, driven by the year-over-year growth in payments volume, cross-border volume and processed transactions. Net revenue increased 13% on a constant-dollar basis."
+    },
+    {
+      "line": 55,
+      "text": "Net revenue in the fiscal full-year 2026 was $45.9 billion, an increase of 15%, driven by the year-over-year growth in payments volume, cross-border volume and processed transactions. Net revenue increased 14% on a constant-dollar basis."
+    },
+    {
+      "line": 102,
+      "text": "Net revenue | $ | 12,139 | | | 13 | % | | $ | 45,903 | | | 15 | %"
+    },
+    {
+      "line": 212,
+      "text": "Net revenue | $ | 12,139 | | | $ | 10,724 | | | $ | 45,903 | | | $ | 40,000 |"
+    },
+    {
+      "line": 341,
+      "text": "Net revenue | $ | 12,139 | | | $ | 11,633 | | | $ | 11,230 | | | $ | 10,901 | | | $ | 10,724 |"
+    }
+  ],
+  "eps_candidates": [
+    {
+      "line": 9,
+      "text": "• GAAP net income of $6.0B or $3.19 per share and non-GAAP net income of $6.6B or $3.48 per share"
+    },
+    {
+      "line": 12,
+      "text": "• GAAP net income of $23.5B or $12.32 per share and non-GAAP net income of $25.3B or $13.27 per share"
+    },
+    {
+      "line": 23,
+      "text": "GAAP Net Income | $6.0 | 18% | $23.5 | 17%"
+    },
+    {
+      "line": 24,
+      "text": "GAAP Earnings Per Share | $3.19 | 22% | $12.32 | 21%"
+    },
+    {
+      "line": 38,
+      "text": "GAAP net income in the fiscal fourth quarter was $6.0 billion or $3.19 per share, an increase of 18% and 22%, respectively, over prior year’s results. Current year's results included special items of $469 million for a litigation provision associated with the interchange multidistrict litigation (\"MDL\") case, $282 million related to the donation of investments to the Visa Foundation, and $37 million for a deferred tax expense recognized due to a change in the U.S. taxation of certain foreign earnings. Current year's results also included $155 million of net gains from equity investments and $75 million from the amortization of acquired intangible assets and acquisition-related costs. Prior year's results included a special item of $899 million for a litigation provision associated with the MDL case and other legal matters, $46 million of net gains from equity investments and $66 million from the amortization of acquired intangible assets and acquisition-related costs. Excluding these items and related tax impacts, non-GAAP net income for the quarter was $6.6 billion or $3.48 per share, an increase of 13% and 17%, respectively, over prior year’s results (refer to Non-GAAP Financial Measures for further details). GAAP earnings per share growth was approximately 22% on a constant-dollar basis, which excludes the impact of foreign currency fluctuations against the U.S. dollar. Non-GAAP earnings per share growth was approxima tely 17% on a constant-dollar basis. All references to earnings per share assume fully diluted class A share count."
+    },
+    {
+      "line": 49,
+      "text": "The weighted-average number of diluted shares of class A common stock outstanding was 1.88 billion for the quarter ended September 30, 2026."
+    },
+    {
+      "line": 54,
+      "text": "GAAP net income in the fiscal full-year 2026 was $23.5 billion or $12.32 per share, an increase of 17% and 21%, respectively, over prior year’s results. Current year’s results included special items of $1.7 billion for a litigation provision associated with the MDL case and other legal matters, $563 million for severance costs, $314 million for a deferred tax benefit recognized due to a change in the U.S. taxation of certain foreign earnings, and $282 million related to the donation of investments to the Visa Foundation. Current year's results also included $124 million of net gains from equity investments and $305 million from the amortization of acquired intangible assets and acquisition-related costs. Prior year’s results included special items of $2.5 billion for a litigation provision associated with the MDL case and other legal matters, $213 million for severance costs, and $39 million for lease consolidation costs. Prior year's results also included $87 million of net losses from equity investments and $315 million from the amortization of acquired intangible assets and acquisition-related costs. Excluding these items and related tax impacts, non-GAAP net income for the year was $25.3 billion or $13.27 per share, an increase of 12% and 16%, respectively, over prior year’s results (refer to Non-GAAP Financial Measures for further details). GAAP earnings per share growth was approximately 20% on a constant-dollar basis, which excludes the impact of foreign currency fluctuations against the U.S. dollar. Non-GAAP earnings per share growth was approximately 15% on a constant-dollar basis. All references to earnings per share assume fully diluted class A share count."
+    },
+    {
+      "line": 63,
+      "text": "The weighted-average number of diluted shares of class A common stock outstanding was 1.91 billion for the fiscal full-year ended September 30, 2026."
+    },
+    {
+      "line": 387,
+      "text": "| Operating Expenses | | Non- operating Income (Expense) | | Income Tax Provision (1) | | Effective Income Tax Rate (2) | | Net Income | | Diluted Earnings Per Share (2)"
+    },
+    {
+      "line": 402,
+      "text": "| Operating Expenses | | Non- operating Income (Expense) | | Income Tax Provision (1) | | Effective Income Tax Rate (2) | | Net Income | | Diluted Earnings Per Share (2)"
+    },
+    {
+      "line": 417,
+      "text": "| Operating Expenses | | Non- operating Income (Expense) | | Income Tax Provision (1) | | Effective Income Tax Rate (2) | | Net Income | | Diluted Earnings Per Share (2)"
+    },
+    {
+      "line": 435,
+      "text": "| Operating Expenses | | Non- operating Income (Expense) | | Income Tax Provision (1) | | Effective Income Tax Rate (2) | | Net Income | | Diluted Earnings Per Share (2) | | | |"
+    }
+  ],
+  "header_lines": [
+    {
+      "line": 3,
+      "text": "q42026earningsrelease.htm"
+    },
+    {
+      "line": 6,
+      "text": "Visa Reports Fiscal Fourth Quarter and Full-Year 2026 Results"
+    },
+    {
+      "line": 7,
+      "text": "San Francisco, October 27, 2026 – Visa (NYSE: V)"
+    },
+    {
+      "line": 8,
+      "text": "Fiscal Fourth Quarter Results:"
+    },
+    {
+      "line": 20,
+      "text": "In billions, except percentages and per share data. % change is calculated over the comparable prior-year period. | Q4 2026 | Full-Year 2026 | Ryan McInerney , Chief Executive Officer, Visa, commented on the results:"
+    },
+    {
+      "line": 22,
+      "text": "Net Revenue | $12.1 | 13% | $45.9 | 15% | \"Visa delivered a milestone year. We achieved record net revenue of $46 billion, up 15%, the strongest growth in over 15 years excluding the post-pandemic recovery and acquisitions. In 2026, we also demonstrated that whenever technology changes commerce, we move with it, we anticipate what’s next, and we enable its growth as the leading hyperscaler of payments globally. The foundation of all of this is trust, which Visa brings with our scale, our network and our products. As we look to 2027 and beyond, trust is the next growth vector for Visa.”"
+    },
+    {
+      "line": 24,
+      "text": "GAAP Earnings Per Share | $3.19 | 22% | $12.32 | 21%"
+    },
+    {
+      "line": 26,
+      "text": "Non-GAAP Earnings Per Share (1) | $3.48 | 17% | $13.27 | 16%"
+    },
+    {
+      "line": 30,
+      "text": "YoY increase / (decrease), volume in constant dollars | Q4 2026 | Full-Year 2026"
+    },
+    {
+      "line": 36,
+      "text": "Fiscal Fourth Quarter 2026 — Financial Highlights"
+    },
+    {
+      "line": 40,
+      "text": "Payments volume for the three months ended June 30, 2026, on which fiscal fourth quarter service revenue is recognized, increased 10% over the prior year on a constant-dollar basis."
+    },
+    {
+      "line": 41,
+      "text": "Payments volume for the three months ended September 30, 2026 increased 9% over the prior year on a constant-dollar basis."
+    },
+    {
+      "line": 42,
+      "text": "Cross-border volume excluding transactions within Europe, which drives our international transaction revenue, for the three months ended September 30, 2026, increased 14% on a constant-dollar basis over the prior year. Total cross-border volume on a constant-dollar basis increased 14% over the prior year."
+    },
+    {
+      "line": 43,
+      "text": "Total processed transactions, which represent transactions processed by Visa, for the three months ended September 30, 2026, were 74.2 billion, a 10% increase over the prior year."
+    },
+    {
+      "line": 47,
+      "text": "GAAP effective income tax rate was 18.5% for the quarter ended September 30, 2026. Excluding the special item related to the deferred tax expense and the related tax impacts from the non-GAAP items, the non-GAAP effective income tax rate was 18.4% for the quarter ended September 30, 2026."
+    },
+    {
+      "line": 48,
+      "text": "Cash, cash equivalents and investment securities were $14.2 billion at September 30, 2026."
+    },
+    {
+      "line": 49,
+      "text": "The weighted-average number of diluted shares of class A common stock outstanding was 1.88 billion for the quarter ended September 30, 2026."
+    },
+    {
+      "line": 52,
+      "text": "Fiscal Full-Year 2026 — Financial Highlights"
+    },
+    {
+      "line": 54,
+      "text": "GAAP net income in the fiscal full-year 2026 was $23.5 billion or $12.32 per share, an increase of 17% and 21%, respectively, over prior year’s results. Current year’s results included special items of $1.7 billion for a litigation provision associated with the MDL case and other legal matters, $563 million for severance costs, $314 million for a deferred tax benefit recognized due to a change in the U.S. taxation of certain foreign earnings, and $282 million related to the donation of investments to the Visa Foundation. Current year's results also included $124 million of net gains from equity investments and $305 million from the amortization of acquired intangible assets and acquisition-related costs. Prior year’s results included special items of $2.5 billion for a litigation provision associated with the MDL case and other legal matters, $213 million for severance costs, and $39 million for lease consolidation costs. Prior year's results also included $87 million of net losses from equity investments and $315 million from the amortization of acquired intangible assets and acquisition-related costs. Excluding these items and related tax impacts, non-GAAP net income for the year was $25.3 billion or $13.27 per share, an increase of 12% and 16%, respectively, over prior year’s results (refer to Non-GAAP Financial Measures for further details). GAAP earnings per share growth was approximately 20% on a constant-dollar basis, which excludes the impact of foreign currency fluctuations against the U.S. dollar. Non-GAAP earnings per share growth was approximately 15% on a constant-dollar basis. All references to earnings per share assume fully diluted class A share count."
+    },
+    {
+      "line": 55,
+      "text": "Net revenue in the fiscal full-year 2026 was $45.9 billion, an increase of 15%, driven by the year-over-year growth in payments volume, cross-border volume and processed transactions. Net revenue increased 14% on a constant-dollar basis."
+    },
+    {
+      "line": 56,
+      "text": "Payments volume for the twelve months ended September 30, 2026 increased 9% over the prior year on a constant-dollar basis."
+    },
+    {
+      "line": 57,
+      "text": "Cross-border volume excluding transactions within Europe, which drives our international transaction revenue, for the twelve months ended September 30, 2026, increased 12% on a constant-dollar basis over the prior year. Total cross-border volume on a constant-dollar basis increased 13% over the prior year."
+    },
+    {
+      "line": 58,
+      "text": "Total processed transactions, which represent transactions processed by Visa, for the twelve months ended September 30, 2026, were 281.3 billion, a 9% increase over the prior year."
+    },
+    {
+      "line": 59,
+      "text": "Fiscal full-year 2026 service revenue was $19.9 billion, an increase of 14% over the prior year. Data processing revenue rose 17% over the prior year to $23.4 billion. International transaction revenue grew 8% over the prior year to $15.3 billion. Other revenue of $5.7 billion rose 40% over the prior year. Client incentives were $18.3 billion, up 16% over the prior year."
+    },
+    {
+      "line": 60,
+      "text": "GAAP operating expenses were $17.8 billion for the fiscal full-year 2026, an 11% increase over the prior year's results, primarily driven by increases in personnel and marketing expenses. GAAP operating expenses included the special items as well as the amortization of acquired intangible assets and acquisition-related costs in the current and prior year. Excluding these items, non-GAAP operating expenses increased 16% over the prior year, primarily driven by increases in personnel and marketing expenses."
+    }
+  ],
+  "observations": {
+    "quarter_net_revenue": {
+      "value": 12139000000.0,
+      "unit": "USD",
+      "line": 212,
+      "column": "First quarter column; three months ended 2026-09-30; source in millions"
+    },
+    "prior_quarter_net_revenue": {
+      "value": 10724000000.0,
+      "unit": "USD",
+      "line": 212,
+      "column": "Second quarter column; same quarter of prior year; source in millions"
+    },
+    "quarter_gaap_diluted_eps": {
+      "value": 3.19,
+      "unit": "USD/shares",
+      "line": 250,
+      "column": "First quarter column, GAAP diluted EPS; us-gaap:CommonClassAMember"
+    },
+    "annual_release_gaap_diluted_eps": {
+      "value": 12.32,
+      "unit": "USD/shares",
+      "line": 250,
+      "column": "Third numeric column; twelve months ended 2026-09-30; us-gaap:CommonClassAMember"
+    }
+  },
+  "revenue_growth": {
+    "value": 13.194703468854897,
+    "unit": "%",
+    "arithmetic": "(12,139,000,000 / 10,724,000,000 - 1) * 100",
+    "line": 212,
+    "note": "Calculated from the GAAP statement's current and prior-year quarter columns."
+  }
+}

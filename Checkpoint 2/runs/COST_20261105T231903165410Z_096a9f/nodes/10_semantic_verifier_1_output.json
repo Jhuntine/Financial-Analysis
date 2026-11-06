@@ -1,0 +1,295 @@
+{
+  "output": {
+    "verdicts": [
+      {
+        "id": "C001",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "C002",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "C003",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "C004",
+        "mark": "correct",
+        "reason": "Duplicate of C001; source, period, and definition match.",
+        "correction_source": ""
+      },
+      {
+        "id": "C005",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "C006",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "C007",
+        "mark": "correct",
+        "reason": "Duplicate of C002; source, period, and definition match.",
+        "correction_source": ""
+      },
+      {
+        "id": "C008",
+        "mark": "correct",
+        "reason": "Duplicate of C003; source, period, and definition match.",
+        "correction_source": ""
+      },
+      {
+        "id": "C009",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "C010",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved fact.",
+        "correction_source": ""
+      },
+      {
+        "id": "C011",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved fact.",
+        "correction_source": ""
+      },
+      {
+        "id": "C012",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved fact.",
+        "correction_source": ""
+      },
+      {
+        "id": "C013",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved fact.",
+        "correction_source": ""
+      },
+      {
+        "id": "C014",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved fact.",
+        "correction_source": ""
+      },
+      {
+        "id": "C015",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved fact.",
+        "correction_source": ""
+      },
+      {
+        "id": "C016",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved fact.",
+        "correction_source": ""
+      },
+      {
+        "id": "C017",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved fact.",
+        "correction_source": ""
+      },
+      {
+        "id": "C018",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved fact.",
+        "correction_source": ""
+      },
+      {
+        "id": "C019",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved fact.",
+        "correction_source": ""
+      },
+      {
+        "id": "C020",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved fact.",
+        "correction_source": ""
+      },
+      {
+        "id": "C021",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "C022",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "C023",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "C024",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "C025",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "C026",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "C027",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved fact.",
+        "correction_source": ""
+      },
+      {
+        "id": "C028",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved fact.",
+        "correction_source": ""
+      },
+      {
+        "id": "C029",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "C030",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved fact.",
+        "correction_source": ""
+      },
+      {
+        "id": "C031",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved fact.",
+        "correction_source": ""
+      },
+      {
+        "id": "C032",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "C033",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved fact.",
+        "correction_source": ""
+      },
+      {
+        "id": "C034",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved fact.",
+        "correction_source": ""
+      },
+      {
+        "id": "C035",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "C036",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved price data.",
+        "correction_source": ""
+      },
+      {
+        "id": "C037",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved quarter fact.",
+        "correction_source": ""
+      },
+      {
+        "id": "C038",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved quarter fact.",
+        "correction_source": ""
+      },
+      {
+        "id": "C039",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved quarter fact.",
+        "correction_source": ""
+      },
+      {
+        "id": "C040",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved quarter fact.",
+        "correction_source": ""
+      },
+      {
+        "id": "C041",
+        "mark": "correct",
+        "reason": "Source, period, and definition match the saved quarter ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "I042",
+        "mark": "correct",
+        "reason": "Insight cites the correct ratio with matching period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "I043",
+        "mark": "correct",
+        "reason": "Insight cites the correct ratio with matching period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "D044",
+        "mark": "correct",
+        "reason": "Advisor metric cites the correct ratio with matching period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "I045",
+        "mark": "correct",
+        "reason": "Insight repeats the correct ratio with matching period and definition.",
+        "correction_source": ""
+      }
+    ]
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-8b8335136dd3794a",
+    "usage": {
+      "completion_tokens": 2637,
+      "prompt_tokens": 16685,
+      "total_tokens": 19322,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

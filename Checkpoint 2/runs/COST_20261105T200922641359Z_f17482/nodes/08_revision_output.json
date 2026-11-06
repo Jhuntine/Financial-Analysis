@@ -1,0 +1,36 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Investment Recommendation",
+        "text": "Costco’s membership‑warehouse model delivers durable high‑volume sales and strong cash generation. The company posts a return on average equity of [[COST.ratio.return_on_average_equity]], indicating superior profitability on shareholders’ capital. Its debt‑to‑equity of [[COST.ratio.debt_to_equity]] reflects a conservative capital structure, providing flexibility to fund expansion and absorb cost pressures. Revenue growth remains double‑digit [[COST.ratio.revenue_growth]], while operating margin stays in the low single‑digit range [[COST.ratio.operating_margin]], consistent with its low‑margin strategy. Valuation is elevated, as shown by a price‑earnings multiple of [[COST.ratio.price_earnings]], which may constrain near‑term upside. Nonetheless, the combination of durable business fundamentals, high ROE and low leverage supports a positive outlook, outweighing the valuation premium. Risks include pricing pressure, execution of new warehouses, cybersecurity and litigation, as noted in the research sections [source:Q:L651], [source:K:L233], [source:K:L253], and [source:Q:L508]. Accordingly, the recommendation is Buy."
+      }
+    ],
+    "insight": {
+      "text": "A debt‑to‑equity ratio of [[COST.ratio.debt_to_equity]] underscores financial flexibility.",
+      "source": "COST.ratio.debt_to_equity",
+      "value": 0.17210848252939698
+    },
+    "recommendation": "Buy",
+    "decision_source": "COST.ratio.return_on_average_equity"
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-b6e91c38a8d6ef5c",
+    "usage": {
+      "completion_tokens": 1193,
+      "prompt_tokens": 8494,
+      "total_tokens": 9687,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

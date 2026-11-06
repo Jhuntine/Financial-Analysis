@@ -1,0 +1,36 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Investment Recommendation",
+        "text": "Costco demonstrates durable earnings power, strong cash generation, and low leverage, supporting an investment stance of Buy. The primary driver is the high return on average equity, which signals efficient capital use and profit durability. Risks include execution challenges in market expansion, potential litigation exposure, and cybersecurity threats, as noted by the analysts."
+      }
+    ],
+    "insight": {
+      "text": "The modest leverage ratio indicates ample financial flexibility for future growth initiatives.",
+      "source": "COST.ratio.debt_to_equity",
+      "value": 0.17210848252939698
+    },
+    "recommendation": "Buy",
+    "decision_source": "COST.ratio.return_on_average_equity"
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-a7c304eacd404b3a",
+    "usage": {
+      "completion_tokens": 755,
+      "prompt_tokens": 8314,
+      "total_tokens": 9069,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

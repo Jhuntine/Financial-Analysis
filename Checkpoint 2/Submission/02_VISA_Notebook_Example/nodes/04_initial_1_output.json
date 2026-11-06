@@ -1,0 +1,36 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Investment Recommendation",
+        "text": "Visa’s business durability is underscored by an operating margin near sixty percent [[V.ratio.operating_margin]], reflecting strong pricing power and efficient cost structure. The firm also benefits from a solid return on equity and moderate leverage. However, the filing notes that higher client incentives are eroding margin growth [source:K:L839][source:E:L44]. If the operating margin were to decline markedly or incentive spending accelerated, the view would shift to a lower rating."
+      }
+    ],
+    "insight": {
+      "text": "Visa generates a very high return on equity.",
+      "source": "V.ratio.return_on_average_equity",
+      "value": 52.06759598162137
+    },
+    "recommendation": "Buy",
+    "decision_source": "V.ratio.operating_margin"
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-a5d2caa38180ccba",
+    "usage": {
+      "completion_tokens": 811,
+      "prompt_tokens": 7664,
+      "total_tokens": 8475,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

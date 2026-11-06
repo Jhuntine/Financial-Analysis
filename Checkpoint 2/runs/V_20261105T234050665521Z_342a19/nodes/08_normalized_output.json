@@ -1,0 +1,15 @@
+{
+  "sections": [
+    {
+      "title": "Investment Recommendation",
+      "text": "Visa’s business durability is supported by a high operating margin [[V.ratio.operating_margin]], strong free cash flow [[V.ratio.free_cash_flow]], and moderate leverage [[V.ratio.debt_to_equity]]. The firm faces risk from rising client incentives [source:K:L839][source:E:L44] and ongoing regulatory scrutiny such as the UK interchange litigation [source:Q:L1180]. If operating margin were to decline materially or regulatory outcomes were to tighten pricing, the recommendation would be revised downward."
+    }
+  ],
+  "insight": {
+    "text": "Visa delivers an exceptionally high return on equity",
+    "source": "V.ratio.return_on_average_equity",
+    "value": 52.06759598162137
+  },
+  "recommendation": "Buy",
+  "decision_source": "V.ratio.operating_margin"
+}

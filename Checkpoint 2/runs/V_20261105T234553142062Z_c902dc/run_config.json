@@ -1,0 +1,12 @@
+{
+  "ticker": "V",
+  "peers": [],
+  "as_of": "2026-11-05",
+  "offline": false,
+  "source_run": null,
+  "market_provider": "wrds",
+  "ric": null,
+  "price_date": "2026-09-24",
+  "model_provider": "purdue",
+  "mode": "live"
+}

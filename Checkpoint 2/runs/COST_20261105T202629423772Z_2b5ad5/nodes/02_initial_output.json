@@ -1,0 +1,44 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Overview",
+        "text": "Costco operates membership warehouses and e‑commerce sites that focus on low prices for a limited selection of nationally‑branded and private‑label products, driving high sales volumes and rapid inventory turnover. This model leverages volume purchasing, efficient distribution and reduced handling in no‑frills, self‑service facilities, allowing profitability at lower gross margins than most retailers. The company emphasizes employee career development, competitive compensation and a high full‑time employee ratio, contributing to a notably high retention rate. However, the firm acknowledges risks in executing its growth strategy, including market expansion and acquisition integration, as well as the need to protect personal and business information against evolving privacy and security threats."
+      },
+      {
+        "title": "Market Positioning and Growth Outlook",
+        "text": "Costco’s low‑price, high‑volume approach creates strong member loyalty and pricing authority, supporting consistent sales growth across the United States, Canada and other international markets. The ability to sell inventory before payment, combined with early‑payment discounts, enhances cash efficiency. Employee retention and productivity further reinforce operational resilience. While the company reported revenue growth for the fiscal year, it also faces competitive pressures that may require pricing adjustments or promotional investments, potentially impacting gross margins. Ongoing litigation and regulatory exposures present additional uncertainty."
+      },
+      {
+        "title": "Future Developments and Strategic Recommendations",
+        "text": "To sustain its competitive edge, Costco should continue investing in cyber‑security infrastructure to mitigate sophisticated threats and protect member data. Maintaining strong employee development programs will preserve the high retention rate that underpins operational efficiency. Cautious expansion into new markets and careful integration of acquisitions are advised to avoid adverse financial impacts. Ongoing monitoring of legal proceedings and regulatory changes will be essential to manage potential liabilities."
+      }
+    ],
+    "insight": {
+      "text": "Costco's return on average equity was strong",
+      "source": "COST.ratio.return_on_average_equity",
+      "value": 28.402111841396398
+    },
+    "recommendation": "",
+    "decision_source": ""
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-86b092d39463400e",
+    "usage": {
+      "completion_tokens": 1387,
+      "prompt_tokens": 18210,
+      "total_tokens": 19597,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

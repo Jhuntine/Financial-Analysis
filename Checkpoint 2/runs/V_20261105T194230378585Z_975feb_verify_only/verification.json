@@ -1,0 +1,359 @@
+{
+  "marks": [
+    {
+      "id": "C001",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 40000000000.0,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "V/10-K.txt L1556; us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax; 2024-10-01 to 2025-09-30; 0001403161-25-000089; Net revenue | $ | 40,000 | | | $ | 35,926 | | | $ | 32,653 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "C002",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 23994000000.0,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "V/10-K.txt L1567; us-gaap:OperatingIncomeLoss; 2024-10-01 to 2025-09-30; 0001403161-25-000089; Operating income | 23,994 | | | 23,595 | | | 21,000 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "C003",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 20058000000.0,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "V/10-K.txt L2877; us-gaap:NetIncomeLoss; 2024-10-01 to 2025-09-30; 0001403161-25-000089; Net income | $ | 20,058 | | | | | | | | | | |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "C004",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 10.2,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "V/10-K.txt L1590; us-gaap:EarningsPerShareDiluted; 2024-10-01 to 2025-09-30; 0001403161-25-000089; Class A common stock | $ | 10.20 | | | $ | 9.73 | | | $ | 8.28 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "C005",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 37909000000.0,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "V/10-K.txt L1539; us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest; 2025-09-30; 0001403161-25-000089; Total equity | 37,909 | | | 39,137 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "C006",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 19602000000.0,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "V/10-K.txt L1516; us-gaap:LongTermDebtNoncurrent; 2025-09-30; 0001403161-25-000089; Long-term debt | 19,602 | | | 20,836 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "C007",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 5569000000.0,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "V/10-K.txt L1513; us-gaap:LongTermDebtCurrent; 2025-09-30; 0001403161-25-000089; Current maturities of debt | 5,569 | | | — |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "C008",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 23059000000.0,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "V/10-K.txt L1775; us-gaap:NetCashProvidedByUsedInOperatingActivities; 2024-10-01 to 2025-09-30; 0001403161-25-000089; Net cash provided by (used in) operating activities | 23,059 | | | 19,950 | | | 20,755 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "C009",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 1482000000.0,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "V/10-K.txt L1777; us-gaap:PaymentsToAcquireProductiveAssets; 2024-10-01 to 2025-09-30; 0001403161-25-000089; Purchases of property, equipment and technology | ( 1,482 ) | | | ( 1,257 ) | | | ( 1,059 ) |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "C010",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 35926000000.0,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "V/10-K.txt L1556; us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax; 2023-10-01 to 2024-09-30; 0001403161-25-000089; Net revenue | $ | 40,000 | | | $ | 35,926 | | | $ | 32,653 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "C011",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 39137000000.0,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "V/10-K.txt L1539; us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest; 2024-09-30; 0001403161-25-000089; Total equity | 37,909 | | | 39,137 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "C012",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 11.339976618604908,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "(40,000,000,000 / 35,926,000,000 - 1) * 100; V/10-K.txt L1556; us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax; 2024-10-01 to 2025-09-30; 0001403161-25-000089; Net revenue | $ | 40,000 | | | $ | 35,926 | | | $ | 32,653 |; V/10-K.txt L1556; us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax; 2023-10-01 to 2024-09-30; 0001403161-25-000089; Net revenue | $ | 40,000 | | | $ | 35,926 | | | $ | 32,653 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "C013",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 59.985,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "23,994,000,000 / 40,000,000,000 * 100; V/10-K.txt L1567; us-gaap:OperatingIncomeLoss; 2024-10-01 to 2025-09-30; 0001403161-25-000089; Operating income | 23,994 | | | 23,595 | | | 21,000 |; V/10-K.txt L1556; us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax; 2024-10-01 to 2025-09-30; 0001403161-25-000089; Net revenue | $ | 40,000 | | | $ | 35,926 | | | $ | 32,653 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "C014",
+      "mark": "unsupported",
+      "reason": "The period, definition or unit differs from the saved evidence.",
+      "reported": 52.06759598162137,
+      "corrected": 52.06759598162137,
+      "replacement": {
+        "id": "C014",
+        "text": "ratio.return on average equity",
+        "value": 52.06759598162137,
+        "unit": "%",
+        "source": "V.ratio.return_on_average_equity",
+        "period": "2024-10-01 to 2025-09-30",
+        "definition": "GAAP net income / average beginning and ending reported equity, percent.",
+        "inputs": [
+          {
+            "source": "V.fact.net_income",
+            "value": 20058000000.0
+          },
+          {
+            "source": "V.fact.prior_equity",
+            "value": 39137000000.0
+          },
+          {
+            "source": "V.fact.equity",
+            "value": 37909000000.0
+          }
+        ]
+      },
+      "evidence": "20,058,000,000 / ((39,137,000,000 + 37,909,000,000) / 2) * 100; V/10-K.txt L2877; us-gaap:NetIncomeLoss; 2024-10-01 to 2025-09-30; 0001403161-25-000089; Net income | $ | 20,058 | | | | | | | | | | |; V/10-K.txt L1539; us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest; 2024-09-30; 0001403161-25-000089; Total equity | 37,909 | | | 39,137 |; V/10-K.txt L1539; us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest; 2025-09-30; 0001403161-25-000089; Total equity | 37,909 | | | 39,137 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "C015",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 0.6639848057189586,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "(19,602,000,000 + 5,569,000,000) / 37,909,000,000; V/10-K.txt L1516; us-gaap:LongTermDebtNoncurrent; 2025-09-30; 0001403161-25-000089; Long-term debt | 19,602 | | | 20,836 |; V/10-K.txt L1513; us-gaap:LongTermDebtCurrent; 2025-09-30; 0001403161-25-000089; Current maturities of debt | 5,569 | | | — |; V/10-K.txt L1539; us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest; 2025-09-30; 0001403161-25-000089; Total equity | 37,909 | | | 39,137 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "C016",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 21577000000.0,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "23,059,000,000 - 1,482,000,000; V/10-K.txt L1775; us-gaap:NetCashProvidedByUsedInOperatingActivities; 2024-10-01 to 2025-09-30; 0001403161-25-000089; Net cash provided by (used in) operating activities | 23,059 | | | 19,950 | | | 20,755 |; V/10-K.txt L1777; us-gaap:PaymentsToAcquireProductiveAssets; 2024-10-01 to 2025-09-30; 0001403161-25-000089; Purchases of property, equipment and technology | ( 1,482 ) | | | ( 1,257 ) | | | ( 1,059 ) |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "C017",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 39.39803921568628,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "401.86 / 10.20; market_input.json; 2026-10-27; LSEG Historical Pricing; V.N; TRDPRC_1; daily close; 2026-10-27; unadjusted; V/10-K.txt L1590; us-gaap:EarningsPerShareDiluted; 2024-10-01 to 2025-09-30; 0001403161-25-000089; Class A common stock | $ | 10.20 | | | $ | 9.73 | | | $ | 8.28 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "C018",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 32791000000.0,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "MA/10-K.txt L1779; us-gaap:Revenues; 2025-01-01 to 2025-12-31; 0001141391-26-000013; Net Revenue | | $ | 32,791 | | | $ | 28,167 | | | $ | 25,098 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "C019",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 18897000000.0,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "MA/10-K.txt L1786; us-gaap:OperatingIncomeLoss; 2025-01-01 to 2025-12-31; 0001141391-26-000013; Operating income | | 18,897 | | | 15,582 | | | 14,008 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "C020",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 57.62861760849013,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "18,897,000,000 / 32,791,000,000 * 100; MA/10-K.txt L1786; us-gaap:OperatingIncomeLoss; 2025-01-01 to 2025-12-31; 0001141391-26-000013; Operating income | | 18,897 | | | 15,582 | | | 14,008 |; MA/10-K.txt L1779; us-gaap:Revenues; 2025-01-01 to 2025-12-31; 0001141391-26-000013; Net Revenue | | $ | 32,791 | | | $ | 28,167 | | | $ | 25,098 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "C021",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 33172000000.0,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "PYPL/10-K.txt L1212; us-gaap:Revenues; 2025-01-01 to 2025-12-31; 0001633917-26-000024; Net revenues | $ | 33,172 | | | $ | 31,797 | | | $ | 29,771 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "C022",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 6065000000.0,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "PYPL/10-K.txt L1222; us-gaap:OperatingIncomeLoss; 2025-01-01 to 2025-12-31; 0001633917-26-000024; Operating income | 6,065 | | | 5,325 | | | 5,028 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "C023",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 18.28349210177258,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "6,065,000,000 / 33,172,000,000 * 100; PYPL/10-K.txt L1222; us-gaap:OperatingIncomeLoss; 2025-01-01 to 2025-12-31; 0001633917-26-000024; Operating income | 6,065 | | | 5,325 | | | 5,028 |; PYPL/10-K.txt L1212; us-gaap:Revenues; 2025-01-01 to 2025-12-31; 0001633917-26-000024; Net revenues | $ | 33,172 | | | $ | 31,797 | | | $ | 29,771 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "C024",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 401.86,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "market_input.json; 2026-10-27; LSEG Historical Pricing; V.N; TRDPRC_1; daily close; 2026-10-27; unadjusted",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "C025",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 12139000000.0,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "V/earnings_release.txt L212; statement column; three months ended 2026-09-30; 0001403161-26-000126; Net revenue | $ | 12,139 | | | $ | 10,724 | | | $ | 45,903 | | | $ | 40,000 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "C026",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 10724000000.0,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "V/earnings_release.txt L212; statement column; same quarter of prior year relative to 2026-09-30; 0001403161-26-000126; Net revenue | $ | 12,139 | | | $ | 10,724 | | | $ | 45,903 | | | $ | 40,000 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "C027",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 3.19,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "V/earnings_release.txt L250; statement column; three months ended 2026-09-30; 0001403161-26-000126; Class A common stock | $ | 3.19 | | | $ | 2.62 | | | $ | 12.32 | | | $ | 10.20 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "C028",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 12.32,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "V/earnings_release.txt L250; statement column; twelve months ended 2026-09-30; 0001403161-26-000126; Class A common stock | $ | 3.19 | | | $ | 2.62 | | | $ | 12.32 | | | $ | 10.20 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "C029",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 13.194703468854897,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "(12,139,000,000 / 10,724,000,000 - 1) * 100; V/earnings_release.txt L212; statement column; three months ended 2026-09-30; 0001403161-26-000126; Net revenue | $ | 12,139 | | | $ | 10,724 | | | $ | 45,903 | | | $ | 40,000 |; V/earnings_release.txt L212; statement column; same quarter of prior year relative to 2026-09-30; 0001403161-26-000126; Net revenue | $ | 12,139 | | | $ | 10,724 | | | $ | 45,903 | | | $ | 40,000 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "I030",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 21577000000.0,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "23,059,000,000 - 1,482,000,000; V/10-K.txt L1775; us-gaap:NetCashProvidedByUsedInOperatingActivities; 2024-10-01 to 2025-09-30; 0001403161-25-000089; Net cash provided by (used in) operating activities | 23,059 | | | 19,950 | | | 20,755 |; V/10-K.txt L1777; us-gaap:PaymentsToAcquireProductiveAssets; 2024-10-01 to 2025-09-30; 0001403161-25-000089; Purchases of property, equipment and technology | ( 1,482 ) | | | ( 1,257 ) | | | ( 1,059 ) |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "I031",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 59.985,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "23,994,000,000 / 40,000,000,000 * 100; V/10-K.txt L1567; us-gaap:OperatingIncomeLoss; 2024-10-01 to 2025-09-30; 0001403161-25-000089; Operating income | 23,994 | | | 23,595 | | | 21,000 |; V/10-K.txt L1556; us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax; 2024-10-01 to 2025-09-30; 0001403161-25-000089; Net revenue | $ | 40,000 | | | $ | 35,926 | | | $ | 32,653 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "D032",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 39.39803921568628,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "401.86 / 10.20; market_input.json; 2026-10-27; LSEG Historical Pricing; V.N; TRDPRC_1; daily close; 2026-10-27; unadjusted; V/10-K.txt L1590; us-gaap:EarningsPerShareDiluted; 2024-10-01 to 2025-09-30; 0001403161-25-000089; Class A common stock | $ | 10.20 | | | $ | 9.73 | | | $ | 8.28 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "I033",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 39.39803921568628,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "401.86 / 10.20; market_input.json; 2026-10-27; LSEG Historical Pricing; V.N; TRDPRC_1; daily close; 2026-10-27; unadjusted; V/10-K.txt L1590; us-gaap:EarningsPerShareDiluted; 2024-10-01 to 2025-09-30; 0001403161-25-000089; Class A common stock | $ | 10.20 | | | $ | 9.73 | | | $ | 8.28 |",
+      "semantic_status": "not_run"
+    }
+  ],
+  "semantic_status": "not_run",
+  "errors": 1,
+  "claim_count": 33
+}

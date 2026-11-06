@@ -1,0 +1,15 @@
+{
+  "sections": [
+    {
+      "title": "Valuation Insights",
+      "text": "Costco delivers a modest operating margin [[COST.ratio.operating_margin]] and an impressive return on average equity [[COST.ratio.return_on_average_equity]], while maintaining a low debt‑to‑equity ratio [[COST.ratio.debt_to_equity]]. The free cash flow [[COST.ratio.free_cash_flow]] supports dividend sustainability and potential share repurchases. However, the price‑earnings multiple [[COST.ratio.price_earnings]] is elevated relative to peers, suggesting the market is pricing in the strong revenue growth [[COST.ratio.revenue_growth]] and high EPS [[COST.fact.diluted_eps]]."
+    }
+  ],
+  "insight": {
+    "text": "The combined long‑term and current debt represents a small fraction of equity, underscoring financial flexibility.",
+    "source": "COST.ratio.debt_to_equity",
+    "value": 0.17210848252939698
+  },
+  "recommendation": "",
+  "decision_source": ""
+}

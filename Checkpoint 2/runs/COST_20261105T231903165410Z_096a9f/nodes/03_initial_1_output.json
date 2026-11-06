@@ -1,0 +1,36 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Valuation Insights",
+        "text": "Costco delivered a year‑over‑year revenue increase of [[COST.ratio.revenue_growth]], reflecting solid top‑line expansion. The operating margin of [[COST.ratio.operating_margin]] indicates modest profitability on sales, while the return on average equity of [[COST.ratio.return_on_average_equity]] demonstrates a high efficiency of capital deployment. Debt financing remains low, with a debt‑to‑equity ratio of [[COST.ratio.debt_to_equity]], suggesting a strong balance‑sheet profile. Free cash flow of [[COST.ratio.free_cash_flow]] shows ample cash generation after capital spending, supporting dividend sustainability and share repurchases. The annual price‑earnings multiple of [[COST.ratio.price_earnings]] is elevated, implying that the market is pricing in growth expectations relative to earnings."
+      }
+    ],
+    "insight": {
+      "text": "The return on average equity is a key driver of valuation because it captures how effectively the company converts net income into shareholder value relative to its equity base.",
+      "source": "COST.ratio.return_on_average_equity",
+      "value": 28.402111841396398
+    },
+    "recommendation": "",
+    "decision_source": ""
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-a21480a6f0d405dd",
+    "usage": {
+      "completion_tokens": 998,
+      "prompt_tokens": 16410,
+      "total_tokens": 17408,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

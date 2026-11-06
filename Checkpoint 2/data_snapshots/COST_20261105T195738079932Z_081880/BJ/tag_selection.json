@@ -1,0 +1,116 @@
+[
+  {
+    "metric": "revenue",
+    "candidate": "us-gaap:Revenues",
+    "target_end": "2026-01-31",
+    "latest_available_end": null
+  },
+  {
+    "metric": "revenue",
+    "candidate": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+    "target_end": "2026-01-31",
+    "latest_available_end": "2026-08-01"
+  },
+  {
+    "metric": "revenue",
+    "candidate": "us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax",
+    "target_end": "2026-01-31",
+    "latest_available_end": null
+  },
+  {
+    "metric": "revenue",
+    "candidate": "us-gaap:SalesRevenueNet",
+    "target_end": "2026-01-31",
+    "latest_available_end": null
+  },
+  {
+    "metric": "operating_income",
+    "candidate": "us-gaap:OperatingIncomeLoss",
+    "target_end": "2026-01-31",
+    "latest_available_end": "2026-08-01"
+  },
+  {
+    "metric": "net_income",
+    "candidate": "us-gaap:NetIncomeLoss",
+    "target_end": "2026-01-31",
+    "latest_available_end": "2026-08-01"
+  },
+  {
+    "metric": "net_income",
+    "candidate": "us-gaap:ProfitLoss",
+    "target_end": "2026-01-31",
+    "latest_available_end": "2019-05-04"
+  },
+  {
+    "metric": "diluted_eps",
+    "candidate": "us-gaap:EarningsPerShareDiluted",
+    "target_end": "2026-01-31",
+    "latest_available_end": "2026-08-01"
+  },
+  {
+    "metric": "equity",
+    "candidate": "us-gaap:StockholdersEquity",
+    "target_end": "2026-01-31",
+    "latest_available_end": "2026-08-01"
+  },
+  {
+    "metric": "equity",
+    "candidate": "us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+    "target_end": "2026-01-31",
+    "latest_available_end": null
+  },
+  {
+    "metric": "long_term_debt",
+    "candidate": "us-gaap:LongTermDebtNoncurrent",
+    "target_end": "2026-01-31",
+    "latest_available_end": "2026-08-01"
+  },
+  {
+    "metric": "long_term_debt",
+    "candidate": "us-gaap:LongTermDebt",
+    "target_end": "2026-01-31",
+    "latest_available_end": "2026-08-01"
+  },
+  {
+    "metric": "current_debt",
+    "candidate": "us-gaap:LongTermDebtCurrent",
+    "target_end": "2026-01-31",
+    "latest_available_end": "2026-08-01"
+  },
+  {
+    "metric": "current_debt",
+    "candidate": "us-gaap:LongTermDebtAndCapitalLeaseObligationsCurrent",
+    "target_end": "2026-01-31",
+    "latest_available_end": null
+  },
+  {
+    "metric": "operating_cash_flow",
+    "candidate": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+    "target_end": "2026-01-31",
+    "latest_available_end": "2026-08-01"
+  },
+  {
+    "metric": "capex",
+    "candidate": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+    "target_end": "2026-01-31",
+    "latest_available_end": "2026-08-01"
+  },
+  {
+    "metric": "capex",
+    "candidate": "us-gaap:PaymentsToAcquireProductiveAssets",
+    "target_end": "2026-01-31",
+    "latest_available_end": null
+  },
+  {
+    "metric": "revenue",
+    "candidate": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+    "target_end": "2025-02-01",
+    "latest_available_end": "2026-08-01"
+  },
+  {
+    "metric": "equity",
+    "candidate": "us-gaap:StockholdersEquity",
+    "target_end": "2025-02-01",
+    "latest_available_end": "2026-08-01"
+  }
+]

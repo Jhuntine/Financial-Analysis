@@ -1,0 +1,30 @@
+{
+  "output": {
+    "approved": true,
+    "failures": [
+      {
+        "role": "Financial Analyst",
+        "issue": "Unknown numerical source token."
+      }
+    ]
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-b2b4794ccd4694c0",
+    "usage": {
+      "completion_tokens": 917,
+      "prompt_tokens": 13508,
+      "total_tokens": 14425,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

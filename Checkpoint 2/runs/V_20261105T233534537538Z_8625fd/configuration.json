@@ -1,0 +1,14 @@
+{
+  "ticker": "V",
+  "peers": [
+    "MA",
+    "PYPL"
+  ],
+  "as_of": "2026-11-03",
+  "price": 401.86,
+  "price_date": "2026-10-27",
+  "price_source": "LSEG Historical Pricing; V.N; TRDPRC_1; daily close; 2026-10-27; unadjusted",
+  "share_class": "us-gaap:CommonClassAMember",
+  "market_provider": "lseg",
+  "ric": "V.N"
+}

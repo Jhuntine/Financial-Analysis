@@ -1,0 +1,16 @@
+{
+  "catalog.json": "ebd89c09d191f68520900cb44782b3b00f53a5bdd08177e1e83d30252d146d00",
+  "quarter_observations.json": "83ac6eb89d87cc5c752b48e8fe96b9e6fe10861e233b671bc752fed5fa20b369",
+  "BJ/facts.json": "77fd2f33bec849283905299dd1c6f2aff27fe76227cccc65319086124032818f",
+  "COST/facts.json": "f9f677d05c986a53d04eb3329406e8d88bf817506eecf065fe143f3b937b31c6",
+  "TGT/facts.json": "2eb46ea4f1d9d5fd0dccc84c3c5d66f7f319ee42304932543aaa42051c2c20ed",
+  "WMT/facts.json": "585cceb8bb80c88b5f9871f30f0ac9c3cd1a97536727d4e5c523f4a31da6e425",
+  "BJ/10-K.txt": "d2f8cfc782378ac3dfed7c3b36ab038d32e80c4e4a45f7ab56a486bab9163874",
+  "COST/10-K.txt": "90a716226b4d54a101aaa8df9895b8facb1ea81001f26b58624a55508b8fda83",
+  "COST/10-Q.txt": "609fa576674d730f5bc140e318b1c3f4858bb774cf4a4f56ee615702419f4446",
+  "COST/earnings_release.txt": "cdde12ae461b3d4142017c879b61094d09a29a8a97ed4ae44a1d934a194c234b",
+  "TGT/10-K.txt": "dade80b624148b05b5d33d2d7a052bd03c78c98b6c6eafbff73d4644f62840a9",
+  "WMT/10-K.txt": "ad4a0a0e123b7a814ec7adbcaa208f4e08f2d80bad9f3de75c1b32d0e142ac93",
+  "market_input.json": "6d62487eaf48dd719dd9632a71cda50b27b99f6014917d333a7769722851c677",
+  "market_data/wrds_close.csv": "f6bc5d3dd173265b19af517c87383110e964fab1d362617529c386bbcca8cc49"
+}

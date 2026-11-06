@@ -1,0 +1,22 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Investment Recommendation",
+        "text": "Hold is the inherited demonstration judgment pending a current valuation and human review. The live advisor must synthesize only the two analyst outputs and choose its own deciding metric."
+      }
+    ],
+    "insight": {
+      "text": "The valuation uses the filed annual earnings base, so its denominator deserves separate review.",
+      "source": "V.ratio.price_earnings",
+      "value": 39.39803921568628
+    },
+    "recommendation": "Hold",
+    "decision_source": "V.ratio.price_earnings"
+  },
+  "metadata": {
+    "mode": "offline_fixture",
+    "model": null,
+    "paid_calls": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Investment Recommendation",
+        "text": "Costco’s durable operating model and strong cash generation are offset by a premium valuation, as reflected by its elevated price‑to‑earnings multiple. This balance supports a neutral stance."
+      }
+    ],
+    "insight": {
+      "text": "Operating margin demonstrates efficient cost control relative to revenue.",
+      "source": "COST.ratio.operating_margin",
+      "value": 3.8544766026507977
+    },
+    "recommendation": "Hold",
+    "decision_source": "COST.ratio.price_earnings"
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-af259e1471780a0e",
+    "usage": {
+      "completion_tokens": 912,
+      "prompt_tokens": 8633,
+      "total_tokens": 9545,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "output": {
+    "approved": true,
+    "failures": []
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-875607fae2b89a9c",
+    "usage": {
+      "completion_tokens": 1025,
+      "prompt_tokens": 16868,
+      "total_tokens": 17893,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

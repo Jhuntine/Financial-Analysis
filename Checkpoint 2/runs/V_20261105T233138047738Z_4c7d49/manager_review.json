@@ -1,0 +1,9 @@
+{
+  "approved": false,
+  "failures": [
+    {
+      "role": "Investment Advisor",
+      "issue": "decision_source metric (V.ratio.price_earnings) does not match the metric referenced in the Insight (V.ratio.operating_margin). The deciding metric must be the single metric used to justify the recommendation."
+    }
+  ]
+}

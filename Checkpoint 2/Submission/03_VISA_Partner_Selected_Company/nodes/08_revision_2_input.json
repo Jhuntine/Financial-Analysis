@@ -1,0 +1,546 @@
+{
+  "task": "Synthesize only the supplied analyst outputs. Write a complete Investment Recommendation paragraph explaining Buy/Hold/Sell. Cite the actual catalog key chosen in your decision_source field in double brackets, identify a risk, and state evidence that would change your view. Do not return only the recommendation label. Choose one available deciding source. The separate sourced Insight may use a different supported metric. Use tokens for quantitative evidence; do not spell out quantities.",
+  "context": {
+    "analyst_outputs": {
+      "Research Analyst": {
+        "sections": [
+          {
+            "title": "Overview",
+            "text": "Visa operates a global four‑party network that authorizes, clears and settles transactions among consumers, issuers, acquirers and merchants, enabling secure, reliable and efficient money movement worldwide [source:K:L152]. The company emphasizes its role as a payments technology platform rather than a card issuer or lender, underscoring its focus on network scale and connectivity [source:Q:L1253]. Revenue growth was driven primarily by higher cross‑border volume, overall payments volume and the number of processed transactions, while client incentives partially offset that expansion [source:K:L825][source:Q:L1402]. The firm reported a strong operating margin, reflecting the high‑margin nature of its network services [[V.ratio.operating_margin]]. Free cash flow remained robust after accounting for capital expenditures [[V.ratio.free_cash_flow]], and the balance sheet shows a moderate leverage profile [[V.ratio.debt_to_equity]]."
+          },
+          {
+            "title": "Market Positioning and Growth Outlook",
+            "text": "Visa’s competitive resilience stems from its extensive global reach, deep brand equity, and a suite of value‑added services that deepen client relationships, such as commercial solutions, Visa Direct and marketing services [source:K:L179][source:K:L191]. Strategic acquisitions—including Prisma, Newpay and BioCatch—enhance its processing capabilities, real‑time payments infrastructure and fraud‑prevention intelligence, further differentiating the network [source:K:L381]. Sponsorships with major sports and entertainment properties amplify brand visibility and drive adoption of innovative payment experiences [source:K:L191].\n\nGrowth outlook is supported by continued resilience in consumer spending, expansion of digital commerce, and cross‑border ecommerce activity, which together underpin revenue expansion [[V.ratio.revenue_growth]] and a high return on average equity [[V.ratio.return_on_average_equity]]. The company’s free cash flow generation provides flexibility for share repurchases and dividend growth, reinforcing shareholder returns.\n\nKey risks include regulatory scrutiny of interchange fees in the United Kingdom, ongoing litigation exposure related to multidistrict cases, and the potential volatility of client incentives that can affect net revenue trends [source:Q:L1180][source:Q:L555][source:Q:L1109][source:K:L457]. Competitive pressure from independent‑risk‑fee (IRF) schemes also influences overall payment volumes [source:K:L505]. Exchange‑rate movements contributed modestly to revenue growth, highlighting exposure to currency fluctuations [source:Q:L1278]."
+          },
+          {
+            "title": "Future Developments and Strategic Recommendations",
+            "text": "Visa is expanding its blockchain and stablecoin initiatives, including participation as a validator, the launch of a stablecoin platform and support for token‑linked card programs, positioning the network at the forefront of digital asset commerce [source:K:L188]. The Acceptance Platform, featuring solutions such as Cybersource, Authorize.net and the Intelligent Commerce Connect pilot, extends omnichannel capabilities and enables emerging digital commerce experiences [source:K:L329]. Continued investment in VisaNet’s cloud‑based architecture will sustain processing speed and reliability as transaction volumes rise.\n\nStrategic recommendations:\n- Accelerate integration of newly acquired fraud‑intelligence and real‑time payment assets to enhance security and broaden service offerings.\n- Maintain disciplined management of client incentives to protect margin while supporting volume growth.\n- Proactively engage regulators on interchange and competition matters to mitigate litigation risk.\n- Leverage strong free cash flow to fund strategic acquisitions, technology upgrades, and shareholder returns, preserving capital efficiency.\n- Monitor competitive dynamics from IRFs and emerging payment networks, adapting pricing and value‑added services to sustain network stickiness."
+          }
+        ],
+        "insight": {
+          "text": "Return on average equity is robust, indicating efficient use of capital.",
+          "source": "V.ratio.return_on_average_equity",
+          "value": 63.50716022696569
+        },
+        "recommendation": "",
+        "decision_source": ""
+      },
+      "Financial Analyst": {
+        "sections": [
+          {
+            "title": "Valuation Insights",
+            "text": "The firm reported revenue as defined in [[V.fact.revenue]] and achieved a year‑over‑year increase of [[V.ratio.revenue_growth]] percent. Operating income of [[V.fact.operating_income]] yielded an operating margin of [[V.ratio.operating_margin]] percent, reflecting efficient cost management. GAAP diluted earnings per share are captured in [[V.fact.diluted_eps]] and translate to a price‑earnings multiple of [[V.ratio.price_earnings]] times, indicating market valuation relative to earnings. Return on average equity of [[V.ratio.return_on_average_equity]] percent underscores strong profitability on the equity base. The capital structure shows a debt‑to‑equity ratio of [[V.ratio.debt_to_equity]] times, incorporating long‑term debt [[V.fact.long_term_debt]] and current debt [[V.fact.current_debt]]. Free cash flow of [[V.ratio.free_cash_flow]] demonstrates robust cash generation after capital expenditures [[V.fact.capex]]."
+          }
+        ],
+        "insight": {
+          "text": "Free cash flow of [[V.ratio.free_cash_flow]] indicates ample cash generation after capital spending.",
+          "source": "V.ratio.free_cash_flow",
+          "value": 22057000000.0
+        },
+        "recommendation": "",
+        "decision_source": "",
+        "table_sources": [
+          "V.fact.revenue",
+          "V.fact.operating_income",
+          "V.fact.net_income",
+          "V.fact.diluted_eps",
+          "V.fact.equity",
+          "V.fact.long_term_debt",
+          "V.fact.current_debt",
+          "V.fact.operating_cash_flow",
+          "V.fact.capex",
+          "V.fact.prior_revenue",
+          "V.fact.prior_equity",
+          "V.ratio.revenue_growth",
+          "V.ratio.operating_margin",
+          "V.ratio.return_on_average_equity",
+          "V.ratio.debt_to_equity",
+          "V.ratio.free_cash_flow",
+          "V.ratio.price_earnings",
+          "V.price",
+          "V.quarter.quarter_net_revenue",
+          "V.quarter.prior_quarter_net_revenue",
+          "V.quarter.quarter_gaap_diluted_eps",
+          "V.quarter.annual_release_gaap_diluted_eps",
+          "V.quarter.revenue_growth"
+        ]
+      }
+    },
+    "catalog": {
+      "V.fact.capex": {
+        "value": 1671000000,
+        "tag": "us-gaap:PaymentsToAcquireProductiveAssets",
+        "start": "2025-10-01",
+        "end": "2026-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "capex",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1774,
+        "source_text": "Purchases of property, equipment and technology | ( 1,671 ) | | | ( 1,482 ) | | | ( 1,257 ) |",
+        "definition": "Cash purchases of property/equipment (and technology if the reported row includes it); positive outflow.",
+        "kind": "fact",
+        "facts_file": "V/facts.json",
+        "period": "2025-10-01 to 2026-09-30"
+      },
+      "V.fact.current_debt": {
+        "value": 2716000000,
+        "tag": "us-gaap:LongTermDebtCurrent",
+        "start": null,
+        "end": "2026-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-19",
+        "metric": "current_debt",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1505,
+        "source_text": "Current maturities of debt | 2,716 | | | 5,569 |",
+        "definition": "Current portion of long-term debt; excludes unrelated short-term borrowings.",
+        "kind": "fact",
+        "facts_file": "V/facts.json",
+        "period": "2026-09-30"
+      },
+      "V.fact.diluted_eps": {
+        "value": 12.32,
+        "tag": "us-gaap:EarningsPerShareDiluted",
+        "start": "2025-10-01",
+        "end": "2026-09-30",
+        "dimensions": {
+          "us-gaap:StatementClassOfStockAxis": "us-gaap:CommonClassAMember"
+        },
+        "context": "c-2",
+        "method": "10-K inline XBRL (dimensional fallback)",
+        "metric": "diluted_eps",
+        "unit": "USD/shares",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1584,
+        "source_text": "Class A common stock | $ | 12.32 | | | $ | 10.20 | | | $ | 9.73 |",
+        "definition": "GAAP diluted EPS for the listed common share class; consolidated fact if unambiguous.",
+        "kind": "fact",
+        "facts_file": "V/facts.json",
+        "period": "2025-10-01 to 2026-09-30"
+      },
+      "V.fact.equity": {
+        "value": 36111000000,
+        "tag": "us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+        "start": null,
+        "end": "2026-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-19",
+        "metric": "equity",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1531,
+        "source_text": "Total equity | 36,111 | | | 37,909 |",
+        "definition": "Reported consolidated stockholders' equity; scope is identified by the selected tag.",
+        "kind": "fact",
+        "facts_file": "V/facts.json",
+        "period": "2026-09-30"
+      },
+      "V.fact.long_term_debt": {
+        "value": 19355000000,
+        "tag": "us-gaap:LongTermDebtNoncurrent",
+        "start": null,
+        "end": "2026-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-19",
+        "metric": "long_term_debt",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1508,
+        "source_text": "Long-term debt | 19,355 | | | 19,602 |",
+        "definition": "Carrying amount of long-term debt excluding its current portion; excludes operating leases.",
+        "kind": "fact",
+        "facts_file": "V/facts.json",
+        "period": "2026-09-30"
+      },
+      "V.fact.net_income": {
+        "value": 23504000000,
+        "tag": "us-gaap:NetIncomeLoss",
+        "start": "2025-10-01",
+        "end": "2026-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "net_income",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1567,
+        "source_text": "Net income | $ | 23,504 | | | $ | 20,058 | | | $ | 19,743 |",
+        "definition": "GAAP consolidated net income; use the equity scope identified in the source tag.",
+        "kind": "fact",
+        "facts_file": "V/facts.json",
+        "period": "2025-10-01 to 2026-09-30"
+      },
+      "V.fact.operating_cash_flow": {
+        "value": 23728000000,
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "start": "2025-10-01",
+        "end": "2026-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "operating_cash_flow",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1772,
+        "source_text": "Net cash provided by (used in) operating activities | 23,728 | | | 23,059 | | | 19,950 |",
+        "definition": "Reported net cash provided by operating activities.",
+        "kind": "fact",
+        "facts_file": "V/facts.json",
+        "period": "2025-10-01 to 2026-09-30"
+      },
+      "V.fact.operating_income": {
+        "value": 28110000000,
+        "tag": "us-gaap:OperatingIncomeLoss",
+        "start": "2025-10-01",
+        "end": "2026-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "operating_income",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1559,
+        "source_text": "Operating income | 28,110 | | | 23,994 | | | 23,595 |",
+        "definition": "GAAP consolidated operating income, including litigation and other reported operating costs.",
+        "kind": "fact",
+        "facts_file": "V/facts.json",
+        "period": "2025-10-01 to 2026-09-30"
+      },
+      "V.fact.prior_equity": {
+        "value": 37909000000,
+        "tag": "us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+        "start": null,
+        "end": "2025-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-20",
+        "metric": "prior_equity",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1531,
+        "source_text": "Total equity | 36,111 | | | 37,909 |",
+        "definition": "Reported consolidated stockholders' equity; scope is identified by the selected tag.",
+        "kind": "fact",
+        "facts_file": "V/facts.json",
+        "period": "2025-09-30"
+      },
+      "V.fact.prior_revenue": {
+        "value": 40000000000,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "start": "2024-10-01",
+        "end": "2025-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-29",
+        "metric": "prior_revenue",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1548,
+        "source_text": "Net revenue | $ | 45,903 | | | $ | 40,000 | | | $ | 35,926 |",
+        "definition": "Consolidated reported revenue; the source row names any net/gross convention.",
+        "kind": "fact",
+        "facts_file": "V/facts.json",
+        "period": "2024-10-01 to 2025-09-30"
+      },
+      "V.fact.revenue": {
+        "value": 45903000000,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "start": "2025-10-01",
+        "end": "2026-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "revenue",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1548,
+        "source_text": "Net revenue | $ | 45,903 | | | $ | 40,000 | | | $ | 35,926 |",
+        "definition": "Consolidated reported revenue; the source row names any net/gross convention.",
+        "kind": "fact",
+        "facts_file": "V/facts.json",
+        "period": "2025-10-01 to 2026-09-30"
+      },
+      "V.price": {
+        "kind": "price",
+        "value": 367.98,
+        "unit": "USD/shares",
+        "period": "2026-09-24",
+        "definition": "WRDS Compustat comp.secd.prccd; primary U.S. security; dated security ticker V; 2026-09-24",
+        "inputs": []
+      },
+      "V.quarter.annual_release_gaap_diluted_eps": {
+        "value": 12.32,
+        "unit": "USD/shares",
+        "line": 250,
+        "column": "Third numeric column; full fiscal year ended 2026-09-30; GAAP diluted EPS; us-gaap:CommonClassAMember",
+        "column_index": 2,
+        "scale": 1,
+        "period_end": "2026-09-30",
+        "kind": "quarter",
+        "metric": "annual_release_gaap_diluted_eps",
+        "definition": "Third numeric column; full fiscal year ended 2026-09-30; GAAP diluted EPS; us-gaap:CommonClassAMember",
+        "period": "full fiscal year ended 2026-09-30",
+        "quarter_end": "2026-09-30",
+        "accession": "0001403161-26-000126",
+        "file": "V/earnings_release.txt",
+        "quote": "Class A common stock | $ | 3.19 | | | $ | 2.62 | | | $ | 12.32 | | | $ | 10.20 |",
+        "inputs": []
+      },
+      "V.quarter.prior_quarter_net_revenue": {
+        "value": 10724000000.0,
+        "unit": "USD",
+        "line": 212,
+        "column": "Second quarter column; corresponding quarter ended 2025-09-30; Net revenue; source in millions",
+        "column_index": 1,
+        "scale": 1000000,
+        "period_end": "2025-09-30",
+        "kind": "quarter",
+        "metric": "prior_quarter_net_revenue",
+        "definition": "Second quarter column; corresponding quarter ended 2025-09-30; Net revenue; source in millions",
+        "period": "corresponding quarter ended 2025-09-30",
+        "quarter_end": "2026-09-30",
+        "accession": "0001403161-26-000126",
+        "file": "V/earnings_release.txt",
+        "quote": "Net revenue | $ | 12,139 | | | $ | 10,724 | | | $ | 45,903 | | | $ | 40,000 |",
+        "inputs": []
+      },
+      "V.quarter.quarter_gaap_diluted_eps": {
+        "value": 3.19,
+        "unit": "USD/shares",
+        "line": 250,
+        "column": "First quarter column; GAAP diluted EPS; three months ended 2026-09-30; us-gaap:CommonClassAMember",
+        "column_index": 0,
+        "scale": 1,
+        "period_end": "2026-09-30",
+        "kind": "quarter",
+        "metric": "quarter_gaap_diluted_eps",
+        "definition": "First quarter column; GAAP diluted EPS; three months ended 2026-09-30; us-gaap:CommonClassAMember",
+        "period": "three months ended 2026-09-30",
+        "quarter_end": "2026-09-30",
+        "accession": "0001403161-26-000126",
+        "file": "V/earnings_release.txt",
+        "quote": "Class A common stock | $ | 3.19 | | | $ | 2.62 | | | $ | 12.32 | | | $ | 10.20 |",
+        "inputs": []
+      },
+      "V.quarter.quarter_net_revenue": {
+        "value": 12139000000.0,
+        "unit": "USD",
+        "line": 212,
+        "column": "First quarter column; three months ended 2026-09-30; Net revenue; source in millions",
+        "column_index": 0,
+        "scale": 1000000,
+        "period_end": "2026-09-30",
+        "kind": "quarter",
+        "metric": "quarter_net_revenue",
+        "definition": "First quarter column; three months ended 2026-09-30; Net revenue; source in millions",
+        "period": "three months ended 2026-09-30",
+        "quarter_end": "2026-09-30",
+        "accession": "0001403161-26-000126",
+        "file": "V/earnings_release.txt",
+        "quote": "Net revenue | $ | 12,139 | | | $ | 10,724 | | | $ | 45,903 | | | $ | 40,000 |",
+        "inputs": []
+      },
+      "V.quarter.revenue_growth": {
+        "value": 13.194703468854897,
+        "unit": "%",
+        "arithmetic": "(12,139,000,000 / 10,724,000,000 - 1) * 100",
+        "line": 212,
+        "note": "Same consolidated revenue definition and corresponding fiscal-quarter columns; not headline net-sales growth.",
+        "kind": "ratio",
+        "formula": "growth",
+        "definition": "Current quarter revenue / same quarter prior-year revenue minus one, nominal percent.",
+        "period": "2026-09-30",
+        "inputs": [
+          "V.quarter.quarter_net_revenue",
+          "V.quarter.prior_quarter_net_revenue"
+        ]
+      },
+      "V.ratio.debt_to_equity": {
+        "value": 0.6111988036886268,
+        "arithmetic": "(19,355,000,000 + 2,716,000,000) / 36,111,000,000",
+        "inputs": [
+          "V.fact.long_term_debt",
+          "V.fact.current_debt",
+          "V.fact.equity"
+        ],
+        "unit": "x",
+        "fiscal_start": "2025-10-01",
+        "fiscal_end": "2026-09-30",
+        "kind": "ratio",
+        "formula": "de",
+        "definition": "Long-term debt including its current portion / ending reported equity.",
+        "period": "2025-10-01 to 2026-09-30"
+      },
+      "V.ratio.free_cash_flow": {
+        "value": 22057000000,
+        "arithmetic": "23,728,000,000 - 1,671,000,000",
+        "inputs": [
+          "V.fact.operating_cash_flow",
+          "V.fact.capex"
+        ],
+        "unit": "USD",
+        "fiscal_start": "2025-10-01",
+        "fiscal_end": "2026-09-30",
+        "kind": "ratio",
+        "formula": "fcf",
+        "definition": "Operating cash flow less reported property, equipment and technology purchases as applicable.",
+        "period": "2025-10-01 to 2026-09-30"
+      },
+      "V.ratio.operating_margin": {
+        "value": 61.237827592967776,
+        "arithmetic": "28,110,000,000 / 45,903,000,000 * 100",
+        "inputs": [
+          "V.fact.operating_income",
+          "V.fact.revenue"
+        ],
+        "unit": "%",
+        "fiscal_start": "2025-10-01",
+        "fiscal_end": "2026-09-30",
+        "kind": "ratio",
+        "formula": "margin",
+        "definition": "GAAP operating income / consolidated reported revenue, percent.",
+        "period": "2025-10-01 to 2026-09-30"
+      },
+      "V.ratio.price_earnings": {
+        "value": 29.868506493506494,
+        "arithmetic": "367.98 / 12.32",
+        "inputs": [
+          "V.price",
+          "V.fact.diluted_eps"
+        ],
+        "unit": "x",
+        "fiscal_start": "2025-10-01",
+        "fiscal_end": "2026-09-30",
+        "kind": "ratio",
+        "formula": "pe",
+        "definition": "Dated close / latest filed annual GAAP diluted EPS; annual-filing multiple, not current TTM.",
+        "period": "2025-10-01 to 2026-09-30"
+      },
+      "V.ratio.return_on_average_equity": {
+        "value": 63.50716022696569,
+        "arithmetic": "23,504,000,000 / ((37,909,000,000 + 36,111,000,000) / 2) * 100",
+        "inputs": [
+          "V.fact.net_income",
+          "V.fact.prior_equity",
+          "V.fact.equity"
+        ],
+        "unit": "%",
+        "fiscal_start": "2025-10-01",
+        "fiscal_end": "2026-09-30",
+        "kind": "ratio",
+        "formula": "roe",
+        "definition": "GAAP net income / average beginning and ending reported equity, percent.",
+        "period": "2025-10-01 to 2026-09-30"
+      },
+      "V.ratio.revenue_growth": {
+        "value": 14.7575,
+        "arithmetic": "(45,903,000,000 / 40,000,000,000 - 1) * 100",
+        "inputs": [
+          "V.fact.revenue",
+          "V.fact.prior_revenue"
+        ],
+        "unit": "%",
+        "fiscal_start": "2025-10-01",
+        "fiscal_end": "2026-09-30",
+        "kind": "ratio",
+        "formula": "growth",
+        "definition": "Same-definition annual revenue / prior annual revenue minus one, percent.",
+        "period": "2025-10-01 to 2026-09-30"
+      }
+    },
+    "available_source_keys": [
+      "V.fact.capex",
+      "V.fact.current_debt",
+      "V.fact.diluted_eps",
+      "V.fact.equity",
+      "V.fact.long_term_debt",
+      "V.fact.net_income",
+      "V.fact.operating_cash_flow",
+      "V.fact.operating_income",
+      "V.fact.prior_equity",
+      "V.fact.prior_revenue",
+      "V.fact.revenue",
+      "V.price",
+      "V.quarter.annual_release_gaap_diluted_eps",
+      "V.quarter.prior_quarter_net_revenue",
+      "V.quarter.quarter_gaap_diluted_eps",
+      "V.quarter.quarter_net_revenue",
+      "V.quarter.revenue_growth",
+      "V.ratio.debt_to_equity",
+      "V.ratio.free_cash_flow",
+      "V.ratio.operating_margin",
+      "V.ratio.price_earnings",
+      "V.ratio.return_on_average_equity",
+      "V.ratio.revenue_growth"
+    ],
+    "previous_output": {
+      "sections": [
+        {
+          "title": "Investment Recommendation",
+          "text": "Visa’s network delivers a durable, high‑margin platform that benefits from expanding cross‑border volume and value‑added services. The firm posts an operating margin of [[V.ratio.operating_margin]] and free cash flow of [[V.ratio.free_cash_flow]], underpinning robust shareholder returns. A key driver is the return on average equity of [[V.ratio.return_on_average_equity]], reflecting exceptional profitability on capital. The balance sheet shows a moderate debt‑to‑equity of [[V.ratio.debt_to_equity]], supporting dividend growth and share repurchases. The principal risk is regulatory scrutiny of interchange fees in the United Kingdom, which could compress margins [source:Q:L1180]. The view would shift to a hold or sell if operating margin deteriorated markedly or if regulatory outcomes forced a material fee reduction."
+        }
+      ],
+      "insight": {
+        "text": "The debt‑to‑equity ratio of [[V.ratio.debt_to_equity]] indicates moderate leverage, aiding financial flexibility.",
+        "source": "V.ratio.debt_to_equity",
+        "value": 0.6111988036886268
+      },
+      "recommendation": "Buy",
+      "decision_source": "V.ratio.return_on_average_equity"
+    },
+    "repair_once": [
+      "Recommendation does not explicitly justify Buy using decision_source V.ratio.return_on_average_equity.",
+      "Reconcile with the revised upstream analyst outputs."
+    ]
+  },
+  "expected_output": {
+    "sections": [
+      "Investment Recommendation"
+    ],
+    "insight": "One claim beyond the release headline with source and value",
+    "recommendation": "Buy/Hold/Sell only for advisor",
+    "decision_source": "One analyst evidence key only for advisor"
+  },
+  "instruction_file": "roles/investment_advisor.md",
+  "instruction_sha256": "bd0146e437b733176e9f7956ef3728593e32f89b90ebc6e28f3c8cc3e43f5a02"
+}

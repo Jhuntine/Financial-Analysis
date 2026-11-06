@@ -1,0 +1,36 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Valuation Insights",
+        "text": "- Revenue grew [[COST.ratio.revenue_growth]] percent, indicating solid top‑line expansion. [[COST.ratio.revenue_growth]]\n- Operating margin stands at [[COST.ratio.operating_margin]] percent, reflecting modest profitability relative to peers. [[COST.ratio.operating_margin]]\n- Return on average equity is [[COST.ratio.return_on_average_equity]] percent, showing strong capital efficiency. [[COST.ratio.return_on_average_equity]]\n- Debt‑to‑equity is [[COST.ratio.debt_to_equity]] times, underscoring low leverage. [[COST.ratio.debt_to_equity]]\n- Free cash flow of [[COST.ratio.free_cash_flow]] dollars supports dividend and share‑repurchase capacity. [[COST.ratio.free_cash_flow]]\n- The annual price‑earnings multiple of [[COST.ratio.price_earnings]] suggests the market assigns a premium to growth expectations. [[COST.ratio.price_earnings]]"
+      }
+    ],
+    "insight": {
+      "text": "The modest leverage ratio provides financial flexibility for future strategic initiatives.",
+      "source": "COST.ratio.debt_to_equity",
+      "value": 0.17210848252939698
+    },
+    "recommendation": "",
+    "decision_source": ""
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-ac492f307b40d59e",
+    "usage": {
+      "completion_tokens": 1094,
+      "prompt_tokens": 16427,
+      "total_tokens": 17521,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

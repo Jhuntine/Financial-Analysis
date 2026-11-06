@@ -1,0 +1,15 @@
+{
+  "sections": [
+    {
+      "title": "Valuation Insights",
+      "text": "Visa posts a high operating margin of [[V.ratio.operating_margin]] and a strong return on average equity of [[V.ratio.return_on_average_equity]]. Debt‑to‑equity stands at [[V.ratio.debt_to_equity]], indicating moderate leverage. Free cash flow of [[V.ratio.free_cash_flow]] underpins share repurchases and dividend growth. The annual price‑earnings multiple of [[V.ratio.price_earnings]] reflects market expectations relative to earnings. Revenue grew by [[V.ratio.revenue_growth]] year over year, supporting the top‑line momentum."
+    }
+  ],
+  "insight": {
+    "text": "Leverage remains moderate, as indicated by the debt‑to‑equity ratio.",
+    "source": "V.ratio.debt_to_equity",
+    "value": 0.6639848057189586
+  },
+  "recommendation": "",
+  "decision_source": ""
+}

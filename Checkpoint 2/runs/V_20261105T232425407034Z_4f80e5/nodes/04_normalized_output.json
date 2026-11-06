@@ -1,0 +1,15 @@
+{
+  "sections": [
+    {
+      "title": "Investment Recommendation",
+      "text": "Visa’s business model as a technology‑driven payments platform delivers durable cash‑flow generation and high pricing power. The operating margin remains high, as shown by [[V.ratio.operating_margin]], outpacing peers and supporting strong earnings quality. Free cash flow is sizable ([[V.ratio.free_cash_flow]]), enabling disciplined capital returns while funding growth initiatives. Leverage is modest, reflected in a low debt‑to‑equity ratio ([[V.ratio.debt_to_equity]]), which adds financial flexibility. Risks include intensifying competition from emerging fintech players and regulatory scrutiny over interchange fees and client incentive programs, which could pressure margins. Balancing these factors, the durable profitability and cash generation outweigh the identified risks, leading to a Buy stance."
+    }
+  ],
+  "insight": {
+    "text": "The modest leverage ratio underscores financial resilience.",
+    "source": "V.ratio.debt_to_equity",
+    "value": 0.6639848057189586
+  },
+  "recommendation": "Buy",
+  "decision_source": "V.ratio.operating_margin"
+}

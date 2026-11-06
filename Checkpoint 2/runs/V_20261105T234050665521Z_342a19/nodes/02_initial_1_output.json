@@ -1,0 +1,44 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Overview",
+        "text": "Overview"
+      },
+      {
+        "title": "Overview",
+        "text": "Visa is a global payments technology company that operates a four‑party network connecting consumers, issuers, acquirers and merchants. The firm’s purpose is to “uplift everyone, everywhere by being the best way to pay and be paid” and it does not issue cards or set rates for cardholders [ source:K:L151 ][ source:Q:L1253 ]. Revenue growth is driven by higher payments volume, cross‑border activity and processed transactions, which together lifted net revenue in the most recent quarter [ source:K:L839 ][ source:E:L39 ]. Offsetting this growth are higher client incentives, a recurring theme noted in the filing [ source:K:L839 ][ source:E:L44 ]. The company maintains a strong operating margin, reflecting efficient cost management [[V.ratio.operating_margin]] and generates robust operating cash flow [[V.ratio.free_cash_flow]]."
+      },
+      {
+        "title": "Market Positioning and Growth Outlook",
+        "text": "Market Positioning and Growth Outlook"
+      }
+    ],
+    "insight": {
+      "text": "Visa delivers a high return on equity",
+      "source": "V.ratio.return_on_average_equity",
+      "value": 52.06759598162137
+    },
+    "recommendation": "",
+    "decision_source": ""
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-ba42b9e42fafc5b0",
+    "usage": {
+      "completion_tokens": 1029,
+      "prompt_tokens": 16841,
+      "total_tokens": 17870,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

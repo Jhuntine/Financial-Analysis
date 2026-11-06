@@ -1,0 +1,15 @@
+{
+  "sections": [
+    {
+      "title": "Investment Recommendation",
+      "text": "Buy"
+    }
+  ],
+  "insight": {
+    "text": "Debt‑to‑equity around two‑thirds reflects a balanced capital structure, limiting financial risk.",
+    "source": "V.ratio.debt_to_equity",
+    "value": 0.6639848057189586
+  },
+  "recommendation": "Buy",
+  "decision_source": "V.ratio.return_on_average_equity"
+}

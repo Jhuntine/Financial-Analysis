@@ -1,0 +1,36 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Valuation Insights",
+        "text": "Costco shows a solid operating margin as reflected by [[COST.ratio.operating_margin]], indicating disciplined cost management. Its debt-to-equity ratio [[COST.ratio.debt_to_equity]] points to a conservative financing profile. Free cash flow [[COST.ratio.free_cash_flow]] demonstrates ample cash generation after capital spending, supporting shareholder returns. The price‑earnings multiple [[COST.ratio.price_earnings]] suggests the market assigns a premium relative to earnings, consistent with the company’s strong brand and membership model."
+      }
+    ],
+    "insight": {
+      "text": "The firm’s return on average equity remains robust, underscoring efficient capital use.",
+      "source": "COST.ratio.return_on_average_equity",
+      "value": 28.402111841396398
+    },
+    "recommendation": "",
+    "decision_source": ""
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-82225e9efb93d25b",
+    "usage": {
+      "completion_tokens": 1005,
+      "prompt_tokens": 16410,
+      "total_tokens": 17415,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

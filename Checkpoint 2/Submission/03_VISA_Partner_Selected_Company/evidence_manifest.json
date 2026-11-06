@@ -1,0 +1,10 @@
+{
+  "catalog.json": "91965ad3a5c7288f6ae5e6468888272bbf31e12c9b46cc9981b6fae42a9de5be",
+  "quarter_observations.json": "c9bf97d0f121029ecfab87715ce7731ab570b52b4ab863f78716baf471a5bf67",
+  "V/facts.json": "cd7e3a39dd96c10f1470a74b1a7b583a06cea5d8cb1b68a162bdd3ab8a1c7968",
+  "V/10-K.txt": "7ffb1a6c6d80977ab4b0f70075c2d2822ccf93ce14114a20f4ed9403ca282328",
+  "V/10-Q.txt": "effd76d947eb475aaa5c1ed0b8e27d2ebff6eea15f7e0b6e5f23fff3a3580b07",
+  "V/earnings_release.txt": "95977a4e7773aa21a999edf2a243f009d5dcf62f34da6a53a65813e29143ce06",
+  "market_input.json": "d293f51f056c5991313bf973a3e6a88d34ec675bb9345a0a64b6b4e5546b8f3b",
+  "market_data/wrds_close.csv": "852ddbc775d0dec1e8ee8ec8309c50268c055a0fc71c9c98872c1dbba299d293"
+}

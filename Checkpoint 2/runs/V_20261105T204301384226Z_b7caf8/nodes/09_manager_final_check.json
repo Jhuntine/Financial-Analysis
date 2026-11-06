@@ -1,0 +1,98 @@
+{
+  "input": {
+    "task": "Apply final bounded structural check",
+    "context": {
+      "drafts": {
+        "Research Analyst": {
+          "sections": [
+            {
+              "title": "Overview",
+              "text": "Visa operates a global payments network that connects consumers, issuers, acquirers and merchants through a four‑party model, providing authorization, clearing and settlement services. The company does not issue cards or extend credit, focusing instead on secure, reliable and efficient money movement. It offers both Visa‑branded and non‑Visa‑branded transaction processing, earning service and data‑processing revenue depending on the client’s use of its network. [source:K:L151] [source:K:L208] [source:K:L208]"
+            },
+            {
+              "title": "Market Positioning and Growth Outlook",
+              "text": "Visa’s growth strategy centers on expanding consumer payments, commercial and money‑movement solutions, and value‑added services. Investments in token technology, cross‑border capabilities and digital commerce are intended to capture volume from evolving consumer habits and emerging commerce models. The fiscal fourth quarter and full‑year results highlighted robust growth in payments volume, cross‑border activity and processed transactions, supporting double‑digit revenue expansion [[V.ratio.revenue_growth]] and a strong operating margin [[V.ratio.operating_margin]]. The company’s acceptance platform and token management services further differentiate its offering and enable merchants to reduce fraud and operational costs. Competitive pressures arise from new entrants leveraging blockchain, stablecoins and alternative network models, as noted in the industry overview. Regulatory and litigation risks, including recent UK competition appeals and ongoing multidistrict litigation, could constrain pricing flexibility and affect transaction volume. [source:K:L214] [source:K:L220] [source:E:L39] [source:E:L44] [source:K:L382] [source:Q:L1180] [source:Q:L1109]"
+            },
+            {
+              "title": "Future Developments and Strategic Recommendations",
+              "text": "Visa’s acquisition of a behavioral‑first fraud‑intelligence firm is expected to strengthen its security portfolio and support higher‑value transaction processing. Continued investment in the Visa Acceptance Platform, tokenization and cross‑border solutions will help capture share in digital commerce and omnichannel payments. Managing client incentives and monitoring regulatory developments are critical to preserving margin expansion. A strategic focus on scaling value‑added services and leveraging the network’s data capabilities can enhance revenue resilience while mitigating competitive threats. [source:E:L68] [source:K:L309] [source:K:L485]"
+            }
+          ],
+          "insight": {
+            "text": "Visa delivers a high return on equity",
+            "source": "V.ratio.return_on_average_equity",
+            "value": 52.06759598162137
+          },
+          "recommendation": "",
+          "decision_source": ""
+        },
+        "Financial Analyst": {
+          "sections": [
+            {
+              "title": "Valuation Insights",
+              "text": "Visa delivers a strong operating margin of [[V.ratio.operating_margin]] [source:V.ratio.operating_margin], indicating efficient cost management. Its return on average equity of [[V.ratio.return_on_average_equity]] [source:V.ratio.return_on_average_equity] reflects high profitability relative to the capital base. The debt‑to‑equity ratio of [[V.ratio.debt_to_equity]] [source:V.ratio.debt_to_equity] suggests a balanced leverage profile. Free cash flow of [[V.ratio.free_cash_flow]] [source:V.ratio.free_cash_flow] underscores robust cash generation after capital spending. The annual price‑earnings multiple of [[V.ratio.price_earnings]] [source:V.ratio.price_earnings] places the stock at a premium, implying strong growth expectations."
+            }
+          ],
+          "insight": {
+            "text": "Annual revenue growth of [[V.ratio.revenue_growth]] signals continued market share gains, a key driver of future earnings.",
+            "source": "V.ratio.revenue_growth",
+            "value": 11.339976618604908
+          },
+          "recommendation": "",
+          "decision_source": "",
+          "table_sources": [
+            "V.fact.revenue",
+            "V.fact.operating_income",
+            "V.fact.net_income",
+            "V.fact.diluted_eps",
+            "V.fact.equity",
+            "V.fact.long_term_debt",
+            "V.fact.current_debt",
+            "V.fact.operating_cash_flow",
+            "V.fact.capex",
+            "V.fact.prior_revenue",
+            "V.fact.prior_equity",
+            "V.ratio.revenue_growth",
+            "V.ratio.operating_margin",
+            "V.ratio.return_on_average_equity",
+            "V.ratio.debt_to_equity",
+            "V.ratio.free_cash_flow",
+            "V.ratio.price_earnings",
+            "MA.fact.revenue",
+            "MA.fact.operating_income",
+            "MA.ratio.operating_margin",
+            "PYPL.fact.revenue",
+            "PYPL.fact.operating_income",
+            "PYPL.ratio.operating_margin",
+            "V.price",
+            "V.quarter.quarter_net_revenue",
+            "V.quarter.prior_quarter_net_revenue",
+            "V.quarter.quarter_gaap_diluted_eps",
+            "V.quarter.annual_release_gaap_diluted_eps",
+            "V.quarter.revenue_growth"
+          ]
+        },
+        "Investment Advisor": {
+          "sections": [
+            {
+              "title": "Investment Recommendation",
+              "text": "Buy"
+            }
+          ],
+          "insight": {
+            "text": "Debt‑to‑equity ratio reflects moderate leverage supporting financial stability",
+            "source": "V.ratio.debt_to_equity",
+            "value": 0.6639848057189586
+          },
+          "recommendation": "Buy",
+          "decision_source": "V.ratio.return_on_average_equity"
+        }
+      }
+    },
+    "expected_output": "Final approval or unresolved failures"
+  },
+  "output": {
+    "approved": true,
+    "failures": []
+  }
+}

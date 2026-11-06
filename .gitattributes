@@ -1,2 +1,5 @@
 # Market observations are hashed byte-for-byte for offline replay.
 *.csv text eol=lf
+
+# Preserve saved evidence and source hashes on Windows and Linux checkouts.
+"Checkpoint 2/**" -text

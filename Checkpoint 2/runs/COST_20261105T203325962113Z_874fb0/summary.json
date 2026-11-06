@@ -1,0 +1,19 @@
+{
+  "run_dir": "runs/COST_20261105T203325962113Z_874fb0",
+  "mode": "recorded_live_replay",
+  "manager_approved": true,
+  "errors": 0,
+  "verifier_ran": true,
+  "model_call_counts": {},
+  "replayed_response_counts": {
+    "Research Analyst": 1,
+    "Financial Analyst": 1,
+    "Investment Advisor": 1,
+    "Strategy Manager": 1,
+    "Verifier": 1
+  },
+  "fixture_response_counts": {},
+  "human_audit": "pending",
+  "student_personas": "pending",
+  "partner_pick": "pending"
+}

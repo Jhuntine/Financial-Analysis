@@ -1,0 +1,36 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Valuation Insights",
+        "text": "Visa delivers a strong operating margin of [[V.ratio.operating_margin]] [source:V.ratio.operating_margin], indicating efficient cost management. Its return on average equity of [[V.ratio.return_on_average_equity]] [source:V.ratio.return_on_average_equity] reflects high profitability relative to the capital base. The debt‑to‑equity ratio of [[V.ratio.debt_to_equity]] [source:V.ratio.debt_to_equity] suggests a balanced leverage profile. Free cash flow of [[V.ratio.free_cash_flow]] [source:V.ratio.free_cash_flow] underscores robust cash generation after capital spending. The annual price‑earnings multiple of [[V.ratio.price_earnings]] [source:V.ratio.price_earnings] places the stock at a premium, implying strong growth expectations."
+      }
+    ],
+    "insight": {
+      "text": "Annual revenue growth of [[V.ratio.revenue_growth]] signals continued market share gains, a key driver of future earnings.",
+      "source": "V.ratio.revenue_growth",
+      "value": 11.339976618604908
+    },
+    "recommendation": "",
+    "decision_source": ""
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-9a1e64cf29d87a39",
+    "usage": {
+      "completion_tokens": 1173,
+      "prompt_tokens": 12475,
+      "total_tokens": 13648,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

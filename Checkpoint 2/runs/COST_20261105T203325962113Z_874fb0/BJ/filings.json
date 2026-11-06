@@ -1,0 +1,13 @@
+{
+  "10-K": {
+    "form": "10-K",
+    "filing_date": "2026-03-12",
+    "report_date": "2026-01-31",
+    "accession": "0001531152-26-000007",
+    "accepted_api": "2026-03-12T20:15:55.000Z",
+    "accepted_index": "2026-03-12 16:15:55",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1531152/000153115226000007/0001531152-26-000007-index.html",
+    "primary_url": "https://www.sec.gov/Archives/edgar/data/1531152/000153115226000007/bj-20260131.htm",
+    "items": ""
+  }
+}

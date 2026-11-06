@@ -1,0 +1,36 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Investment Recommendation",
+        "text": "Costco’s durable membership model and strong capital efficiency, reflected by a return on equity of [[COST.ratio.return_on_average_equity]], support a neutral stance. While the low‑leverage profile and robust free cash flow provide a margin of safety, the elevated price‑earnings multiple suggests limited upside at current valuations. Accordingly, the recommendation is Hold."
+      }
+    ],
+    "insight": {
+      "text": "A debt‑to‑equity ratio of [[COST.ratio.debt_to_equity]] underscores financial flexibility.",
+      "source": "COST.ratio.debt_to_equity",
+      "value": 0.17210848252939698
+    },
+    "recommendation": "Hold",
+    "decision_source": "COST.ratio.return_on_average_equity"
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-8dcd4cf6b79f65d4",
+    "usage": {
+      "completion_tokens": 861,
+      "prompt_tokens": 8357,
+      "total_tokens": 9218,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "output": {
+    "approved": true,
+    "failures": [
+      {
+        "role": "Research Analyst",
+        "issue": "Remove unregistered numerical quantities (including spelled-out amounts) and numbered lists from Overview. Use supplied [[catalog.key]] references for numbers; omit unsupported numerical detail instead of spelling it out."
+      },
+      {
+        "role": "Research Analyst",
+        "issue": "Remove unregistered numerical quantities (including spelled-out amounts) and numbered lists from Market Positioning and Growth Outlook. Use supplied [[catalog.key]] references for numbers; omit unsupported numerical detail instead of spelling it out."
+      },
+      {
+        "role": "Research Analyst",
+        "issue": "Remove unregistered numerical quantities (including spelled-out amounts) and numbered lists from Future Developments and Strategic Recommendations. Use supplied [[catalog.key]] references for numbers; omit unsupported numerical detail instead of spelling it out."
+      }
+    ]
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-aab4061997d29342",
+    "usage": {
+      "completion_tokens": 821,
+      "prompt_tokens": 17217,
+      "total_tokens": 18038,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

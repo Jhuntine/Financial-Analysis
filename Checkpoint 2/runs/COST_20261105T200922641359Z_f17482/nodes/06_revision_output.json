@@ -1,0 +1,44 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Overview",
+        "text": "Costco operates membership warehouses and e‑commerce sites that focus on low prices for a limited assortment of national and private‑label products, driving high sales volumes and rapid inventory turnover. This model enables the company to profit at lower gross margins than many peers and to capture early‑payment discounts by often selling inventory before payment is due. [[source:K:L129]]"
+      },
+      {
+        "title": "Market Positioning and Growth Outlook",
+        "text": "Revenue expanded at a double‑digit percent rate [[COST.ratio.revenue_growth]], while operating margin remained in the low single‑digit percent range [[COST.ratio.operating_margin]], reflecting the low‑margin, high‑volume strategy. Return on equity was in the high‑twenties percent range [[COST.ratio.return_on_average_equity]], indicating strong profitability relative to shareholders’ capital. Leverage is modest, with debt‑to‑equity under two‑tenths of a times equity [[COST.ratio.debt_to_equity]], and free cash flow was robust at roughly nine billion dollars [[COST.ratio.free_cash_flow]]. Employee retention is high, with a one‑year tenure rate near ninety‑four percent [[source:K:L191]], and hourly wages were raised to an average of about thirty‑three dollars per hour [[source:K:L195]]. Competitive pressures arise from the need to balance pricing authority with cost increases, which can compress margins if the company absorbs costs or passes them to members [[source:Q:L651]]."
+      },
+      {
+        "title": "Future Developments and Strategic Recommendations",
+        "text": "The company plans to expand its warehouse footprint in existing and new markets and to integrate acquisitions, but execution risk could affect results [[source:K:L233]]. Enhancing cybersecurity defenses is critical given rising threat sophistication and potential operational disruption [[source:K:L253]]. Maintaining privacy and data‑security compliance will be essential to avoid reputational and regulatory fallout [[source:K:L252]]. Ongoing litigation, including pending opioid‑related claims, should be monitored to manage contingent liabilities [[source:Q:L508]]. Continued investment in employee development and compensation will support high retention and productivity. Management should balance pricing strategies to preserve the perception of pricing authority while protecting margin performance."
+      }
+    ],
+    "insight": {
+      "text": "Costco demonstrates strong capital efficiency.",
+      "source": "COST.ratio.return_on_average_equity",
+      "value": 28.402111841396398
+    },
+    "recommendation": "",
+    "decision_source": ""
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-92423b59bdf79660",
+    "usage": {
+      "completion_tokens": 1186,
+      "prompt_tokens": 18928,
+      "total_tokens": 20114,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

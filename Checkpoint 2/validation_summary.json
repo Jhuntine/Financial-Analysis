@@ -1,0 +1,146 @@
+{
+  "mode": "live",
+  "model_provider": "Purdue GenAI Studio",
+  "model": "gpt-oss:120b",
+  "primary_run": "runs/V_20261105T234050665521Z_342a19",
+  "primary_claims": 41,
+  "primary_errors": 0,
+  "primary_semantic_status": "completed",
+  "baseline_run": "runs/COST_20261105T231700361085Z_ec30bc",
+  "baseline_claims": 43,
+  "baseline_errors": 0,
+  "core_groups_covered": 11,
+  "seed_tests": {
+    "eps_plus_one": {
+      "seeded_run": "runs/COST_20261105T232111498131Z_7d807f_eps_plus_one",
+      "verified_run": "runs/COST_20261105T232111512941Z_540bc4_verify_only",
+      "claim_id": "C011",
+      "reported": 21.76,
+      "mark": "wrong",
+      "corrected": 20.76,
+      "baseline_report_sha256": "78eb399aca9edb6a1cb28ce8e0eb71734cc6124c8112ae3a3df5adb28177b705"
+    },
+    "growth_plus_four": {
+      "seeded_run": "runs/COST_20261105T232203334402Z_3c1381_growth_plus_four",
+      "verified_run": "runs/COST_20261105T232203351372Z_b63b6a_verify_only",
+      "claim_id": "SEEDED-GROWTH",
+      "reported": 14.143695387577889,
+      "mark": "wrong",
+      "corrected": 10.143695387577889,
+      "baseline_report_sha256": "78eb399aca9edb6a1cb28ce8e0eb71734cc6124c8112ae3a3df5adb28177b705"
+    },
+    "wrong_quarter": {
+      "seeded_run": "runs/COST_20261105T232247531759Z_7bc07b_wrong_quarter",
+      "verified_run": "runs/COST_20261105T232247545988Z_580401_verify_only",
+      "claim_id": "C037",
+      "reported": 20.76,
+      "mark": "wrong",
+      "corrected": 6.75,
+      "baseline_report_sha256": "78eb399aca9edb6a1cb28ce8e0eb71734cc6124c8112ae3a3df5adb28177b705"
+    },
+    "ambiguous_roe": {
+      "seeded_run": "runs/COST_20261105T232327063931Z_cfb63a_ambiguous_roe",
+      "verified_run": "runs/COST_20261105T232327080872Z_12b533_verify_only",
+      "claim_id": "C003",
+      "reported": 28.402111841396398,
+      "mark": "unsupported",
+      "corrected": 28.402111841396398,
+      "baseline_report_sha256": "78eb399aca9edb6a1cb28ce8e0eb71734cc6124c8112ae3a3df5adb28177b705"
+    }
+  },
+  "repeat_order_identical": true,
+  "live_model_tested": true,
+  "page_test": "Previously passed with recorded provider outputs; not repeated for this presentation fix",
+  "human_personas": "Student confirmed complete; current role files match the copies used by all three selected runs.",
+  "human_audit": "Student confirmed completion of checks for all three selected audits and authorized repository submission.",
+  "partner_run": "runs/V_20261105T234553142062Z_c902dc",
+  "regression_tests": 27,
+  "regression_exit_code": 0,
+  "notebook_execution_errors": 0,
+  "baseline_semantic_status": "completed",
+  "partner_claims": 44,
+  "partner_errors": 0,
+  "partner_semantic_status": "completed",
+  "saved_output_refresh": {
+    "note": "The genuine earlier live-model execution output is preserved; other outputs were recomputed from that saved evidence.",
+    "preserved_model_cell_index": 6,
+    "refreshed_at_utc": "2026-11-06T01:17:33.072857+00:00",
+    "refreshed_cell_indices": [
+      2,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18
+    ],
+    "source": "existing selected live run; no new model/provider calls"
+  },
+  "partner_checks": "AI source findings prepared; personal partner confirmation pending",
+  "ai_audit_status": {
+    "reviewer": "Codex (AI)",
+    "reviewed_at_utc": "2026-11-06 01:15 UTC",
+    "runs": [
+      "runs/V_20261105T234050665521Z_342a19",
+      "runs/V_20261105T234553142062Z_c902dc"
+    ],
+    "unresolved_numerical_errors": 0,
+    "student_approval": "Student confirmed review completion and approved repository submission.",
+    "partner_confirmation": "pending",
+    "presentation_correction": "primary operating-margin display corrected to 59.99%"
+  },
+  "new_provider_calls_during_this_review": 0,
+  "persona_completion_confirmation": {
+    "source": "student statement in conversation",
+    "recorded_at_utc": "2026-11-06T01:42:29.940717+00:00",
+    "selected_run_role_files_match": true
+  },
+  "student_review_confirmation": {
+    "reviewer_git_identity": "JosephHuntine",
+    "source": "student statements and explicit commit request in conversation",
+    "recorded_at_utc": "2026-11-06 01:52 UTC",
+    "scope": [
+      "runs/COST_20261105T231700361085Z_ec30bc",
+      "runs/V_20261105T234050665521Z_342a19",
+      "runs/V_20261105T234553142062Z_c902dc"
+    ],
+    "publication_approved": true
+  },
+  "submission_package": {
+    "directory": "Submission",
+    "start_here": "Submission/README.md",
+    "audits": [
+      {
+        "selection_key": "baseline_run",
+        "label": "Costco baseline",
+        "period": "Fiscal year ended August 30, 2026",
+        "source_run": "runs/COST_20261105T231700361085Z_ec30bc",
+        "folder": "Submission/01_COSTCO_Baseline",
+        "audit_file": "COSTCO_Baseline_Human_Audit.md",
+        "audit": "Submission/01_COSTCO_Baseline/COSTCO_Baseline_Human_Audit.md",
+        "report": "Submission/01_COSTCO_Baseline/verified_report_readable.md"
+      },
+      {
+        "selection_key": "primary_run",
+        "label": "Visa notebook example",
+        "period": "Fiscal year ended September 30, 2025",
+        "source_run": "runs/V_20261105T234050665521Z_342a19",
+        "folder": "Submission/02_VISA_Notebook_Example",
+        "audit_file": "VISA_Notebook_Human_Audit.md",
+        "audit": "Submission/02_VISA_Notebook_Example/VISA_Notebook_Human_Audit.md",
+        "report": "Submission/02_VISA_Notebook_Example/verified_report_readable.md"
+      },
+      {
+        "selection_key": "partner_run",
+        "label": "Visa partner selection",
+        "period": "Fiscal year ended September 30, 2026; October reporting-month selection",
+        "source_run": "runs/V_20261105T234553142062Z_c902dc",
+        "folder": "Submission/03_VISA_Partner_Selected_Company",
+        "audit_file": "VISA_Partner_Human_Audit.md",
+        "audit": "Submission/03_VISA_Partner_Selected_Company/VISA_Partner_Human_Audit.md",
+        "report": "Submission/03_VISA_Partner_Selected_Company/verified_report_readable.md"
+      }
+    ],
+    "note": "Three designated, descriptively named submission copies; original generated runs preserved."
+  }
+}

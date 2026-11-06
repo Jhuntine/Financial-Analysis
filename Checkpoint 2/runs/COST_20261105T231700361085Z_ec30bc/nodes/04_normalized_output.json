@@ -1,0 +1,15 @@
+{
+  "sections": [
+    {
+      "title": "Investment Recommendation",
+      "text": "Costco’s membership‑driven model and high employee retention underpin durable earnings, while its return on average equity is strong [[COST.ratio.return_on_average_equity]]. Operating margins are modest but stable [[COST.ratio.operating_margin]], and the balance sheet is conservative with a low debt‑to‑equity ratio [[COST.ratio.debt_to_equity]]. However, the price‑earnings multiple is elevated, and execution risks around expansion, digital integration, cybersecurity and litigation are noted. Balancing durability against a premium valuation leads to a neutral stance."
+    }
+  ],
+  "insight": {
+    "text": "The firm maintains a low debt‑to‑equity ratio, indicating conservative financing.",
+    "source": "COST.ratio.debt_to_equity",
+    "value": 0.17210848252939698
+  },
+  "recommendation": "Hold",
+  "decision_source": "COST.ratio.return_on_average_equity"
+}

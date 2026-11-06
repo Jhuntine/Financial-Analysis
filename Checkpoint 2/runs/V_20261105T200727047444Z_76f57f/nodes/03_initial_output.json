@@ -1,0 +1,36 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Valuation Insights",
+        "text": "Visa delivered a revenue base of [[V.fact.revenue]] with year‑over‑year growth of [[V.ratio.revenue_growth]] in constant‑dollar terms. The operating margin of [[V.ratio.operating_margin]] reflects strong profitability, while the return on average equity of [[V.ratio.return_on_average_equity]] underscores efficient capital deployment. Debt‑to‑equity of [[V.ratio.debt_to_equity]] indicates a balanced financing profile, and free cash flow of [[V.ratio.free_cash_flow]] demonstrates robust cash generation after capital expenditures of [[V.fact.capex]]. The GAAP diluted EPS of [[V.fact.diluted_eps]] pertains to the Class A common share class, and the price‑earnings multiple of [[V.ratio.price_earnings]] is based on the close price of [[V.price]] dated 2026‑10‑27."
+      }
+    ],
+    "insight": {
+      "text": "Free cash flow of [[V.ratio.free_cash_flow]] highlights Visa’s capacity to fund share repurchases, dividends, and strategic investments without relying on external financing.",
+      "source": "V.ratio.free_cash_flow",
+      "value": 21577000000.0
+    },
+    "recommendation": "",
+    "decision_source": ""
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-9858d1dc615453db",
+    "usage": {
+      "completion_tokens": 1078,
+      "prompt_tokens": 12445,
+      "total_tokens": 13523,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

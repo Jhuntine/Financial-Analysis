@@ -1,0 +1,611 @@
+{
+  "task": "Write qualitative business-model, positioning, catalyst and risk analysis. Do not describe any amounts, percentages, wages or numerical rates in the three sections, even in words; use qualitative language with short exact filing quotations and [source:K:L123] citations. Only the separate Insight object supplies your numerical observation from the catalog.",
+  "context": {
+    "catalog": {
+      "V.fact.revenue": {
+        "value": 45903000000,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "start": "2025-10-01",
+        "end": "2026-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "revenue",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1548,
+        "source_text": "Net revenue | $ | 45,903 | | | $ | 40,000 | | | $ | 35,926 |",
+        "definition": "Consolidated reported revenue; the source row names any net/gross convention.",
+        "kind": "fact",
+        "facts_file": "V/facts.json",
+        "period": "2025-10-01 to 2026-09-30"
+      },
+      "V.fact.operating_income": {
+        "value": 28110000000,
+        "tag": "us-gaap:OperatingIncomeLoss",
+        "start": "2025-10-01",
+        "end": "2026-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "operating_income",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1559,
+        "source_text": "Operating income | 28,110 | | | 23,994 | | | 23,595 |",
+        "definition": "GAAP consolidated operating income, including litigation and other reported operating costs.",
+        "kind": "fact",
+        "facts_file": "V/facts.json",
+        "period": "2025-10-01 to 2026-09-30"
+      },
+      "V.fact.net_income": {
+        "value": 23504000000,
+        "tag": "us-gaap:NetIncomeLoss",
+        "start": "2025-10-01",
+        "end": "2026-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "net_income",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1567,
+        "source_text": "Net income | $ | 23,504 | | | $ | 20,058 | | | $ | 19,743 |",
+        "definition": "GAAP consolidated net income; use the equity scope identified in the source tag.",
+        "kind": "fact",
+        "facts_file": "V/facts.json",
+        "period": "2025-10-01 to 2026-09-30"
+      },
+      "V.fact.diluted_eps": {
+        "value": 12.32,
+        "tag": "us-gaap:EarningsPerShareDiluted",
+        "start": "2025-10-01",
+        "end": "2026-09-30",
+        "dimensions": {
+          "us-gaap:StatementClassOfStockAxis": "us-gaap:CommonClassAMember"
+        },
+        "context": "c-2",
+        "method": "10-K inline XBRL (dimensional fallback)",
+        "metric": "diluted_eps",
+        "unit": "USD/shares",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1584,
+        "source_text": "Class A common stock | $ | 12.32 | | | $ | 10.20 | | | $ | 9.73 |",
+        "definition": "GAAP diluted EPS for the listed common share class; consolidated fact if unambiguous.",
+        "kind": "fact",
+        "facts_file": "V/facts.json",
+        "period": "2025-10-01 to 2026-09-30"
+      },
+      "V.fact.equity": {
+        "value": 36111000000,
+        "tag": "us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+        "start": null,
+        "end": "2026-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-19",
+        "metric": "equity",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1531,
+        "source_text": "Total equity | 36,111 | | | 37,909 |",
+        "definition": "Reported consolidated stockholders' equity; scope is identified by the selected tag.",
+        "kind": "fact",
+        "facts_file": "V/facts.json",
+        "period": "2026-09-30"
+      },
+      "V.fact.long_term_debt": {
+        "value": 19355000000,
+        "tag": "us-gaap:LongTermDebtNoncurrent",
+        "start": null,
+        "end": "2026-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-19",
+        "metric": "long_term_debt",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1508,
+        "source_text": "Long-term debt | 19,355 | | | 19,602 |",
+        "definition": "Carrying amount of long-term debt excluding its current portion; excludes operating leases.",
+        "kind": "fact",
+        "facts_file": "V/facts.json",
+        "period": "2026-09-30"
+      },
+      "V.fact.current_debt": {
+        "value": 2716000000,
+        "tag": "us-gaap:LongTermDebtCurrent",
+        "start": null,
+        "end": "2026-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-19",
+        "metric": "current_debt",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1505,
+        "source_text": "Current maturities of debt | 2,716 | | | 5,569 |",
+        "definition": "Current portion of long-term debt; excludes unrelated short-term borrowings.",
+        "kind": "fact",
+        "facts_file": "V/facts.json",
+        "period": "2026-09-30"
+      },
+      "V.fact.operating_cash_flow": {
+        "value": 23728000000,
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "start": "2025-10-01",
+        "end": "2026-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "operating_cash_flow",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1772,
+        "source_text": "Net cash provided by (used in) operating activities | 23,728 | | | 23,059 | | | 19,950 |",
+        "definition": "Reported net cash provided by operating activities.",
+        "kind": "fact",
+        "facts_file": "V/facts.json",
+        "period": "2025-10-01 to 2026-09-30"
+      },
+      "V.fact.capex": {
+        "value": 1671000000,
+        "tag": "us-gaap:PaymentsToAcquireProductiveAssets",
+        "start": "2025-10-01",
+        "end": "2026-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-1",
+        "metric": "capex",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1774,
+        "source_text": "Purchases of property, equipment and technology | ( 1,671 ) | | | ( 1,482 ) | | | ( 1,257 ) |",
+        "definition": "Cash purchases of property/equipment (and technology if the reported row includes it); positive outflow.",
+        "kind": "fact",
+        "facts_file": "V/facts.json",
+        "period": "2025-10-01 to 2026-09-30"
+      },
+      "V.fact.prior_revenue": {
+        "value": 40000000000,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "start": "2024-10-01",
+        "end": "2025-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-29",
+        "metric": "prior_revenue",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1548,
+        "source_text": "Net revenue | $ | 45,903 | | | $ | 40,000 | | | $ | 35,926 |",
+        "definition": "Consolidated reported revenue; the source row names any net/gross convention.",
+        "kind": "fact",
+        "facts_file": "V/facts.json",
+        "period": "2024-10-01 to 2025-09-30"
+      },
+      "V.fact.prior_equity": {
+        "value": 37909000000,
+        "tag": "us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+        "start": null,
+        "end": "2025-09-30",
+        "method": "SEC company-facts",
+        "dimensions": {},
+        "context": "c-20",
+        "metric": "prior_equity",
+        "unit": "USD",
+        "accession": "0001403161-26-000134",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "file": "V/10-K.txt",
+        "line": 1531,
+        "source_text": "Total equity | 36,111 | | | 37,909 |",
+        "definition": "Reported consolidated stockholders' equity; scope is identified by the selected tag.",
+        "kind": "fact",
+        "facts_file": "V/facts.json",
+        "period": "2025-09-30"
+      },
+      "V.ratio.revenue_growth": {
+        "value": 14.7575,
+        "arithmetic": "(45,903,000,000 / 40,000,000,000 - 1) * 100",
+        "inputs": [
+          "V.fact.revenue",
+          "V.fact.prior_revenue"
+        ],
+        "unit": "%",
+        "fiscal_start": "2025-10-01",
+        "fiscal_end": "2026-09-30",
+        "kind": "ratio",
+        "formula": "growth",
+        "definition": "Same-definition annual revenue / prior annual revenue minus one, percent.",
+        "period": "2025-10-01 to 2026-09-30"
+      },
+      "V.ratio.operating_margin": {
+        "value": 61.237827592967776,
+        "arithmetic": "28,110,000,000 / 45,903,000,000 * 100",
+        "inputs": [
+          "V.fact.operating_income",
+          "V.fact.revenue"
+        ],
+        "unit": "%",
+        "fiscal_start": "2025-10-01",
+        "fiscal_end": "2026-09-30",
+        "kind": "ratio",
+        "formula": "margin",
+        "definition": "GAAP operating income / consolidated reported revenue, percent.",
+        "period": "2025-10-01 to 2026-09-30"
+      },
+      "V.ratio.return_on_average_equity": {
+        "value": 63.50716022696569,
+        "arithmetic": "23,504,000,000 / ((37,909,000,000 + 36,111,000,000) / 2) * 100",
+        "inputs": [
+          "V.fact.net_income",
+          "V.fact.prior_equity",
+          "V.fact.equity"
+        ],
+        "unit": "%",
+        "fiscal_start": "2025-10-01",
+        "fiscal_end": "2026-09-30",
+        "kind": "ratio",
+        "formula": "roe",
+        "definition": "GAAP net income / average beginning and ending reported equity, percent.",
+        "period": "2025-10-01 to 2026-09-30"
+      },
+      "V.ratio.debt_to_equity": {
+        "value": 0.6111988036886268,
+        "arithmetic": "(19,355,000,000 + 2,716,000,000) / 36,111,000,000",
+        "inputs": [
+          "V.fact.long_term_debt",
+          "V.fact.current_debt",
+          "V.fact.equity"
+        ],
+        "unit": "x",
+        "fiscal_start": "2025-10-01",
+        "fiscal_end": "2026-09-30",
+        "kind": "ratio",
+        "formula": "de",
+        "definition": "Long-term debt including its current portion / ending reported equity.",
+        "period": "2025-10-01 to 2026-09-30"
+      },
+      "V.ratio.free_cash_flow": {
+        "value": 22057000000,
+        "arithmetic": "23,728,000,000 - 1,671,000,000",
+        "inputs": [
+          "V.fact.operating_cash_flow",
+          "V.fact.capex"
+        ],
+        "unit": "USD",
+        "fiscal_start": "2025-10-01",
+        "fiscal_end": "2026-09-30",
+        "kind": "ratio",
+        "formula": "fcf",
+        "definition": "Operating cash flow less reported property, equipment and technology purchases as applicable.",
+        "period": "2025-10-01 to 2026-09-30"
+      },
+      "V.ratio.price_earnings": {
+        "value": 29.868506493506494,
+        "arithmetic": "367.98 / 12.32",
+        "inputs": [
+          "V.price",
+          "V.fact.diluted_eps"
+        ],
+        "unit": "x",
+        "fiscal_start": "2025-10-01",
+        "fiscal_end": "2026-09-30",
+        "kind": "ratio",
+        "formula": "pe",
+        "definition": "Dated close / latest filed annual GAAP diluted EPS; annual-filing multiple, not current TTM.",
+        "period": "2025-10-01 to 2026-09-30"
+      },
+      "V.price": {
+        "kind": "price",
+        "value": 367.98,
+        "unit": "USD/shares",
+        "period": "2026-09-24",
+        "definition": "WRDS Compustat comp.secd.prccd; primary U.S. security; dated security ticker V; 2026-09-24",
+        "inputs": []
+      },
+      "V.quarter.quarter_net_revenue": {
+        "value": 12139000000.0,
+        "unit": "USD",
+        "line": 212,
+        "column": "First quarter column; three months ended 2026-09-30; Net revenue; source in millions",
+        "column_index": 0,
+        "scale": 1000000,
+        "period_end": "2026-09-30",
+        "kind": "quarter",
+        "metric": "quarter_net_revenue",
+        "definition": "First quarter column; three months ended 2026-09-30; Net revenue; source in millions",
+        "period": "three months ended 2026-09-30",
+        "quarter_end": "2026-09-30",
+        "accession": "0001403161-26-000126",
+        "file": "V/earnings_release.txt",
+        "quote": "Net revenue | $ | 12,139 | | | $ | 10,724 | | | $ | 45,903 | | | $ | 40,000 |",
+        "inputs": []
+      },
+      "V.quarter.prior_quarter_net_revenue": {
+        "value": 10724000000.0,
+        "unit": "USD",
+        "line": 212,
+        "column": "Second quarter column; corresponding quarter ended 2025-09-30; Net revenue; source in millions",
+        "column_index": 1,
+        "scale": 1000000,
+        "period_end": "2025-09-30",
+        "kind": "quarter",
+        "metric": "prior_quarter_net_revenue",
+        "definition": "Second quarter column; corresponding quarter ended 2025-09-30; Net revenue; source in millions",
+        "period": "corresponding quarter ended 2025-09-30",
+        "quarter_end": "2026-09-30",
+        "accession": "0001403161-26-000126",
+        "file": "V/earnings_release.txt",
+        "quote": "Net revenue | $ | 12,139 | | | $ | 10,724 | | | $ | 45,903 | | | $ | 40,000 |",
+        "inputs": []
+      },
+      "V.quarter.quarter_gaap_diluted_eps": {
+        "value": 3.19,
+        "unit": "USD/shares",
+        "line": 250,
+        "column": "First quarter column; GAAP diluted EPS; three months ended 2026-09-30; us-gaap:CommonClassAMember",
+        "column_index": 0,
+        "scale": 1,
+        "period_end": "2026-09-30",
+        "kind": "quarter",
+        "metric": "quarter_gaap_diluted_eps",
+        "definition": "First quarter column; GAAP diluted EPS; three months ended 2026-09-30; us-gaap:CommonClassAMember",
+        "period": "three months ended 2026-09-30",
+        "quarter_end": "2026-09-30",
+        "accession": "0001403161-26-000126",
+        "file": "V/earnings_release.txt",
+        "quote": "Class A common stock | $ | 3.19 | | | $ | 2.62 | | | $ | 12.32 | | | $ | 10.20 |",
+        "inputs": []
+      },
+      "V.quarter.annual_release_gaap_diluted_eps": {
+        "value": 12.32,
+        "unit": "USD/shares",
+        "line": 250,
+        "column": "Third numeric column; full fiscal year ended 2026-09-30; GAAP diluted EPS; us-gaap:CommonClassAMember",
+        "column_index": 2,
+        "scale": 1,
+        "period_end": "2026-09-30",
+        "kind": "quarter",
+        "metric": "annual_release_gaap_diluted_eps",
+        "definition": "Third numeric column; full fiscal year ended 2026-09-30; GAAP diluted EPS; us-gaap:CommonClassAMember",
+        "period": "full fiscal year ended 2026-09-30",
+        "quarter_end": "2026-09-30",
+        "accession": "0001403161-26-000126",
+        "file": "V/earnings_release.txt",
+        "quote": "Class A common stock | $ | 3.19 | | | $ | 2.62 | | | $ | 12.32 | | | $ | 10.20 |",
+        "inputs": []
+      },
+      "V.quarter.revenue_growth": {
+        "value": 13.194703468854897,
+        "unit": "%",
+        "arithmetic": "(12,139,000,000 / 10,724,000,000 - 1) * 100",
+        "line": 212,
+        "note": "Same consolidated revenue definition and corresponding fiscal-quarter columns; not headline net-sales growth.",
+        "kind": "ratio",
+        "formula": "growth",
+        "definition": "Current quarter revenue / same quarter prior-year revenue minus one, nominal percent.",
+        "period": "2026-09-30",
+        "inputs": [
+          "V.quarter.quarter_net_revenue",
+          "V.quarter.prior_quarter_net_revenue"
+        ]
+      }
+    },
+    "filing_excerpts": {
+      "K:L152": {
+        "text": "Visa is one of the world’s leaders in digital payments. Our purpose is to uplift everyone, everywhere by being the best way to pay and be paid. Since Visa’s early days in 1958, we have been in the business of facilitating secure, reliable and efficient global commerce and money movement. We provide transaction processing services (primarily authorization, clearing and settlement) among consumers, issuing and acquiring financial institutions and sellers in a structure we call the “four-party” model. Please see",
+        "file": "V/10-K.txt",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "accession": "0001403161-26-000134"
+      },
+      "K:L381": {
+        "text": "In fiscal 2026, we completed our acquisition of Prisma, a provider of credit, debit and prepaid card issuer processing, and Newpay, a multi-network infrastructure provider that operates real-time payments services, the Banelco ATM network and the bill payment platform PagoMisCuentas, in Argentina. The acquisition strengthens our capabilities and payment infrastructure in Argentina and complements our global network and value-added services. This acquisition is subject to review by the Argentine competition authority. Also in fiscal 2026, we entered into a definitive agreement to acquire BioCatch, a leading provider of behavioral-first, multi-signal fraud intelligence. BioCatch's solutions use AI and machine learning to analyze application, behavioral, device and network signals to help detect fraud and financial crime. The transaction is subject to customary closing conditions, including applicable regulatory approvals.",
+        "file": "V/10-K.txt",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "accession": "0001403161-26-000134"
+      },
+      "K:L191": {
+        "text": "through advertising, promotional and sponsorship initiatives with the International Olympic Committee, the International Paralympic Committee, FIFA and the Red Bull Formula One Teams (the Oracle Red Bull Racing Team and the Visa Cash App RB Formula One Team), among others. We use these sponsorship assets to deepen our engagement with clients and partners, showcase our payment innovations and capabilities, drive adoption of our value-added services such as Marketing Services, and support cross-border commerce.",
+        "file": "V/10-K.txt",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "accession": "0001403161-26-000134"
+      },
+      "K:L179": {
+        "text": "that help businesses, consumers and governments digitize, simplify and improve the movement of money. Our solutions include Visa Commercial Solutions and Visa Direct. Visa Commercial Solutions helps businesses and governments make and manage payments through commercial cards, virtual payments and related payment, reconciliation and data capabilities. These solutions help clients manage working capital and expenses and automate payment and reconciliation processes. Visa Direct helps financial institutions, fintechs and other clients enable domestic and cross-border money movement across multiple payment systems, including card-based, account-to-account (A2A) and wallet networks, providing flexible ways to send and receive funds.",
+        "file": "V/10-K.txt",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "accession": "0001403161-26-000134"
+      },
+      "K:L825": {
+        "text": ". Net revenue increased 15% over the prior year, primarily due to the growth in nominal cross-border volume, processed transactions and nominal payments volume, partially offset by higher client incentives. See",
+        "file": "V/10-K.txt",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "accession": "0001403161-26-000134"
+      },
+      "K:L457": {
+        "text": "We have historically enforced rules that prohibit sellers from charging higher prices to consumers who pay using Visa products instead of other means. However, sellers’ ability to surcharge varies by geographic market as well as Visa product type, and continues to be impacted by litigation, regulation and legislation.",
+        "file": "V/10-K.txt",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "accession": "0001403161-26-000134"
+      },
+      "K:L188": {
+        "text": ", from blockchain to issuance, wallets, infrastructure and orchestration, and applications. In the blockchain domain, Visa serves on select blockchain networks as a validator, operating network infrastructure, and as a super validator, driving ecosystem growth and adoption to help make confidential, regulated blockchain transactions possible. In the issuance domain, Visa joined Open Standard, which issues Open USD, a new stablecoin designed for global money movement. In the infrastructure and orchestration domain, we work with ecosystem partners to support the movement and conversion of value across blockchain networks and payment rails. In the applications domain, we launched the Visa Stablecoin Platform for stablecoin minting, movement, and management, and we support stablecoin settlement capabilities and stablecoin-linked card programs that help connect digital assets to everyday commerce.",
+        "file": "V/10-K.txt",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "accession": "0001403161-26-000134"
+      },
+      "K:L329": {
+        "text": "payment methods. Built on a cloud-based architecture, our Acceptance Platform solutions such as Cybersource and Authorize.net provide new and enhanced omnichannel payment integrations with ecommerce platforms, enabling sellers and acquirers to provide tailored commerce experiences with seamlessly embedded payments tools. We are also developing capabilities that help sellers and technology partners support emerging digital commerce experiences through secure payment, authentication and acceptance integrations. For example, in fiscal 2026, we launched a pilot for Intelligent Commerce Connect, which enables technology partners and sellers to integrate payment, authentication and acceptance capabilities into emerging digital commerce experiences through the Visa Acceptance Platform. Token Management Service, another example, helps simplify network token adoption, offers access and management for seller and acquiring clients, provides a single integration point into major card networks and may be used standalone or integrated into other payment solutions. For more information, see the",
+        "file": "V/10-K.txt",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "accession": "0001403161-26-000134"
+      },
+      "K:L505": {
+        "text": "Although we generally do not receive IRF revenue directly, IRFs are a key competitive factor that affects our overall payments volume and net revenue.",
+        "file": "V/10-K.txt",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "accession": "0001403161-26-000134"
+      },
+      "Q:L1253": {
+        "text": "Visa is a global payments technology company that facilitates secure, reliable and efficient global commerce and money movement. We provide transaction processing services (primarily authorization, clearing and settlement) among consumers, issuing and acquiring financial institutions and sellers. We are focused on extending, enhancing and investing in our proprietary advanced transaction processing network, VisaNet, to offer a single connection point for facilitating money movement to multiple endpoints through various form factors and innovative technologies across more than 200 countries and territories. Visa is not a financial institution. We do not issue cards, extend credit or set rates and fees for account holders of Visa products.",
+        "file": "V/10-Q.txt",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/v-20260630.htm",
+        "accession": "0001403161-26-000104"
+      },
+      "Q:L1180": {
+        "text": "On February 18, 2026, the UK Competition Appeal Tribunal (CAT) issued a decision finding that, except in certain merchant categories, interchange was not passed on by merchants, and Visa has sought permission from the UK Court of Appeal to appeal that decision. On March 17, 2026, the UK Court of Appeal granted Visa permission to appeal the June 2025 decision by the CAT that certain interchange rates restrict competition under UK competition law.",
+        "file": "V/10-Q.txt",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/v-20260630.htm",
+        "accession": "0001403161-26-000104"
+      },
+      "Q:L530": {
+        "text": "billion, respectively. Revenue from value-added services is recognized within data processing, other and service revenue.",
+        "file": "V/10-Q.txt",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/v-20260630.htm",
+        "accession": "0001403161-26-000104"
+      },
+      "Q:L1402": {
+        "text": "Net revenue increased over the three and nine-month prior-year comparable periods primarily due to the growth in nominal cross-border volume, nominal payments volume and processed transactions, partially offset by higher client incentives. Volume growth was driven primarily by continued resilience in consumer spending and ongoing expansion in digital commerce. Cross-border volume growth was supported by cross-border ecommerce and travel-related activity. For the three and nine months ended June 30, 2026, nominal payments volume growth of",
+        "file": "V/10-Q.txt",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/v-20260630.htm",
+        "accession": "0001403161-26-000104"
+      },
+      "Q:L1444": {
+        "text": "increased over the three and nine-month prior-year comparable periods primarily due to growth in payments volume. The amount of client incentives we record in future periods will vary based on changes in performance expectations, actual client performance, amendments to existing contracts or the execution of new contracts.",
+        "file": "V/10-Q.txt",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/v-20260630.htm",
+        "accession": "0001403161-26-000104"
+      },
+      "Q:L555": {
+        "text": "Under the terms of the U.S. retrospective responsibility plan, the Company maintains an escrow account from which settlements of, or judgments in, certain litigation (U.S. covered litigation) are paid. The accrual related to the U.S. covered litigation could be either higher or lower than the U.S. litigation escrow account balance. See",
+        "file": "V/10-Q.txt",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/v-20260630.htm",
+        "accession": "0001403161-26-000104"
+      },
+      "Q:L1109": {
+        "text": "The Company is a party to various legal and regulatory proceedings. Some of these proceedings involve complex claims that are subject to substantial uncertainties and unascertainable damages. For those proceedings where a loss is determined to be only reasonably possible or probable but not estimable, the Company has disclosed the nature of the claim. Additionally, unless otherwise disclosed below with respect to these proceedings, the Company cannot provide an estimate of the possible loss or range of loss. Although the Company believes that it has strong defenses for the litigation and regulatory proceedings described below, it could, in the future, incur judgments or fines or enter into settlements of claims that could have a material adverse effect on the Company’s financial position, results of operations or cash flows. From time to time, the Company may engage in settlement discussions or mediations with respect to one or more of its outstanding litigation matters, either on its own behalf or collectively with other parties.",
+        "file": "V/10-Q.txt",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/v-20260630.htm",
+        "accession": "0001403161-26-000104"
+      },
+      "Q:L1278": {
+        "text": "below for further discussion. For the three and nine months ended June 30, 2026, exchange rate movements increased our net revenue growth by approximately one percentage point.",
+        "file": "V/10-Q.txt",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/v-20260630.htm",
+        "accession": "0001403161-26-000104"
+      },
+      "E:L371": {
+        "text": "• Amortization of acquired intangible assets. Amortization of acquired intangible assets consists of amortization of intangible assets such as technology and customer relationships acquired in connection with business combinations executed beginning in fiscal 2019. Amortization charges for our acquired intangible assets are non-cash and are significantly affected by the timing, frequency and size of our acquisitions, rather than our core operations. As such, we have excluded this amount to facilitate an evaluation of our current operating performance and comparison to our past operating performance.",
+        "file": "V/earnings_release.txt",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm",
+        "accession": "0001403161-26-000126"
+      },
+      "E:L39": {
+        "text": "Net revenue in the fiscal fourth quarter was $12.1 billion, an increase of 13%, driven by the year-over-year growth in payments volume, cross-border volume and processed transactions. Net revenue increased 13% on a constant-dollar basis.",
+        "file": "V/earnings_release.txt",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm",
+        "accession": "0001403161-26-000126"
+      },
+      "E:L44": {
+        "text": "Fiscal fourth quarter service revenue was $5.3 billion, an increase of 14% over the prior year, and is recognized based on payments volume in the prior quarter. All other revenue categories are recognized based on current quarter activity. Data processing revenue rose 16% over the prior year to $6.2 billion. International transaction revenue grew 8% over the prior year to $4.1 billion. Other revenue of $1.6 billion rose 40% over the prior year. Client incentives were $5.1 billion, up 21% over the prior year.",
+        "file": "V/earnings_release.txt",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm",
+        "accession": "0001403161-26-000126"
+      },
+      "E:L38": {
+        "text": "GAAP net income in the fiscal fourth quarter was $6.0 billion or $3.19 per share, an increase of 18% and 22%, respectively, over prior year’s results. Current year's results included special items of $469 million for a litigation provision associated with the interchange multidistrict litigation (\"MDL\") case, $282 million related to the donation of investments to the Visa Foundation, and $37 million for a deferred tax expense recognized due to a change in the U.S. taxation of certain foreign earnings. Current year's results also included $155 million of net gains from equity investments and $75 million from the amortization of acquired intangible assets and acquisition-related costs. Prior year's results included a special item of $899 million for a litigation provision associated with the MDL case and other legal matters, $46 million of net gains from equity investments and $66 million from the amortization of acquired intangible assets and acquisition-related costs. Excluding these items and related tax impacts, non-GAAP net income for the quarter was $6.6 billion or $3.48 per share, an increase of 13% and 17%, respectively, over prior year’s results (refer to Non-GAAP Financial Measures for further details). GAAP earnings per share growth was approximately 22% on a constant-dollar basis, which excludes the impact of foreign currency fluctuations against the U.S. dollar. Non-GAAP earnings per share growth was approxima tely 17% on a constant-dollar basis. All references to earnings per share assume fully diluted class A share count.",
+        "file": "V/earnings_release.txt",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm",
+        "accession": "0001403161-26-000126"
+      },
+      "E:L68": {
+        "text": "On August 3, 2026, Visa announced it signed a definitive agreement to acquire BioCatch, a leading provider of behavioral-first, multi-signal fraud intelligence, for $2.4 billion in cash. The transaction is subject to customary closing conditions, including applicable regulatory approvals, and is expected to close by the end of the fiscal second quarter of 2027.",
+        "file": "V/earnings_release.txt",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm",
+        "accession": "0001403161-26-000126"
+      },
+      "E:L54": {
+        "text": "GAAP net income in the fiscal full-year 2026 was $23.5 billion or $12.32 per share, an increase of 17% and 21%, respectively, over prior year’s results. Current year’s results included special items of $1.7 billion for a litigation provision associated with the MDL case and other legal matters, $563 million for severance costs, $314 million for a deferred tax benefit recognized due to a change in the U.S. taxation of certain foreign earnings, and $282 million related to the donation of investments to the Visa Foundation. Current year's results also included $124 million of net gains from equity investments and $305 million from the amortization of acquired intangible assets and acquisition-related costs. Prior year’s results included special items of $2.5 billion for a litigation provision associated with the MDL case and other legal matters, $213 million for severance costs, and $39 million for lease consolidation costs. Prior year's results also included $87 million of net losses from equity investments and $315 million from the amortization of acquired intangible assets and acquisition-related costs. Excluding these items and related tax impacts, non-GAAP net income for the year was $25.3 billion or $13.27 per share, an increase of 12% and 16%, respectively, over prior year’s results (refer to Non-GAAP Financial Measures for further details). GAAP earnings per share growth was approximately 20% on a constant-dollar basis, which excludes the impact of foreign currency fluctuations against the U.S. dollar. Non-GAAP earnings per share growth was approximately 15% on a constant-dollar basis. All references to earnings per share assume fully diluted class A share count.",
+        "file": "V/earnings_release.txt",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm",
+        "accession": "0001403161-26-000126"
+      },
+      "E:L55": {
+        "text": "Net revenue in the fiscal full-year 2026 was $45.9 billion, an increase of 15%, driven by the year-over-year growth in payments volume, cross-border volume and processed transactions. Net revenue increased 14% on a constant-dollar basis.",
+        "file": "V/earnings_release.txt",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm",
+        "accession": "0001403161-26-000126"
+      }
+    },
+    "headline": "EX-99.1\n2\nq42026earningsrelease.htm\nEXHIBIT 99.1\n| |\nVisa Reports Fiscal Fourth Quarter and Full-Year 2026 Results\nSan Francisco, October 27, 2026 – Visa (NYSE: V)\nFiscal Fourth Quarter Results:\n• GAAP net income of $6.0B or $3.19 per share and non-GAAP net income of $6.6B or $3.48 per share\n• Net revenue of $12.1B, an increase of 13% on a nominal and constant-dollar basis\nFiscal Full-Year Results:\n• GAAP net income of $23.5B or $12.32 per share and non-GAAP net income of $25.3B or $13.27 per share\n• Net revenue of $45.9B, an increase of 15%, or 14% on a constant-dollar basis\nOther Highlights:\n• Fiscal fourth quarter growth in payments volume, cross-border volume and processed transactions remained strong\n• Share repurchases and dividends of $5.2B and $25.6B for fiscal fourth quarter and full-year, respectively\n• The board of directors increased Visa's quarterly cash dividend 16% to $0.780 per share\n| | | | | | | | | | | | | | | | |",
+    "available_source_keys": [
+      "V.fact.capex",
+      "V.fact.current_debt",
+      "V.fact.diluted_eps",
+      "V.fact.equity",
+      "V.fact.long_term_debt",
+      "V.fact.net_income",
+      "V.fact.operating_cash_flow",
+      "V.fact.operating_income",
+      "V.fact.prior_equity",
+      "V.fact.prior_revenue",
+      "V.fact.revenue",
+      "V.price",
+      "V.quarter.annual_release_gaap_diluted_eps",
+      "V.quarter.prior_quarter_net_revenue",
+      "V.quarter.quarter_gaap_diluted_eps",
+      "V.quarter.quarter_net_revenue",
+      "V.quarter.revenue_growth",
+      "V.ratio.debt_to_equity",
+      "V.ratio.free_cash_flow",
+      "V.ratio.operating_margin",
+      "V.ratio.price_earnings",
+      "V.ratio.return_on_average_equity",
+      "V.ratio.revenue_growth"
+    ]
+  },
+  "expected_output": {
+    "sections": [
+      "Overview",
+      "Market Positioning and Growth Outlook",
+      "Future Developments and Strategic Recommendations"
+    ],
+    "insight": "One claim beyond the release headline with source and value",
+    "recommendation": "Buy/Hold/Sell only for advisor",
+    "decision_source": "One analyst evidence key only for advisor"
+  },
+  "instruction_file": "roles/research_analyst.md",
+  "instruction_sha256": "2ed6d7fbe129bed89790c7c99329e189e6a17503fad9951331ddd97c09f46954"
+}

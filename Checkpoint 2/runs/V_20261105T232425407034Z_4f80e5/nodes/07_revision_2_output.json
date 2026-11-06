@@ -1,0 +1,36 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Valuation Insights",
+        "text": "• Revenue reflects the consolidated net revenue for the fiscal year ending September thirty, as defined in [[V.fact.revenue]] and measured in US dollars.\n• Operating margin, calculated from GAAP operating income over revenue, stands at [[V.ratio.operating_margin]], indicating a strong profitability profile relative to peers.\n• Return on average equity, derived from net income and the average of beginning and ending equity, is [[V.ratio.return_on_average_equity]], underscoring efficient capital utilization.\n• Debt‑to‑equity, which includes the current portion of long‑term debt, is [[V.ratio.debt_to_equity]], suggesting a moderate leverage stance.\n• Free cash flow, the difference between operating cash flow and capital expenditures, amounts to [[V.ratio.free_cash_flow]], highlighting robust cash generation after investment.\n• The annual price‑earnings multiple, based on the dated close of [[V.price]] and the latest filed GAAP diluted EPS for Class A common stock [[V.fact.diluted_eps]], is [[V.ratio.price_earnings]], placing valuation in context of earnings generation.\n• Peer comparison shows Mastercard’s operating margin at [[MA.ratio.operating_margin]] and PayPal’s at [[PYPL.ratio.operating_margin]], both trailing Visa’s margin, while Visa’s debt‑to‑equity remains lower than Mastercard’s [[MA.ratio.debt_to_equity]] and higher than PayPal’s [[PYPL.ratio.debt_to_equity]].\n• Fiscal‑calendar differences are noted: Visa’s fiscal year ends September thirty, Mastercard reports on a calendar year basis, and PayPal follows a calendar year, affecting timing of revenue and earnings recognition.\n• Capital expenditures captured in [[V.fact.capex]] encompass purchases of property, equipment, and technology, aligning with the cash outflow component of free cash flow.\n• The price reference reflects the unadjusted daily close on October twenty‑seven, twenty‑twenty‑six, providing a snapshot for the P/E calculation."
+      }
+    ],
+    "insight": {
+      "text": "Visa's leverage is moderate, reflecting a debt‑to‑equity ratio that supports balanced financing.",
+      "source": "V.ratio.debt_to_equity",
+      "value": 0.6639848057189586
+    },
+    "recommendation": "Buy",
+    "decision_source": "V.ratio.debt_to_equity"
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-ad4534965006310d",
+    "usage": {
+      "completion_tokens": 972,
+      "prompt_tokens": 13250,
+      "total_tokens": 14222,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

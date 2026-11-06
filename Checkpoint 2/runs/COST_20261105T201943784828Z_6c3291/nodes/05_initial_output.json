@@ -1,0 +1,30 @@
+{
+  "output": {
+    "approved": false,
+    "failures": [
+      {
+        "role": "Research Analyst",
+        "issue": "Duplicate section titles; expected exactly five unique sections, but found multiple 'Overview', 'Market Positioning and Growth Outlook', and 'Future Developments and Strategic Recommendations' entries."
+      }
+    ]
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-8affb7b5007304d7",
+    "usage": {
+      "completion_tokens": 804,
+      "prompt_tokens": 17013,
+      "total_tokens": 17817,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

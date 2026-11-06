@@ -1,0 +1,283 @@
+{
+  "output": {
+    "verdicts": [
+      {
+        "id": "C001",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the XBRL fact for COST.ratio.revenue_growth.",
+        "correction_source": ""
+      },
+      {
+        "id": "C002",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the XBRL fact for COST.ratio.operating_margin.",
+        "correction_source": ""
+      },
+      {
+        "id": "C003",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the XBRL fact for COST.ratio.return_on_average_equity.",
+        "correction_source": ""
+      },
+      {
+        "id": "C004",
+        "mark": "correct",
+        "reason": "Duplicate of C002; matches source exactly.",
+        "correction_source": ""
+      },
+      {
+        "id": "C005",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the XBRL fact for COST.ratio.debt_to_equity.",
+        "correction_source": ""
+      },
+      {
+        "id": "C006",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the XBRL fact for COST.ratio.free_cash_flow.",
+        "correction_source": ""
+      },
+      {
+        "id": "C007",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the XBRL fact for COST.ratio.price_earnings.",
+        "correction_source": ""
+      },
+      {
+        "id": "C008",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the XBRL fact for COST.fact.revenue.",
+        "correction_source": ""
+      },
+      {
+        "id": "C009",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the XBRL fact for COST.fact.operating_income.",
+        "correction_source": ""
+      },
+      {
+        "id": "C010",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the XBRL fact for COST.fact.net_income.",
+        "correction_source": ""
+      },
+      {
+        "id": "C011",
+        "mark": "wrong",
+        "reason": "The claim value 21.76 differs from the XBRL fact value 20.76 for COST.fact.diluted_eps; period and definition are correct.",
+        "correction_source": "COST.fact.diluted_eps"
+      },
+      {
+        "id": "C012",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the XBRL fact for COST.fact.equity.",
+        "correction_source": ""
+      },
+      {
+        "id": "C013",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the XBRL fact for COST.fact.long_term_debt.",
+        "correction_source": ""
+      },
+      {
+        "id": "C014",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the XBRL fact for COST.fact.current_debt.",
+        "correction_source": ""
+      },
+      {
+        "id": "C015",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the XBRL fact for COST.fact.operating_cash_flow.",
+        "correction_source": ""
+      },
+      {
+        "id": "C016",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the XBRL fact for COST.fact.capex.",
+        "correction_source": ""
+      },
+      {
+        "id": "C017",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the XBRL fact for COST.fact.prior_revenue.",
+        "correction_source": ""
+      },
+      {
+        "id": "C018",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the XBRL fact for COST.fact.prior_equity.",
+        "correction_source": ""
+      },
+      {
+        "id": "C019",
+        "mark": "correct",
+        "reason": "Duplicate of C001; matches source exactly.",
+        "correction_source": ""
+      },
+      {
+        "id": "C020",
+        "mark": "correct",
+        "reason": "Duplicate of C002; matches source exactly.",
+        "correction_source": ""
+      },
+      {
+        "id": "C021",
+        "mark": "correct",
+        "reason": "Duplicate of C003; matches source exactly.",
+        "correction_source": ""
+      },
+      {
+        "id": "C022",
+        "mark": "correct",
+        "reason": "Duplicate of C005; matches source exactly.",
+        "correction_source": ""
+      },
+      {
+        "id": "C023",
+        "mark": "correct",
+        "reason": "Duplicate of C006; matches source exactly.",
+        "correction_source": ""
+      },
+      {
+        "id": "C024",
+        "mark": "correct",
+        "reason": "Duplicate of C007; matches source exactly.",
+        "correction_source": ""
+      },
+      {
+        "id": "C025",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the XBRL fact for WMT.fact.revenue.",
+        "correction_source": ""
+      },
+      {
+        "id": "C026",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the XBRL fact for WMT.fact.operating_income.",
+        "correction_source": ""
+      },
+      {
+        "id": "C027",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the XBRL fact for WMT.ratio.operating_margin.",
+        "correction_source": ""
+      },
+      {
+        "id": "C028",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the XBRL fact for TGT.fact.revenue.",
+        "correction_source": ""
+      },
+      {
+        "id": "C029",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the XBRL fact for TGT.fact.operating_income.",
+        "correction_source": ""
+      },
+      {
+        "id": "C030",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the XBRL fact for TGT.ratio.operating_margin.",
+        "correction_source": ""
+      },
+      {
+        "id": "C031",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the XBRL fact for BJ.fact.revenue.",
+        "correction_source": ""
+      },
+      {
+        "id": "C032",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the XBRL fact for BJ.fact.operating_income.",
+        "correction_source": ""
+      },
+      {
+        "id": "C033",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the XBRL fact for BJ.ratio.operating_margin.",
+        "correction_source": ""
+      },
+      {
+        "id": "C034",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the price data for COST.price.",
+        "correction_source": ""
+      },
+      {
+        "id": "C035",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the quarter fact for COST.quarter.quarter_net_revenue.",
+        "correction_source": ""
+      },
+      {
+        "id": "C036",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the quarter fact for COST.quarter.prior_quarter_net_revenue.",
+        "correction_source": ""
+      },
+      {
+        "id": "C037",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the quarter fact for COST.quarter.quarter_gaap_diluted_eps.",
+        "correction_source": ""
+      },
+      {
+        "id": "C038",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the quarter fact for COST.quarter.annual_release_gaap_diluted_eps.",
+        "correction_source": ""
+      },
+      {
+        "id": "C039",
+        "mark": "correct",
+        "reason": "Source period, definition and value match the ratio fact for COST.quarter.revenue_growth.",
+        "correction_source": ""
+      },
+      {
+        "id": "I040",
+        "mark": "correct",
+        "reason": "Insight uses the same source, period and value as COST.ratio.return_on_average_equity.",
+        "correction_source": ""
+      },
+      {
+        "id": "I041",
+        "mark": "correct",
+        "reason": "Insight repeats the same source, period and value as COST.ratio.return_on_average_equity.",
+        "correction_source": ""
+      },
+      {
+        "id": "D042",
+        "mark": "correct",
+        "reason": "Advisor metric matches the source COST.ratio.return_on_average_equity exactly.",
+        "correction_source": ""
+      },
+      {
+        "id": "I043",
+        "mark": "correct",
+        "reason": "Insight matches the source COST.ratio.debt_to_equity exactly.",
+        "correction_source": ""
+      }
+    ]
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-9af2099795ca7704",
+    "usage": {
+      "completion_tokens": 3474,
+      "prompt_tokens": 16406,
+      "total_tokens": 19880,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

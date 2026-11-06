@@ -1,0 +1,17 @@
+{
+  "run_dir": "runs/V_20261105T194225386490Z_99096c",
+  "mode": "offline_fixture",
+  "manager_approved": true,
+  "errors": 0,
+  "verifier_ran": true,
+  "model_call_counts": {},
+  "fixture_response_counts": {
+    "Research Analyst": 1,
+    "Financial Analyst": 1,
+    "Investment Advisor": 1,
+    "Strategy Manager": 1
+  },
+  "human_audit": "pending",
+  "student_personas": "pending",
+  "partner_pick": "pending"
+}

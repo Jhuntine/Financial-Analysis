@@ -1,0 +1,77 @@
+{
+  "approved": false,
+  "failures": [
+    {
+      "role": "Research Analyst",
+      "issue": "Unknown numerical source token."
+    },
+    {
+      "role": "Research Analyst",
+      "issue": "Remove unregistered numerical quantities (including spelled-out amounts) and numbered lists from Market Positioning and Growth Outlook. Use supplied [[catalog.key]] references for numbers; omit unsupported numerical detail instead of spelling it out."
+    },
+    {
+      "role": "Research Analyst",
+      "issue": "Unknown numerical source token."
+    },
+    {
+      "role": "Research Analyst",
+      "issue": "Unknown numerical source token."
+    },
+    {
+      "role": "Research Analyst",
+      "issue": "Unknown numerical source token."
+    },
+    {
+      "role": "Research Analyst",
+      "issue": "Unknown numerical source token."
+    },
+    {
+      "role": "Research Analyst",
+      "issue": "Unknown numerical source token."
+    },
+    {
+      "role": "Research Analyst",
+      "issue": "Unknown numerical source token."
+    },
+    {
+      "role": "Research Analyst",
+      "issue": "Unknown numerical source token."
+    },
+    {
+      "role": "Research Analyst",
+      "issue": "Unknown numerical source token."
+    },
+    {
+      "role": "Research Analyst",
+      "issue": "Remove unregistered numerical quantities (including spelled‑out amounts) and numbered lists from “Market Positioning and Growth Outlook”. Use supplied [[catalog.key]] references for numbers; omit unsupported numerical detail instead of spelling it out."
+    },
+    {
+      "role": "Research Analyst",
+      "issue": "Unknown numerical source token."
+    },
+    {
+      "role": "Research Analyst",
+      "issue": "Unknown numerical source token."
+    },
+    {
+      "role": "Research Analyst",
+      "issue": "Unknown numerical source token."
+    },
+    {
+      "role": "Research Analyst",
+      "issue": "Unknown numerical source token."
+    },
+    {
+      "role": "Research Analyst",
+      "issue": "Unknown numerical source token."
+    },
+    {
+      "role": "Research Analyst",
+      "issue": "Unknown numerical source token."
+    },
+    {
+      "role": "Research Analyst",
+      "issue": "Unknown numerical source token."
+    }
+  ]
+}

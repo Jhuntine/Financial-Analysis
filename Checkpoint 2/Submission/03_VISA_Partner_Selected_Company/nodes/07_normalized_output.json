@@ -1,0 +1,15 @@
+{
+  "sections": [
+    {
+      "title": "Valuation Insights",
+      "text": "The firm reported revenue as defined in [[V.fact.revenue]] and achieved a year‑over‑year increase of [[V.ratio.revenue_growth]] percent. Operating income of [[V.fact.operating_income]] yielded an operating margin of [[V.ratio.operating_margin]] percent, reflecting efficient cost management. GAAP diluted earnings per share are captured in [[V.fact.diluted_eps]] and translate to a price‑earnings multiple of [[V.ratio.price_earnings]] times, indicating market valuation relative to earnings. Return on average equity of [[V.ratio.return_on_average_equity]] percent underscores strong profitability on the equity base. The capital structure shows a debt‑to‑equity ratio of [[V.ratio.debt_to_equity]] times, incorporating long‑term debt [[V.fact.long_term_debt]] and current debt [[V.fact.current_debt]]. Free cash flow of [[V.ratio.free_cash_flow]] demonstrates robust cash generation after capital expenditures [[V.fact.capex]]."
+    }
+  ],
+  "insight": {
+    "text": "Free cash flow of [[V.ratio.free_cash_flow]] indicates ample cash generation after capital spending.",
+    "source": "V.ratio.free_cash_flow",
+    "value": 22057000000.0
+  },
+  "recommendation": "",
+  "decision_source": ""
+}

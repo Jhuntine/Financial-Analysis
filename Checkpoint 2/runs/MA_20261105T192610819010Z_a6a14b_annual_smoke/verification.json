@@ -1,0 +1,167 @@
+{
+  "marks": [
+    {
+      "id": "A000",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 32791000000.0,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "MA/10-K.txt L1779; us-gaap:Revenues; 2025-01-01 to 2025-12-31; 0001141391-26-000013; Net Revenue | | $ | 32,791 | | | $ | 28,167 | | | $ | 25,098 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "A001",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 18897000000.0,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "MA/10-K.txt L1786; us-gaap:OperatingIncomeLoss; 2025-01-01 to 2025-12-31; 0001141391-26-000013; Operating income | | 18,897 | | | 15,582 | | | 14,008 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "A002",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 14968000000.0,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "MA/10-K.txt L1795; us-gaap:ProfitLoss; 2025-01-01 to 2025-12-31; 0001141391-26-000013; Net Income | | $ | 14,968 | | | $ | 12,874 | | | $ | 11,195 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "A003",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 16.52,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "MA/10-K.txt L1799; us-gaap:EarningsPerShareDiluted; 2025-01-01 to 2025-12-31; 0001141391-26-000013; Diluted Earnings per Share | | $ | 16.52 | | | $ | 13.89 | | | $ | 11.83 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "A004",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 7737000000.0,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "MA/10-K.txt L1900; us-gaap:StockholdersEquity; 2025-12-31; 0001141391-26-000013; Mastercard Incorporated Stockholders' Equity | | 7,737 | | | 6,485 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "A005",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 18251000000.0,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "MA/10-K.txt L1886; us-gaap:LongTermDebtNoncurrent; 2025-12-31; 0001141391-26-000013; Long-term debt | | 18,251 | | | 17,476 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "A006",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 749000000.0,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "MA/10-K.txt L1883; us-gaap:LongTermDebtCurrent; 2025-12-31; 0001141391-26-000013; Short-term debt | | 749 | | | 750 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "A007",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 17648000000.0,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "MA/10-K.txt L1991; us-gaap:NetCashProvidedByUsedInOperatingActivities; 2025-01-01 to 2025-12-31; 0001141391-26-000013; Net cash provided by operating activities | | 17,648 | | | 14,780 | | | 11,980 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "A008",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 489000000.0,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "MA/10-K.txt L1998; us-gaap:PaymentsToAcquirePropertyPlantAndEquipment; 2025-01-01 to 2025-12-31; 0001141391-26-000013; Purchases of property and equipment | | ( 489 ) | | | ( 474 ) | | | ( 371 ) |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "A009",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 28167000000.0,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "MA/10-K.txt L1779; us-gaap:Revenues; 2024-01-01 to 2024-12-31; 0001141391-26-000013; Net Revenue | | $ | 32,791 | | | $ | 28,167 | | | $ | 25,098 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "A010",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 6485000000.0,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "MA/10-K.txt L1900; us-gaap:StockholdersEquity; 2024-12-31; 0001141391-26-000013; Mastercard Incorporated Stockholders' Equity | | 7,737 | | | 6,485 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "A011",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 16.4163737707246,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "(32,791,000,000 / 28,167,000,000 - 1) * 100; MA/10-K.txt L1779; us-gaap:Revenues; 2025-01-01 to 2025-12-31; 0001141391-26-000013; Net Revenue | | $ | 32,791 | | | $ | 28,167 | | | $ | 25,098 |; MA/10-K.txt L1779; us-gaap:Revenues; 2024-01-01 to 2024-12-31; 0001141391-26-000013; Net Revenue | | $ | 32,791 | | | $ | 28,167 | | | $ | 25,098 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "A012",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 57.62861760849013,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "18,897,000,000 / 32,791,000,000 * 100; MA/10-K.txt L1786; us-gaap:OperatingIncomeLoss; 2025-01-01 to 2025-12-31; 0001141391-26-000013; Operating income | | 18,897 | | | 15,582 | | | 14,008 |; MA/10-K.txt L1779; us-gaap:Revenues; 2025-01-01 to 2025-12-31; 0001141391-26-000013; Net Revenue | | $ | 32,791 | | | $ | 28,167 | | | $ | 25,098 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "A013",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 210.49078891857684,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "14,968,000,000 / ((6,485,000,000 + 7,737,000,000) / 2) * 100; MA/10-K.txt L1795; us-gaap:ProfitLoss; 2025-01-01 to 2025-12-31; 0001141391-26-000013; Net Income | | $ | 14,968 | | | $ | 12,874 | | | $ | 11,195 |; MA/10-K.txt L1900; us-gaap:StockholdersEquity; 2024-12-31; 0001141391-26-000013; Mastercard Incorporated Stockholders' Equity | | 7,737 | | | 6,485 |; MA/10-K.txt L1900; us-gaap:StockholdersEquity; 2025-12-31; 0001141391-26-000013; Mastercard Incorporated Stockholders' Equity | | 7,737 | | | 6,485 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "A014",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 2.455732195941579,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "(18,251,000,000 + 749,000,000) / 7,737,000,000; MA/10-K.txt L1886; us-gaap:LongTermDebtNoncurrent; 2025-12-31; 0001141391-26-000013; Long-term debt | | 18,251 | | | 17,476 |; MA/10-K.txt L1883; us-gaap:LongTermDebtCurrent; 2025-12-31; 0001141391-26-000013; Short-term debt | | 749 | | | 750 |; MA/10-K.txt L1900; us-gaap:StockholdersEquity; 2025-12-31; 0001141391-26-000013; Mastercard Incorporated Stockholders' Equity | | 7,737 | | | 6,485 |",
+      "semantic_status": "not_run"
+    },
+    {
+      "id": "A015",
+      "mark": "correct",
+      "reason": "Exact source context and rounded value match.",
+      "reported": 17159000000.0,
+      "corrected": null,
+      "replacement": null,
+      "evidence": "17,648,000,000 - 489,000,000; MA/10-K.txt L1991; us-gaap:NetCashProvidedByUsedInOperatingActivities; 2025-01-01 to 2025-12-31; 0001141391-26-000013; Net cash provided by operating activities | | 17,648 | | | 14,780 | | | 11,980 |; MA/10-K.txt L1998; us-gaap:PaymentsToAcquirePropertyPlantAndEquipment; 2025-01-01 to 2025-12-31; 0001141391-26-000013; Purchases of property and equipment | | ( 489 ) | | | ( 474 ) | | | ( 371 ) |",
+      "semantic_status": "not_run"
+    }
+  ],
+  "semantic_status": "not_run",
+  "errors": 0,
+  "claim_count": 16
+}

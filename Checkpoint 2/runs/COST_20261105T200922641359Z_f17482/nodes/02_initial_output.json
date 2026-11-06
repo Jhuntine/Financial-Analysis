@@ -1,0 +1,44 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Overview",
+        "text": "Costco Wholesale operates membership‑based warehouses and e‑commerce platforms that emphasize low prices on a limited assortment of national and private‑label brands. This model drives high sales volumes and rapid inventory turnover, allowing the company to sustain profitability despite operating at lower gross margins than many peers. The firm benefits from volume purchasing power, efficient distribution, and a self‑service warehouse format that reduces handling costs. It also frequently sells inventory before payment is due, capturing early‑payment discounts. [[source:K:L129]]"
+      },
+      {
+        "title": "Market Positioning and Growth Outlook",
+        "text": "Revenue expanded at a double‑digit percent rate [[COST.ratio.revenue_growth]], while operating margin remained in the low single‑digit percent range [[COST.ratio.operating_margin]], reflecting the low‑margin, high‑volume strategy. Return on equity was in the high‑twenties percent range [[COST.ratio.return_on_average_equity]], indicating strong profitability relative to shareholders’ capital. Leverage was modest, with debt‑to‑equity under two‑tenths of a times equity [[COST.ratio.debt_to_equity]], and free cash flow was robust at roughly nine billion dollars [[COST.ratio.free_cash_flow]]. Employee retention was high, with a one‑year tenure rate near ninety‑four percent [[source:K:L191]], and wages for hourly staff were increased, raising the average rate to about thirty‑three dollars per hour [[source:K:L195]]. Competitive pressures include the need to balance pricing authority with cost increases, as the company may absorb higher costs or pass them to members, potentially compressing margins [[source:Q:L651]]."
+      },
+      {
+        "title": "Future Developments and Strategic Recommendations",
+        "text": "Strategic focus should remain on expanding warehouse footprints in existing and new markets while integrating acquisitions, though execution risk is acknowledged [[source:K:L233]]. Enhancing cybersecurity defenses is critical given rising threat sophistication and potential operational disruption [[source:K:L253]]. Maintaining privacy and data‑security compliance will be essential to avoid reputational and regulatory fallout [[source:K:L252]]. Continued investment in employee development and compensation will support the high retention rate and operational productivity. Monitoring litigation exposure, particularly pending opioid‑related claims, is necessary to manage contingent liabilities [[source:Q:L508]]."
+      }
+    ],
+    "insight": {
+      "text": "Costco generated a return on equity in the high‑twenties percent range, underscoring strong capital efficiency.",
+      "source": "COST.ratio.return_on_average_equity",
+      "value": 28.402111841396398
+    },
+    "recommendation": "",
+    "decision_source": ""
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-bdec6b7b66b96786",
+    "usage": {
+      "completion_tokens": 1462,
+      "prompt_tokens": 18152,
+      "total_tokens": 19614,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

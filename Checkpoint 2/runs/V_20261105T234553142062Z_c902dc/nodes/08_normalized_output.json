@@ -1,0 +1,15 @@
+{
+  "sections": [
+    {
+      "title": "Investment Recommendation",
+      "text": "Visa’s durable network delivers a high‑margin platform, highlighted by a return on average equity of [[V.ratio.return_on_average_equity]] which signals exceptional profitability on capital. Strong free cash flow and a moderate debt‑to‑equity ratio underpin shareholder returns. The chief risk is regulatory scrutiny of interchange fees in the United Kingdom, which could compress margins [source:Q:L1180]. Accordingly, the recommendation is Buy. The stance would change to Hold or Sell if operating margin were to deteriorate markedly or if regulatory outcomes forced a material fee reduction."
+    }
+  ],
+  "insight": {
+    "text": "The debt‑to‑equity ratio of [[V.ratio.debt_to_equity]] reflects moderate leverage, supporting financial flexibility.",
+    "source": "V.ratio.debt_to_equity",
+    "value": 0.6111988036886268
+  },
+  "recommendation": "Buy",
+  "decision_source": "V.ratio.return_on_average_equity"
+}

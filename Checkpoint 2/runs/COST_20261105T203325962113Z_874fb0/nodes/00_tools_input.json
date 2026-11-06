@@ -1,0 +1,19 @@
+{
+  "task": "Run the seven inherited tools",
+  "context": {
+    "ticker": "COST",
+    "peers": [
+      "WMT",
+      "TGT",
+      "BJ"
+    ],
+    "as_of": "2026-11-05",
+    "offline": true,
+    "source_run": "C:\\Users\\josep\\orca\\Financial-Analysis\\Checkpoint 2\\data_snapshots\\COST_20261105T195738079932Z_081880",
+    "market_provider": "wrds",
+    "ric": null,
+    "price_date": "2026-09-24",
+    "model_provider": "purdue"
+  },
+  "expected_output": "Saved filing texts, facts, ratios and source catalog"
+}

@@ -1,0 +1,170 @@
+{
+  "WMT": {
+    "company": {
+      "ticker": "WMT",
+      "cik": "0000104169",
+      "name": "Walmart Inc."
+    },
+    "fiscal_end": "2026-01-31",
+    "revenue": {
+      "value": 713163000000,
+      "tag": "us-gaap:Revenues",
+      "start": "2025-02-01",
+      "end": "2026-01-31",
+      "method": "SEC company-facts",
+      "dimensions": {},
+      "context": "c-1",
+      "metric": "revenue",
+      "unit": "USD",
+      "accession": "0000104169-26-000055",
+      "form": "10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+      "file": "WMT/10-K.txt",
+      "line": 826,
+      "source_text": "Total revenues | | 713,163 | | | 680,985 | | | 648,125 |",
+      "definition": "Consolidated reported revenue; the source row names any net/gross convention."
+    },
+    "operating_income": {
+      "value": 29825000000,
+      "tag": "us-gaap:OperatingIncomeLoss",
+      "start": "2025-02-01",
+      "end": "2026-01-31",
+      "method": "SEC company-facts",
+      "dimensions": {},
+      "context": "c-1",
+      "metric": "operating_income",
+      "unit": "USD",
+      "accession": "0000104169-26-000055",
+      "form": "10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+      "file": "WMT/10-K.txt",
+      "line": 830,
+      "source_text": "Operating income | | 29,825 | | | 29,348 | | | 27,012 |",
+      "definition": "GAAP consolidated operating income, including litigation and other reported operating costs."
+    },
+    "operating_margin": {
+      "value": 4.182073382943311,
+      "arithmetic": "29,825,000,000 / 713,163,000,000 * 100",
+      "inputs": [
+        "operating_income",
+        "revenue"
+      ],
+      "unit": "%",
+      "fiscal_start": "2025-02-01",
+      "fiscal_end": "2026-01-31"
+    },
+    "definition": "Reported GAAP operating income / consolidated reported revenue * 100; no adjusted earnings."
+  },
+  "TGT": {
+    "company": {
+      "ticker": "TGT",
+      "cik": "0000027419",
+      "name": "TARGET CORP"
+    },
+    "fiscal_end": "2026-01-31",
+    "revenue": {
+      "value": 104780000000,
+      "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "start": "2025-02-02",
+      "end": "2026-01-31",
+      "method": "SEC company-facts",
+      "dimensions": {},
+      "context": "c-1",
+      "metric": "revenue",
+      "unit": "USD",
+      "accession": "0000027419-26-000016",
+      "form": "10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+      "file": "TGT/10-K.txt",
+      "line": 1123,
+      "source_text": "Net sales | $ | 104,780 | | $ | 106,566 | | $ | 107,412 |",
+      "definition": "Consolidated reported revenue; the source row names any net/gross convention."
+    },
+    "operating_income": {
+      "value": 5117000000,
+      "tag": "us-gaap:OperatingIncomeLoss",
+      "start": "2025-02-02",
+      "end": "2026-01-31",
+      "method": "SEC company-facts",
+      "dimensions": {},
+      "context": "c-1",
+      "metric": "operating_income",
+      "unit": "USD",
+      "accession": "0000027419-26-000016",
+      "form": "10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+      "file": "TGT/10-K.txt",
+      "line": 1127,
+      "source_text": "Operating income | 5,117 | | 5,566 | | 5,707 |",
+      "definition": "GAAP consolidated operating income, including litigation and other reported operating costs."
+    },
+    "operating_margin": {
+      "value": 4.8835655659477,
+      "arithmetic": "5,117,000,000 / 104,780,000,000 * 100",
+      "inputs": [
+        "operating_income",
+        "revenue"
+      ],
+      "unit": "%",
+      "fiscal_start": "2025-02-02",
+      "fiscal_end": "2026-01-31"
+    },
+    "definition": "Reported GAAP operating income / consolidated reported revenue * 100; no adjusted earnings."
+  },
+  "BJ": {
+    "company": {
+      "ticker": "BJ",
+      "cik": "0001531152",
+      "name": "BJ's Wholesale Club Holdings, Inc."
+    },
+    "fiscal_end": "2026-01-31",
+    "revenue": {
+      "value": 21457274000,
+      "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "start": "2025-02-02",
+      "end": "2026-01-31",
+      "method": "SEC company-facts",
+      "dimensions": {},
+      "context": "c-1",
+      "metric": "revenue",
+      "unit": "USD",
+      "accession": "0001531152-26-000007",
+      "form": "10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1531152/000153115226000007/bj-20260131.htm",
+      "file": "BJ/10-K.txt",
+      "line": 991,
+      "source_text": "Total revenues | 21,457,274 | | | 20,501,804 | | | 19,968,689 |",
+      "definition": "Consolidated reported revenue; the source row names any net/gross convention."
+    },
+    "operating_income": {
+      "value": 816604000,
+      "tag": "us-gaap:OperatingIncomeLoss",
+      "start": "2025-02-02",
+      "end": "2026-01-31",
+      "method": "SEC company-facts",
+      "dimensions": {},
+      "context": "c-1",
+      "metric": "operating_income",
+      "unit": "USD",
+      "accession": "0001531152-26-000007",
+      "form": "10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1531152/000153115226000007/bj-20260131.htm",
+      "file": "BJ/10-K.txt",
+      "line": 995,
+      "source_text": "Operating income | 816,604 | | | 772,206 | | | 800,419 |",
+      "definition": "GAAP consolidated operating income, including litigation and other reported operating costs."
+    },
+    "operating_margin": {
+      "value": 3.8057210808791457,
+      "arithmetic": "816,604,000 / 21,457,274,000 * 100",
+      "inputs": [
+        "operating_income",
+        "revenue"
+      ],
+      "unit": "%",
+      "fiscal_start": "2025-02-02",
+      "fiscal_end": "2026-01-31"
+    },
+    "definition": "Reported GAAP operating income / consolidated reported revenue * 100; no adjusted earnings."
+  }
+}

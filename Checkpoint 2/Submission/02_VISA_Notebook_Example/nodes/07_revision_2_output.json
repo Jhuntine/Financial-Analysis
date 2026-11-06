@@ -1,0 +1,36 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Valuation Insights",
+        "text": "Visa posts a high operating margin of [[V.ratio.operating_margin]] and a strong return on average equity of [[V.ratio.return_on_average_equity]]. Debt‑to‑equity stands at [[V.ratio.debt_to_equity]], indicating moderate leverage. Free cash flow of [[V.ratio.free_cash_flow]] underpins share repurchases and dividend growth. The annual price‑earnings multiple of [[V.ratio.price_earnings]] reflects market expectations relative to earnings. Revenue grew by [[V.ratio.revenue_growth]] year over year, supporting the top‑line momentum."
+      }
+    ],
+    "insight": {
+      "text": "Leverage remains moderate, as indicated by the debt‑to‑equity ratio.",
+      "source": "V.ratio.debt_to_equity",
+      "value": 0.6639848057189586
+    },
+    "recommendation": "",
+    "decision_source": ""
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-91e8f3c296e2b62e",
+    "usage": {
+      "completion_tokens": 1025,
+      "prompt_tokens": 13403,
+      "total_tokens": 14428,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

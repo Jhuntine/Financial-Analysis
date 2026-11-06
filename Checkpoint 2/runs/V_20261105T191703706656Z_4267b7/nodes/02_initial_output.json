@@ -1,0 +1,30 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Overview",
+        "text": "The saved business evidence describes the issuer's operations. These fixture sentences are a software demonstration; a live model must produce the company analysis."
+      },
+      {
+        "title": "Market Positioning and Growth Outlook",
+        "text": "Growth must be read against the disclosed competitive and operating risks. The live Research Analyst is given line-addressable filing excerpts."
+      },
+      {
+        "title": "Future Developments and Strategic Recommendations",
+        "text": "Monitor whether the next filing supports the current operating interpretation. A human should judge whether this interpretation adds useful information."
+      }
+    ],
+    "insight": {
+      "text": "Historical operating economics provide a separate test of the growth narrative.",
+      "source": "V.ratio.operating_margin",
+      "value": 59.985
+    },
+    "recommendation": "",
+    "decision_source": ""
+  },
+  "metadata": {
+    "mode": "offline_fixture",
+    "model": null,
+    "paid_calls": 0
+  }
+}

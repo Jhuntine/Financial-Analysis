@@ -1,0 +1,17 @@
+{
+  "task": "Run the seven inherited tools",
+  "context": {
+    "ticker": "V",
+    "peers": [
+      "MA",
+      "PYPL"
+    ],
+    "as_of": "2026-11-03",
+    "offline": true,
+    "source_run": "C:\\Users\\josep\\orca\\Financial-Analysis\\Checkpoint 1\\runs\\V_20261103T064621Z",
+    "price_date": "2026-10-27",
+    "market_provider": "lseg",
+    "ric": "V.N"
+  },
+  "expected_output": "Saved filing texts, facts, ratios and source catalog"
+}

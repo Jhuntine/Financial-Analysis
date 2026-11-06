@@ -1,0 +1,241 @@
+{
+  "output": {
+    "verdicts": [
+      {
+        "id": "C001",
+        "mark": "correct",
+        "reason": "Source fact revenue matches value, period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C002",
+        "mark": "correct",
+        "reason": "Source fact operating income matches value, period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C003",
+        "mark": "correct",
+        "reason": "Source fact net income matches value, period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C004",
+        "mark": "correct",
+        "reason": "Source fact diluted EPS matches value, period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C005",
+        "mark": "correct",
+        "reason": "Source fact equity matches value, period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C006",
+        "mark": "correct",
+        "reason": "Source fact long‑term debt matches value, period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C007",
+        "mark": "correct",
+        "reason": "Source fact current debt matches value, period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C008",
+        "mark": "correct",
+        "reason": "Source fact operating cash flow matches value, period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C009",
+        "mark": "correct",
+        "reason": "Source fact capex matches value, period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C010",
+        "mark": "correct",
+        "reason": "Source fact prior revenue matches value, period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C011",
+        "mark": "correct",
+        "reason": "Source fact prior equity matches value, period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C012",
+        "mark": "correct",
+        "reason": "Calculated revenue growth matches source inputs and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C013",
+        "mark": "correct",
+        "reason": "Calculated operating margin matches source inputs and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C014",
+        "mark": "correct",
+        "reason": "Calculated return on average equity matches source inputs and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C015",
+        "mark": "correct",
+        "reason": "Calculated debt‑to‑equity matches source inputs and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C016",
+        "mark": "correct",
+        "reason": "Calculated free cash flow matches source inputs and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C017",
+        "mark": "correct",
+        "reason": "Calculated price‑earnings ratio matches source inputs and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C018",
+        "mark": "correct",
+        "reason": "Source fact WMT revenue matches value, period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C019",
+        "mark": "correct",
+        "reason": "Source fact WMT operating income matches value, period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C020",
+        "mark": "correct",
+        "reason": "Calculated WMT operating margin matches source inputs and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C021",
+        "mark": "correct",
+        "reason": "Source fact TGT revenue matches value, period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C022",
+        "mark": "correct",
+        "reason": "Source fact TGT operating income matches value, period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C023",
+        "mark": "correct",
+        "reason": "Calculated TGT operating margin matches source inputs and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C024",
+        "mark": "correct",
+        "reason": "Source fact BJ revenue matches value, period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C025",
+        "mark": "correct",
+        "reason": "Source fact BJ operating income matches value, period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C026",
+        "mark": "correct",
+        "reason": "Calculated BJ operating margin matches source inputs and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C027",
+        "mark": "correct",
+        "reason": "Source price matches value, period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C028",
+        "mark": "correct",
+        "reason": "Source quarter net revenue matches value, period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C029",
+        "mark": "correct",
+        "reason": "Source prior quarter net revenue matches value, period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C030",
+        "mark": "correct",
+        "reason": "Source quarter GAAP diluted EPS matches value, period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C031",
+        "mark": "correct",
+        "reason": "Source annual‑release GAAP diluted EPS matches value, period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C032",
+        "mark": "correct",
+        "reason": "Calculated quarter revenue growth matches source inputs and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "I033",
+        "mark": "correct",
+        "reason": "Insight value matches free‑cash‑flow ratio source.",
+        "correction_source": ""
+      },
+      {
+        "id": "I034",
+        "mark": "correct",
+        "reason": "Insight value matches return‑on‑average‑equity ratio source.",
+        "correction_source": ""
+      },
+      {
+        "id": "D035",
+        "mark": "correct",
+        "reason": "Advisor deciding metric matches return‑on‑average‑equity ratio source.",
+        "correction_source": ""
+      },
+      {
+        "id": "I036",
+        "mark": "correct",
+        "reason": "Insight value matches debt‑to‑equity ratio source.",
+        "correction_source": ""
+      }
+    ]
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-90095c0f70d7c958",
+    "usage": {
+      "completion_tokens": 3014,
+      "prompt_tokens": 14803,
+      "total_tokens": 17817,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

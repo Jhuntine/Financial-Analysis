@@ -1,0 +1,20 @@
+{
+  "ticker": "COST",
+  "peers": [
+    "WMT",
+    "TGT",
+    "BJ"
+  ],
+  "as_of": "2026-11-05",
+  "price": 896.48,
+  "price_date": "2026-09-24",
+  "price_source": "WRDS Compustat comp.secd.prccd; primary U.S. security; dated security ticker COST; 2026-09-24",
+  "share_class": "us-gaap:CommonClassAMember",
+  "market_provider": "wrds",
+  "ric": null,
+  "source_run": "C:\\Users\\josep\\orca\\Financial-Analysis\\Checkpoint 2\\data_snapshots\\COST_20261105T195738079932Z_081880",
+  "offline": true,
+  "model_provider": "purdue",
+  "model": "gpt-oss:120b",
+  "mode": "live"
+}

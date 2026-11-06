@@ -1,0 +1,36 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Valuation Insights",
+        "text": "Costco reports an operating margin of [[COST.ratio.operating_margin]], indicating modest profitability on sales. Its return on average equity of [[COST.ratio.return_on_average_equity]] demonstrates strong earnings generation relative to equity. The debt‑to‑equity ratio of [[COST.ratio.debt_to_equity]] reflects a conservative capital structure, while free cash flow of [[COST.ratio.free_cash_flow]] provides ample liquidity for shareholder returns. The annual price‑earnings multiple of [[COST.ratio.price_earnings]] suggests a premium valuation compared with broader retail peers."
+      }
+    ],
+    "insight": {
+      "text": "Costco's return on average equity of [[COST.ratio.return_on_average_equity]] highlights its efficiency in turning shareholders' capital into earnings, a core component of intrinsic valuation.",
+      "source": "COST.ratio.return_on_average_equity",
+      "value": 28.402111841396398
+    },
+    "recommendation": "",
+    "decision_source": ""
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-86f0a01ab4fe38d7",
+    "usage": {
+      "completion_tokens": 1109,
+      "prompt_tokens": 16427,
+      "total_tokens": 17536,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

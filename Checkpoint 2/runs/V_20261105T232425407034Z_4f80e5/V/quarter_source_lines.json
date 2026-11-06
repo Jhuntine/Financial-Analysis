@@ -1,0 +1,78 @@
+{
+  "period_end": "2026-09-30",
+  "release_date": "2026-10-27",
+  "accession": "0001403161-26-000126",
+  "file": "V/earnings_release.txt",
+  "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm",
+  "revenue_candidates": [
+    {
+      "line": 212,
+      "text": "Net revenue | $ | 12,139 | | | $ | 10,724 | | | $ | 45,903 | | | $ | 40,000 |"
+    }
+  ],
+  "eps_candidates": [
+    {
+      "line": 250,
+      "text": "Class A common stock | $ | 3.19 | | | $ | 2.62 | | | $ | 12.32 | | | $ | 10.20 |"
+    }
+  ],
+  "header_lines": [
+    {
+      "line": 203,
+      "text": "| Three Months Ended September 30, | | Twelve Months Ended September 30,"
+    },
+    {
+      "line": 204,
+      "text": "| 2026 | | 2025 | | 2026 | | 2025"
+    },
+    {
+      "line": 205,
+      "text": "| (in millions, except per share data)"
+    }
+  ],
+  "observations": {
+    "quarter_net_revenue": {
+      "value": 12139000000.0,
+      "unit": "USD",
+      "line": 212,
+      "column": "First quarter column; three months ended 2026-09-30; Net revenue; source in millions",
+      "column_index": 0,
+      "scale": 1000000,
+      "period_end": "2026-09-30"
+    },
+    "prior_quarter_net_revenue": {
+      "value": 10724000000.0,
+      "unit": "USD",
+      "line": 212,
+      "column": "Second quarter column; corresponding quarter ended 2025-09-30; Net revenue; source in millions",
+      "column_index": 1,
+      "scale": 1000000,
+      "period_end": "2025-09-30"
+    },
+    "quarter_gaap_diluted_eps": {
+      "value": 3.19,
+      "unit": "USD/shares",
+      "line": 250,
+      "column": "First quarter column; GAAP diluted EPS; three months ended 2026-09-30; us-gaap:CommonClassAMember",
+      "column_index": 0,
+      "scale": 1,
+      "period_end": "2026-09-30"
+    },
+    "annual_release_gaap_diluted_eps": {
+      "value": 12.32,
+      "unit": "USD/shares",
+      "line": 250,
+      "column": "Third numeric column; full fiscal year ended 2026-09-30; GAAP diluted EPS; us-gaap:CommonClassAMember",
+      "column_index": 2,
+      "scale": 1,
+      "period_end": "2026-09-30"
+    }
+  },
+  "revenue_growth": {
+    "value": 13.194703468854897,
+    "unit": "%",
+    "arithmetic": "(12,139,000,000 / 10,724,000,000 - 1) * 100",
+    "line": 212,
+    "note": "Same consolidated revenue definition and corresponding fiscal-quarter columns; not headline net-sales growth."
+  }
+}

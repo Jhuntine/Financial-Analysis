@@ -1,0 +1,36 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Valuation Insights",
+        "text": "Operating margin is [[V.ratio.operating_margin]] percent, reflecting strong profitability relative to revenue. Return on average equity stands at [[V.ratio.return_on_average_equity]] percent, indicating efficient use of shareholders’ capital. Debt to equity, including the current portion, is [[V.ratio.debt_to_equity]] times, showing a moderate leverage profile. Free cash flow amounts to [[V.ratio.free_cash_flow]] dollars, underscoring robust cash generation after capital expenditures. The price‑earnings multiple based on the latest filed annual diluted EPS is [[V.ratio.price_earnings]] times, providing a valuation gauge against earnings. Total revenue for the fiscal year is [[V.fact.revenue]] dollars, and GAAP diluted EPS is [[V.fact.diluted_eps]] dollars per share, both reported under GAAP conventions for the common Class A share class. Capital expenditures of [[V.fact.capex]] dollars represent cash outlays for property, equipment and technology."
+      }
+    ],
+    "insight": {
+      "text": "Free cash flow of [[V.ratio.free_cash_flow]] dollars highlights the company’s ability to fund growth and return capital to shareholders.",
+      "source": "V.ratio.free_cash_flow",
+      "value": 21577000000.0
+    },
+    "recommendation": "",
+    "decision_source": ""
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-b74990586108977c",
+    "usage": {
+      "completion_tokens": 1554,
+      "prompt_tokens": 13122,
+      "total_tokens": 14676,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

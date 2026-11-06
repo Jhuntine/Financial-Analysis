@@ -1,0 +1,8 @@
+{
+  "task": "Code-only numerical verification",
+  "context": {
+    "report_file": "report.md",
+    "catalog_file": "catalog.json"
+  },
+  "expected_output": "Marks and corrections; semantic model not run"
+}

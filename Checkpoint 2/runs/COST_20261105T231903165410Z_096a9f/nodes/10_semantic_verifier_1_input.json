@@ -1,0 +1,693 @@
+{
+  "task": "Check every numerical claim's meaning, period and definition; skip the marked subjective thesis. Saved XBRL facts are authoritative for their exact context. Return one verdict per claim ID; code failures cannot be approved away.",
+  "context": {
+    "report": "COSTCO WHOLESALE CORP /NEW (COST); filings read: COST 10-K 0000909832-26-000093; COST 10-Q 0000909832-26-000051; COST earnings 0000909832-26-000084; WMT 10-K 0000104169-26-000055; TGT 10-K 0000027419-26-000016; BJ 10-K 0001531152-26-000007\nRun UTC: 2026-11-05T23:20:31.976671+00:00; mode=live; manager_approved=True; human review pending.\n\n> Live agent draft; human approval pending.\n\n## Overview\n\nCostco operates membership‑driven warehouses and e‑commerce sites built around the premise that low prices on a limited assortment of national‑brand and private‑label products generate high sales volumes and rapid inventory turnover, which in turn supports profitability at lower gross margins than many peers [source:K:L129]. The company emphasizes employee stability, noting a high retention rate and a strategic focus on maintaining at least half of its workforce as full‑time employees, which it views as a competitive advantage [source:K:L191]. Revenue growth continues, as reflected by the disclosed revenue‑growth ratio [[COST.ratio.revenue_growth]].\n\n```claim\n{\"id\": \"C001\", \"text\": \"Referenced quantitative evidence\", \"value\": 10.143695387577889, \"unit\": \"%\", \"source\": \"COST.ratio.revenue_growth\", \"period\": \"2025-09-01 to 2026-08-30\", \"definition\": \"Same-definition annual revenue / prior annual revenue minus one, percent.\", \"inputs\": [{\"source\": \"COST.fact.revenue\", \"value\": 303154000000.0}, {\"source\": \"COST.fact.prior_revenue\", \"value\": 275235000000.0}]}\n```\n\n## Market Positioning and Growth Outlook\n\nCostco leverages its scale to negotiate favorable terms with suppliers, reinforcing a perception of pricing authority among members and allowing the firm to pass savings through to shoppers [source:Q:L651]. Its self‑service warehouse design and efficient distribution network contribute to productivity that exceeds many competitors [source:K:L129]. The balance sheet remains modestly leveraged, with a low debt‑to‑equity profile [[COST.ratio.debt_to_equity]], and the company generates strong free cash flow [[COST.ratio.free_cash_flow]], providing flexibility for reinvestment and shareholder returns. Growth is pursued through expansion in existing markets and entry into new ones, though the firm cautions that unsuccessful execution of this strategy could adversely affect results [source:K:L233].\n\n```claim\n{\"id\": \"C002\", \"text\": \"Referenced quantitative evidence\", \"value\": 0.17210848252939698, \"unit\": \"x\", \"source\": \"COST.ratio.debt_to_equity\", \"period\": \"2025-09-01 to 2026-08-30\", \"definition\": \"Long-term debt including its current portion / ending reported equity.\", \"inputs\": [{\"source\": \"COST.fact.long_term_debt\", \"value\": 3914000000.0}, {\"source\": \"COST.fact.current_debt\", \"value\": 2248000000.0}, {\"source\": \"COST.fact.equity\", \"value\": 35803000000.0}]}\n```\n\n```claim\n{\"id\": \"C003\", \"text\": \"Referenced quantitative evidence\", \"value\": 9382000000.0, \"unit\": \"USD\", \"source\": \"COST.ratio.free_cash_flow\", \"period\": \"2025-09-01 to 2026-08-30\", \"definition\": \"Operating cash flow less reported property, equipment and technology purchases as applicable.\", \"inputs\": [{\"source\": \"COST.fact.operating_cash_flow\", \"value\": 15817000000.0}, {\"source\": \"COST.fact.capex\", \"value\": 6435000000.0}]}\n```\n\n## Valuation Insights\n\nCostco delivered a year‑over‑year revenue increase of [[COST.ratio.revenue_growth]], reflecting solid top‑line expansion. The operating margin of [[COST.ratio.operating_margin]] indicates modest profitability on sales, while the return on average equity of [[COST.ratio.return_on_average_equity]] demonstrates a high efficiency of capital deployment. Debt financing remains low, with a debt‑to‑equity ratio of [[COST.ratio.debt_to_equity]], suggesting a strong balance‑sheet profile. Free cash flow of [[COST.ratio.free_cash_flow]] shows ample cash generation after capital spending, supporting dividend sustainability and share repurchases. The annual price‑earnings multiple of [[COST.ratio.price_earnings]] is elevated, implying that the market is pricing in growth expectations relative to earnings.\n\n```claim\n{\"id\": \"C004\", \"text\": \"Referenced quantitative evidence\", \"value\": 10.143695387577889, \"unit\": \"%\", \"source\": \"COST.ratio.revenue_growth\", \"period\": \"2025-09-01 to 2026-08-30\", \"definition\": \"Same-definition annual revenue / prior annual revenue minus one, percent.\", \"inputs\": [{\"source\": \"COST.fact.revenue\", \"value\": 303154000000.0}, {\"source\": \"COST.fact.prior_revenue\", \"value\": 275235000000.0}]}\n```\n\n```claim\n{\"id\": \"C005\", \"text\": \"Referenced quantitative evidence\", \"value\": 3.8544766026507977, \"unit\": \"%\", \"source\": \"COST.ratio.operating_margin\", \"period\": \"2025-09-01 to 2026-08-30\", \"definition\": \"GAAP operating income / consolidated reported revenue, percent.\", \"inputs\": [{\"source\": \"COST.fact.operating_income\", \"value\": 11685000000.0}, {\"source\": \"COST.fact.revenue\", \"value\": 303154000000.0}]}\n```\n\n```claim\n{\"id\": \"C006\", \"text\": \"Referenced quantitative evidence\", \"value\": 28.402111841396398, \"unit\": \"%\", \"source\": \"COST.ratio.return_on_average_equity\", \"period\": \"2025-09-01 to 2026-08-30\", \"definition\": \"GAAP net income / average beginning and ending reported equity, percent.\", \"inputs\": [{\"source\": \"COST.fact.net_income\", \"value\": 9226000000.0}, {\"source\": \"COST.fact.prior_equity\", \"value\": 29164000000.0}, {\"source\": \"COST.fact.equity\", \"value\": 35803000000.0}]}\n```\n\n```claim\n{\"id\": \"C007\", \"text\": \"Referenced quantitative evidence\", \"value\": 0.17210848252939698, \"unit\": \"x\", \"source\": \"COST.ratio.debt_to_equity\", \"period\": \"2025-09-01 to 2026-08-30\", \"definition\": \"Long-term debt including its current portion / ending reported equity.\", \"inputs\": [{\"source\": \"COST.fact.long_term_debt\", \"value\": 3914000000.0}, {\"source\": \"COST.fact.current_debt\", \"value\": 2248000000.0}, {\"source\": \"COST.fact.equity\", \"value\": 35803000000.0}]}\n```\n\n```claim\n{\"id\": \"C008\", \"text\": \"Referenced quantitative evidence\", \"value\": 9382000000.0, \"unit\": \"USD\", \"source\": \"COST.ratio.free_cash_flow\", \"period\": \"2025-09-01 to 2026-08-30\", \"definition\": \"Operating cash flow less reported property, equipment and technology purchases as applicable.\", \"inputs\": [{\"source\": \"COST.fact.operating_cash_flow\", \"value\": 15817000000.0}, {\"source\": \"COST.fact.capex\", \"value\": 6435000000.0}]}\n```\n\n```claim\n{\"id\": \"C009\", \"text\": \"Referenced quantitative evidence\", \"value\": 43.18304431599229, \"unit\": \"x\", \"source\": \"COST.ratio.price_earnings\", \"period\": \"2025-09-01 to 2026-08-30\", \"definition\": \"Dated close / latest filed annual GAAP diluted EPS; annual-filing multiple, not current TTM.\", \"inputs\": [{\"source\": \"COST.price\", \"value\": 896.48}, {\"source\": \"COST.fact.diluted_eps\", \"value\": 20.76}]}\n```\n\n### Financial Analyst evidence\n\n```claim\n{\"id\": \"C010\", \"text\": \"fact.revenue\", \"value\": 303154000000.0, \"unit\": \"USD\", \"source\": \"COST.fact.revenue\", \"period\": \"2025-09-01 to 2026-08-30\", \"definition\": \"Consolidated reported revenue; the source row names any net/gross convention.\", \"inputs\": []}\n```\n\n```claim\n{\"id\": \"C011\", \"text\": \"fact.operating income\", \"value\": 11685000000.0, \"unit\": \"USD\", \"source\": \"COST.fact.operating_income\", \"period\": \"2025-09-01 to 2026-08-30\", \"definition\": \"GAAP consolidated operating income, including litigation and other reported operating costs.\", \"inputs\": []}\n```\n\n```claim\n{\"id\": \"C012\", \"text\": \"fact.net income\", \"value\": 9226000000.0, \"unit\": \"USD\", \"source\": \"COST.fact.net_income\", \"period\": \"2025-09-01 to 2026-08-30\", \"definition\": \"GAAP consolidated net income; use the equity scope identified in the source tag.\", \"inputs\": []}\n```\n\n```claim\n{\"id\": \"C013\", \"text\": \"fact.diluted eps\", \"value\": 20.76, \"unit\": \"USD/shares\", \"source\": \"COST.fact.diluted_eps\", \"period\": \"2025-09-01 to 2026-08-30\", \"definition\": \"GAAP diluted EPS for the listed common share class; consolidated fact if unambiguous.\", \"inputs\": []}\n```\n\n```claim\n{\"id\": \"C014\", \"text\": \"fact.equity\", \"value\": 35803000000.0, \"unit\": \"USD\", \"source\": \"COST.fact.equity\", \"period\": \"2026-08-30\", \"definition\": \"Reported consolidated stockholders' equity; scope is identified by the selected tag.\", \"inputs\": []}\n```\n\n```claim\n{\"id\": \"C015\", \"text\": \"fact.long term debt\", \"value\": 3914000000.0, \"unit\": \"USD\", \"source\": \"COST.fact.long_term_debt\", \"period\": \"2026-08-30\", \"definition\": \"Carrying amount of long-term debt excluding its current portion; excludes operating leases.\", \"inputs\": []}\n```\n\n```claim\n{\"id\": \"C016\", \"text\": \"fact.current debt\", \"value\": 2248000000.0, \"unit\": \"USD\", \"source\": \"COST.fact.current_debt\", \"period\": \"2026-08-30\", \"definition\": \"Current portion of long-term debt; excludes unrelated short-term borrowings.\", \"inputs\": []}\n```\n\n```claim\n{\"id\": \"C017\", \"text\": \"fact.operating cash flow\", \"value\": 15817000000.0, \"unit\": \"USD\", \"source\": \"COST.fact.operating_cash_flow\", \"period\": \"2025-09-01 to 2026-08-30\", \"definition\": \"Reported net cash provided by operating activities.\", \"inputs\": []}\n```\n\n```claim\n{\"id\": \"C018\", \"text\": \"fact.capex\", \"value\": 6435000000.0, \"unit\": \"USD\", \"source\": \"COST.fact.capex\", \"period\": \"2025-09-01 to 2026-08-30\", \"definition\": \"Cash purchases of property/equipment (and technology if the reported row includes it); positive outflow.\", \"inputs\": []}\n```\n\n```claim\n{\"id\": \"C019\", \"text\": \"fact.prior revenue\", \"value\": 275235000000.0, \"unit\": \"USD\", \"source\": \"COST.fact.prior_revenue\", \"period\": \"2024-09-02 to 2025-08-31\", \"definition\": \"Consolidated reported revenue; the source row names any net/gross convention.\", \"inputs\": []}\n```\n\n```claim\n{\"id\": \"C020\", \"text\": \"fact.prior equity\", \"value\": 29164000000.0, \"unit\": \"USD\", \"source\": \"COST.fact.prior_equity\", \"period\": \"2025-08-31\", \"definition\": \"Reported consolidated stockholders' equity; scope is identified by the selected tag.\", \"inputs\": []}\n```\n\n```claim\n{\"id\": \"C021\", \"text\": \"ratio.revenue growth\", \"value\": 10.143695387577889, \"unit\": \"%\", \"source\": \"COST.ratio.revenue_growth\", \"period\": \"2025-09-01 to 2026-08-30\", \"definition\": \"Same-definition annual revenue / prior annual revenue minus one, percent.\", \"inputs\": [{\"source\": \"COST.fact.revenue\", \"value\": 303154000000.0}, {\"source\": \"COST.fact.prior_revenue\", \"value\": 275235000000.0}]}\n```\n\n```claim\n{\"id\": \"C022\", \"text\": \"ratio.operating margin\", \"value\": 3.8544766026507977, \"unit\": \"%\", \"source\": \"COST.ratio.operating_margin\", \"period\": \"2025-09-01 to 2026-08-30\", \"definition\": \"GAAP operating income / consolidated reported revenue, percent.\", \"inputs\": [{\"source\": \"COST.fact.operating_income\", \"value\": 11685000000.0}, {\"source\": \"COST.fact.revenue\", \"value\": 303154000000.0}]}\n```\n\n```claim\n{\"id\": \"C023\", \"text\": \"ratio.return on average equity\", \"value\": 28.402111841396398, \"unit\": \"%\", \"source\": \"COST.ratio.return_on_average_equity\", \"period\": \"2025-09-01 to 2026-08-30\", \"definition\": \"GAAP net income / average beginning and ending reported equity, percent.\", \"inputs\": [{\"source\": \"COST.fact.net_income\", \"value\": 9226000000.0}, {\"source\": \"COST.fact.prior_equity\", \"value\": 29164000000.0}, {\"source\": \"COST.fact.equity\", \"value\": 35803000000.0}]}\n```\n\n```claim\n{\"id\": \"C024\", \"text\": \"ratio.debt to equity\", \"value\": 0.17210848252939698, \"unit\": \"x\", \"source\": \"COST.ratio.debt_to_equity\", \"period\": \"2025-09-01 to 2026-08-30\", \"definition\": \"Long-term debt including its current portion / ending reported equity.\", \"inputs\": [{\"source\": \"COST.fact.long_term_debt\", \"value\": 3914000000.0}, {\"source\": \"COST.fact.current_debt\", \"value\": 2248000000.0}, {\"source\": \"COST.fact.equity\", \"value\": 35803000000.0}]}\n```\n\n```claim\n{\"id\": \"C025\", \"text\": \"ratio.free cash flow\", \"value\": 9382000000.0, \"unit\": \"USD\", \"source\": \"COST.ratio.free_cash_flow\", \"period\": \"2025-09-01 to 2026-08-30\", \"definition\": \"Operating cash flow less reported property, equipment and technology purchases as applicable.\", \"inputs\": [{\"source\": \"COST.fact.operating_cash_flow\", \"value\": 15817000000.0}, {\"source\": \"COST.fact.capex\", \"value\": 6435000000.0}]}\n```\n\n```claim\n{\"id\": \"C026\", \"text\": \"ratio.price earnings\", \"value\": 43.18304431599229, \"unit\": \"x\", \"source\": \"COST.ratio.price_earnings\", \"period\": \"2025-09-01 to 2026-08-30\", \"definition\": \"Dated close / latest filed annual GAAP diluted EPS; annual-filing multiple, not current TTM.\", \"inputs\": [{\"source\": \"COST.price\", \"value\": 896.48}, {\"source\": \"COST.fact.diluted_eps\", \"value\": 20.76}]}\n```\n\n```claim\n{\"id\": \"C027\", \"text\": \"fact.revenue\", \"value\": 713163000000.0, \"unit\": \"USD\", \"source\": \"WMT.fact.revenue\", \"period\": \"2025-02-01 to 2026-01-31\", \"definition\": \"Consolidated reported revenue; the source row names any net/gross convention.\", \"inputs\": []}\n```\n\n```claim\n{\"id\": \"C028\", \"text\": \"fact.operating income\", \"value\": 29825000000.0, \"unit\": \"USD\", \"source\": \"WMT.fact.operating_income\", \"period\": \"2025-02-01 to 2026-01-31\", \"definition\": \"GAAP consolidated operating income, including litigation and other reported operating costs.\", \"inputs\": []}\n```\n\n```claim\n{\"id\": \"C029\", \"text\": \"ratio.operating margin\", \"value\": 4.182073382943311, \"unit\": \"%\", \"source\": \"WMT.ratio.operating_margin\", \"period\": \"2025-02-01 to 2026-01-31\", \"definition\": \"GAAP operating income / consolidated reported revenue, percent.\", \"inputs\": [{\"source\": \"WMT.fact.operating_income\", \"value\": 29825000000.0}, {\"source\": \"WMT.fact.revenue\", \"value\": 713163000000.0}]}\n```\n\n```claim\n{\"id\": \"C030\", \"text\": \"fact.revenue\", \"value\": 104780000000.0, \"unit\": \"USD\", \"source\": \"TGT.fact.revenue\", \"period\": \"2025-02-02 to 2026-01-31\", \"definition\": \"Consolidated reported revenue; the source row names any net/gross convention.\", \"inputs\": []}\n```\n\n```claim\n{\"id\": \"C031\", \"text\": \"fact.operating income\", \"value\": 5117000000.0, \"unit\": \"USD\", \"source\": \"TGT.fact.operating_income\", \"period\": \"2025-02-02 to 2026-01-31\", \"definition\": \"GAAP consolidated operating income, including litigation and other reported operating costs.\", \"inputs\": []}\n```\n\n```claim\n{\"id\": \"C032\", \"text\": \"ratio.operating margin\", \"value\": 4.8835655659477, \"unit\": \"%\", \"source\": \"TGT.ratio.operating_margin\", \"period\": \"2025-02-02 to 2026-01-31\", \"definition\": \"GAAP operating income / consolidated reported revenue, percent.\", \"inputs\": [{\"source\": \"TGT.fact.operating_income\", \"value\": 5117000000.0}, {\"source\": \"TGT.fact.revenue\", \"value\": 104780000000.0}]}\n```\n\n```claim\n{\"id\": \"C033\", \"text\": \"fact.revenue\", \"value\": 21457274000.0, \"unit\": \"USD\", \"source\": \"BJ.fact.revenue\", \"period\": \"2025-02-02 to 2026-01-31\", \"definition\": \"Consolidated reported revenue; the source row names any net/gross convention.\", \"inputs\": []}\n```\n\n```claim\n{\"id\": \"C034\", \"text\": \"fact.operating income\", \"value\": 816604000.0, \"unit\": \"USD\", \"source\": \"BJ.fact.operating_income\", \"period\": \"2025-02-02 to 2026-01-31\", \"definition\": \"GAAP consolidated operating income, including litigation and other reported operating costs.\", \"inputs\": []}\n```\n\n```claim\n{\"id\": \"C035\", \"text\": \"ratio.operating margin\", \"value\": 3.8057210808791457, \"unit\": \"%\", \"source\": \"BJ.ratio.operating_margin\", \"period\": \"2025-02-02 to 2026-01-31\", \"definition\": \"GAAP operating income / consolidated reported revenue, percent.\", \"inputs\": [{\"source\": \"BJ.fact.operating_income\", \"value\": 816604000.0}, {\"source\": \"BJ.fact.revenue\", \"value\": 21457274000.0}]}\n```\n\n```claim\n{\"id\": \"C036\", \"text\": \"price\", \"value\": 896.48, \"unit\": \"USD/shares\", \"source\": \"COST.price\", \"period\": \"2026-09-24\", \"definition\": \"WRDS Compustat comp.secd.prccd; primary U.S. security; dated security ticker COST; 2026-09-24\", \"inputs\": []}\n```\n\n```claim\n{\"id\": \"C037\", \"text\": \"quarter.quarter net revenue\", \"value\": 95723000000.0, \"unit\": \"USD\", \"source\": \"COST.quarter.quarter_net_revenue\", \"period\": \"16 weeks ended 2026-08-30\", \"definition\": \"First quarter column; 16 weeks ended 2026-08-30; Total revenue; source in millions\", \"inputs\": []}\n```\n\n```claim\n{\"id\": \"C038\", \"text\": \"quarter.prior quarter net revenue\", \"value\": 86156000000.0, \"unit\": \"USD\", \"source\": \"COST.quarter.prior_quarter_net_revenue\", \"period\": \"corresponding quarter ended 2025-08-31\", \"definition\": \"Second quarter column; corresponding quarter ended 2025-08-31; Total revenue; source in millions\", \"inputs\": []}\n```\n\n```claim\n{\"id\": \"C039\", \"text\": \"quarter.quarter gaap diluted eps\", \"value\": 6.75, \"unit\": \"USD/shares\", \"source\": \"COST.quarter.quarter_gaap_diluted_eps\", \"period\": \"16 weeks ended 2026-08-30\", \"definition\": \"First quarter column; GAAP diluted EPS; 16 weeks ended 2026-08-30; listed common stock; no separate class dimension\", \"inputs\": []}\n```\n\n```claim\n{\"id\": \"C040\", \"text\": \"quarter.annual release gaap diluted eps\", \"value\": 20.76, \"unit\": \"USD/shares\", \"source\": \"COST.quarter.annual_release_gaap_diluted_eps\", \"period\": \"full fiscal year ended 2026-08-30\", \"definition\": \"Third numeric column; full fiscal year ended 2026-08-30; GAAP diluted EPS; listed common stock; no separate class dimension\", \"inputs\": []}\n```\n\n```claim\n{\"id\": \"C041\", \"text\": \"quarter.revenue growth\", \"value\": 11.104275964529453, \"unit\": \"%\", \"source\": \"COST.quarter.revenue_growth\", \"period\": \"2026-08-30\", \"definition\": \"Current quarter revenue / same quarter prior-year revenue minus one, nominal percent.\", \"inputs\": [{\"source\": \"COST.quarter.quarter_net_revenue\", \"value\": 95723000000.0}, {\"source\": \"COST.quarter.prior_quarter_net_revenue\", \"value\": 86156000000.0}]}\n```\n\n```claim\n{\"id\": \"I042\", \"text\": \"Insight: The return on average equity is a key driver of valuation because it captures how effectively the company converts net income into shareholder value relative to its equity base.\", \"value\": 28.402111841396398, \"unit\": \"%\", \"source\": \"COST.ratio.return_on_average_equity\", \"period\": \"2025-09-01 to 2026-08-30\", \"definition\": \"GAAP net income / average beginning and ending reported equity, percent.\", \"inputs\": [{\"source\": \"COST.fact.net_income\", \"value\": 9226000000.0}, {\"source\": \"COST.fact.prior_equity\", \"value\": 29164000000.0}, {\"source\": \"COST.fact.equity\", \"value\": 35803000000.0}]}\n```\n\n## Future Developments and Strategic Recommendations\n\nKey opportunities include deepening e‑commerce capabilities, further optimizing inventory turnover, and expanding membership in underserved regions. Risks to monitor encompass data‑privacy and cybersecurity challenges, which could impose significant costs and reputational damage if incidents occur [source:K:L252][source:K:L253]. Ongoing litigation, particularly opioid‑related claims, presents a potential source of unforeseen liabilities [source:Q:L493]. A future filing that disclosed a material decline in operating margin or a sharp increase in the debt‑to‑equity ratio would weaken confidence in Costco’s financial resilience.\n\n```claim\n{\"id\": \"I043\", \"text\": \"Insight: Costco’s return on average equity is notably high, indicating strong profitability relative to shareholder capital.\", \"value\": 28.402111841396398, \"unit\": \"%\", \"source\": \"COST.ratio.return_on_average_equity\", \"period\": \"2025-09-01 to 2026-08-30\", \"definition\": \"GAAP net income / average beginning and ending reported equity, percent.\", \"inputs\": [{\"source\": \"COST.fact.net_income\", \"value\": 9226000000.0}, {\"source\": \"COST.fact.prior_equity\", \"value\": 29164000000.0}, {\"source\": \"COST.fact.equity\", \"value\": 35803000000.0}]}\n```\n\n## Investment Recommendation\n\n<!-- thesis-start -->\nHold. Costco’s durable membership model, low leverage, and strong cash generation support a neutral stance, while an elevated price‑earnings multiple suggests limited upside. Combined with moderate operational and legal risks, the balance tilts toward a hold.\n<!-- thesis-end -->\n\n```claim\n{\"id\": \"D044\", \"text\": \"Advisor deciding metric, quoted from the analyst output\", \"value\": 28.402111841396398, \"unit\": \"%\", \"source\": \"COST.ratio.return_on_average_equity\", \"period\": \"2025-09-01 to 2026-08-30\", \"definition\": \"GAAP net income / average beginning and ending reported equity, percent.\", \"inputs\": [{\"source\": \"COST.fact.net_income\", \"value\": 9226000000.0}, {\"source\": \"COST.fact.prior_equity\", \"value\": 29164000000.0}, {\"source\": \"COST.fact.equity\", \"value\": 35803000000.0}]}\n```\n\n```claim\n{\"id\": \"I045\", \"text\": \"Insight: Costco’s return on average equity is notably high, indicating strong profitability relative to shareholder capital.\", \"value\": 28.402111841396398, \"unit\": \"%\", \"source\": \"COST.ratio.return_on_average_equity\", \"period\": \"2025-09-01 to 2026-08-30\", \"definition\": \"GAAP net income / average beginning and ending reported equity, percent.\", \"inputs\": [{\"source\": \"COST.fact.net_income\", \"value\": 9226000000.0}, {\"source\": \"COST.fact.prior_equity\", \"value\": 29164000000.0}, {\"source\": \"COST.fact.equity\", \"value\": 35803000000.0}]}\n```\n\n### Review record\n\nHuman findings, both partner checks and student persona authorship remain pending.\n",
+    "saved_facts": {
+      "BJ.fact.operating_income": {
+        "value": 816604000,
+        "tag": "us-gaap:OperatingIncomeLoss",
+        "start": "2025-02-02",
+        "end": "2026-01-31",
+        "dimensions": {},
+        "context": "c-1",
+        "unit": "USD",
+        "accession": "0001531152-26-000007",
+        "file": "BJ/10-K.txt",
+        "line": 995,
+        "definition": "GAAP consolidated operating income, including litigation and other reported operating costs.",
+        "kind": "fact",
+        "period": "2025-02-02 to 2026-01-31"
+      },
+      "BJ.fact.revenue": {
+        "value": 21457274000,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "start": "2025-02-02",
+        "end": "2026-01-31",
+        "dimensions": {},
+        "context": "c-1",
+        "unit": "USD",
+        "accession": "0001531152-26-000007",
+        "file": "BJ/10-K.txt",
+        "line": 991,
+        "definition": "Consolidated reported revenue; the source row names any net/gross convention.",
+        "kind": "fact",
+        "period": "2025-02-02 to 2026-01-31"
+      },
+      "BJ.ratio.operating_margin": {
+        "value": 3.8057210808791457,
+        "arithmetic": "816,604,000 / 21,457,274,000 * 100",
+        "inputs": [
+          "BJ.fact.operating_income",
+          "BJ.fact.revenue"
+        ],
+        "unit": "%",
+        "kind": "ratio",
+        "formula": "margin",
+        "definition": "GAAP operating income / consolidated reported revenue, percent.",
+        "period": "2025-02-02 to 2026-01-31"
+      },
+      "COST.fact.capex": {
+        "value": 6435000000,
+        "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "start": "2025-09-01",
+        "end": "2026-08-30",
+        "dimensions": {},
+        "context": "c-1",
+        "unit": "USD",
+        "accession": "0000909832-26-000093",
+        "file": "COST/10-K.txt",
+        "line": 852,
+        "definition": "Cash purchases of property/equipment (and technology if the reported row includes it); positive outflow.",
+        "kind": "fact",
+        "period": "2025-09-01 to 2026-08-30"
+      },
+      "COST.fact.current_debt": {
+        "value": 2248000000,
+        "tag": "us-gaap:LongTermDebtCurrent",
+        "start": null,
+        "end": "2026-08-30",
+        "dimensions": {},
+        "context": "c-12",
+        "unit": "USD",
+        "accession": "0000909832-26-000093",
+        "file": "COST/10-K.txt",
+        "line": 779,
+        "definition": "Current portion of long-term debt; excludes unrelated short-term borrowings.",
+        "kind": "fact",
+        "period": "2026-08-30"
+      },
+      "COST.fact.diluted_eps": {
+        "value": 20.76,
+        "tag": "us-gaap:EarningsPerShareDiluted",
+        "start": "2025-09-01",
+        "end": "2026-08-30",
+        "dimensions": {},
+        "context": "c-1",
+        "unit": "USD/shares",
+        "accession": "0000909832-26-000093",
+        "file": "COST/10-K.txt",
+        "line": 734,
+        "definition": "GAAP diluted EPS for the listed common share class; consolidated fact if unambiguous.",
+        "kind": "fact",
+        "period": "2025-09-01 to 2026-08-30"
+      },
+      "COST.fact.equity": {
+        "value": 35803000000,
+        "tag": "us-gaap:StockholdersEquity",
+        "start": null,
+        "end": "2026-08-30",
+        "dimensions": {},
+        "context": "c-12",
+        "unit": "USD",
+        "accession": "0000909832-26-000093",
+        "file": "COST/10-K.txt",
+        "line": 796,
+        "definition": "Reported consolidated stockholders' equity; scope is identified by the selected tag.",
+        "kind": "fact",
+        "period": "2026-08-30"
+      },
+      "COST.fact.long_term_debt": {
+        "value": 3914000000,
+        "tag": "us-gaap:LongTermDebtNoncurrent",
+        "start": null,
+        "end": "2026-08-30",
+        "dimensions": {},
+        "context": "c-12",
+        "unit": "USD",
+        "accession": "0000909832-26-000093",
+        "file": "COST/10-K.txt",
+        "line": 783,
+        "definition": "Carrying amount of long-term debt excluding its current portion; excludes operating leases.",
+        "kind": "fact",
+        "period": "2026-08-30"
+      },
+      "COST.fact.net_income": {
+        "value": 9226000000,
+        "tag": "us-gaap:NetIncomeLoss",
+        "start": "2025-09-01",
+        "end": "2026-08-30",
+        "dimensions": {},
+        "context": "c-1",
+        "unit": "USD",
+        "accession": "0000909832-26-000093",
+        "file": "COST/10-K.txt",
+        "line": 731,
+        "definition": "GAAP consolidated net income; use the equity scope identified in the source tag.",
+        "kind": "fact",
+        "period": "2025-09-01 to 2026-08-30"
+      },
+      "COST.fact.operating_cash_flow": {
+        "value": 15817000000,
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "start": "2025-09-01",
+        "end": "2026-08-30",
+        "dimensions": {},
+        "context": "c-1",
+        "unit": "USD",
+        "accession": "0000909832-26-000093",
+        "file": "COST/10-K.txt",
+        "line": 850,
+        "definition": "Reported net cash provided by operating activities.",
+        "kind": "fact",
+        "period": "2025-09-01 to 2026-08-30"
+      },
+      "COST.fact.operating_income": {
+        "value": 11685000000,
+        "tag": "us-gaap:OperatingIncomeLoss",
+        "start": "2025-09-01",
+        "end": "2026-08-30",
+        "dimensions": {},
+        "context": "c-1",
+        "unit": "USD",
+        "accession": "0000909832-26-000093",
+        "file": "COST/10-K.txt",
+        "line": 723,
+        "definition": "GAAP consolidated operating income, including litigation and other reported operating costs.",
+        "kind": "fact",
+        "period": "2025-09-01 to 2026-08-30"
+      },
+      "COST.fact.prior_equity": {
+        "value": 29164000000,
+        "tag": "us-gaap:StockholdersEquity",
+        "start": null,
+        "end": "2025-08-31",
+        "dimensions": {},
+        "context": "c-13",
+        "unit": "USD",
+        "accession": "0000909832-26-000093",
+        "file": "COST/10-K.txt",
+        "line": 796,
+        "definition": "Reported consolidated stockholders' equity; scope is identified by the selected tag.",
+        "kind": "fact",
+        "period": "2025-08-31"
+      },
+      "COST.fact.prior_revenue": {
+        "value": 275235000000,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "start": "2024-09-02",
+        "end": "2025-08-31",
+        "dimensions": {},
+        "context": "c-10",
+        "unit": "USD",
+        "accession": "0000909832-26-000093",
+        "file": "COST/10-K.txt",
+        "line": 719,
+        "definition": "Consolidated reported revenue; the source row names any net/gross convention.",
+        "kind": "fact",
+        "period": "2024-09-02 to 2025-08-31"
+      },
+      "COST.fact.revenue": {
+        "value": 303154000000,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "start": "2025-09-01",
+        "end": "2026-08-30",
+        "dimensions": {},
+        "context": "c-1",
+        "unit": "USD",
+        "accession": "0000909832-26-000093",
+        "file": "COST/10-K.txt",
+        "line": 719,
+        "definition": "Consolidated reported revenue; the source row names any net/gross convention.",
+        "kind": "fact",
+        "period": "2025-09-01 to 2026-08-30"
+      },
+      "COST.price": {
+        "kind": "price",
+        "value": 896.48,
+        "unit": "USD/shares",
+        "period": "2026-09-24",
+        "definition": "WRDS Compustat comp.secd.prccd; primary U.S. security; dated security ticker COST; 2026-09-24",
+        "inputs": []
+      },
+      "COST.quarter.annual_release_gaap_diluted_eps": {
+        "value": 20.76,
+        "unit": "USD/shares",
+        "line": 64,
+        "column_index": 2,
+        "scale": 1,
+        "kind": "quarter",
+        "definition": "Third numeric column; full fiscal year ended 2026-08-30; GAAP diluted EPS; listed common stock; no separate class dimension",
+        "period": "full fiscal year ended 2026-08-30",
+        "accession": "0000909832-26-000084",
+        "file": "COST/earnings_release.txt",
+        "inputs": []
+      },
+      "COST.quarter.prior_quarter_net_revenue": {
+        "value": 86156000000.0,
+        "unit": "USD",
+        "line": 48,
+        "column_index": 1,
+        "scale": 1000000,
+        "kind": "quarter",
+        "definition": "Second quarter column; corresponding quarter ended 2025-08-31; Total revenue; source in millions",
+        "period": "corresponding quarter ended 2025-08-31",
+        "accession": "0000909832-26-000084",
+        "file": "COST/earnings_release.txt",
+        "inputs": []
+      },
+      "COST.quarter.quarter_gaap_diluted_eps": {
+        "value": 6.75,
+        "unit": "USD/shares",
+        "line": 64,
+        "column_index": 0,
+        "scale": 1,
+        "kind": "quarter",
+        "definition": "First quarter column; GAAP diluted EPS; 16 weeks ended 2026-08-30; listed common stock; no separate class dimension",
+        "period": "16 weeks ended 2026-08-30",
+        "accession": "0000909832-26-000084",
+        "file": "COST/earnings_release.txt",
+        "inputs": []
+      },
+      "COST.quarter.quarter_net_revenue": {
+        "value": 95723000000.0,
+        "unit": "USD",
+        "line": 48,
+        "column_index": 0,
+        "scale": 1000000,
+        "kind": "quarter",
+        "definition": "First quarter column; 16 weeks ended 2026-08-30; Total revenue; source in millions",
+        "period": "16 weeks ended 2026-08-30",
+        "accession": "0000909832-26-000084",
+        "file": "COST/earnings_release.txt",
+        "inputs": []
+      },
+      "COST.quarter.revenue_growth": {
+        "value": 11.104275964529453,
+        "unit": "%",
+        "arithmetic": "(95,723,000,000 / 86,156,000,000 - 1) * 100",
+        "line": 48,
+        "kind": "ratio",
+        "formula": "growth",
+        "definition": "Current quarter revenue / same quarter prior-year revenue minus one, nominal percent.",
+        "period": "2026-08-30",
+        "inputs": [
+          "COST.quarter.quarter_net_revenue",
+          "COST.quarter.prior_quarter_net_revenue"
+        ]
+      },
+      "COST.ratio.debt_to_equity": {
+        "value": 0.17210848252939698,
+        "arithmetic": "(3,914,000,000 + 2,248,000,000) / 35,803,000,000",
+        "inputs": [
+          "COST.fact.long_term_debt",
+          "COST.fact.current_debt",
+          "COST.fact.equity"
+        ],
+        "unit": "x",
+        "kind": "ratio",
+        "formula": "de",
+        "definition": "Long-term debt including its current portion / ending reported equity.",
+        "period": "2025-09-01 to 2026-08-30"
+      },
+      "COST.ratio.free_cash_flow": {
+        "value": 9382000000,
+        "arithmetic": "15,817,000,000 - 6,435,000,000",
+        "inputs": [
+          "COST.fact.operating_cash_flow",
+          "COST.fact.capex"
+        ],
+        "unit": "USD",
+        "kind": "ratio",
+        "formula": "fcf",
+        "definition": "Operating cash flow less reported property, equipment and technology purchases as applicable.",
+        "period": "2025-09-01 to 2026-08-30"
+      },
+      "COST.ratio.operating_margin": {
+        "value": 3.8544766026507977,
+        "arithmetic": "11,685,000,000 / 303,154,000,000 * 100",
+        "inputs": [
+          "COST.fact.operating_income",
+          "COST.fact.revenue"
+        ],
+        "unit": "%",
+        "kind": "ratio",
+        "formula": "margin",
+        "definition": "GAAP operating income / consolidated reported revenue, percent.",
+        "period": "2025-09-01 to 2026-08-30"
+      },
+      "COST.ratio.price_earnings": {
+        "value": 43.18304431599229,
+        "arithmetic": "896.48 / 20.76",
+        "inputs": [
+          "COST.price",
+          "COST.fact.diluted_eps"
+        ],
+        "unit": "x",
+        "kind": "ratio",
+        "formula": "pe",
+        "definition": "Dated close / latest filed annual GAAP diluted EPS; annual-filing multiple, not current TTM.",
+        "period": "2025-09-01 to 2026-08-30"
+      },
+      "COST.ratio.return_on_average_equity": {
+        "value": 28.402111841396398,
+        "arithmetic": "9,226,000,000 / ((29,164,000,000 + 35,803,000,000) / 2) * 100",
+        "inputs": [
+          "COST.fact.net_income",
+          "COST.fact.prior_equity",
+          "COST.fact.equity"
+        ],
+        "unit": "%",
+        "kind": "ratio",
+        "formula": "roe",
+        "definition": "GAAP net income / average beginning and ending reported equity, percent.",
+        "period": "2025-09-01 to 2026-08-30"
+      },
+      "COST.ratio.revenue_growth": {
+        "value": 10.143695387577889,
+        "arithmetic": "(303,154,000,000 / 275,235,000,000 - 1) * 100",
+        "inputs": [
+          "COST.fact.revenue",
+          "COST.fact.prior_revenue"
+        ],
+        "unit": "%",
+        "kind": "ratio",
+        "formula": "growth",
+        "definition": "Same-definition annual revenue / prior annual revenue minus one, percent.",
+        "period": "2025-09-01 to 2026-08-30"
+      },
+      "TGT.fact.operating_income": {
+        "value": 5117000000,
+        "tag": "us-gaap:OperatingIncomeLoss",
+        "start": "2025-02-02",
+        "end": "2026-01-31",
+        "dimensions": {},
+        "context": "c-1",
+        "unit": "USD",
+        "accession": "0000027419-26-000016",
+        "file": "TGT/10-K.txt",
+        "line": 1127,
+        "definition": "GAAP consolidated operating income, including litigation and other reported operating costs.",
+        "kind": "fact",
+        "period": "2025-02-02 to 2026-01-31"
+      },
+      "TGT.fact.revenue": {
+        "value": 104780000000,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "start": "2025-02-02",
+        "end": "2026-01-31",
+        "dimensions": {},
+        "context": "c-1",
+        "unit": "USD",
+        "accession": "0000027419-26-000016",
+        "file": "TGT/10-K.txt",
+        "line": 1123,
+        "definition": "Consolidated reported revenue; the source row names any net/gross convention.",
+        "kind": "fact",
+        "period": "2025-02-02 to 2026-01-31"
+      },
+      "TGT.ratio.operating_margin": {
+        "value": 4.8835655659477,
+        "arithmetic": "5,117,000,000 / 104,780,000,000 * 100",
+        "inputs": [
+          "TGT.fact.operating_income",
+          "TGT.fact.revenue"
+        ],
+        "unit": "%",
+        "kind": "ratio",
+        "formula": "margin",
+        "definition": "GAAP operating income / consolidated reported revenue, percent.",
+        "period": "2025-02-02 to 2026-01-31"
+      },
+      "WMT.fact.operating_income": {
+        "value": 29825000000,
+        "tag": "us-gaap:OperatingIncomeLoss",
+        "start": "2025-02-01",
+        "end": "2026-01-31",
+        "dimensions": {},
+        "context": "c-1",
+        "unit": "USD",
+        "accession": "0000104169-26-000055",
+        "file": "WMT/10-K.txt",
+        "line": 830,
+        "definition": "GAAP consolidated operating income, including litigation and other reported operating costs.",
+        "kind": "fact",
+        "period": "2025-02-01 to 2026-01-31"
+      },
+      "WMT.fact.revenue": {
+        "value": 713163000000,
+        "tag": "us-gaap:Revenues",
+        "start": "2025-02-01",
+        "end": "2026-01-31",
+        "dimensions": {},
+        "context": "c-1",
+        "unit": "USD",
+        "accession": "0000104169-26-000055",
+        "file": "WMT/10-K.txt",
+        "line": 826,
+        "definition": "Consolidated reported revenue; the source row names any net/gross convention.",
+        "kind": "fact",
+        "period": "2025-02-01 to 2026-01-31"
+      },
+      "WMT.ratio.operating_margin": {
+        "value": 4.182073382943311,
+        "arithmetic": "29,825,000,000 / 713,163,000,000 * 100",
+        "inputs": [
+          "WMT.fact.operating_income",
+          "WMT.fact.revenue"
+        ],
+        "unit": "%",
+        "kind": "ratio",
+        "formula": "margin",
+        "definition": "GAAP operating income / consolidated reported revenue, percent.",
+        "period": "2025-02-01 to 2026-01-31"
+      }
+    },
+    "filing_texts": {
+      "BJ/10-K.txt": "L983: BJ’S WHOLESALE CLUB HOLDINGS, INC.\nL984: CONSOLIDATED STATEMENTS OF OPERATIONS AND COMPREHENSIVE INCOME\nL985: (Amounts in thousands, except per share amounts)\nL986: | | | | | | | | | | | | | | | | |\nL987: | Fiscal Year Ended\nL988: | January 31, 2026 | | February 1, 2025 | | February 3, 2024\nL989: Net sales | $ | 20,957,502 | | | $ | 20,045,329 | | | $ | 19,548,011 |\nL990: Membership fee income | 499,772 | | | 456,475 | | | 420,678 |\nL991: Total revenues | 21,457,274 | | | 20,501,804 | | | 19,968,689 |\nL992: Cost of sales | 17,457,652 | | | 16,737,378 | | | 16,326,129 |\nL993: Selling, general and administrative expenses | 3,153,577 | | | 2,963,883 | | | 2,822,513 |\nL994: Pre-opening expenses | 29,441 | | | 28,337 | | | 19,628 |\nL995: Operating income | 816,604 | | | 772,206 | | | 800,419 |\nL996: Interest expense, net | 42,393 | | | 51,359 | | | 64,527 |\nL997: Income from continuing operations before income taxes | 774,211 | | | 720,847 | | | 735,892 |\nL998: Provision for income taxes | 195,834 | | | 186,430 | | | 212,240 |\nL999: Income from continuing operations | 578,377 | | | 534,417 | | | 523,652 |\nL1000: Income from discontinued operations, net of income taxes | — | | | — | | | 89 |\nL1001: Net income | $ | 578,377 | | | $ | 534,417 | | | $ | 523,741 |\nL1002: | | | | |\nL1003: | | | | |",
+      "COST/10-K.txt": "L711: CONSOLIDATED STATEMENTS OF INCOME\nL712: (amounts in millions, except per share data)\nL713: | | | | | | | | | | | | | | | | |\nL714: | 52 Weeks Ended\nL715: | August 30, 2026 | | August 31, 2025 | | September 1, 2024\nL716: REVENUE | | | | |\nL717: Net sales | $ | 297,247 | | | $ | 269,912 | | | $ | 249,625 |\nL718: Membership fees | 5,907 | | | 5,323 | | | 4,828 |\nL719: Total revenue | 303,154 | | | 275,235 | | | 254,453 |\nL720: OPERATING EXPENSES | | | | |\nL721: Merchandise costs | 264,279 | | | 239,886 | | | 222,358 |\nL722: Selling, general and administrative | 27,190 | | | 24,966 | | | 22,810 |\nL723: Operating income | 11,685 | | | 10,383 | | | 9,285 |\nL724: OTHER INCOME (EXPENSE) | | | | |\nL725: Interest expense | ( 145 ) | | | ( 154 ) | | | ( 169 ) |\nL726: Interest income and other, net | 711 | | | 589 | | | 624 |\nL727: INCOME BEFORE INCOME TAXES | 12,251 | | | 10,818 | | | 9,740 |\nL728: Provision for income taxes | 3,025 | | | 2,719 | | | 2,373 |\nL729: | | | | |\nL730: | | | | |\nL731: NET INCOME | $ | 9,226 | | | $ | 8,099 | | | $ | 7,367 |\nL732: NET INCOME PER COMMON SHARE: | | | | |\nL733: Basic | $ | 20.78 | | | $ | 18.24 | | | $ | 16.59 |\nL734: Diluted | $ | 20.76 | | | $ | 18.21 | | | $ | 16.56 |\nL735: Shares used in calculation (000’s) | | | | |\nL736: Basic | 443,953 | | | 443,985 | | | 443,914 |\nL737: Diluted | 444,427 | | | 444,803 | | | 444,759 |\nL738: The accompanying notes are an integral part of these consolidated financial statements.\nL739: 37\nL740: Table of Contents\nL741: COSTCO WHOLESALE CORPORATION\nL742: CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME\nL771: Other long-term assets | 4,133 | | | 4,085 |\nL772: TOTAL ASSETS | $ | 89,045 | | | $ | 77,099 |\nL773: LIABILITIES AND EQUITY | | |\nL774: CURRENT LIABILITIES | | |\nL775: Accounts payable | $ | 22,591 | | | $ | 19,783 |\nL776: Accrued salaries and benefits | 5,641 | | | 5,205 |\nL777: Accrued member rewards | 3,037 | | | 2,677 |\nL778: Deferred membership fees | 3,006 | | | 2,854 |\nL779: Current portion of long-term debt | 2,248 | | | 75 |\nL780: Other current liabilities | 7,429 | | | 6,514 |\nL781: Total current liabilities | 43,952 | | | 37,108 |\nL782: OTHER LIABILITIES | | |\nL783: Long-term debt, excluding current portion | 3,914 | | | 5,713 |\nL784: Long-term operating lease liabilities | 2,414 | | | 2,460 |\nL785: Other long-term liabilities | 2,962 | | | 2,654 |\nL786: TOTAL LIABILITIES | 53,242 | | | 47,935 |\nL787: COMMITMENTS AND CONTINGENCIES | | |\nL788: EQUITY | | |\nL789: Preferred stock $ 0.005 par value; 100,000,000 shares authorized; no shares issued and outstanding | — | | | — |\nL790: Common stock $ 0.005 par value; 900,000,000 shares authorized; 443,266,000 and 443,237,000 shares issued and outstanding | 2 | | | 2 |\nL791: Additional paid-in capital | 8,830 | | | 8,282 |\nL792: Accumulated other comprehensive loss | ( 1,620 ) | | | ( 1,770 ) |\nL793: Retained earnings | 28,591 | | | 22,650 |\nL794: | | |\nL795: | | |\nL796: TOTAL EQUITY | 35,803 | | | 29,164 |\nL797: TOTAL LIABILITIES AND EQUITY | $ | 89,045 | | | $ | 77,099 |\nL798: The accompanying notes are an integral part of these consolidated financial statements.\nL799: 39\nL800: Table of Contents\nL801: COSTCO WHOLESALE CORPORATION\nL802: CONSOLIDATED STATEMENTS OF EQUITY\nL803: (amounts in millions)\nL804: | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |\nL842: Non-cash lease expense | 318 | | | 303 | | | 315 |\nL843: Stock-based compensation | 924 | | | 860 | | | 818 |\nL844: Deferred income taxes | 306 | | | ( 108 ) | | | ( 60 ) |\nL845: Other non-cash operating activities, net | 49 | | | ( 9 ) | | | 51 |\nL846: Changes in operating assets and liabilities: | | | | |\nL847: Merchandise inventories | ( 1,153 ) | | | 559 | | | ( 2,068 ) |\nL848: Accounts payable | 2,755 | | | 404 | | | 1,938 |\nL849: Other operating assets and liabilities, net | 718 | | | 801 | | | 741 |\nL850: Net cash provided by operating activities | 15,817 | | | 13,335 | | | 11,339 |\nL851: CASH FLOWS FROM INVESTING ACTIVITIES | | | | |\nL852: Additions to property and equipment | ( 6,435 ) | | | ( 5,498 ) | | | ( 4,710 ) |\nL853: Purchases of short-term investments | ( 788 ) | | | ( 1,028 ) | | | ( 1,470 ) |\nL854: Maturities of short-term investments | 811 | | | 1,141 | | | 1,790 |\nL855: Other investing activities, net | 34 | | | 74 | | | ( 19 ) |\nL856: Net cash used in investing activities | ( 6,378 ) | | | ( 5,311 ) | | | ( 4,409 ) |\nL857: CASH FLOWS FROM FINANCING ACTIVITIES | | | | |\nL858: Repayments of short-term borrowings | ( 577 ) | | | ( 862 ) | | | ( 920 ) |\nL859: Proceeds from short-term borrowings | 553 | | | 816 | | | 928 |\nL860: Repayments of long-term debt | ( 69 ) | | | ( 103 ) | | | ( 1,077 ) |",
+      "COST/earnings_release.txt": "L40: CONSOLIDATED STATEMENTS OF INCOME\nL41: (dollars in millions, except per share data) (unaudited)\nL42: | | | | | | | | | | | | | | | | | | | | | | |\nL43: | 16 Weeks Ended | | 52 Weeks Ended\nL44: | August 30, 2026 | | August 31, 2025 | | August 30, 2026 | | August 31, 2025\nL45: REVENUE | | | | | | |\nL46: Net sales | $ | 93,873 | | | $ | 84,432 | | | $ | 297,247 | | | $ | 269,912 |\nL47: Membership fees | 1,850 | | | 1,724 | | | 5,907 | | | 5,323 |\nL48: Total revenue | 95,723 | | | 86,156 | | | 303,154 | | | 275,235 |\nL49: OPERATING EXPENSES | | | | | | |\nL50: Merchandise costs | 83,531 | | | 75,037 | | | 264,279 | | | 239,886 |\nL51: Selling, general and administrative | 8,391 | | | 7,778 | | | 27,190 | | | 24,966 |\nL52: Operating income | 3,801 | | | 3,341 | | | 11,685 | | | 10,383 |\nL53: OTHER INCOME (EXPENSE) | | | | | | |\nL54: Interest expense | (45) | | | (46) | | | (145) | | | (154) |\nL55: Interest income and other, net | 253 | | | 215 | | | 711 | | | 589 |\nL56: INCOME BEFORE INCOME TAXES | 4,009 | | | 3,510 | | | 12,251 | | | 10,818 |\nL57: Provision for income taxes | 1,011 | | | 900 | | | 3,025 | | | 2,719 |\nL58: | | | | | | |\nL59: | | | | | | |\nL60: NET INCOME | $ | 2,998 | | | $ | 2,610 | | | $ | 9,226 | | | $ | 8,099 |\nL61: | | | | | | |\nL62: NET INCOME PER COMMON SHARE: | | | | | | |\nL63: Basic | $ | 6.75 | | | $ | 5.88 | | | $ | 20.78 | | | $ | 18.24 |\nL64: Diluted | $ | 6.75 | | | $ | 5.87 | | | $ | 20.76 | | | $ | 18.21 |\nL65: | | | | | | |\nL66: Shares used in calculation (000's): | | | | | | |\nL67: Basic | 443,975 | | | 444,007 | | | 443,953 | | | 443,985 |\nL68: Diluted | 444,364 | | | 444,706 | | | 444,427 | | | 444,803 |\nL69: | | | | | | |\nL70: | | | | | | |\nL71: Press Release\nL72: | | | | | | | |",
+      "TGT/10-K.txt": "L1115: | | | | | | | | | | |\nL1116: TARGET CORPORATION | | 2025 Form 10-K | 44\nL1117: | | | | | | | |\nL1118: | FINANCIAL STATEMENTS | Table of Contents\nL1119: | | Index to Financial Statements\nL1120: Consolidated Statements of Operations\nL1121: | | | | | | | | | | |\nL1122: (millions, except per share data) | 2025 | 2024 | 2023\nL1123: Net sales | $ | 104,780 | | $ | 106,566 | | $ | 107,412 |\nL1124: Cost of sales | 75,511 | | 76,502 | | 77,828 |\nL1125: Selling, general, and administrative expenses | 21,535 | | 21,969 | | 21,462 |\nL1126: Depreciation and amortization (exclusive of depreciation included in cost of sales) | 2,617 | | 2,529 | | 2,415 |\nL1127: Operating income | 5,117 | | 5,566 | | 5,707 |\nL1128: Net interest expense | 445 | | 411 | | 502 |\nL1129: Net other income | ( 95 ) | | ( 106 ) | | ( 92 ) |\nL1130: Earnings before income taxes | 4,767 | | 5,261 | | 5,297 |\nL1131: Provision for income taxes | 1,062 | | 1,170 | | 1,159 |\nL1132: Net earnings | $ | 3,705 | | $ | 4,091 | | $ | 4,138 |\nL1133: Basic earnings per share | $ | 8.16 | | $ | 8.89 | | $ | 8.96 |\nL1134: Diluted earnings per share | $ | 8.13 | | $ | 8.86 | | $ | 8.94 |\nL1135: Weighted average common shares outstanding | | |",
+      "WMT/10-K.txt": "L818: Results of Operations\nL819: Consolidated Results of Operations\nL820: | | | | | | | | | | | | | | | | | | | |\nL821: | | Fiscal Years Ended January 31,\nL822: (Dollar amounts and retail square feet in millions) | | 2026 | | 2025 | | 2024\nL823: Net sales | | $ | 706,413 | | | $ | 674,538 | | | $ | 642,637 |\nL824: Percentage change from comparable period | | 4.7 | % | | 5.0 | % | | 6.1 | %\nL825: Membership and other income (1) | | 6,750 | | | 6,447 | | | 5,488 |\nL826: Total revenues | | 713,163 | | | 680,985 | | | 648,125 |\nL827: Percentage change from comparable period | | 4.7 | % | | 5.1 | % | | 6.0 | %\nL828: Gross profit (2) | | 171,018 | | | 162,785 | | | 152,495 |\nL829: Operating expenses (2) | | 147,943 | | | 139,884 | | | 130,971 |\nL830: Operating income | | 29,825 | | | 29,348 | | | 27,012 |\nL831: Other (gains) and losses | | (2,075) | | | 794 | | | 3,027 |\nL832: Consolidated net income | | $ | 22,270 | | | $ | 20,157 | | | $ | 16,270 |\nL833: | | | | | |\nL834: Percentage of net sales | | | | | |\nL835: Gross profit | | 24.2 | % | | 24.1 | % | | 23.7 | %\nL836: Operating expenses | | 20.9 | % | | 20.7 | % | | 20.4 | %\nL837: Operating income | | 4.2 | % | | 4.4 | % | | 4.2 | %\nL838: | | | | | |"
+    },
+    "code_marks": [
+      {
+        "id": "C001",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C002",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C003",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C004",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C005",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C006",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C007",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C008",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C009",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C010",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C011",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C012",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C013",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C014",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C015",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C016",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C017",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C018",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C019",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C020",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C021",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C022",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C023",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C024",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C025",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C026",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C027",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C028",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C029",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C030",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C031",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C032",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C033",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C034",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C035",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C036",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C037",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C038",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C039",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C040",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "C041",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "I042",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "I043",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "D044",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      },
+      {
+        "id": "I045",
+        "mark": "correct",
+        "reason": "Exact source context and rounded value match."
+      }
+    ]
+  },
+  "expected_output": "One semantic verdict for each sourced claim ID; correction source or empty string.",
+  "instruction_file": "roles/verifier.md",
+  "instruction_sha256": "91cadf5d83640f83b8c22856f51128c88b8bace5646decabc4b94b36dfde3635"
+}

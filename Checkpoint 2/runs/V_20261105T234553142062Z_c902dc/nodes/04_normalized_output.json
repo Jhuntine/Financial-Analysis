@@ -1,0 +1,15 @@
+{
+  "sections": [
+    {
+      "title": "Investment Recommendation",
+      "text": "Visa’s network delivers a durable, high‑margin platform that benefits from expanding cross‑border volume and value‑added services. The firm posts an operating margin of [[V.ratio.operating_margin]] and free cash flow of [[V.ratio.free_cash_flow]], underpinning robust shareholder returns. A key driver is the return on average equity of [[V.ratio.return_on_average_equity]], reflecting exceptional profitability on capital. The balance sheet shows a moderate debt‑to‑equity of [[V.ratio.debt_to_equity]], supporting dividend growth and share repurchases. The principal risk is regulatory scrutiny of interchange fees in the United Kingdom, which could compress margins [source:Q:L1180]. The view would shift to a hold or sell if operating margin deteriorated markedly or if regulatory outcomes forced a material fee reduction."
+    }
+  ],
+  "insight": {
+    "text": "The debt‑to‑equity ratio of [[V.ratio.debt_to_equity]] indicates moderate leverage, aiding financial flexibility.",
+    "source": "V.ratio.debt_to_equity",
+    "value": 0.6111988036886268
+  },
+  "recommendation": "Buy",
+  "decision_source": "V.ratio.return_on_average_equity"
+}

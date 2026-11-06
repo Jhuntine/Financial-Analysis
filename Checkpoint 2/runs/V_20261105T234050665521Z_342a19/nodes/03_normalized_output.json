@@ -1,0 +1,15 @@
+{
+  "sections": [
+    {
+      "title": "Valuation Insights",
+      "text": "Visa delivers a high operating margin of [[V.ratio.operating_margin]] and a strong return on average equity of [[V.ratio.return_on_average_equity]]. Debt-to-equity stands at [[V.ratio.debt_to_equity]], indicating moderate leverage. Free cash flow of [[V.ratio.free_cash_flow]] supports ongoing share repurchases and dividend growth. The annual price‑earnings multiple of [[V.ratio.price_earnings]] reflects market expectations relative to earnings."
+    }
+  ],
+  "insight": {
+    "text": "Operating margin stays close to sixty percent, underscoring robust profitability.",
+    "source": "V.ratio.operating_margin",
+    "value": 59.985
+  },
+  "recommendation": "",
+  "decision_source": ""
+}

@@ -1,0 +1,36 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Investment Recommendation",
+        "text": "A high return on equity underscores strong profitability and capital efficiency, supporting an investment stance despite regulatory and competitive headwinds."
+      }
+    ],
+    "insight": {
+      "text": "The firm’s debt‑to‑equity ratio indicates a moderate leverage profile.",
+      "source": "V.ratio.debt_to_equity",
+      "value": 0.6639848057189586
+    },
+    "recommendation": "Buy",
+    "decision_source": "V.ratio.return_on_average_equity"
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-8b71e2d2d5535136",
+    "usage": {
+      "completion_tokens": 839,
+      "prompt_tokens": 7684,
+      "total_tokens": 8523,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

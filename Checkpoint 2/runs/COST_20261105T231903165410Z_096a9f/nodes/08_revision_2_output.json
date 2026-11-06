@@ -1,0 +1,36 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Investment Recommendation",
+        "text": "Costco’s durable membership model, low leverage, and strong cash generation support a neutral stance, while an elevated price‑earnings multiple suggests limited upside. Combined with moderate operational and legal risks, the balance tilts toward a hold."
+      }
+    ],
+    "insight": {
+      "text": "Costco’s return on average equity is notably high, indicating strong profitability relative to shareholder capital.",
+      "source": "COST.ratio.return_on_average_equity",
+      "value": 28.402111841396398
+    },
+    "recommendation": "Hold",
+    "decision_source": "COST.ratio.return_on_average_equity"
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-a79ab3634a2d1586",
+    "usage": {
+      "completion_tokens": 753,
+      "prompt_tokens": 8406,
+      "total_tokens": 9159,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

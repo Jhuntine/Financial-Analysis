@@ -1,0 +1,36 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Valuation Insights",
+        "text": "Visa reported consolidated revenue of [[V.fact.revenue]] for the fiscal year ending September 30, 2025, reflecting a year‑over‑year increase of [[V.ratio.revenue_growth]] percent. Operating income of [[V.fact.operating_income]] yields an operating margin of [[V.ratio.operating_margin]] percent, indicating efficient cost management. Net income of [[V.fact.net_income]] translates to a return on average equity of [[V.ratio.return_on_average_equity]] percent, highlighting strong profitability relative to shareholders' capital. Total debt, comprising long‑term and current portions of [[V.fact.long_term_debt]] and [[V.fact.current_debt]] respectively, results in a debt‑to‑equity ratio of [[V.ratio.debt_to_equity]], suggesting a moderate leverage profile. Operating cash flow of [[V.fact.operating_cash_flow]] less capex of [[V.fact.capex]] produces free cash flow of [[V.ratio.free_cash_flow]], supporting dividend growth and share buybacks. The price‑earnings multiple based on the dated close of [[V.price]] and diluted EPS of [[V.fact.diluted_eps]] is [[V.ratio.price_earnings]] times, reflecting market valuation relative to earnings. Revenue is defined as consolidated reported revenue, EPS pertains to GAAP diluted earnings per share for Class A common stock, capex captures cash purchases of property, equipment and technology, the fiscal year runs from October 1 to September 30, and the price reflects the unadjusted close on October 27, 2026."
+      }
+    ],
+    "insight": {
+      "text": "Visa generated robust free cash flow, underscoring its ability to fund dividends and share repurchases.",
+      "source": "V.ratio.free_cash_flow",
+      "value": 21577000000.0
+    },
+    "recommendation": "",
+    "decision_source": ""
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-834108c230172051",
+    "usage": {
+      "completion_tokens": 1445,
+      "prompt_tokens": 12475,
+      "total_tokens": 13920,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

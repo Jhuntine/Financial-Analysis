@@ -1,0 +1,247 @@
+{
+  "output": {
+    "verdicts": [
+      {
+        "id": "C001",
+        "mark": "correct",
+        "reason": "Value, period, and definition match XBRL fact COST.fact.revenue.",
+        "correction_source": ""
+      },
+      {
+        "id": "C002",
+        "mark": "correct",
+        "reason": "Value, period, and definition match XBRL fact COST.fact.operating_income.",
+        "correction_source": ""
+      },
+      {
+        "id": "C003",
+        "mark": "correct",
+        "reason": "Value, period, and definition match XBRL fact COST.fact.net_income.",
+        "correction_source": ""
+      },
+      {
+        "id": "C004",
+        "mark": "correct",
+        "reason": "Value, period, and definition match XBRL fact COST.fact.diluted_eps.",
+        "correction_source": ""
+      },
+      {
+        "id": "C005",
+        "mark": "correct",
+        "reason": "Value, period, and definition match XBRL fact COST.fact.equity.",
+        "correction_source": ""
+      },
+      {
+        "id": "C006",
+        "mark": "correct",
+        "reason": "Value, period, and definition match XBRL fact COST.fact.long_term_debt.",
+        "correction_source": ""
+      },
+      {
+        "id": "C007",
+        "mark": "correct",
+        "reason": "Value, period, and definition match XBRL fact COST.fact.current_debt.",
+        "correction_source": ""
+      },
+      {
+        "id": "C008",
+        "mark": "correct",
+        "reason": "Value, period, and definition match XBRL fact COST.fact.operating_cash_flow.",
+        "correction_source": ""
+      },
+      {
+        "id": "C009",
+        "mark": "correct",
+        "reason": "Value, period, and definition match XBRL fact COST.fact.capex.",
+        "correction_source": ""
+      },
+      {
+        "id": "C010",
+        "mark": "correct",
+        "reason": "Value, period, and definition match XBRL fact COST.fact.prior_revenue.",
+        "correction_source": ""
+      },
+      {
+        "id": "C011",
+        "mark": "correct",
+        "reason": "Value, period, and definition match XBRL fact COST.fact.prior_equity.",
+        "correction_source": ""
+      },
+      {
+        "id": "C012",
+        "mark": "correct",
+        "reason": "Calculated from matching revenue and prior revenue facts; result matches source ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "C013",
+        "mark": "correct",
+        "reason": "Calculated from matching operating income and revenue facts; result matches source ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "C014",
+        "mark": "correct",
+        "reason": "Calculated from net income and equity facts; result matches source ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "C015",
+        "mark": "correct",
+        "reason": "Calculated from long‑term debt, current debt and equity facts; result matches source ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "C016",
+        "mark": "correct",
+        "reason": "Calculated from operating cash flow and capex facts; result matches source ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "C017",
+        "mark": "correct",
+        "reason": "Calculated from price and diluted EPS facts; result matches source ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "C018",
+        "mark": "correct",
+        "reason": "Value, period, and definition match XBRL fact WMT.fact.revenue.",
+        "correction_source": ""
+      },
+      {
+        "id": "C019",
+        "mark": "correct",
+        "reason": "Value, period, and definition match XBRL fact WMT.fact.operating_income.",
+        "correction_source": ""
+      },
+      {
+        "id": "C020",
+        "mark": "correct",
+        "reason": "Calculated from WMT operating income and revenue facts; result matches source ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "C021",
+        "mark": "correct",
+        "reason": "Value, period, and definition match XBRL fact TGT.fact.revenue.",
+        "correction_source": ""
+      },
+      {
+        "id": "C022",
+        "mark": "correct",
+        "reason": "Value, period, and definition match XBRL fact TGT.fact.operating_income.",
+        "correction_source": ""
+      },
+      {
+        "id": "C023",
+        "mark": "correct",
+        "reason": "Calculated from TGT operating income and revenue facts; result matches source ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "C024",
+        "mark": "correct",
+        "reason": "Value, period, and definition match XBRL fact BJ.fact.revenue.",
+        "correction_source": ""
+      },
+      {
+        "id": "C025",
+        "mark": "correct",
+        "reason": "Value, period, and definition match XBRL fact BJ.fact.operating_income.",
+        "correction_source": ""
+      },
+      {
+        "id": "C026",
+        "mark": "correct",
+        "reason": "Calculated from BJ operating income and revenue facts; result matches source ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "C027",
+        "mark": "correct",
+        "reason": "Value, period, and definition match price source COST.price.",
+        "correction_source": ""
+      },
+      {
+        "id": "C028",
+        "mark": "correct",
+        "reason": "Value, period, and definition match quarter fact COST.quarter.quarter_net_revenue.",
+        "correction_source": ""
+      },
+      {
+        "id": "C029",
+        "mark": "correct",
+        "reason": "Value, period, and definition match quarter fact COST.quarter.prior_quarter_net_revenue.",
+        "correction_source": ""
+      },
+      {
+        "id": "C030",
+        "mark": "correct",
+        "reason": "Value, period, and definition match quarter fact COST.quarter.quarter_gaap_diluted_eps.",
+        "correction_source": ""
+      },
+      {
+        "id": "C031",
+        "mark": "correct",
+        "reason": "Value, period, and definition match quarter fact COST.quarter.annual_release_gaap_diluted_eps.",
+        "correction_source": ""
+      },
+      {
+        "id": "C032",
+        "mark": "correct",
+        "reason": "Calculated from quarter revenue and prior‑quarter revenue facts; result matches source ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "I033",
+        "mark": "correct",
+        "reason": "Insight value equals free‑cash‑flow ratio C016, which is supported by source.",
+        "correction_source": ""
+      },
+      {
+        "id": "I034",
+        "mark": "correct",
+        "reason": "Insight value equals return‑on‑average‑equity ratio C014, which is supported by source.",
+        "correction_source": ""
+      },
+      {
+        "id": "D035",
+        "mark": "correct",
+        "reason": "Advisor metric matches return‑on‑average‑equity ratio C014, which is supported by source.",
+        "correction_source": ""
+      },
+      {
+        "id": "I036",
+        "mark": "correct",
+        "reason": "Insight value equals debt‑to‑equity ratio C015, which is supported by source.",
+        "correction_source": ""
+      },
+      {
+        "id": "SEEDED-GROWTH",
+        "mark": "wrong",
+        "reason": "Claimed value 14.1437% does not match the source ratio.revenue_growth, which is 10.1437%.",
+        "correction_source": "COST.ratio.revenue_growth"
+      }
+    ]
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-b4a86bbad652dfad",
+    "usage": {
+      "completion_tokens": 2821,
+      "prompt_tokens": 14976,
+      "total_tokens": 17797,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

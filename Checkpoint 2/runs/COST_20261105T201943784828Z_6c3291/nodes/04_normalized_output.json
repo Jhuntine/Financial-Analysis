@@ -1,0 +1,15 @@
+{
+  "sections": [
+    {
+      "title": "Investment Recommendation",
+      "text": "Costco’s business model shows durable high‑volume, low‑margin strength, supported by strong free cash flow and a robust return on equity [[COST.ratio.return_on_average_equity]]. The low debt‑to‑equity ratio [[COST.ratio.debt_to_equity]] adds financial flexibility. Execution risk around expansion and cyber‑security concerns are noted, but the overall risk‑adjusted profile remains favorable."
+    }
+  ],
+  "insight": {
+    "text": "Low debt relative to equity provides financial flexibility",
+    "source": "COST.ratio.debt_to_equity",
+    "value": 0.17210848252939698
+  },
+  "recommendation": "Buy",
+  "decision_source": "COST.ratio.return_on_average_equity"
+}

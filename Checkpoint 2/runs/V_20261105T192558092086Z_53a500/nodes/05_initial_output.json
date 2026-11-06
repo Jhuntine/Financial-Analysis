@@ -1,0 +1,11 @@
+{
+  "output": {
+    "approved": true,
+    "failures": []
+  },
+  "metadata": {
+    "mode": "offline_fixture",
+    "model": null,
+    "paid_calls": 0
+  }
+}

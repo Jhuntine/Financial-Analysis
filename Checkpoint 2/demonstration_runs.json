@@ -1,0 +1,43 @@
+{
+  "baseline": "runs/COST_20261105T202629423772Z_2b5ad5",
+  "tests": {
+    "eps_plus_one": {
+      "seeded_run": "runs/COST_20261105T203118523561Z_caf72c_eps_plus_one",
+      "verified_run": "runs/COST_20261105T203118543438Z_b03e46_verify_only",
+      "claim_id": "C004",
+      "reported": 21.76,
+      "mark": "wrong",
+      "corrected": 20.76,
+      "baseline_report_sha256": "b8cd5e60d6c9c3e319608a0cf93f7bc89e57f78a8dfdb34aef3f31efcac61322"
+    },
+    "growth_plus_four": {
+      "seeded_run": "runs/COST_20261105T203208124012Z_bfbdbd_growth_plus_four",
+      "verified_run": "runs/COST_20261105T203208142664Z_6cf319_verify_only",
+      "claim_id": "SEEDED-GROWTH",
+      "reported": 14.143695387577889,
+      "mark": "wrong",
+      "corrected": 10.143695387577889,
+      "baseline_report_sha256": "b8cd5e60d6c9c3e319608a0cf93f7bc89e57f78a8dfdb34aef3f31efcac61322"
+    },
+    "wrong_quarter": {
+      "seeded_run": "runs/COST_20261105T203256143212Z_eeb6cb_wrong_quarter",
+      "verified_run": "runs/COST_20261105T203256159050Z_a3e5e8_verify_only",
+      "claim_id": "C030",
+      "reported": 20.76,
+      "mark": "wrong",
+      "corrected": 6.75,
+      "baseline_report_sha256": "b8cd5e60d6c9c3e319608a0cf93f7bc89e57f78a8dfdb34aef3f31efcac61322"
+    },
+    "ambiguous_roe": {
+      "seeded_run": "runs/COST_20261105T203346930278Z_bf9c4c_ambiguous_roe",
+      "verified_run": "runs/COST_20261105T203346946067Z_9850b3_verify_only",
+      "claim_id": "C014",
+      "reported": 28.402111841396398,
+      "mark": "unsupported",
+      "corrected": 28.402111841396398,
+      "baseline_report_sha256": "b8cd5e60d6c9c3e319608a0cf93f7bc89e57f78a8dfdb34aef3f31efcac61322"
+    }
+  },
+  "clean_verification": "runs/COST_20261105T203448606970Z_ef1cae_verify_only",
+  "semantic_model": "completed, actual live provider calls"
+}

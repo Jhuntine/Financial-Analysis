@@ -1,0 +1,15 @@
+{
+  "sections": [
+    {
+      "title": "Valuation Insights",
+      "text": "Visa’s consolidated net revenue is captured by [[V.fact.revenue]] and reflects the full‑company scope defined in the filing. The GAAP diluted earnings per share pertains to Class A common stock as shown by [[V.fact.diluted_eps]]. Capital expenditures, recorded in [[V.fact.capex]], cover purchases of property, equipment and technology. The annual metrics follow a fiscal year ending September 30 2025, while the latest quarter data are for the three months ended September 30 2026. The price used for valuation is the close on October 27 2026 from [[V.price]], unadjusted for splits or dividends.\n\nOperating profitability is strong, with an operating margin of [[V.ratio.operating_margin]] percent, indicating efficient cost management. Return on average equity stands at [[V.ratio.return_on_average_equity]] percent, underscoring high returns to shareholders. Leverage is moderate, with a debt‑to‑equity ratio of [[V.ratio.debt_to_equity]] times, suggesting a balanced financing mix. Free cash flow of [[V.ratio.free_cash_flow]] dollars demonstrates ample cash generation to fund share repurchases and dividends. The annual‑filing price‑to‑earnings multiple is [[V.ratio.price_earnings]] times, reflecting market expectations of continued growth."
+    }
+  ],
+  "insight": {
+    "text": "A future decline in operating margin below the current level would erode the profitability narrative.",
+    "source": "V.ratio.operating_margin",
+    "value": 59.985
+  },
+  "recommendation": "",
+  "decision_source": ""
+}

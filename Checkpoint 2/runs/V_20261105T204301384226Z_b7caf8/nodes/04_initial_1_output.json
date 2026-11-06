@@ -1,0 +1,36 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Investment Recommendation",
+        "text": "Buy"
+      }
+    ],
+    "insight": {
+      "text": "Debt‑to‑equity ratio reflects moderate leverage supporting financial stability",
+      "source": "V.ratio.debt_to_equity",
+      "value": 0.6639848057189586
+    },
+    "recommendation": "Buy",
+    "decision_source": "V.ratio.return_on_average_equity"
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-9d8df025215d5efd",
+    "usage": {
+      "completion_tokens": 823,
+      "prompt_tokens": 7645,
+      "total_tokens": 8468,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

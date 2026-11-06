@@ -1,0 +1,289 @@
+{
+  "output": {
+    "verdicts": [
+      {
+        "id": "C001",
+        "mark": "correct",
+        "reason": "Source ratio matches period, definition and computed value.",
+        "correction_source": ""
+      },
+      {
+        "id": "C002",
+        "mark": "correct",
+        "reason": "Source ratio matches period, definition and computed value.",
+        "correction_source": ""
+      },
+      {
+        "id": "C003",
+        "mark": "correct",
+        "reason": "Source ratio matches period, definition and computed value.",
+        "correction_source": ""
+      },
+      {
+        "id": "C004",
+        "mark": "correct",
+        "reason": "Duplicate of C002; source ratio matches.",
+        "correction_source": ""
+      },
+      {
+        "id": "C005",
+        "mark": "correct",
+        "reason": "Debt‑to‑equity ratio uses the correct components and period.",
+        "correction_source": ""
+      },
+      {
+        "id": "C006",
+        "mark": "correct",
+        "reason": "Free‑cash‑flow ratio uses the correct cash‑flow and capex values for the period.",
+        "correction_source": ""
+      },
+      {
+        "id": "C007",
+        "mark": "correct",
+        "reason": "Price‑earnings ratio uses the dated price and latest annual diluted EPS as defined.",
+        "correction_source": ""
+      },
+      {
+        "id": "C008",
+        "mark": "correct",
+        "reason": "Revenue fact period and definition match the claim.",
+        "correction_source": ""
+      },
+      {
+        "id": "C009",
+        "mark": "correct",
+        "reason": "Operating‑income fact period and definition match the claim.",
+        "correction_source": ""
+      },
+      {
+        "id": "C010",
+        "mark": "correct",
+        "reason": "Net‑income fact period and definition match the claim.",
+        "correction_source": ""
+      },
+      {
+        "id": "C011",
+        "mark": "correct",
+        "reason": "Diluted EPS fact period and definition match the claim.",
+        "correction_source": ""
+      },
+      {
+        "id": "C012",
+        "mark": "correct",
+        "reason": "Equity fact point‑in‑time period matches the claim.",
+        "correction_source": ""
+      },
+      {
+        "id": "C013",
+        "mark": "correct",
+        "reason": "Long‑term debt fact period matches the claim.",
+        "correction_source": ""
+      },
+      {
+        "id": "C014",
+        "mark": "correct",
+        "reason": "Current debt fact period matches the claim.",
+        "correction_source": ""
+      },
+      {
+        "id": "C015",
+        "mark": "correct",
+        "reason": "Operating cash‑flow fact period matches the claim.",
+        "correction_source": ""
+      },
+      {
+        "id": "C016",
+        "mark": "correct",
+        "reason": "Capex fact period matches the claim.",
+        "correction_source": ""
+      },
+      {
+        "id": "C017",
+        "mark": "correct",
+        "reason": "Prior‑revenue fact period matches the claim.",
+        "correction_source": ""
+      },
+      {
+        "id": "C018",
+        "mark": "correct",
+        "reason": "Prior‑equity fact period matches the claim.",
+        "correction_source": ""
+      },
+      {
+        "id": "C019",
+        "mark": "correct",
+        "reason": "Revenue‑growth ratio matches source definition, period and value.",
+        "correction_source": ""
+      },
+      {
+        "id": "C020",
+        "mark": "correct",
+        "reason": "Operating‑margin ratio matches source definition, period and value.",
+        "correction_source": ""
+      },
+      {
+        "id": "C021",
+        "mark": "correct",
+        "reason": "Return‑on‑average‑equity ratio matches source definition, period and value.",
+        "correction_source": ""
+      },
+      {
+        "id": "C022",
+        "mark": "correct",
+        "reason": "Debt‑to‑equity ratio matches source definition, period and value.",
+        "correction_source": ""
+      },
+      {
+        "id": "C023",
+        "mark": "correct",
+        "reason": "Free‑cash‑flow ratio matches source definition, period and value.",
+        "correction_source": ""
+      },
+      {
+        "id": "C024",
+        "mark": "correct",
+        "reason": "Price‑earnings ratio matches source definition, period and value.",
+        "correction_source": ""
+      },
+      {
+        "id": "C025",
+        "mark": "correct",
+        "reason": "WMT revenue fact period and definition match the claim.",
+        "correction_source": ""
+      },
+      {
+        "id": "C026",
+        "mark": "correct",
+        "reason": "WMT operating‑income fact period and definition match the claim.",
+        "correction_source": ""
+      },
+      {
+        "id": "C027",
+        "mark": "correct",
+        "reason": "WMT operating‑margin ratio matches source definition, period and value.",
+        "correction_source": ""
+      },
+      {
+        "id": "C028",
+        "mark": "correct",
+        "reason": "TGT revenue fact period and definition match the claim.",
+        "correction_source": ""
+      },
+      {
+        "id": "C029",
+        "mark": "correct",
+        "reason": "TGT operating‑income fact period and definition match the claim.",
+        "correction_source": ""
+      },
+      {
+        "id": "C030",
+        "mark": "correct",
+        "reason": "TGT operating‑margin ratio matches source definition, period and value.",
+        "correction_source": ""
+      },
+      {
+        "id": "C031",
+        "mark": "correct",
+        "reason": "BJ revenue fact period and definition match the claim.",
+        "correction_source": ""
+      },
+      {
+        "id": "C032",
+        "mark": "correct",
+        "reason": "BJ operating‑income fact period and definition match the claim.",
+        "correction_source": ""
+      },
+      {
+        "id": "C033",
+        "mark": "correct",
+        "reason": "BJ operating‑margin ratio matches source definition, period and value.",
+        "correction_source": ""
+      },
+      {
+        "id": "C034",
+        "mark": "correct",
+        "reason": "Price fact period and definition match the claim.",
+        "correction_source": ""
+      },
+      {
+        "id": "C035",
+        "mark": "correct",
+        "reason": "Quarter revenue fact period and definition match the claim.",
+        "correction_source": ""
+      },
+      {
+        "id": "C036",
+        "mark": "correct",
+        "reason": "Quarter prior‑revenue fact period and definition match the claim.",
+        "correction_source": ""
+      },
+      {
+        "id": "C037",
+        "mark": "correct",
+        "reason": "Quarter diluted EPS fact period and definition match the claim.",
+        "correction_source": ""
+      },
+      {
+        "id": "C038",
+        "mark": "correct",
+        "reason": "Annual‑release diluted EPS fact period and definition match the claim.",
+        "correction_source": ""
+      },
+      {
+        "id": "C039",
+        "mark": "correct",
+        "reason": "Quarter revenue‑growth ratio matches source definition, period and value.",
+        "correction_source": ""
+      },
+      {
+        "id": "I040",
+        "mark": "correct",
+        "reason": "Insight correctly cites the return‑on‑average‑equity ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "I041",
+        "mark": "correct",
+        "reason": "Insight correctly cites the return‑on‑average‑equity ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "D042",
+        "mark": "correct",
+        "reason": "Advisor metric correctly references the return‑on‑average‑equity ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "I043",
+        "mark": "correct",
+        "reason": "Insight correctly cites the debt‑to‑equity ratio.",
+        "correction_source": ""
+      },
+      {
+        "id": "SEEDED-GROWTH",
+        "mark": "wrong",
+        "reason": "Claimed value 14.14% does not match source ratio value 10.14%.",
+        "correction_source": "COST.ratio.revenue_growth"
+      }
+    ]
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-9374735ec019fed3",
+    "usage": {
+      "completion_tokens": 3059,
+      "prompt_tokens": 16540,
+      "total_tokens": 19599,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

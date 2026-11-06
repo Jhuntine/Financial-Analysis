@@ -1,0 +1,241 @@
+{
+  "output": {
+    "verdicts": [
+      {
+        "id": "C001",
+        "mark": "correct",
+        "reason": "Saved fact COST.fact.revenue matches value and period.",
+        "correction_source": ""
+      },
+      {
+        "id": "C002",
+        "mark": "correct",
+        "reason": "Saved fact COST.fact.operating_income matches value and period.",
+        "correction_source": ""
+      },
+      {
+        "id": "C003",
+        "mark": "correct",
+        "reason": "Saved fact COST.fact.net_income matches value and period.",
+        "correction_source": ""
+      },
+      {
+        "id": "C004",
+        "mark": "wrong",
+        "reason": "Source COST.fact.diluted_eps reports 20.76 USD/shares, not 21.76.",
+        "correction_source": "COST.fact.diluted_eps"
+      },
+      {
+        "id": "C005",
+        "mark": "correct",
+        "reason": "Saved fact COST.fact.equity matches value and date.",
+        "correction_source": ""
+      },
+      {
+        "id": "C006",
+        "mark": "correct",
+        "reason": "Saved fact COST.fact.long_term_debt matches value and date.",
+        "correction_source": ""
+      },
+      {
+        "id": "C007",
+        "mark": "correct",
+        "reason": "Saved fact COST.fact.current_debt matches value and date.",
+        "correction_source": ""
+      },
+      {
+        "id": "C008",
+        "mark": "correct",
+        "reason": "Saved fact COST.fact.operating_cash_flow matches value and period.",
+        "correction_source": ""
+      },
+      {
+        "id": "C009",
+        "mark": "correct",
+        "reason": "Saved fact COST.fact.capex matches value and period.",
+        "correction_source": ""
+      },
+      {
+        "id": "C010",
+        "mark": "correct",
+        "reason": "Saved fact COST.fact.prior_revenue matches value and period.",
+        "correction_source": ""
+      },
+      {
+        "id": "C011",
+        "mark": "correct",
+        "reason": "Saved fact COST.fact.prior_equity matches value and date.",
+        "correction_source": ""
+      },
+      {
+        "id": "C012",
+        "mark": "correct",
+        "reason": "Ratio computed from saved revenue and prior revenue matches claimed value.",
+        "correction_source": ""
+      },
+      {
+        "id": "C013",
+        "mark": "correct",
+        "reason": "Ratio computed from saved operating income and revenue matches claimed value.",
+        "correction_source": ""
+      },
+      {
+        "id": "C014",
+        "mark": "correct",
+        "reason": "Ratio computed from saved net income and average equity matches claimed value.",
+        "correction_source": ""
+      },
+      {
+        "id": "C015",
+        "mark": "correct",
+        "reason": "Ratio computed from saved debt figures and equity matches claimed value.",
+        "correction_source": ""
+      },
+      {
+        "id": "C016",
+        "mark": "correct",
+        "reason": "Free cash flow computed from operating cash flow minus capex matches claimed value.",
+        "correction_source": ""
+      },
+      {
+        "id": "C017",
+        "mark": "correct",
+        "reason": "Price‑earnings computed from saved price and diluted EPS matches claimed value.",
+        "correction_source": ""
+      },
+      {
+        "id": "C018",
+        "mark": "correct",
+        "reason": "Saved fact WMT.fact.revenue matches value and period.",
+        "correction_source": ""
+      },
+      {
+        "id": "C019",
+        "mark": "correct",
+        "reason": "Saved fact WMT.fact.operating_income matches value and period.",
+        "correction_source": ""
+      },
+      {
+        "id": "C020",
+        "mark": "correct",
+        "reason": "Operating margin computed from WMT facts matches claimed value.",
+        "correction_source": ""
+      },
+      {
+        "id": "C021",
+        "mark": "correct",
+        "reason": "Saved fact TGT.fact.revenue matches value and period.",
+        "correction_source": ""
+      },
+      {
+        "id": "C022",
+        "mark": "correct",
+        "reason": "Saved fact TGT.fact.operating_income matches value and period.",
+        "correction_source": ""
+      },
+      {
+        "id": "C023",
+        "mark": "correct",
+        "reason": "Operating margin computed from TGT facts matches claimed value.",
+        "correction_source": ""
+      },
+      {
+        "id": "C024",
+        "mark": "correct",
+        "reason": "Saved fact BJ.fact.revenue matches value and period.",
+        "correction_source": ""
+      },
+      {
+        "id": "C025",
+        "mark": "correct",
+        "reason": "Saved fact BJ.fact.operating_income matches value and period.",
+        "correction_source": ""
+      },
+      {
+        "id": "C026",
+        "mark": "correct",
+        "reason": "Operating margin computed from BJ facts matches claimed value.",
+        "correction_source": ""
+      },
+      {
+        "id": "C027",
+        "mark": "correct",
+        "reason": "Saved price fact COST.price matches value and date.",
+        "correction_source": ""
+      },
+      {
+        "id": "C028",
+        "mark": "correct",
+        "reason": "Saved quarter fact COST.quarter.quarter_net_revenue matches value and period.",
+        "correction_source": ""
+      },
+      {
+        "id": "C029",
+        "mark": "correct",
+        "reason": "Saved quarter fact COST.quarter.prior_quarter_net_revenue matches value and period.",
+        "correction_source": ""
+      },
+      {
+        "id": "C030",
+        "mark": "correct",
+        "reason": "Saved quarter fact COST.quarter.quarter_gaap_diluted_eps matches value and period.",
+        "correction_source": ""
+      },
+      {
+        "id": "C031",
+        "mark": "correct",
+        "reason": "Saved quarter fact COST.quarter.annual_release_gaap_diluted_eps matches value and period.",
+        "correction_source": ""
+      },
+      {
+        "id": "C032",
+        "mark": "correct",
+        "reason": "Revenue growth computed from quarter revenue facts matches claimed value.",
+        "correction_source": ""
+      },
+      {
+        "id": "I033",
+        "mark": "correct",
+        "reason": "Insight value matches saved ratio.free_cash_flow.",
+        "correction_source": ""
+      },
+      {
+        "id": "I034",
+        "mark": "correct",
+        "reason": "Insight value matches saved ratio.return_on_average_equity.",
+        "correction_source": ""
+      },
+      {
+        "id": "D035",
+        "mark": "correct",
+        "reason": "Advisor deciding metric matches saved ratio.return_on_average_equity.",
+        "correction_source": ""
+      },
+      {
+        "id": "I036",
+        "mark": "correct",
+        "reason": "Insight value matches saved ratio.debt_to_equity.",
+        "correction_source": ""
+      }
+    ]
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-a674ab0b5c2d3538",
+    "usage": {
+      "completion_tokens": 3064,
+      "prompt_tokens": 14841,
+      "total_tokens": 17905,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

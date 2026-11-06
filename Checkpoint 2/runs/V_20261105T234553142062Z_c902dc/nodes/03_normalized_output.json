@@ -1,0 +1,15 @@
+{
+  "sections": [
+    {
+      "title": "Valuation Insights",
+      "text": "The firm reported net revenue as defined in [[V.fact.revenue]] and achieved a year‑over‑year revenue increase of [[V.ratio.revenue_growth]] percent. Operating profitability is strong, with an operating margin of [[V.ratio.operating_margin]] percent, reflecting efficient cost management. Net income per share is captured in [[V.fact.diluted_eps]] and translates to a price‑earnings multiple of [[V.ratio.price_earnings]] times, indicating the market’s valuation relative to earnings. Return on average equity stands at [[V.ratio.return_on_average_equity]] percent, underscoring high profitability on the equity base. The capital structure shows a debt‑to‑equity ratio of [[V.ratio.debt_to_equity]] times, incorporating both long‑term and current debt components as detailed in [[V.fact.long_term_debt]] and [[V.fact.current_debt]]. Free cash flow of [[V.ratio.free_cash_flow]] dollars demonstrates robust cash generation after capital expenditures."
+    }
+  ],
+  "insight": {
+    "text": "Return on average equity exceeds sixty percent, highlighting exceptional profitability relative to shareholders' capital.",
+    "source": "V.ratio.return_on_average_equity",
+    "value": 63.50716022696569
+  },
+  "recommendation": "",
+  "decision_source": ""
+}

@@ -1,0 +1,36 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Valuation Insights",
+        "text": "Costco delivers a modest operating margin of [[COST.ratio.operating_margin]] while generating a robust return on average equity of [[COST.ratio.return_on_average_equity]]. Its capital structure is conservative, with a debt‑to‑equity ratio of [[COST.ratio.debt_to_equity]], far lower than peers such as Walmart and Target. Free cash flow stands strong at [[COST.ratio.free_cash_flow]], supporting ongoing investment and shareholder returns. Revenue grew at a double‑digit pace of [[COST.ratio.revenue_growth]], yet the annual price‑earnings multiple of [[COST.ratio.price_earnings]] is elevated, reflecting market expectations for continued growth. Compared with Walmart’s operating margin of [[WMT.ratio.operating_margin]] and Target’s margin of [[TGT.ratio.operating_margin]], Costco’s margin is slightly lower, but its superior ROE and lower leverage suggest efficient use of capital. The combination of solid cash generation, low leverage, and high ROE positions Costco favorably, though the premium valuation warrants monitoring of future earnings momentum."
+      }
+    ],
+    "insight": {
+      "text": "The low debt‑to‑equity ratio highlights Costco’s capacity to absorb higher financing costs and fund strategic initiatives.",
+      "source": "COST.ratio.debt_to_equity",
+      "value": 0.17210848252939698
+    },
+    "recommendation": "",
+    "decision_source": ""
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-8b79b8bd2e4830ee",
+    "usage": {
+      "completion_tokens": 892,
+      "prompt_tokens": 17062,
+      "total_tokens": 17954,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

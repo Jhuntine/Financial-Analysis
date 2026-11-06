@@ -1,0 +1,137 @@
+{
+  "schema_version": 2,
+  "framework": "LangGraph",
+  "model_provider": "Purdue GenAI Studio",
+  "model": "gpt-oss:120b",
+  "primary_ticker": "V",
+  "primary_run": "runs/V_20261105T234050665521Z_342a19",
+  "baseline_ticker": "COST",
+  "baseline_run": "runs/COST_20261105T231700361085Z_ec30bc",
+  "baseline_repeat_run": "runs/COST_20261105T231903165410Z_096a9f",
+  "clean_verification_run": "runs/COST_20261105T232410133110Z_582adc_verify_only",
+  "seeded_tests": {
+    "eps_plus_one": {
+      "seeded_run": "runs/COST_20261105T232111498131Z_7d807f_eps_plus_one",
+      "verified_run": "runs/COST_20261105T232111512941Z_540bc4_verify_only",
+      "claim_id": "C011",
+      "reported": 21.76,
+      "mark": "wrong",
+      "corrected": 20.76,
+      "baseline_report_sha256": "78eb399aca9edb6a1cb28ce8e0eb71734cc6124c8112ae3a3df5adb28177b705"
+    },
+    "growth_plus_four": {
+      "seeded_run": "runs/COST_20261105T232203334402Z_3c1381_growth_plus_four",
+      "verified_run": "runs/COST_20261105T232203351372Z_b63b6a_verify_only",
+      "claim_id": "SEEDED-GROWTH",
+      "reported": 14.143695387577889,
+      "mark": "wrong",
+      "corrected": 10.143695387577889,
+      "baseline_report_sha256": "78eb399aca9edb6a1cb28ce8e0eb71734cc6124c8112ae3a3df5adb28177b705"
+    },
+    "wrong_quarter": {
+      "seeded_run": "runs/COST_20261105T232247531759Z_7bc07b_wrong_quarter",
+      "verified_run": "runs/COST_20261105T232247545988Z_580401_verify_only",
+      "claim_id": "C037",
+      "reported": 20.76,
+      "mark": "wrong",
+      "corrected": 6.75,
+      "baseline_report_sha256": "78eb399aca9edb6a1cb28ce8e0eb71734cc6124c8112ae3a3df5adb28177b705"
+    },
+    "ambiguous_roe": {
+      "seeded_run": "runs/COST_20261105T232327063931Z_cfb63a_ambiguous_roe",
+      "verified_run": "runs/COST_20261105T232327080872Z_12b533_verify_only",
+      "claim_id": "C003",
+      "reported": 28.402111841396398,
+      "mark": "unsupported",
+      "corrected": 28.402111841396398,
+      "baseline_report_sha256": "78eb399aca9edb6a1cb28ce8e0eb71734cc6124c8112ae3a3df5adb28177b705"
+    }
+  },
+  "partner_run": "runs/V_20261105T234553142062Z_c902dc",
+  "human_personas": "Student confirmed complete; current role files match the copies used by all three selected runs.",
+  "human_audit": "Student confirmed completion of checks for all three selected audits and authorized repository submission.",
+  "partner_checks": "pending",
+  "source_hashes": {
+    "team.py": "a9be340b3749e8665897b8ece25556b7e006866aac5d472c01ce901160303d8b",
+    "verifier.py": "560a5e9a07d363765bda7b7cbc285aa9d2ecb99d68d1cb441b3c895bd5da0076",
+    "data_tools.py": "d37a96f854a5bcc72fbde927d7a3113c481f77b036911d4500b6434b1f425af9",
+    "market_adapter.py": "717ad24714aee7fa8298e38abbdb83663d3f0511e642e848ab7d52e614f437e6",
+    "app.py": "fba28600be2bc1b1c5e5ce384496131d0539bddd8e9373ac867a95fc66689bbd",
+    "submission_support.py": "acb10e0f4911543af0ad55d77113cb2233421bbfbf4d2a510b785e66f382167a",
+    "prepare_submission.py": "768222273a8ca622a1d1446de3a7484105230e8d55a55e630f07927efc0fc9c6",
+    "build_notebook.py": "85f749e946562e946f02438abb5d233128bd18aaa364d2bd6f241a34d8d0f1b6",
+    "human_review.py": "4af9e9e582fb5aac17526f49686715a1f24c28a6a18ca1d77b2339e99c812fc6",
+    "submission_index.py": "af0b4a4f039f607314fc4faaefe1c63553fef797a56c2ddd33803c1a49e9bc45",
+    "roles/financial_analyst.md": "409fed0371d9ba8b9e6a2fe7e9b3143fab46858f1d1b2911ce4dccf75f2e31db",
+    "roles/investment_advisor.md": "bd0146e437b733176e9f7956ef3728593e32f89b90ebc6e28f3c8cc3e43f5a02",
+    "roles/research_analyst.md": "2ed6d7fbe129bed89790c7c99329e189e6a17503fad9951331ddd97c09f46954",
+    "roles/strategy_manager.md": "7cc789ad8d4084522b12ddbbc7a112e07801c5818c5e99e04544897bad4de0b3",
+    "roles/verifier.md": "91cadf5d83640f83b8c22856f51128c88b8bace5646decabc4b94b36dfde3635"
+  },
+  "partner_reporting_month": "2026-10",
+  "ai_audit_status": {
+    "reviewer": "Codex (AI)",
+    "reviewed_at_utc": "2026-11-06 01:15 UTC",
+    "runs": [
+      "runs/V_20261105T234050665521Z_342a19",
+      "runs/V_20261105T234553142062Z_c902dc"
+    ],
+    "unresolved_numerical_errors": 0,
+    "student_approval": "Student confirmed review completion and approved repository submission.",
+    "partner_confirmation": "pending",
+    "presentation_correction": "primary operating-margin display corrected to 59.99%"
+  },
+  "persona_completion_confirmation": {
+    "source": "student statement in conversation",
+    "recorded_at_utc": "2026-11-06T01:42:29.940717+00:00",
+    "selected_run_role_files_match": true
+  },
+  "student_review_confirmation": {
+    "reviewer_git_identity": "JosephHuntine",
+    "source": "student statements and explicit commit request in conversation",
+    "recorded_at_utc": "2026-11-06 01:52 UTC",
+    "scope": [
+      "runs/COST_20261105T231700361085Z_ec30bc",
+      "runs/V_20261105T234050665521Z_342a19",
+      "runs/V_20261105T234553142062Z_c902dc"
+    ],
+    "publication_approved": true
+  },
+  "submission_package": {
+    "directory": "Submission",
+    "start_here": "Submission/README.md",
+    "audits": [
+      {
+        "selection_key": "baseline_run",
+        "label": "Costco baseline",
+        "period": "Fiscal year ended August 30, 2026",
+        "source_run": "runs/COST_20261105T231700361085Z_ec30bc",
+        "folder": "Submission/01_COSTCO_Baseline",
+        "audit_file": "COSTCO_Baseline_Human_Audit.md",
+        "audit": "Submission/01_COSTCO_Baseline/COSTCO_Baseline_Human_Audit.md",
+        "report": "Submission/01_COSTCO_Baseline/verified_report_readable.md"
+      },
+      {
+        "selection_key": "primary_run",
+        "label": "Visa notebook example",
+        "period": "Fiscal year ended September 30, 2025",
+        "source_run": "runs/V_20261105T234050665521Z_342a19",
+        "folder": "Submission/02_VISA_Notebook_Example",
+        "audit_file": "VISA_Notebook_Human_Audit.md",
+        "audit": "Submission/02_VISA_Notebook_Example/VISA_Notebook_Human_Audit.md",
+        "report": "Submission/02_VISA_Notebook_Example/verified_report_readable.md"
+      },
+      {
+        "selection_key": "partner_run",
+        "label": "Visa partner selection",
+        "period": "Fiscal year ended September 30, 2026; October reporting-month selection",
+        "source_run": "runs/V_20261105T234553142062Z_c902dc",
+        "folder": "Submission/03_VISA_Partner_Selected_Company",
+        "audit_file": "VISA_Partner_Human_Audit.md",
+        "audit": "Submission/03_VISA_Partner_Selected_Company/VISA_Partner_Human_Audit.md",
+        "report": "Submission/03_VISA_Partner_Selected_Company/verified_report_readable.md"
+      }
+    ],
+    "note": "Three designated, descriptively named submission copies; original generated runs preserved."
+  }
+}

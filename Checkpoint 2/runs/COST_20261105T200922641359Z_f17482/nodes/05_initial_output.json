@@ -1,0 +1,38 @@
+{
+  "output": {
+    "approved": false,
+    "failures": [
+      {
+        "role": "Research Analyst",
+        "issue": "Numerical claims in the \"Market Positioning and Growth Outlook\" section lack explicit source tokens and include spelled‑out amounts (e.g., \"double‑digit percent rate\", \"low‑single‑digit percent range\", \"high‑twenties percent\", \"under two‑tenths of a times equity\", \"roughly nine billion dollars\"). Unregistered numbers also appear in a numbered‑list format which is prohibited."
+      },
+      {
+        "role": "Research Analyst",
+        "issue": "The same \"Market Positioning and Growth Outlook\" section contains a numbered list and unregistered numerical quantities that must be removed or replaced with proper [[catalog.key]] references."
+      },
+      {
+        "role": "Financial Analyst",
+        "issue": "Insight prose does not embed the numeric value in the sourced claim field as required; the number appears only in the separate \"value\" field."
+      }
+    ]
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-b92a0ffc33af4ebb",
+    "usage": {
+      "completion_tokens": 1558,
+      "prompt_tokens": 17247,
+      "total_tokens": 18805,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

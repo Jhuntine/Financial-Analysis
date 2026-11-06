@@ -1,0 +1,30 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Overview",
+        "text": "The filing states \"Visa is one of the world’s leaders\" [source:K:L151]. This recorded disclosure frames the operating model; the fixture adds no forecast."
+      },
+      {
+        "title": "Market Positioning and Growth Outlook",
+        "text": "The filing states \"The global payments industry continues to undergo\" [source:K:L382]. Growth should be evaluated alongside the disclosed competitive risks."
+      },
+      {
+        "title": "Future Developments and Strategic Recommendations",
+        "text": "The filing states \"Visa’s strategy is to accelerate revenue growth\" [source:K:L214]. Monitor whether subsequent disclosures support the stated strategy; this is an interpretation for human review."
+      }
+    ],
+    "insight": {
+      "text": "Historical operating economics provide a separate test of the growth narrative.",
+      "source": "V.ratio.operating_margin",
+      "value": 59.985
+    },
+    "recommendation": "",
+    "decision_source": ""
+  },
+  "metadata": {
+    "mode": "offline_fixture",
+    "model": null,
+    "paid_calls": 0
+  }
+}

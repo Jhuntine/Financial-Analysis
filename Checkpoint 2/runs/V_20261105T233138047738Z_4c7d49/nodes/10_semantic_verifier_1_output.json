@@ -1,0 +1,301 @@
+{
+  "output": {
+    "verdicts": [
+      {
+        "id": "C001",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.fact.revenue.",
+        "correction_source": ""
+      },
+      {
+        "id": "C002",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.fact.diluted_eps.",
+        "correction_source": ""
+      },
+      {
+        "id": "C003",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.fact.capex.",
+        "correction_source": ""
+      },
+      {
+        "id": "C004",
+        "mark": "correct",
+        "reason": "Value, unit, period and definition match V.price.",
+        "correction_source": ""
+      },
+      {
+        "id": "C005",
+        "mark": "correct",
+        "reason": "Operating margin value and definition match V.ratio.operating_margin for the stated period.",
+        "correction_source": ""
+      },
+      {
+        "id": "C006",
+        "mark": "correct",
+        "reason": "Return on average equity matches V.ratio.return_on_average_equity for the period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C007",
+        "mark": "correct",
+        "reason": "Debt‑to‑equity matches V.ratio.debt_to_equity for the period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C008",
+        "mark": "correct",
+        "reason": "Free cash flow matches V.ratio.free_cash_flow for the period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C009",
+        "mark": "correct",
+        "reason": "Price‑earnings multiple matches V.ratio.price_earnings for the period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C010",
+        "mark": "correct",
+        "reason": "Revenue fact matches V.fact.revenue.",
+        "correction_source": ""
+      },
+      {
+        "id": "C011",
+        "mark": "correct",
+        "reason": "Operating income fact matches V.fact.operating_income.",
+        "correction_source": ""
+      },
+      {
+        "id": "C012",
+        "mark": "correct",
+        "reason": "Net income fact matches V.fact.net_income.",
+        "correction_source": ""
+      },
+      {
+        "id": "C013",
+        "mark": "correct",
+        "reason": "Diluted EPS fact matches V.fact.diluted_eps.",
+        "correction_source": ""
+      },
+      {
+        "id": "C014",
+        "mark": "correct",
+        "reason": "Equity fact matches V.fact.equity for 2025‑09‑30.",
+        "correction_source": ""
+      },
+      {
+        "id": "C015",
+        "mark": "correct",
+        "reason": "Long‑term debt fact matches V.fact.long_term_debt for 2025‑09‑30.",
+        "correction_source": ""
+      },
+      {
+        "id": "C016",
+        "mark": "correct",
+        "reason": "Current debt fact matches V.fact.current_debt for 2025‑09‑30.",
+        "correction_source": ""
+      },
+      {
+        "id": "C017",
+        "mark": "correct",
+        "reason": "Operating cash flow fact matches V.fact.operating_cash_flow.",
+        "correction_source": ""
+      },
+      {
+        "id": "C018",
+        "mark": "correct",
+        "reason": "Capex fact matches V.fact.capex.",
+        "correction_source": ""
+      },
+      {
+        "id": "C019",
+        "mark": "correct",
+        "reason": "Prior revenue fact matches V.fact.prior_revenue.",
+        "correction_source": ""
+      },
+      {
+        "id": "C020",
+        "mark": "correct",
+        "reason": "Prior equity fact matches V.fact.prior_equity.",
+        "correction_source": ""
+      },
+      {
+        "id": "C021",
+        "mark": "correct",
+        "reason": "Revenue growth ratio matches V.ratio.revenue_growth.",
+        "correction_source": ""
+      },
+      {
+        "id": "C022",
+        "mark": "correct",
+        "reason": "Operating margin ratio matches V.ratio.operating_margin.",
+        "correction_source": ""
+      },
+      {
+        "id": "C023",
+        "mark": "correct",
+        "reason": "Return on average equity ratio matches V.ratio.return_on_average_equity.",
+        "correction_source": ""
+      },
+      {
+        "id": "C024",
+        "mark": "correct",
+        "reason": "Debt‑to‑equity ratio matches V.ratio.debt_to_equity.",
+        "correction_source": ""
+      },
+      {
+        "id": "C025",
+        "mark": "correct",
+        "reason": "Free cash flow ratio matches V.ratio.free_cash_flow.",
+        "correction_source": ""
+      },
+      {
+        "id": "C026",
+        "mark": "correct",
+        "reason": "Price‑earnings ratio matches V.ratio.price_earnings.",
+        "correction_source": ""
+      },
+      {
+        "id": "C027",
+        "mark": "correct",
+        "reason": "Mastercard revenue fact matches MA.fact.revenue.",
+        "correction_source": ""
+      },
+      {
+        "id": "C028",
+        "mark": "correct",
+        "reason": "Mastercard operating income fact matches MA.fact.operating_income.",
+        "correction_source": ""
+      },
+      {
+        "id": "C029",
+        "mark": "correct",
+        "reason": "Mastercard operating margin ratio matches MA.ratio.operating_margin.",
+        "correction_source": ""
+      },
+      {
+        "id": "C030",
+        "mark": "correct",
+        "reason": "PayPal revenue fact matches PYPL.fact.revenue.",
+        "correction_source": ""
+      },
+      {
+        "id": "C031",
+        "mark": "correct",
+        "reason": "PayPal operating income fact matches PYPL.fact.operating_income.",
+        "correction_source": ""
+      },
+      {
+        "id": "C032",
+        "mark": "correct",
+        "reason": "PayPal operating margin ratio matches PYPL.ratio.operating_margin.",
+        "correction_source": ""
+      },
+      {
+        "id": "C033",
+        "mark": "correct",
+        "reason": "Price fact matches V.price.",
+        "correction_source": ""
+      },
+      {
+        "id": "C034",
+        "mark": "correct",
+        "reason": "Quarter net revenue matches V.quarter.quarter_net_revenue for the stated quarter.",
+        "correction_source": ""
+      },
+      {
+        "id": "C035",
+        "mark": "correct",
+        "reason": "Prior quarter net revenue matches V.quarter.prior_quarter_net_revenue.",
+        "correction_source": ""
+      },
+      {
+        "id": "C036",
+        "mark": "correct",
+        "reason": "Quarter GAAP diluted EPS matches V.quarter.quarter_gaap_diluted_eps.",
+        "correction_source": ""
+      },
+      {
+        "id": "C037",
+        "mark": "correct",
+        "reason": "Annual‑release GAAP diluted EPS matches V.quarter.annual_release_gaap_diluted_eps.",
+        "correction_source": ""
+      },
+      {
+        "id": "C038",
+        "mark": "correct",
+        "reason": "Quarter revenue growth matches V.quarter.revenue_growth.",
+        "correction_source": ""
+      },
+      {
+        "id": "I039",
+        "mark": "correct",
+        "reason": "Insight value matches V.ratio.debt_to_equity for the period and definition.",
+        "correction_source": ""
+      },
+      {
+        "id": "C040",
+        "mark": "correct",
+        "reason": "Operating margin repeats V.ratio.operating_margin correctly.",
+        "correction_source": ""
+      },
+      {
+        "id": "C041",
+        "mark": "correct",
+        "reason": "Free cash flow repeats V.ratio.free_cash_flow correctly.",
+        "correction_source": ""
+      },
+      {
+        "id": "C042",
+        "mark": "correct",
+        "reason": "Debt‑to‑equity repeats V.ratio.debt_to_equity correctly.",
+        "correction_source": ""
+      },
+      {
+        "id": "C043",
+        "mark": "correct",
+        "reason": "Return on average equity repeats V.ratio.return_on_average_equity correctly.",
+        "correction_source": ""
+      },
+      {
+        "id": "I044",
+        "mark": "correct",
+        "reason": "Insight value matches V.ratio.return_on_average_equity.",
+        "correction_source": ""
+      },
+      {
+        "id": "D045",
+        "mark": "correct",
+        "reason": "Advisor deciding metric matches V.ratio.price_earnings.",
+        "correction_source": ""
+      },
+      {
+        "id": "I046",
+        "mark": "correct",
+        "reason": "Insight operating margin matches V.ratio.operating_margin.",
+        "correction_source": ""
+      }
+    ]
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-b79cc2968fcde941",
+    "usage": {
+      "completion_tokens": 3506,
+      "prompt_tokens": 17053,
+      "total_tokens": 20559,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

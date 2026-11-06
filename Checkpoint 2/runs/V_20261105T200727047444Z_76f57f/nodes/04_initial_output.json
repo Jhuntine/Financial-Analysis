@@ -1,0 +1,36 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Investment Recommendation",
+        "text": "Visa’s durable network position, high return on equity, and strong free cash flow support a positive outlook. The moderate debt‑to‑equity ratio limits financial risk, while operating margins demonstrate pricing power. Given these fundamentals, the recommendation is **Buy**."
+      }
+    ],
+    "insight": {
+      "text": "The debt‑to‑equity ratio indicates a balanced capital structure, limiting financial risk.",
+      "source": "V.ratio.debt_to_equity",
+      "value": 0.6639848057189586
+    },
+    "recommendation": "Buy",
+    "decision_source": "V.ratio.return_on_average_equity"
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-960938a49e03c14e",
+    "usage": {
+      "completion_tokens": 571,
+      "prompt_tokens": 7818,
+      "total_tokens": 8389,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

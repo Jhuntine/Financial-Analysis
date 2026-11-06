@@ -1,0 +1,30 @@
+{
+  "output": {
+    "approved": false,
+    "failures": [
+      {
+        "role": "Research Analyst",
+        "issue": "Empty prose or numerical prose outside a sourced reference."
+      }
+    ]
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-810ac53f23838731",
+    "usage": {
+      "completion_tokens": 914,
+      "prompt_tokens": 16992,
+      "total_tokens": 17906,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

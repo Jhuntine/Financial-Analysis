@@ -1,0 +1,19 @@
+{
+  "run_dir": "runs/V_20261105T232425407034Z_4f80e5",
+  "mode": "live",
+  "manager_approved": false,
+  "errors": 1,
+  "verifier_ran": true,
+  "model_call_counts": {
+    "Research Analyst": 1,
+    "Financial Analyst": 2,
+    "Investment Advisor": 2,
+    "Strategy Manager": 2,
+    "Verifier": 1
+  },
+  "replayed_response_counts": {},
+  "fixture_response_counts": {},
+  "human_audit": "pending",
+  "student_personas": "pending",
+  "partner_pick": "pending"
+}

@@ -1,0 +1,36 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Valuation Insights",
+        "text": "Costco generated [[COST.fact.revenue]] in annual revenue, growing [[COST.ratio.revenue_growth]] percent year‑over‑year, which underscores strong top‑line momentum. Its operating margin of [[COST.ratio.operating_margin]] percent signals modest profitability given the scale of its business, while the return on average equity of [[COST.ratio.return_on_average_equity]] percent demonstrates highly efficient capital deployment. The company’s balance sheet is lightly leveraged, with a debt‑to‑equity ratio of [[COST.ratio.debt_to_equity]] and a combined long‑term and current debt of [[COST.fact.long_term_debt]] plus [[COST.fact.current_debt]] respectively, indicating ample capacity to fund growth initiatives. Free cash flow of [[COST.ratio.free_cash_flow]] shows robust cash generation after capital expenditures, supporting dividend sustainability and share repurchases. However, the annual price‑to‑earnings multiple of [[COST.ratio.price_earnings]] suggests the market is pricing in a premium relative to earnings, reflecting expectations of continued growth and strong brand positioning. Overall, the blend of high ROE, low leverage, and strong free cash flow paints a picture of a financially resilient retailer, though valuation remains elevated."
+      }
+    ],
+    "insight": {
+      "text": "Costco’s debt‑to‑equity ratio of [[COST.ratio.debt_to_equity]] reflects a very low leverage profile, which cushions the company against interest‑rate pressure and provides flexibility for future strategic investments.",
+      "source": "COST.ratio.debt_to_equity",
+      "value": 0.17210848252939698
+    },
+    "recommendation": "",
+    "decision_source": ""
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-b55e40dca84d757b",
+    "usage": {
+      "completion_tokens": 1098,
+      "prompt_tokens": 16359,
+      "total_tokens": 17457,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "output": {
+    "approved": false,
+    "failures": [
+      {
+        "role": "Research Analyst",
+        "issue": "Duplicate section title \"Overview\" and only three distinct sections across all drafts. The assignment requires exactly five unique sections, each appearing once. Remove the duplicate Overview, keep a single Overview section, and add the missing required section (e.g., \"Risk Assessment\")."
+      },
+      {
+        "role": "Research Analyst",
+        "issue": "The Overview text contains unregistered numerical quantities and a numbered list. Replace any spelled‑out numbers with the appropriate [[catalog.key]] references or omit the detail entirely."
+      },
+      {
+        "role": "Financial Analyst",
+        "issue": "The Insight prose does not embed the numeric value in the sourced claim field. Move the value (59.985) into the claim field so the Insight object follows the required structure."
+      },
+      {
+        "role": "Investment Advisor",
+        "issue": "The Investment Recommendation paragraph includes unregistered numerical quantities (e.g., \"operating margin near sixty percent\"). Remove or replace these with [[catalog.key]] references; only supported metrics may appear."
+      }
+    ]
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-b61d44408b5325f1",
+    "usage": {
+      "completion_tokens": 1099,
+      "prompt_tokens": 12969,
+      "total_tokens": 14068,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

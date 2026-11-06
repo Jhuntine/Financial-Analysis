@@ -1,0 +1,36 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Investment Recommendation",
+        "text": "Costco’s high‑volume, low‑margin model remains durable, backed by strong free cash flow and a robust return on equity [[COST.ratio.return_on_average_equity]] [source:K:L129]. The modest debt‑to‑equity ratio [[COST.ratio.debt_to_equity]] adds financial flexibility [source:K:L191]. However, the price‑earnings multiple [[COST.ratio.price_earnings]] is elevated relative to peers, indicating that the market has priced in much of the growth outlook [source:K:L233]. Execution risk around expansion, cyber‑security threats, and ongoing litigation also temper the outlook [source:K:L252] [source:Q:L508]. Considering the strong fundamentals but premium valuation, the recommendation is Hold."
+      }
+    ],
+    "insight": {
+      "text": "Low debt relative to equity supports financial flexibility",
+      "source": "COST.ratio.debt_to_equity",
+      "value": 0.17210848252939698
+    },
+    "recommendation": "Hold",
+    "decision_source": "COST.ratio.price_earnings"
+  },
+  "metadata": {
+    "mode": "live",
+    "provider": "purdue",
+    "model": "gpt-oss:120b",
+    "response_id": "chatcmpl-9fac3c5b5bb9db40",
+    "usage": {
+      "completion_tokens": 1159,
+      "prompt_tokens": 8487,
+      "total_tokens": 9646,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  }
+}

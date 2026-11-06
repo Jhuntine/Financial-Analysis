@@ -1,0 +1,22 @@
+{
+  "output": {
+    "sections": [
+      {
+        "title": "Valuation Insights",
+        "text": "Read GAAP margins, average-equity returns, debt including current maturities and cash generation using the explicit definitions below. The annual-filing P/E uses a dated close and an older filed earnings denominator. It is not a current TTM multiple. Peer fiscal calendars, revenue definitions and business models differ. Quarter and annual-release columns are kept separate."
+      }
+    ],
+    "insight": {
+      "text": "Cash remaining after the disclosed capital outflow is a separate constraint on the earnings narrative.",
+      "source": "V.ratio.free_cash_flow",
+      "value": 21577000000.0
+    },
+    "recommendation": "",
+    "decision_source": ""
+  },
+  "metadata": {
+    "mode": "offline_fixture",
+    "model": null,
+    "paid_calls": 0
+  }
+}

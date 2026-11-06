@@ -1,0 +1,15 @@
+{
+  "sections": [
+    {
+      "title": "Investment Recommendation",
+      "text": "The business shows durable membership‑driven fundamentals and strong cash generation, while valuation appears stretched relative to peers. Combined with moderate operational and legal risks, the balance tilts toward a neutral stance."
+    }
+  ],
+  "insight": {
+    "text": "Robust free cash flow generation underpins the ability to fund growth initiatives and return capital to shareholders.",
+    "source": "COST.ratio.free_cash_flow",
+    "value": 9382000000.0
+  },
+  "recommendation": "Hold",
+  "decision_source": "COST.ratio.return_on_average_equity"
+}

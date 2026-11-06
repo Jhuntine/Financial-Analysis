@@ -1,0 +1,101 @@
+{
+  "input": {
+    "task": "Apply final bounded structural check",
+    "context": {
+      "drafts": {
+        "Research Analyst": {
+          "sections": [
+            {
+              "title": "Overview",
+              "text": "Costco operates membership‑driven warehouses and e‑commerce sites built around the premise that low prices on a limited assortment of national‑brand and private‑label products generate high sales volumes and rapid inventory turnover, which in turn supports profitability at lower gross margins than many peers [source:K:L129]. The company emphasizes employee stability, noting a high retention rate and a strategic focus on maintaining at least half of its workforce as full‑time employees, which it views as a competitive advantage [source:K:L191]. Revenue growth continues, as reflected by the disclosed revenue‑growth ratio [[COST.ratio.revenue_growth]]."
+            },
+            {
+              "title": "Market Positioning and Growth Outlook",
+              "text": "Costco leverages its scale to negotiate favorable terms with suppliers, reinforcing a perception of pricing authority among members and allowing the firm to pass savings through to shoppers [source:Q:L651]. Its self‑service warehouse design and efficient distribution network contribute to productivity that exceeds many competitors [source:K:L129]. The balance sheet remains modestly leveraged, with a low debt‑to‑equity profile [[COST.ratio.debt_to_equity]], and the company generates strong free cash flow [[COST.ratio.free_cash_flow]], providing flexibility for reinvestment and shareholder returns. Growth is pursued through expansion in existing markets and entry into new ones, though the firm cautions that unsuccessful execution of this strategy could adversely affect results [source:K:L233]."
+            },
+            {
+              "title": "Future Developments and Strategic Recommendations",
+              "text": "Key opportunities include deepening e‑commerce capabilities, further optimizing inventory turnover, and expanding membership in underserved regions. Risks to monitor encompass data‑privacy and cybersecurity challenges, which could impose significant costs and reputational damage if incidents occur [source:K:L252][source:K:L253]. Ongoing litigation, particularly opioid‑related claims, presents a potential source of unforeseen liabilities [source:Q:L493]. A future filing that disclosed a material decline in operating margin or a sharp increase in the debt‑to‑equity ratio would weaken confidence in Costco’s financial resilience."
+            }
+          ],
+          "insight": {
+            "text": "Costco’s return on average equity is notably high, indicating strong profitability relative to shareholder capital.",
+            "source": "COST.ratio.return_on_average_equity",
+            "value": 28.402111841396398
+          },
+          "recommendation": "",
+          "decision_source": ""
+        },
+        "Financial Analyst": {
+          "sections": [
+            {
+              "title": "Valuation Insights",
+              "text": "Costco delivered a year‑over‑year revenue increase of [[COST.ratio.revenue_growth]], reflecting solid top‑line expansion. The operating margin of [[COST.ratio.operating_margin]] indicates modest profitability on sales, while the return on average equity of [[COST.ratio.return_on_average_equity]] demonstrates a high efficiency of capital deployment. Debt financing remains low, with a debt‑to‑equity ratio of [[COST.ratio.debt_to_equity]], suggesting a strong balance‑sheet profile. Free cash flow of [[COST.ratio.free_cash_flow]] shows ample cash generation after capital spending, supporting dividend sustainability and share repurchases. The annual price‑earnings multiple of [[COST.ratio.price_earnings]] is elevated, implying that the market is pricing in growth expectations relative to earnings."
+            }
+          ],
+          "insight": {
+            "text": "The return on average equity is a key driver of valuation because it captures how effectively the company converts net income into shareholder value relative to its equity base.",
+            "source": "COST.ratio.return_on_average_equity",
+            "value": 28.402111841396398
+          },
+          "recommendation": "",
+          "decision_source": "",
+          "table_sources": [
+            "COST.fact.revenue",
+            "COST.fact.operating_income",
+            "COST.fact.net_income",
+            "COST.fact.diluted_eps",
+            "COST.fact.equity",
+            "COST.fact.long_term_debt",
+            "COST.fact.current_debt",
+            "COST.fact.operating_cash_flow",
+            "COST.fact.capex",
+            "COST.fact.prior_revenue",
+            "COST.fact.prior_equity",
+            "COST.ratio.revenue_growth",
+            "COST.ratio.operating_margin",
+            "COST.ratio.return_on_average_equity",
+            "COST.ratio.debt_to_equity",
+            "COST.ratio.free_cash_flow",
+            "COST.ratio.price_earnings",
+            "WMT.fact.revenue",
+            "WMT.fact.operating_income",
+            "WMT.ratio.operating_margin",
+            "TGT.fact.revenue",
+            "TGT.fact.operating_income",
+            "TGT.ratio.operating_margin",
+            "BJ.fact.revenue",
+            "BJ.fact.operating_income",
+            "BJ.ratio.operating_margin",
+            "COST.price",
+            "COST.quarter.quarter_net_revenue",
+            "COST.quarter.prior_quarter_net_revenue",
+            "COST.quarter.quarter_gaap_diluted_eps",
+            "COST.quarter.annual_release_gaap_diluted_eps",
+            "COST.quarter.revenue_growth"
+          ]
+        },
+        "Investment Advisor": {
+          "sections": [
+            {
+              "title": "Investment Recommendation",
+              "text": "Costco’s durable membership model, low leverage, and strong cash generation support a neutral stance, while an elevated price‑earnings multiple suggests limited upside. Combined with moderate operational and legal risks, the balance tilts toward a hold."
+            }
+          ],
+          "insight": {
+            "text": "Costco’s return on average equity is notably high, indicating strong profitability relative to shareholder capital.",
+            "source": "COST.ratio.return_on_average_equity",
+            "value": 28.402111841396398
+          },
+          "recommendation": "Hold",
+          "decision_source": "COST.ratio.return_on_average_equity"
+        }
+      }
+    },
+    "expected_output": "Final approval or unresolved failures"
+  },
+  "output": {
+    "approved": true,
+    "failures": []
+  }
+}

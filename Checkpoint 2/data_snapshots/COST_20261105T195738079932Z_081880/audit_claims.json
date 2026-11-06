@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "claim": "Total revenue, latest fiscal year",
+    "report_said": "303,154,000,000 USD",
+    "where": "COST/10-K.txt L719; us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax; 2025-09-01 to 2026-08-30; 0000909832-26-000093"
+  },
+  {
+    "id": 2,
+    "claim": "Revenue growth versus the prior year",
+    "report_said": "10.14%",
+    "where": "(303,154,000,000 / 275,235,000,000 - 1) * 100; COST/10-K.txt L719; us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax; 2025-09-01 to 2026-08-30; 0000909832-26-000093; COST/10-K.txt L719; us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax; 2024-09-02 to 2025-08-31; 0000909832-26-000093"
+  },
+  {
+    "id": 3,
+    "claim": "Operating income and operating margin",
+    "report_said": "11,685,000,000 USD; 3.85%",
+    "where": "11,685,000,000 / 303,154,000,000 * 100; COST/10-K.txt L723; us-gaap:OperatingIncomeLoss; 2025-09-01 to 2026-08-30; 0000909832-26-000093; COST/10-K.txt L719; us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax; 2025-09-01 to 2026-08-30; 0000909832-26-000093"
+  },
+  {
+    "id": 4,
+    "claim": "Net income attributable to the company",
+    "report_said": "9,226,000,000 USD",
+    "where": "COST/10-K.txt L731; us-gaap:NetIncomeLoss; 2025-09-01 to 2026-08-30; 0000909832-26-000093"
+  },
+  {
+    "id": 5,
+    "claim": "Diluted earnings per share, GAAP",
+    "report_said": "20.76 USD/shares; listed Class A",
+    "where": "COST/10-K.txt L734; us-gaap:EarningsPerShareDiluted; 2025-09-01 to 2026-08-30; 0000909832-26-000093"
+  },
+  {
+    "id": 6,
+    "claim": "Return on average equity",
+    "report_said": "28.40%",
+    "where": "9,226,000,000 / ((29,164,000,000 + 35,803,000,000) / 2) * 100; COST/10-K.txt L731; us-gaap:NetIncomeLoss; 2025-09-01 to 2026-08-30; 0000909832-26-000093; COST/10-K.txt L796; us-gaap:StockholdersEquity; instant to 2025-08-31; 0000909832-26-000093; COST/10-K.txt L796; us-gaap:StockholdersEquity; instant to 2026-08-30; 0000909832-26-000093"
+  },
+  {
+    "id": 7,
+    "claim": "Debt to equity",
+    "report_said": "0.17x",
+    "where": "(3,914,000,000 + 2,248,000,000) / 35,803,000,000; COST/10-K.txt L783; us-gaap:LongTermDebtNoncurrent; instant to 2026-08-30; 0000909832-26-000093; COST/10-K.txt L779; us-gaap:LongTermDebtCurrent; instant to 2026-08-30; 0000909832-26-000093; COST/10-K.txt L796; us-gaap:StockholdersEquity; instant to 2026-08-30; 0000909832-26-000093"
+  },
+  {
+    "id": 8,
+    "claim": "Free cash flow",
+    "report_said": "9,382,000,000 USD",
+    "where": "15,817,000,000 - 6,435,000,000; COST/10-K.txt L850; us-gaap:NetCashProvidedByUsedInOperatingActivities; 2025-09-01 to 2026-08-30; 0000909832-26-000093; COST/10-K.txt L852; us-gaap:PaymentsToAcquirePropertyPlantAndEquipment; 2025-09-01 to 2026-08-30; 0000909832-26-000093"
+  },
+  {
+    "id": 9,
+    "claim": "The latest quarter's revenue",
+    "report_said": "95,723,000,000 USD",
+    "where": "COST/earnings_release.txt L48; First quarter column; 16 weeks ended 2026-08-30; Total revenue; source in millions; 0000909832-26-000084"
+  },
+  {
+    "id": 10,
+    "claim": "The quarter's growth versus the same quarter last year",
+    "report_said": "11.10%",
+    "where": "(95,723,000,000 / 86,156,000,000 - 1) * 100; COST/earnings_release.txt L48; First quarter column; 16 weeks ended 2026-08-30; Total revenue; source in millions; 0000909832-26-000084; COST/earnings_release.txt L48; Second quarter column; corresponding quarter ended 2025-08-31; Total revenue; source in millions; 0000909832-26-000084"
+  },
+  {
+    "id": 11,
+    "claim": "The quarter's diluted EPS, GAAP",
+    "report_said": "6.75 USD/shares; listed Class A",
+    "where": "COST/earnings_release.txt L64; First quarter column; GAAP diluted EPS; 16 weeks ended 2026-08-30; listed common stock; no separate class dimension; 0000909832-26-000084"
+  }
+]

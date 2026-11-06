@@ -1,0 +1,15 @@
+{
+  "sections": [
+    {
+      "title": "Investment Recommendation",
+      "text": "A high return on equity underscores strong profitability and capital efficiency, supporting an investment stance despite regulatory and competitive headwinds."
+    }
+  ],
+  "insight": {
+    "text": "The firm’s debt‑to‑equity ratio indicates a moderate leverage profile.",
+    "source": "V.ratio.debt_to_equity",
+    "value": 0.6639848057189586
+  },
+  "recommendation": "Buy",
+  "decision_source": "V.ratio.return_on_average_equity"
+}

@@ -1,0 +1,14 @@
+{
+  "catalog.json": "94d6de7ba51f3091b7158f2668096ebb5244778d6dd4de65fb9a240a3a2c310e",
+  "quarter_observations.json": "95c60894c7798cdf937e880cded28be00f70f786eb78c6ac23b39c986c80d2c0",
+  "MA/facts.json": "6830827e2f22df5a3968f2476c5f0c86652e6bd26fa86681115aea278d998435",
+  "PYPL/facts.json": "6e3a31b8a2f9c5babe3fc0bc94ab8b74678f552957f01b7f168577c09e3c2b1f",
+  "V/facts.json": "93ff9526bef185c3b42590ebb9339b2b84c73e633503ad027f1f4656560d215d",
+  "MA/10-K.txt": "f14699878dc83e2f2eff937822daf4082ee450dc09481f5fcae21bc4330be837",
+  "PYPL/10-K.txt": "eb5b53254d1b4df99e94431fd6a4398fe63d296a9076c87d72c515e1d364552c",
+  "V/10-K.txt": "de21d34844b78acd7ace8818d772c2b89b63592ca3d901fbcbd109052da5a996",
+  "V/10-Q.txt": "effd76d947eb475aaa5c1ed0b8e27d2ebff6eea15f7e0b6e5f23fff3a3580b07",
+  "V/earnings_release.txt": "95977a4e7773aa21a999edf2a243f009d5dcf62f34da6a53a65813e29143ce06",
+  "market_input.json": "3fcc4dfb60bbe3f8d6c920c862d4256ca329c50165083cc185cf620f8c1120d0",
+  "market_data/lseg_close.csv": "50e2eecfbf44c0b5cb8c5b8659f68a6951f97321ff6b1c5eb3be50b3d7b5d5a7"
+}

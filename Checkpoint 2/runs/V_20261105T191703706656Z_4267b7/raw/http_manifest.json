@@ -1,0 +1,104 @@
+{
+  "https://www.sec.gov/files/company_tickers.json": {
+    "file": "ace4a0fb8e9e22bbcc3aac99.gz",
+    "sha256": "3087398afcb236e5eef138bc383afe6292bb5bcc31644b8edae5222cd9305ce0",
+    "retrieved_at_utc": "2026-11-03T06:46:21.146346+00:00",
+    "bytes": 797604
+  },
+  "https://data.sec.gov/submissions/CIK0001403161.json": {
+    "file": "d56e602dd4295a022bbfd4b9.gz",
+    "sha256": "6ffe21b042d22288847194f74d07f45724c6397d0f30390bad11dae60508a4ff",
+    "retrieved_at_utc": "2026-11-03T06:46:21.472677+00:00",
+    "bytes": 159678
+  },
+  "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/0001403161-25-000089-index.html": {
+    "file": "bdea48452136d976a38d50a4.gz",
+    "sha256": "1959833fe263a50f537a85525c7913d4e0592314b438bb8287c580fb4ea377f5",
+    "retrieved_at_utc": "2026-11-03T06:46:21.784122+00:00",
+    "bytes": 17860
+  },
+  "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/0001403161-26-000104-index.html": {
+    "file": "5d6e094e4aab2a7105c9ed8f.gz",
+    "sha256": "341aaa01a0608570129081f1c601d35bbf824bb20d95374f537ce27c5178504a",
+    "retrieved_at_utc": "2026-11-03T06:46:21.833213+00:00",
+    "bytes": 11438
+  },
+  "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/0001403161-26-000126-index.html": {
+    "file": "e5687668cf0b11bcfb47e394.gz",
+    "sha256": "4898e601e1189d5ba0e6f1bf8a812e68e88b8b227cf7530717be2821413f32d1",
+    "retrieved_at_utc": "2026-11-03T06:46:22.040880+00:00",
+    "bytes": 11555
+  },
+  "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm": {
+    "file": "109c5a8306a51b22a08a9798.gz",
+    "sha256": "60b38115a6fae3613bc23ed4ac0d0ccb7d4f1adcf1d025154162de114896533a",
+    "retrieved_at_utc": "2026-11-03T06:46:22.563392+00:00",
+    "bytes": 2909573
+  },
+  "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/v-20260630.htm": {
+    "file": "e904b1a751c5a1009eaafaa0.gz",
+    "sha256": "f022b26fff5d3361f94b5156841cd7375a84eadd2ce1e3c66936bec86b203853",
+    "retrieved_at_utc": "2026-11-03T06:46:23.555489+00:00",
+    "bytes": 1942777
+  },
+  "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm": {
+    "file": "356707214254e24efae061a8.gz",
+    "sha256": "4c26de9c1105b4cf6e6a400e587b77e5fa8292ad69b999207b8aaf45a725a403",
+    "retrieved_at_utc": "2026-11-03T06:46:24.226503+00:00",
+    "bytes": 510071
+  },
+  "https://data.sec.gov/api/xbrl/companyfacts/CIK0001403161.json": {
+    "file": "cba86e86eb959b3d2cf70a30.gz",
+    "sha256": "df3caf7c5667296569fc3074ce2ff13629c9a555184a06c5ea9925b43e63971d",
+    "retrieved_at_utc": "2026-11-03T06:46:24.537220+00:00",
+    "bytes": 3564517
+  },
+  "https://data.sec.gov/submissions/CIK0001141391.json": {
+    "file": "35f00b319762167273caff7a.gz",
+    "sha256": "7a8cd20c9dd370792334aed35938ee928754cc9824d3dd999c03ec9cfebc9117",
+    "retrieved_at_utc": "2026-11-03T06:46:50.511095+00:00",
+    "bytes": 160320
+  },
+  "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/0001141391-26-000013-index.html": {
+    "file": "3e3ff10df0f074d3fc9e26cd.gz",
+    "sha256": "0c7409e58e835e8388f51130bcc2cc2bf7b396ae51d0ecf37c94cbb7a4d09806",
+    "retrieved_at_utc": "2026-11-03T06:46:50.790768+00:00",
+    "bytes": 22435
+  },
+  "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm": {
+    "file": "c43e3fa7bd8b3e338fd29942.gz",
+    "sha256": "2801a4e6874733c19457fe62a0d4ad7d20d6ef903a2077611002490757d7bbce",
+    "retrieved_at_utc": "2026-11-03T06:46:51.017541+00:00",
+    "bytes": 3067789
+  },
+  "https://data.sec.gov/api/xbrl/companyfacts/CIK0001141391.json": {
+    "file": "41aef33d7db84c2f2316686a.gz",
+    "sha256": "eec2f64179fe268380a6f9f4b5e3da53a9c1c5adb988aa31cc40c8372c0d8899",
+    "retrieved_at_utc": "2026-11-03T06:46:52.050590+00:00",
+    "bytes": 4182087
+  },
+  "https://data.sec.gov/submissions/CIK0001633917.json": {
+    "file": "b0beec7d6dc80b12f521d99a.gz",
+    "sha256": "4915b8e0d36ffea76adc48a79e312b2a07dd9fbd465e0a02978073dbec1d235e",
+    "retrieved_at_utc": "2026-11-03T06:46:52.121040+00:00",
+    "bytes": 160287
+  },
+  "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/0001633917-26-000024-index.html": {
+    "file": "06fa3180ca374f7429debdc0.gz",
+    "sha256": "6013f1d2bd98e70e6ed1d4b6ac4bd22436222cd00fd9ab5edc5947280675ac67",
+    "retrieved_at_utc": "2026-11-03T06:46:52.358209+00:00",
+    "bytes": 18269
+  },
+  "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm": {
+    "file": "1d826d0e4dfd76e087c85082.gz",
+    "sha256": "2848bcc99c985b7a1a12cdd4f3bbd4a7f4441a18c1ec591c40592fa559f56ccf",
+    "retrieved_at_utc": "2026-11-03T06:46:52.754653+00:00",
+    "bytes": 3521697
+  },
+  "https://data.sec.gov/api/xbrl/companyfacts/CIK0001633917.json": {
+    "file": "e31b50a7bbc00b3425bc8217.gz",
+    "sha256": "629b6b2b1214630c1da3bff44fb1edf7187d3f61c97ece88d10982fecf3843e1",
+    "retrieved_at_utc": "2026-11-03T06:46:54.061947+00:00",
+    "bytes": 3160121
+  }
+}
